@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#FFFFFF">
 
-    <TextView
+    <ImageView
+        android:id="@+id/dsImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/" />
+
+    <Button
+        android:id="@+id/btn_skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:text="Пропусни"
+        android:visibility="visible" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/quizLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/questionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Въпрос"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginBottom="40dp"
+            android:textColor="#000000" />
+
+        <Button android:id="@+id/btn1" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:textSize="20sp" />
+        <Button android:id="@+id/btn2" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:textSize="20sp" />
+        <Button android:id="@+id/btn3" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,5 +1,34 @@
-{
-  "tales": [
+[
+  {
+    "id": 1,
+    "name": "Под гъбата",
+    "author": "Владимир Сутеев",
+    "author_audio": "vladimirsuteev",
+    "group": 1,
+    "steps": [
+      {
+        "audio": "a",
+        "image": "",
+        "animations" : [
+          {
+            "name": ""
+          }
+        ]
+      }
 
-  ]
-}
+    ],
+    "questions": [
+      {
+        "question_text": "",
+        "question_audio": "",
+        "correct_answer": 1,
+        "answers": [
+          {
+            "answer_text": "",
+            "answer_audio": ""
+          }
+        ]
+      }
+    ]
+  }
+]

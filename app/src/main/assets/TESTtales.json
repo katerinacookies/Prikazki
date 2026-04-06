@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Cinderella",
+    "group": 2,
+    "year": 1697
+  },
+  {
+    "id": 2,
+    "name": "The Ugly Duckling",
+    "group": 4,
+    "year": 1843
+  },
+  {
+    "id": 3,
+    "name": "Hansel and Gretel",
+    "group": 1,
+    "year": 1812
+  },
+  {
+    "id": 4,
+    "name": "The Little Mermaid",
+    "group": 3,
+    "year": 1837
+  },
+  {
+    "id": 5,
+    "name": "Puss in Boots",
+    "group": 2,
+    "year": 1697
+  },
+  {
+    "id": 6,
+    "name": "Rumpelstiltskin",
+    "group": 1,
+    "year": 1812
+  },
+  {
+    "id": 7,
+    "name": "Jack and the Beanstalk",
+    "group": 4,
+    "year": 1734
+  },
+  {
+    "id": 8,
+    "name": "The Snow Queen",
+    "group": 3,
+    "year": 1844
+  },
+  {
+    "id": 9,
+    "name": "Goldilocks and the Three Bears",
+    "group": 2,
+    "year": 1837
+  },
+  {
+    "id": 10,
+    "name": "The Tortoise and the Hare",
+    "group": 1,
+    "year": 1935
+  }
+]

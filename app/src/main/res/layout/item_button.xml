@@ -1,0 +1,20 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:weightSum="1"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/innerButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="@android:string/ok"/>
+</LinearLayout>
+
+
+
+
+

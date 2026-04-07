@@ -40,23 +40,14 @@ public class RobotHelper {
 
     }
 
-    private void runAnimation(int resId, Runnable onComplete) {
-        AnimationBuilder.with(qiContext)
-                .withResources(resId)
-                .buildAsync()
-                .andThenConsume(animation -> {
-                    AnimateBuilder.with(qiContext)
-                            .withAnimation(animation)
-                            .buildAsync()
-                            .andThenConsume(animate -> {
-                                // Run the animation and wait for it to finish
-                                animate.async().run().andThenConsume(ignored -> {
-                                    if (onComplete != null) {
-                                        onComplete.run();
-                                    }
-                                });
-                            });
-                });
+    public static void runAnimation(QiContext context, int resId, Runnable onComplete) {
+        AnimationBuilder.with(context).withResources(resId).buildAsync().andThenConsume(animation ->
+                AnimateBuilder.with(context).withAnimation(animation).buildAsync().andThenConsume(animate ->
+                        animate.async().run().andThenConsume(ignore -> {
+                            if (onComplete != null) onComplete.run();
+                        })
+                )
+        );
     }
 
 }

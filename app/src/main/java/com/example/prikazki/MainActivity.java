@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, TaleActivityMain.class);
-                // We pass the Group ID so the next activity knows which JSON data to load
+                // GO TO SELECTION SCREEN FIRST
+                Intent intent = new Intent(MainActivity.this, TaleSelectionActivity.class);
                 intent.putExtra("GROUP_ID", groupId);
                 startActivity(intent);
             }

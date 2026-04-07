@@ -26,7 +26,8 @@ public class Tale {
     int group;
     String soundsPath;
     String[] pics;
-    String[][] animations;
+
+    Question[] questions;
 
     public Tale(String name, String authorName, String authorAudio, int id, int group, String soundsPath, String[] pics, String[][] animations) {
         this.name = name;

@@ -7,24 +7,204 @@
     "group": 1,
     "steps": [
       {
-        "audio": "a",
-        "image": "",
+        "audio": "podgubata_0",
+        "image": "podgubata_guba",
+        "animations" : [
+          {
+            "name": "rain"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_1",
+        "image": "podgubata_butterfly",
+        "animations" : [
+          {
+            "name": "please"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_2",
+        "image": "podgubata_butterfly",
+        "animations" : [
+          {
+            "name": "point_around"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_3",
+        "image": "podgubata_mouse",
         "animations" : [
           {
             "name": ""
           }
         ]
+      },
+      {
+        "audio": "podgubata_4",
+        "image": "podgubata_mouse",
+        "animations" : [
+          {
+            "name": "big_arm_circle"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_5",
+        "image": "podgubata_mouse",
+        "animations" : [
+          {
+            "name": "point_air"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_6",
+        "image": "podgubata_sparrow",
+        "animations" : [
+          {
+            "name": "fly"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_7",
+        "image": "podgubata_sparrow",
+        "animations" : [
+          {
+            "name": "please"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_8",
+        "image": "podgubata_bunny",
+        "animations" : [
+          {
+            "name": "sob"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_9",
+        "image": "podgubata_bunny",
+        "animations" : [
+          {
+            "name": ""
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_10",
+        "image": "podgubata_fox",
+        "animations" : [
+          {
+            "name": "bad_wolf"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_11",
+        "image": "podgubata_sun",
+        "animations" : [
+          {
+            "name": "rainbow"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_12",
+        "image": "podgubata_sun",
+        "animations" : [
+          {
+            "name": "search"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_13",
+        "image": "podgubata_frog",
+        "animations" : [
+          {
+            "name": "disbelief"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_14",
+        "image": "podgubata_frog",
+        "animations" : [
+          {
+            "name": "idea"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_15",
+        "image": "podgubata_guba",
+        "animations" : [
+          {
+            "name": "thank_you"
+          }
+        ]
       }
-
     ],
     "questions": [
       {
-        "question_text": "",
+        "question_text": "Колко са животните под гъбата?",
         "question_audio": "",
         "correct_answer": 1,
         "answers": [
           {
-            "answer_text": "",
+            "answer_text": "3",
+            "answer_audio": ""
+          },
+          {
+            "answer_text": "5",
+            "answer_audio": ""
+          },
+          {
+            "answer_text": "4",
+            "answer_audio": ""
+          }
+        ]
+      },
+      {
+        "question_text": "Кой седи върху гъбата?",
+        "question_audio": "",
+        "correct_answer": 0,
+        "answers": [
+          {
+            "answer_text": "Жабата",
+            "answer_audio": ""
+          },
+          {
+            "answer_text": "Пчелата",
+            "answer_audio": ""
+          },
+          {
+            "answer_text": "Катерицата",
+            "answer_audio": ""
+          }
+        ]
+      },
+      {
+        "question_text": "От кого тича заекът?",
+        "question_audio": "",
+        "correct_answer": 2,
+        "answers": [
+          {
+            "answer_text": "Вълкът",
+            "answer_audio": ""
+          },
+          {
+            "answer_text": "Мечката",
+            "answer_audio": ""
+          },
+          {
+            "answer_text": "Лисицата",
             "answer_audio": ""
           }
         ]

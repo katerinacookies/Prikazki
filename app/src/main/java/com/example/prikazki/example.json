@@ -1,0 +1,13 @@
+{
+    "ValshebnataGradinaNaProletta" : {
+        "id" : "1",
+        "group" : "2",
+        "soundsPath" : "soundsPath",
+        "picsPath" : "picsPath",
+        "animations" : [
+            "anim1.anim",
+            "anim2.anim",
+            "anim3.anim"
+        ]
+    }
+}

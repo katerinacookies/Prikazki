@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+        <TextView android:id="@+id/txtTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="40sp" android:textStyle="bold" android:textColor="#000000"/>
+        <TextView android:id="@+id/txtAuthor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="24sp" android:textColor="#555555" android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/storyImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnBackToList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnQuestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Въпроси"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"/>
+</RelativeLayout>

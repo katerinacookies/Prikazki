@@ -27,7 +27,7 @@ public class TaleActivityMain extends AppCompatActivity{
         setContentView(R.layout.activity_main_menu); //or activity_main?
 
         LinearLayout container = (LinearLayout) findViewById(R.id.buttonContainer);
-        listTalesButtons(this,container);
+        listTalesButtons(this, container);
     }
 
     public void listTalesButtons(Context context, LinearLayout container){

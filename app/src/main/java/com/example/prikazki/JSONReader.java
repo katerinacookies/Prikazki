@@ -1,9 +1,26 @@
-public class JSONReader {
-    public String getTaleJSONData(Context context, int targTaleId) {
-        try {
-            String jsonString = loadJSONFromAsset(context, "example.json");
+package com.example.prikazki;
 
-            JSONArray a = new JSONArray(jsonString);
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import java.io.InputStream;
+
+import java.nio.charset.StandardCharsets;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.LayoutInflater;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+public class JSONReader {
+    public static JSONObject getTaleJSONData(Context context, int targTaleId) {
+        try {
+            JSONObject json = loadJSONFromAsset(context, "example.json");
+
+            JSONArray a = new JSONArray(json);
 
             for (int i = 0; i < a.length(); i++) {
                 JSONObject tale = a.getJSONObject(i);
@@ -11,22 +28,22 @@ public class JSONReader {
                 int currTaleId = tale.getInt("id");
 
                 if (currTaleId == targTaleId) {
-                    return tale.toString();
+                    return tale;
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        return "";
+        return null;
     }
 
-    private String loadJSONFromAsset(Context context, String fileName) throws Exception {
+    private static JSONObject loadJSONFromAsset(Context context, String fileName) throws Exception {
         java.io.InputStream is = context.getAssets().open(fileName);
         int size = is.available();
         byte[] buffer = new byte[size];
         is.read(buffer);
         is.close();
-        return new String(buffer, "UTF-8");
+        return new JSONObject(new String(buffer, "UTF-8"));
     }
 }

@@ -1,13 +1,19 @@
 {
     "ValshebnataGradinaNaProletta" : {
+        "name" : "Вълшебната градина на пролетта",
+        "author_name" : "mitko trompeta",
+        "author_audio" : "mitkotrompeta",
         "id" : "1",
         "group" : "2",
         "soundsPath" : "soundsPath",
-        "picsPath" : "picsPath",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
         "animations" : [
-            "anim1.anim",
-            "anim2.anim",
-            "anim3.anim"
+            ["anim1.anim", "anim69.anim" ],
+            ["anim3.anim", "anim4.anim", "anim5.anim"],
+            ["anim6.anim", "anim67.anim"]
         ]
     }
 }

@@ -54,9 +54,14 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tale_player);
 
-        String taleIdString = getIntent().getStringExtra("TALE_ID");
-        int taleId = Integer.parseInt(taleIdString);
-        loadTaleFromJSON(taleId);
+        try {
+            String taleIdString = getIntent().getStringExtra("TALE_ID");
+            int taleId = Integer.parseInt(taleIdString);
+            loadTaleFromJSON(taleId);
+        } catch (Exception e){
+            Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
+            Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+        }
 
         findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
         QiSDK.register(this, this);
@@ -172,9 +177,10 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
     private void loadTaleFromJSON(int targetTaleId) {
         try {
-            currentTale = Tale.GetTaleDataFromId(this.qiContext,targetTaleId);
+            currentTale = Tale.GetTaleDataFromId(this,targetTaleId);
         } catch (Exception e) {
-            Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
+            Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());
+            Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
             finish();
         }
     }

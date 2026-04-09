@@ -18,6 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".TaleSelectionActivity" />
+        <activity android:name=".TaleActivityMain" />
     </application>
 
     <uses-feature android:name="com.softbank.hardware.pepper"/>

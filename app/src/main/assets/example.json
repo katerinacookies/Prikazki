@@ -99,22 +99,22 @@
             "podgubata_guba"
         ],
         "animations" : [
-            ["rain"],
-            ["please"],
-            ["point_around"],
+            ["rain.anim"],
+            ["please.anim"],
+            ["point_around.anim"],
             [],
-            ["big_arm_circle"],
-            ["point_air"],
-            ["fly"],
-            ["please"],
-            ["sob"],
+            ["big_arm_circle.anim"],
+            ["point_air.anim"],
+            ["fly.anim"],
+            ["please.anim"],
+            ["sob.anim"],
             [],
-            ["bad_wolf"],
-            ["rainbow"],
-            ["search"],
-            ["disbelief"],
-            ["idea"],
-            ["thank_you"]
+            ["bad_wolf.anim"],
+            ["rainbow.anim"],
+            ["search.anim"],
+            ["disbelief.anim"],
+            ["idea.anim"],
+            ["thank_you.anim"]
         ]
     },
     {

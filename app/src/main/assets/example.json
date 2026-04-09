@@ -4,8 +4,8 @@
         "author_name" : "Янка Иванова",
         "author_audio" : "yankaivanova.mp3",
         "id" : "1",
-        "group" : "2",
-        "soundsPath" : "soundsPath",
+        "group" : "1",
+        "soundsPath" : "valshebnatagradina",
         "pics" : [
             "step1pic",
             "step2pic"

@@ -18,6 +18,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+
+
 public class Tale {
     String name;
     String authorName;
@@ -26,6 +28,8 @@ public class Tale {
     int group;
     String soundsPath;
     String[] pics;
+    //dobavqm tozi red, zashtoto ne otkriva this.animations na redove 49-55
+    String[][] animations;
 
     Question[] questions;
 

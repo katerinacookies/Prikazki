@@ -1,8 +1,8 @@
 {
     "ValshebnataGradinaNaProletta" : {
         "name" : "Вълшебната градина на пролетта",
-        "author_name" : "mitko trompeta",
-        "author_audio" : "mitkotrompeta",
+        "author_name" : "Янка Иванова",
+        "author_audio" : "yankaivanova.mp3",
         "id" : "1",
         "group" : "2",
         "soundsPath" : "soundsPath",

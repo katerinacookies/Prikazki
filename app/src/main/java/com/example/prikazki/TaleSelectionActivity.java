@@ -47,25 +47,38 @@ public class TaleSelectionActivity extends AppCompatActivity {
 
     private void loadTalesFromJson(int groupId) {
         try {
-            // Read your JSON file from assets
-            InputStream is = getAssets().open("tales_config.json");
+            InputStream is = getAssets().open("example.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
             is.close();
             String json = new String(buffer, StandardCharsets.UTF_8);
 
-            JSONObject obj = new JSONObject(json);
-            // Get the specific group (e.g., "group1")
-            JSONArray groupArray = obj.getJSONArray("group" + groupId);
+            JSONObject fullJson = new JSONObject(json);
 
-            for (int i = 0; i < groupArray.length(); i++) {
-                JSONObject tale = groupArray.getJSONObject(i);
-                taleTitles.add(tale.getString("title")); // What the user sees
-                taleIds.add(tale.getString("id"));       // What the code uses
+            // Use an Iterator to go through all the unique keys like "ValshebnataGradinaNaProletta"
+            java.util.Iterator<String> keys = fullJson.keys();
+
+            while (keys.hasNext()) {
+                String key = keys.next();
+                JSONObject tale = fullJson.getJSONObject(key);
+
+                // Check if the group matches (Converting group ID to String for comparison)
+                if (tale.getString("group").equals(String.valueOf(groupId))) {
+                    // In your new JSON, you use "name" instead of "title"
+                    taleTitles.add(tale.getString("name"));
+                    // We use the "id" field to tell the next activity which tale to play
+                    taleIds.add(tale.getString("id"));
+                }
             }
+
+            if (taleTitles.isEmpty()) {
+                //Toast.makeText(this, "Няма намерени приказки за тази група", Toast.LENGTH_SHORT).show();
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
+            //Toast.makeText(this, "Грешка при зареждане на JSON", Toast.LENGTH_SHORT).show();
         }
     }
-}
+    }

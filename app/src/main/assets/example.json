@@ -66,8 +66,17 @@
         "group" : "1",
         "soundsPath" : "buhalchetobuhi",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "buhalchetobuhi_owls",
+            "buhalchetobuhi_mother_owl",
+            "buhalchetobuhi_owls",
+            "buhalchetobuhi_owl",
+            "buhalchetobuhi_owls",
+            "buhalchetobuhi_loving_owl",
+            "buhalchetobuhi_owl",
+            "buhalchetobuhi_owls",
+            "podgubata_fox",
+            "buhalchetobuhi_owl",
+            "buhalchetobuhi_loving_owl"
         ],
         "animations" : [
             ["anim1.anim"]
@@ -191,7 +200,8 @@
         "animations" : [
             ["anim1.anim"]
         ]
-    },{
+    },
+    {
     "name" : "Ако цветовете бяха сиви",
     "author_name" : "Йордан Радичков",
     "author_audio" : "yordanradichkov.mp3",

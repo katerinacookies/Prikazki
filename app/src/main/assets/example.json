@@ -74,18 +74,47 @@
         ]
     },
     {
-        "name" : "Под гъбата",
+        "name" : "Под Гъбата",
         "author_name" : "Владимир Сутеев",
-        "author_audio" : "vladimirsuteev.mp3",
-        "id" : "4",
+        "author_audio" : "vladimirsuteev.wav",
+        "id" : "2",
         "group" : "1",
         "soundsPath" : "podgubata",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "podgubata_guba",
+            "podgubata_butterfly",
+            "podgubata_butterfly",
+            "podgubata_mouse",
+            "podgubata_mouse",
+            "podgubata_mouse",
+            "podgubata_sparrow",
+            "podgubata_sparrow",
+            "podgubata_bunny",
+            "podgubata_bunny",
+            "podgubata_fox",
+            "podgubata_sun",
+            "podgubata_sun",
+            "podgubata_frog",
+            "podgubata_frog",
+            "podgubata_guba"
         ],
         "animations" : [
-            ["anim1.anim"]
+            ["rain"],
+            ["please"],
+            ["point_around"],
+            [],
+            ["big_arm_circle"],
+            ["point_air"],
+            ["fly"],
+            ["please"],
+            ["sob"],
+            [],
+            ["bad_wolf"],
+            ["rainbow"],
+            ["search"],
+            ["disbelief"],
+            ["idea"],
+            ["thank_you"]
         ]
     },
     {

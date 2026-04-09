@@ -11,26 +11,96 @@
             "step2pic"
         ],
         "animations" : [
-            ["anim1.anim", "anim69.anim" ],
-            ["anim3.anim", "anim4.anim", "anim5.anim"],
-            ["anim6.anim", "anim67.anim"]
+            ["slow_talk.anim"],
+            [""],
+            [""],
+            ["point_around.anim"],
+            ["rainbow.anim"],
+            [],
+            ["sassy_f.anim"]
         ]
     },
     {
-        "name" : "Вълшебната градина на пролетта",
-        "author_name" : "Янка Иванова",
-        "author_audio" : "yankaivanova.mp3",
+        "name" : "Пързалка за облаче",
+        "author_name" : "Радой Киров",
+        "author_audio" : ".mp3",
         "id" : "1",
-        "group" : "2",
-        "soundsPath" : "soundsPath",
+        "group" : "1",
+        "soundsPath" : "parzalkazaoblache",
         "pics" : [
             "step1pic",
             "step2pic"
         ],
         "animations" : [
-            ["anim1.anim", "anim69.anim" ],
-            ["anim3.anim", "anim4.anim", "anim5.anim"],
-            ["anim6.anim", "anim67.anim"]
+            [".anim" ],
+            ["sassy_f.anim" ],
+            ["vdignahruce.anim" ],
+            ["heartattack.anim" ],
+            ["search.anim" ],
+            ["point_air.anim" ],
+            ["idea.anim" ],
+            ["slide.anim" ],
+            ["point_around.anim" ]
+        ]
+    },
+    {
+        "name" : "Ванко и водичката",
+        "author_name" : "Димитър Спасов",
+        "author_audio" : "dimitarspasov.mp3",
+        "id" : "2",
+        "group" : "1",
+        "soundsPath" : "vankoivodichkata",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            [".anim"]
+        ]
+    },
+    {
+        "name" : "Бухалчето Бухи се учи да лети",
+        "author_name" : "Мелани Джойс",
+        "author_audio" : "melaniejoyce.mp3",
+        "id" : "3",
+        "group" : "1",
+        "soundsPath" : "buhalchetobuhi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Под гъбата",
+        "author_name" : "Владимир Сутеев",
+        "author_audio" : "vladimirsuteev.mp3",
+        "id" : "4",
+        "group" : "1",
+        "soundsPath" : "podgubata",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
         ]
     }
     ]

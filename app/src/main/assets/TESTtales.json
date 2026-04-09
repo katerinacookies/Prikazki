@@ -1,62 +1,205 @@
 [
   {
-    "id": 1,
-    "name": "Cinderella",
-    "group": 2,
-    "year": 1697
-  },
-  {
-    "id": 2,
-    "name": "The Ugly Duckling",
-    "group": 4,
-    "year": 1843
-  },
-  {
-    "id": 3,
-    "name": "Hansel and Gretel",
+    "id": 0,
+    "name": "Под гъбата",
+    "author": "Владимир Сутеев",
+    "author_audio": "vladimirsuteev",
     "group": 1,
-    "year": 1812
+    "steps": [
+      {
+        "audio": "podgubata_0",
+        "image": "podgubata_guba",
+        "animations": [
+          {
+            "name": "rain"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_1",
+        "image": "podgubata_butterfly",
+        "animations": [
+          {
+            "name": "please"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_2",
+        "image": "podgubata_butterfly",
+        "animations": [
+          {
+            "name": "point_around"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_3",
+        "image": "podgubata_mouse",
+        "animations": [
+          {
+            "name": ""
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_4",
+        "image": "podgubata_mouse",
+        "animations": [
+          {
+            "name": "big_arm_circle"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_5",
+        "image": "podgubata_mouse",
+        "animations": [
+          {
+            "name": "point_air"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_6",
+        "image": "podgubata_sparrow",
+        "animations": [
+          {
+            "name": "fly"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_7",
+        "image": "podgubata_sparrow",
+        "animations": [
+          {
+            "name": "please"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_8",
+        "image": "podgubata_bunny",
+        "animations": [
+          {
+            "name": "sob"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_9",
+        "image": "podgubata_bunny",
+        "animations": [
+          {
+            "name": ""
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_10",
+        "image": "podgubata_fox",
+        "animations": [
+          {
+            "name": "bad_wolf"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_11",
+        "image": "podgubata_sun",
+        "animations": [
+          {
+            "name": "rainbow"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_12",
+        "image": "podgubata_sun",
+        "animations": [
+          {
+            "name": "search"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_13",
+        "image": "podgubata_frog",
+        "animations": [
+          {
+            "name": "disbelief"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_14",
+        "image": "podgubata_frog",
+        "animations": [
+          {
+            "name": "idea"
+          }
+        ]
+      },
+      {
+        "audio": "podgubata_15",
+        "image": "podgubata_guba",
+        "animations": [
+          {
+            "name": "thank_you"
+          }
+        ]
+      }
+    ]
   },
-  {
-    "id": 4,
-    "name": "The Little Mermaid",
-    "group": 3,
-    "year": 1837
-  },
-  {
-    "id": 5,
-    "name": "Puss in Boots",
-    "group": 2,
-    "year": 1697
-  },
-  {
-    "id": 6,
-    "name": "Rumpelstiltskin",
-    "group": 1,
-    "year": 1812
-  },
-  {
-    "id": 7,
-    "name": "Jack and the Beanstalk",
-    "group": 4,
-    "year": 1734
-  },
-  {
-    "id": 8,
-    "name": "The Snow Queen",
-    "group": 3,
-    "year": 1844
-  },
-  {
-    "id": 9,
-    "name": "Goldilocks and the Three Bears",
-    "group": 2,
-    "year": 1837
-  },
-  {
-    "id": 10,
-    "name": "The Tortoise and the Hare",
-    "group": 1,
-    "year": 1935
-  }
+  { "id": 1, "name": "Cinderella", "group": 2, "year": 1697 },
+  { "id": 2, "name": "The Ugly Duckling", "group": 4, "year": 1843 },
+  { "id": 3, "name": "Hansel and Gretel", "group": 1, "year": 1812 },
+  { "id": 4, "name": "The Little Mermaid", "group": 3, "year": 1837 },
+  { "id": 5, "name": "Puss in Boots", "group": 2, "year": 1697 },
+  { "id": 6, "name": "Rumpelstiltskin", "group": 1, "year": 1812 },
+  { "id": 7, "name": "Jack and the Beanstalk", "group": 4, "year": 1734 },
+  { "id": 8, "name": "The Snow Queen", "group": 3, "year": 1844 },
+  { "id": 9, "name": "Goldilocks and the Three Bears", "group": 2, "year": 1837 },
+  { "id": 10, "name": "The Tortoise and the Hare", "group": 1, "year": 1935 },
+  { "id": 11, "name": "Little Red Riding Hood", "group": 1, "year": 1697 },
+  { "id": 12, "name": "Sleeping Beauty", "group": 1, "year": 1697 },
+  { "id": 13, "name": "Snow White", "group": 1, "year": 1812 },
+  { "id": 14, "name": "Rapunzel", "group": 1, "year": 1812 },
+  { "id": 15, "name": "The Frog Prince", "group": 1, "year": 1812 },
+  { "id": 16, "name": "The Brave Little Tailor", "group": 1, "year": 1812 },
+  { "id": 17, "name": "The Twelve Dancing Princesses", "group": 1, "year": 1812 },
+  { "id": 18, "name": "The Golden Goose", "group": 1, "year": 1812 },
+  { "id": 19, "name": "The Elves and the Shoemaker", "group": 1, "year": 1812 },
+  { "id": 20, "name": "The Fisherman and His Wife", "group": 1, "year": 1812 },
+  { "id": 21, "name": "The Wolf and the Seven Young Goats", "group": 1, "year": 1812 },
+  { "id": 22, "name": "The Goose Girl", "group": 1, "year": 1815 },
+  { "id": 23, "name": "Mother Holle", "group": 1, "year": 1812 },
+  { "id": 24, "name": "The Three Little Pigs", "group": 1, "year": 1840 },
+  { "id": 25, "name": "The Pied Piper of Hamelin", "group": 1, "year": 1842 },
+  { "id": 26, "name": "Thumbelina", "group": 1, "year": 1835 },
+  { "id": 27, "name": "The Princess and the Pea", "group": 1, "year": 1835 },
+  { "id": 28, "name": "The Emperor's New Clothes", "group": 1, "year": 1837 },
+  { "id": 29, "name": "The Steadfast Tin Soldier", "group": 1, "year": 1838 },
+  { "id": 30, "name": "The Nightingale", "group": 1, "year": 1843 },
+  { "id": 31, "name": "The Little Match Girl", "group": 1, "year": 1845 },
+  { "id": 32, "name": "The Velveteen Rabbit", "group": 1, "year": 1922 },
+  { "id": 33, "name": "The Gingerbread Man", "group": 1, "year": 1875 },
+  { "id": 34, "name": "Chicken Little", "group": 1, "year": 1840 },
+  { "id": 35, "name": "Pinocchio", "group": 1, "year": 1883 },
+  { "id": 36, "name": "The Boy Who Cried Wolf", "group": 1, "year": 1500 },
+  { "id": 37, "name": "The Lion and the Mouse", "group": 1, "year": 1500 },
+  { "id": 38, "name": "The Ant and the Grasshopper", "group": 1, "year": 1500 },
+  { "id": 39, "name": "The Fox and the Grapes", "group": 1, "year": 1500 },
+  { "id": 40, "name": "The City Mouse and the Country Mouse", "group": 1, "year": 1500 },
+  { "id": 41, "name": "Peter Pan", "group": 2, "year": 1904 },
+  { "id": 42, "name": "Alice in Wonderland", "group": 2, "year": 1865 },
+  { "id": 43, "name": "The Wind in the Willows", "group": 2, "year": 1908 },
+  { "id": 44, "name": "The Secret Garden", "group": 2, "year": 1911 },
+  { "id": 45, "name": "Winnie-the-Pooh", "group": 3, "year": 1926 },
+  { "id": 46, "name": "The Jungle Book", "group": 3, "year": 1894 },
+  { "id": 47, "name": "Bambi", "group": 3, "year": 1923 },
+  { "id": 48, "name": "The Wizard of Oz", "group": 4, "year": 1900 },
+  { "id": 49, "name": "Peter Rabbit", "group": 4, "year": 1902 },
+  { "id": 50, "name": "Heidi", "group": 4, "year": 1881 }
 ]

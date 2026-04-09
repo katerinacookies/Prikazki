@@ -46,8 +46,7 @@ import java.util.List;
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
-    private JSONObject taleData;
-    private JSONArray stepsArray;
+    private Tale currentTale;
     private int currentStep = -1; // -1 = Intro, 0+ = Story steps
 
     @Override
@@ -55,7 +54,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tale_player);
 
-        String taleId = getIntent().getStringExtra("TALE_ID");
+        String taleIdString = getIntent().getStringExtra("TALE_ID");
+        int taleId = Integer.parseInt(taleIdString);
         loadTaleFromJSON(taleId);
 
         findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
@@ -70,20 +70,20 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
     private void startTaleIntro() {
         try {
-            String title = taleData.getString("title");
-            String author = taleData.getString("author");
-            String titleAudio = taleData.getString("title_audio");
+            String title = currentTale.name;
+            String authorName = currentTale.authorName;
+            String authorAudio = currentTale.authorAudio;
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
-                ((TextView) findViewById(R.id.txtAuthor)).setText(author);
+                ((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
             });
 
             // 1. Play Title Audio
-            playAudio(titleAudio, () -> {
+            playAudio(authorAudio, () -> {
                 // 2. Play Author Audio
                 try {
-                    playAudio(taleData.getString("author_audio"), () -> {
+                    playAudio(authorAudio, () -> {
                         // 3. Start Steps
                         runOnUiThread(() -> {
                             findViewById(R.id.headerLayout).setVisibility(View.GONE);
@@ -103,22 +103,22 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
     private void nextStep() {
         currentStep++;
-        if (currentStep >= stepsArray.length()) return; // Story finished!
+        if (currentStep >= currentTale.pics.length) return; // Story finished!
 
         try {
-            JSONObject step = stepsArray.getJSONObject(currentStep);
-
             // Show Image
-            String imgName = step.getString("image");
+            String imgName = currentTale.pics[currentStep];
             int resID = getResources().getIdentifier(imgName, "drawable", getPackageName());
             runOnUiThread(() -> ((ImageView) findViewById(R.id.storyImageView)).setImageResource(resID));
 
-            // Run Animation Chain (from JSON array)
-            JSONArray anims = step.getJSONArray("animations");
-            runAnimationChain(anims, 0);
+            // Run Animation Chain
+            String[] animations = currentTale.animations[currentStep];
+            runAnimationChain(animations, 0);
 
             // Play Step Audio
-            playAudio(step.getString("audio"), () -> {
+            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".mp3";
+
+            playAudio(audio, () -> {
                 // When audio finishes, wait a beat and go to next step
                 new Handler().postDelayed(this::nextStep, 1000);
             });
@@ -132,7 +132,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         releaseMediaPlayer();
         try {
             mediaPlayer = new MediaPlayer();
-            AssetFileDescriptor afd = getAssets().openFd("audio/" + fileName);
+            AssetFileDescriptor afd = getAssets().openFd(fileName);
             mediaPlayer.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
             afd.close();
             mediaPlayer.prepare();
@@ -145,12 +145,12 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         }
     }
 
-    private void runAnimationChain(JSONArray anims, int index) {
-        if (index >= anims.length() || qiContext == null) return;
+    private void runAnimationChain(String[] animations, int index) {
+        if (index >= animations.length || qiContext == null) return;
         try {
-            String animName = anims.getString(index);
+            String animName = animations[index];
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
-            RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(anims, index + 1));
+            RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -170,44 +170,9 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         super.onDestroy();
     }
 
-    private void loadTaleFromJSON(String targetTaleId) {
+    private void loadTaleFromJSON(int targetTaleId) {
         try {
-            // 1. Read the JSON file from the assets folder
-            InputStream is = getAssets().open("tales_config.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-
-            String jsonString = new String(buffer, StandardCharsets.UTF_8);
-            JSONObject fullConfig = new JSONObject(jsonString);
-
-            // 2. We need to check all groups (group1, group2, group3)
-            // to find the tale with the matching ID
-            String[] groups = {"group1", "group2", "group3"};
-            boolean found = false;
-
-            for (String groupKey : groups) {
-                if (fullConfig.has(groupKey)) {
-                    JSONArray groupArray = fullConfig.getJSONArray(groupKey);
-                    for (int i = 0; i < groupArray.length(); i++) {
-                        JSONObject tale = groupArray.getJSONObject(i);
-                        if (tale.getString("id").equals(targetTaleId)) {
-                            this.taleData = tale;
-                            this.stepsArray = tale.getJSONArray("steps");
-                            found = true;
-                            break;
-                        }
-                    }
-                }
-                if (found) break;
-            }
-
-            if (!found) {
-                Toast.makeText(this, "Приказката не е намерена!", Toast.LENGTH_SHORT).show();
-                finish();
-            }
-
+            currentTale = Tale.GetTaleDataFromId(this.qiContext,targetTaleId);
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
             finish();

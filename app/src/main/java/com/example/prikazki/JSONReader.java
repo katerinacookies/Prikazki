@@ -4,6 +4,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.Toast;
 
 public class JSONReader {
@@ -40,9 +41,9 @@ public class JSONReader {
 
             for (int i = 0; i < a.length(); i++) {
                 JSONObject questions = a.getJSONObject(i);
-
-                String currTaleId = questions.getString("id");
-
+//                Log.e("fsa",questions.toString());
+                String currTaleId = questions.getString("tale_id");
+//                Log.e("fsa",currTaleId);
                 if (currTaleId.equals(taleId)) {
                     return questions;
                 }

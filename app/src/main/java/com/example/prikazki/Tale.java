@@ -33,7 +33,7 @@ public class Tale {
 
     Question[] questions;
 
-    public Tale(String name, String authorName, String authorAudio, int id, int group, String soundsPath, String[] pics, String[][] animations) {
+    public Tale(String name, String authorName, String authorAudio, int id, int group, String soundsPath, String[] pics, String[][] animations, Question[] questions) {
         this.name = name;
         this.authorName = authorName;
         this.authorAudio = authorAudio;
@@ -55,6 +55,12 @@ public class Tale {
             for (int j = 0; j < currAnimStepsCount; j++) {
                 this.animations[i][j] = animations[i][j];
             }
+        }
+
+        int questionsCount = questions.length;
+        this.questions = new Question[questionsCount];
+        for (int i = 0; i < questionsCount; ++i) {
+            this.questions[i] = questions[i];
         }
     }
 
@@ -90,6 +96,8 @@ public class Tale {
             }
         }
 
-        return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations);
+        //Question question = Question.GetQuestionFromTaleId(context, id);
+
+        return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations, new Question[1]);
     }
 }

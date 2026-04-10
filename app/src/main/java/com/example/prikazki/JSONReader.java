@@ -3,26 +3,17 @@ package com.example.prikazki;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-import java.io.InputStream;
-
-import java.nio.charset.StandardCharsets;
-
 import android.content.Context;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.LayoutInflater;
-import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class JSONReader {
     public static JSONObject getTaleJSONObject(Context context, String targTaleId) {
         try {
-            JSONObject json = loadJSONFromAsset(context, "example.json");
+            String jsonStr = loadJSONStringFromAsset(context, "example.json");
 
-            JSONArray a = new JSONArray(json);
+            JSONArray a = new JSONArray(jsonStr);
 
-            Toast.makeText(context, "Broi na prikazki: " + a.length(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(context, "Broi na prikazki: " + a.length(), Toast.LENGTH_LONG).show();
 
             for (int i = 0; i < a.length(); i++) {
                 JSONObject tale = a.getJSONObject(i);
@@ -43,7 +34,7 @@ public class JSONReader {
 
     public static JSONObject getQuestionsJSONObject(Context context, String taleId) {
         try {
-            JSONObject json = loadJSONFromAsset(context, "example_questions.json");
+            String json = loadJSONStringFromAsset(context, "example_questions.json");
 
             JSONArray a = new JSONArray(json);
 
@@ -63,13 +54,13 @@ public class JSONReader {
         return null;
     }
 
-    private static JSONObject loadJSONFromAsset(Context context, String fileName) throws Exception {
+    private static String loadJSONStringFromAsset(Context context, String fileName) throws Exception {
         java.io.InputStream is = context.getAssets().open(fileName);
         int size = is.available();
         byte[] buffer = new byte[size];
         is.read(buffer);
         is.close();
 
-        return new JSONObject(new String(buffer, "UTF-8"));
+        return new String(buffer, "UTF-8");
     }
 }

@@ -36,7 +36,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             loadTaleFromJSON(taleId);
         } catch (Exception e){
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
-            Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
         findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
@@ -160,7 +161,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             }
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());
-            Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, "$JSON Loading Failed!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
             finish();
         }
     }

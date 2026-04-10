@@ -16,7 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class JSONReader {
-    public static JSONObject getTaleJSONData(Context context, int targTaleId) {
+    public static JSONObject getTaleJSONObject(Context context, int targTaleId) {
         try {
             JSONObject json = loadJSONFromAsset(context, "example.json");
 
@@ -29,6 +29,28 @@ public class JSONReader {
 
                 if (currTaleId == targTaleId) {
                     return tale;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public static JSONObject getQuestionsJSONObject(Context context, int taleId) {
+        try {
+            JSONObject json = loadJSONFromAsset(context, "example_questions.json");
+
+            JSONArray a = new JSONArray(json);
+
+            for (int i = 0; i < a.length(); i++) {
+                JSONObject questions = a.getJSONObject(i);
+
+                int currTaleId = questions.getInt("id");
+
+                if (currTaleId == taleId) {
+                    return questions;
                 }
             }
         } catch (Exception e) {

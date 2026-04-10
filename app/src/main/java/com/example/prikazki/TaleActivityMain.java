@@ -8,38 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.content.Intent;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.aldebaran.qi.sdk.QiContext;
 import com.aldebaran.qi.sdk.QiSDK;
 import com.aldebaran.qi.sdk.RobotLifecycleCallbacks;
-import com.aldebaran.qi.sdk.builder.AnimateBuilder;
-import com.aldebaran.qi.sdk.builder.AnimationBuilder;
-
-import android.content.Intent;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.widget.Button;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
-import java.io.InputStream;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
+import com.example.prikazki.models.Tale;
 
 
 //logikata za prikazkite za 1, 2 i 3ta grupa

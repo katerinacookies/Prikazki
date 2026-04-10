@@ -1,22 +1,45 @@
 [
   {
     "tale_id" : 2,
-    "text" : "Hello world",
-    "audio_dir" : "audio_dir",
-    "answers" : [
+    "questions" : [
       {
-        "text" : "answer 1",
-        "audio" : "auidio1_dir"
+        "text" : "Question 1",
+        "audio_dir" : "audio_dir",
+        "answers" : [
+          {
+            "text" : "answer 1",
+            "audio" : "auidio1_dir"
+          },
+          {
+            "text" : "answer 2",
+            "audio" : "auidio2_dir"
+          },
+          {
+            "text" : "answer 3",
+            "audio" : "auidio3_dir"
+          }
+        ],
+        "right_answer_id" : 2
       },
       {
-        "text" : "answer 2",
-        "audio" : "auidio2_dir"
-      },
-      {
-        "text" : "answer 3",
-        "audio" : "auidio3_dir"
+        "text" : "Question 2",
+        "audio_dir" : "audio_dir",
+        "answers" : [
+          {
+            "text" : "answer 1",
+            "audio" : "auidio1_dir"
+          },
+          {
+            "text" : "answer 2",
+            "audio" : "auidio2_dir"
+          },
+          {
+            "text" : "answer 3",
+            "audio" : "auidio3_dir"
+          }
+        ],
+        "right_answer_id" : 2
       }
-    ],
-    "right_answer_id" : 2
+    ]
   }
 ]

@@ -1,4 +1,4 @@
-package com.example.prikazki;
+package com.example.prikazki.models;
 
 import android.content.Context;
 
@@ -6,18 +6,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.InputStream;
-
-import java.nio.charset.StandardCharsets;
-
-import android.content.Context;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.LayoutInflater;
-import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.Toast;
-
+import com.example.prikazki.JSONReader;
 
 
 public class Tale {
@@ -65,7 +54,7 @@ public class Tale {
     }
 
     public static Tale GetTaleDataFromId(Context context, int id) throws JSONException {
-        JSONObject JSONRawData = JSONReader.getTaleJSONData(context, id);
+        JSONObject JSONRawData = JSONReader.getTaleJSONObject(context, id);
 
         if (JSONRawData == null)
             return null;
@@ -96,8 +85,8 @@ public class Tale {
             }
         }
 
-        //Question question = Question.GetQuestionFromTaleId(context, id);
+        Question[] questions = Question.GetQuestionsFromTaleId(context, id);
 
-        return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations, new Question[1]);
+        return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations, questions);
     }
 }

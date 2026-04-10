@@ -1,24 +1,24 @@
-package com.example.prikazki;
+package com.example.prikazki.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class QuestionAnswer {
+public class Answer {
     String text;
     String audioDir;
 
-    public QuestionAnswer(String text, String audioDir) {
+    public Answer(String text, String audioDir) {
         this.text = text;
         this.audioDir = audioDir;
     }
 
-    public static QuestionAnswer GetQuestionAnsFromRawData(JSONObject rawData) throws JSONException {
+    public static Answer GetQuestionAnsFromRawData(JSONObject rawData) throws JSONException {
         if (rawData == null)
             return null;
 
         String text = rawData.getString("text");
         String audioDir = rawData.getString("audio");
 
-        return new QuestionAnswer(text, audioDir);
+        return new Answer(text, audioDir);
     }
 }

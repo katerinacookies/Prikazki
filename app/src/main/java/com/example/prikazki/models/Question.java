@@ -9,11 +9,11 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Question {
-    int taleId;
-    String text;
-    String audioDir;
-    Answer[] answers;
-    int rightAnswerId;
+    public int taleId;
+    public String text;
+    public String audioDir;
+    public Answer[] answers;
+    public int rightAnswerId;
 
     public Question(int taleId, String text, String audioDir, Answer[] answers, int rightAnswerId) {
         this.taleId = taleId;

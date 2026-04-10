@@ -4,8 +4,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Answer {
-    String text;
-    String audioDir;
+    public String text;
+    public String audioDir;
 
     public Answer(String text, String audioDir) {
         this.text = text;

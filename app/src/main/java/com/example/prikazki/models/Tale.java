@@ -10,17 +10,17 @@ import com.example.prikazki.JSONReader;
 
 
 public class Tale {
-    String name;
-    String authorName;
-    String authorAudio;
-    int id;
-    int group;
-    String soundsPath;
-    String[] pics;
+    public String name;
+    public String authorName;
+    public String authorAudio;
+    public int id;
+    public int group;
+    public String soundsPath;
+    public String[] pics;
     //dobavqm tozi red, zashtoto ne otkriva this.animations na redove 49-55
-    String[][] animations;
+    public String[][] animations;
 
-    Question[] questions;
+    public Question[] questions;
 
     public Tale(String name, String authorName, String authorAudio, int id, int group, String soundsPath, String[] pics, String[][] animations, Question[] questions) {
         this.name = name;

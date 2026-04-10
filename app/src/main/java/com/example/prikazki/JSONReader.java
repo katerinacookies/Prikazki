@@ -25,7 +25,7 @@ public class JSONReader {
             for (int i = 0; i < a.length(); i++) {
                 JSONObject tale = a.getJSONObject(i);
 
-                int currTaleId = tale.getInt("id");
+                int currTaleId = Integer.parseInt(tale.getString("id"));
 
                 if (currTaleId == targTaleId) {
                     return tale;

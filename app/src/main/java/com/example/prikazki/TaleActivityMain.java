@@ -154,6 +154,9 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     private void loadTaleFromJSON(int targetTaleId) {
         try {
             currentTale = Tale.GetTaleDataFromId(this,targetTaleId);
+            if(currentTale==null) {
+                Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+            }
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());
             Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();

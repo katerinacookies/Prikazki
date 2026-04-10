@@ -7,8 +7,13 @@
         "group" : "1",
         "soundsPath" : "valshebnatagradina",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "fairy",
+            "bunny",
+            "fairy",
+            "flowermeadow",
+            "flowermeadow",
+            "fairy",
+            "bunny"
         ],
         "animations" : [
             ["slow_talk.anim"],
@@ -28,8 +33,15 @@
         "group" : "1",
         "soundsPath" : "parzalkazaoblache",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "mountain",
+            "cloudmom",
+            "mountain",
+            "bath",
+            "mountain",
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "cloud"
         ],
         "animations" : [
             [".anim" ],

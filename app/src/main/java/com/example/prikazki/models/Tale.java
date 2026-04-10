@@ -1,6 +1,7 @@
 package com.example.prikazki.models;
 
 import android.content.Context;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -13,8 +14,8 @@ public class Tale {
     public String name;
     public String authorName;
     public String authorAudio;
-    public int id;
-    public int group;
+    public String id;
+    public String group;
     public String soundsPath;
     public String[] pics;
     //dobavqm tozi red, zashtoto ne otkriva this.animations na redove 49-55
@@ -22,7 +23,7 @@ public class Tale {
 
     public Question[] questions;
 
-    public Tale(String name, String authorName, String authorAudio, int id, int group, String soundsPath, String[] pics, String[][] animations, Question[] questions) {
+    public Tale(String name, String authorName, String authorAudio, String id, String group, String soundsPath, String[] pics, String[][] animations, Question[] questions) {
         this.name = name;
         this.authorName = authorName;
         this.authorAudio = authorAudio;
@@ -53,8 +54,10 @@ public class Tale {
         }
     }
 
-    public static Tale GetTaleDataFromId(Context context, int id) throws JSONException {
+    public static Tale GetTaleDataFromId(Context context, String id) throws JSONException {
         JSONObject JSONRawData = JSONReader.getTaleJSONObject(context, id);
+
+        //Toast.makeText(context, JSONRawData.getString("name"), Toast.LENGTH_LONG).show();
 
         if (JSONRawData == null)
             return null;
@@ -62,7 +65,7 @@ public class Tale {
         String name = JSONRawData.getString("name");
         String authorName = JSONRawData.getString("author_name");
         String authorAudio = JSONRawData.getString("author_audio");
-        int group = JSONRawData.getInt("group");
+        String group = JSONRawData.getString("group");
         String soundsPath = JSONRawData.getString("soundsPath");
 
         JSONArray picsRaw = JSONRawData.getJSONArray("pics");
@@ -86,6 +89,7 @@ public class Tale {
         }
 
         Question[] questions = Question.GetQuestionsFromTaleId(context, id);
+
 
         return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations, questions);
     }

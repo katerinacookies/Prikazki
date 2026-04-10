@@ -1,0 +1,666 @@
+[
+    {
+        "name" : "Вълшебната градина на пролетта",
+        "author_name" : "Янка Иванова",
+        "author_audio" : "yankaivanova.mp3",
+        "id" : "0",
+        "group" : "1",
+        "soundsPath" : "valshebnatagradina",
+        "pics" : [
+            "fairy",
+            "bunny",
+            "fairy",
+            "flowermeadow",
+            "flowermeadow",
+            "fairy",
+            "bunny"
+        ],
+        "animations" : [
+            ["slow_talk.anim"],
+            [""],
+            [""],
+            ["point_around.anim"],
+            ["rainbow.anim"],
+            [],
+            ["sassy_f.anim"]
+        ]
+    },
+    {
+        "name" : "Пързалка за облаче",
+        "author_name" : "Радой Киров",
+        "author_audio" : ".mp3",
+        "id" : "1",
+        "group" : "1",
+        "soundsPath" : "parzalkazaoblache",
+        "pics" : [
+            "mountain",
+            "cloudmom",
+            "mountain",
+            "bath",
+            "mountain",
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "cloud"
+        ],
+        "animations" : [
+            [".anim" ],
+            ["sassy_f.anim" ],
+            ["vdignahruce.anim" ],
+            ["heartattack.anim" ],
+            ["search.anim" ],
+            ["point_air.anim" ],
+            ["idea.anim" ],
+            ["slide.anim" ],
+            ["point_around.anim" ]
+        ]
+    },
+    {
+        "name" : "Ванко и водичката",
+        "author_name" : "Димитър Спасов",
+        "author_audio" : "dimitarspasov.mp3",
+        "id" : "2",
+        "group" : "1",
+        "soundsPath" : "vankoivodichkata",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            [".anim"]
+        ]
+    },
+    {
+        "name" : "Бухалчето Бухи се учи да лети",
+        "author_name" : "Мелани Джойс",
+        "author_audio" : "melaniejoyce.mp3",
+        "id" : "3",
+        "group" : "1",
+        "soundsPath" : "buhalchetobuhi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Под Гъбата",
+        "author_name" : "Владимир Сутеев",
+        "author_audio" : "vladimirsuteev.wav",
+        "id" : "2",
+        "group" : "1",
+        "soundsPath" : "podgubata",
+        "pics" : [
+            "podgubata_guba",
+            "podgubata_butterfly",
+            "podgubata_butterfly",
+            "podgubata_mouse",
+            "podgubata_mouse",
+            "podgubata_mouse",
+            "podgubata_sparrow",
+            "podgubata_sparrow",
+            "podgubata_bunny",
+            "podgubata_bunny",
+            "podgubata_fox",
+            "podgubata_sun",
+            "podgubata_sun",
+            "podgubata_frog",
+            "podgubata_frog",
+            "podgubata_guba"
+        ],
+        "animations" : [
+            ["rain.anim"],
+            ["please.anim"],
+            ["point_around.anim"],
+            [],
+            ["big_arm_circle.anim"],
+            ["point_air.anim"],
+            ["fly.anim"],
+            ["please.anim"],
+            ["sob.anim"],
+            [],
+            ["bad_wolf.anim"],
+            ["rainbow.anim"],
+            ["search.anim"],
+            ["disbelief.anim"],
+            ["idea.anim"],
+            ["thank_you.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },{
+    "name" : "Ако цветовете бяха сиви",
+    "author_name" : "Йордан Радичков",
+    "author_audio" : "yordanradichkov.mp3",
+    "id" : "5",
+    "group" : "1",
+    "soundsPath" : "akocvetovetebqhasivi",
+    "pics" : [
+        "step1pic",
+        "step2pic"
+    ],
+    "animations" : [
+        ["anim1.anim"]
+    ]
+},
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },{
+    "name" : "Ако цветовете бяха сиви",
+    "author_name" : "Йордан Радичков",
+    "author_audio" : "yordanradichkov.mp3",
+    "id" : "5",
+    "group" : "1",
+    "soundsPath" : "akocvetovetebqhasivi",
+    "pics" : [
+        "step1pic",
+        "step2pic"
+    ],
+    "animations" : [
+        ["anim1.anim"]
+    ]
+},
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },{
+    "name" : "Ако цветовете бяха сиви",
+    "author_name" : "Йордан Радичков",
+    "author_audio" : "yordanradichkov.mp3",
+    "id" : "5",
+    "group" : "1",
+    "soundsPath" : "akocvetovetebqhasivi",
+    "pics" : [
+        "step1pic",
+        "step2pic"
+    ],
+    "animations" : [
+        ["anim1.anim"]
+    ]
+},
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },{
+    "name" : "Ако цветовете бяха сиви",
+    "author_name" : "Йордан Радичков",
+    "author_audio" : "yordanradichkov.mp3",
+    "id" : "5",
+    "group" : "1",
+    "soundsPath" : "akocvetovetebqhasivi",
+    "pics" : [
+        "step1pic",
+        "step2pic"
+    ],
+    "animations" : [
+        ["anim1.anim"]
+    ]
+},
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },{
+    "name" : "Ако цветовете бяха сиви",
+    "author_name" : "Йордан Радичков",
+    "author_audio" : "yordanradichkov.mp3",
+    "id" : "5",
+    "group" : "1",
+    "soundsPath" : "akocvetovetebqhasivi",
+    "pics" : [
+        "step1pic",
+        "step2pic"
+    ],
+    "animations" : [
+        ["anim1.anim"]
+    ]
+},
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },{
+    "name" : "Ако цветовете бяха сиви",
+    "author_name" : "Йордан Радичков",
+    "author_audio" : "yordanradichkov.mp3",
+    "id" : "5",
+    "group" : "1",
+    "soundsPath" : "akocvetovetebqhasivi",
+    "pics" : [
+        "step1pic",
+        "step2pic"
+    ],
+    "animations" : [
+        ["anim1.anim"]
+    ]
+},
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    },
+    {
+        "name" : "Ако цветовете бяха сиви",
+        "author_name" : "Йордан Радичков",
+        "author_audio" : "yordanradichkov.mp3",
+        "id" : "5",
+        "group" : "1",
+        "soundsPath" : "akocvetovetebqhasivi",
+        "pics" : [
+            "step1pic",
+            "step2pic"
+        ],
+        "animations" : [
+            ["anim1.anim"]
+        ]
+    }
+]

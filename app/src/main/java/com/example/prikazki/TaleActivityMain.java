@@ -32,7 +32,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
         try {
             String taleIdString = getIntent().getStringExtra("TALE_ID");
-            int taleId = Integer.parseInt(taleIdString);
+            String taleId = taleIdString;
             loadTaleFromJSON(taleId);
         } catch (Exception e){
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
@@ -151,11 +151,12 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         super.onDestroy();
     }
 
-    private void loadTaleFromJSON(int targetTaleId) {
+    private void loadTaleFromJSON(String targetTaleId) {
         try {
-            currentTale = Tale.GetTaleDataFromId(this,targetTaleId);
-            if(currentTale==null) {
-                Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+            currentTale = Tale.GetTaleDataFromId(this, targetTaleId);
+
+            if(currentTale == null) {
+                Toast.makeText(this, "JSON Loading Failed! Tale id: " + targetTaleId, Toast.LENGTH_LONG).show();
             }
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());

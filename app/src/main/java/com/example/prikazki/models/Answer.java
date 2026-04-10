@@ -12,7 +12,7 @@ public class Answer {
         this.audioDir = audioDir;
     }
 
-    public static Answer GetQuestionAnsFromRawData(JSONObject rawData) throws JSONException {
+    public static Answer ConvertToAnswer(JSONObject rawData) throws JSONException {
         if (rawData == null)
             return null;
 

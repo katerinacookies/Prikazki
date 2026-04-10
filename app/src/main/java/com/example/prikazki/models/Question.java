@@ -9,13 +9,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Question {
-    public int taleId;
+    public String taleId;
     public String text;
     public String audioDir;
     public Answer[] answers;
     public int rightAnswerId;
 
-    public Question(int taleId, String text, String audioDir, Answer[] answers, int rightAnswerId) {
+    public Question(String taleId, String text, String audioDir, Answer[] answers, int rightAnswerId) {
         this.taleId = taleId;
         this.text = text;
         this.audioDir = audioDir;
@@ -27,7 +27,7 @@ public class Question {
         if (rawData == null)
             return null;
 
-        int taleId = rawData.getInt("tale_id");
+        String taleId = rawData.getString("tale_id");
         String questionText = rawData.getString("text");
         String audioDir = rawData.getString("audio_dir");
 
@@ -36,7 +36,7 @@ public class Question {
         Answer[] answers = new Answer[answersCount];
 
         for (int i = 0; i < answersCount; i++) {
-            answers[i] = Answer.GetQuestionAnsFromRawData(rawAnswers.getJSONObject(i));
+            answers[i] = Answer.ConvertToAnswer(rawAnswers.getJSONObject(i));
         }
 
         int rightAnswerId = rawData.getInt("right_answer_id");
@@ -44,12 +44,12 @@ public class Question {
         return new Question(taleId, questionText, audioDir, answers, rightAnswerId);
     }
 
-    public static Question[] GetQuestionsFromTaleId(Context context, int id) throws JSONException {
+    public static Question[] GetQuestionsFromTaleId(Context context, String id) throws JSONException {
         JSONObject questionData = JSONReader.getQuestionsJSONObject(context, id);
 
         if (questionData == null) return null;
 
-        int taleId = questionData.getInt("tale_id");
+        String taleId = questionData.getString("tale_id");
         JSONArray questionsArray = questionData.getJSONArray("questions");
 
         int questionsCount = questionsArray.length();
@@ -68,7 +68,7 @@ public class Question {
             Answer[] answers = new Answer[answersCount];
 
             for (int j = 0; j < answersCount; j++) {
-                answers[j] = Answer.GetQuestionAnsFromRawData(rawAnswers.getJSONObject(j));
+                answers[j] = Answer.ConvertToAnswer(rawAnswers.getJSONObject(j));
             }
 
             questions[i] = new Question(taleId, questionText, audioDir, answers, rightAnswerId);

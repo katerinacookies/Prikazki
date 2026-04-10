@@ -16,29 +16,32 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class JSONReader {
-    public static JSONObject getTaleJSONObject(Context context, int targTaleId) {
+    public static JSONObject getTaleJSONObject(Context context, String targTaleId) {
         try {
             JSONObject json = loadJSONFromAsset(context, "example.json");
 
             JSONArray a = new JSONArray(json);
 
+            Toast.makeText(context, "Broi na prikazki: " + a.length(), Toast.LENGTH_LONG).show();
+
             for (int i = 0; i < a.length(); i++) {
                 JSONObject tale = a.getJSONObject(i);
 
-                int currTaleId = Integer.parseInt(tale.getString("id"));
+                String currTaleId = tale.getString("id");
 
-                if (currTaleId == targTaleId) {
+                if (currTaleId.equals(targTaleId)) {
                     return tale;
                 }
             }
         } catch (Exception e) {
             e.printStackTrace();
+            Toast.makeText(context, e.getMessage(), Toast.LENGTH_LONG).show();
         }
 
         return null;
     }
 
-    public static JSONObject getQuestionsJSONObject(Context context, int taleId) {
+    public static JSONObject getQuestionsJSONObject(Context context, String taleId) {
         try {
             JSONObject json = loadJSONFromAsset(context, "example_questions.json");
 
@@ -47,9 +50,9 @@ public class JSONReader {
             for (int i = 0; i < a.length(); i++) {
                 JSONObject questions = a.getJSONObject(i);
 
-                int currTaleId = questions.getInt("id");
+                String currTaleId = questions.getString("id");
 
-                if (currTaleId == taleId) {
+                if (currTaleId.equals(taleId)) {
                     return questions;
                 }
             }
@@ -66,6 +69,7 @@ public class JSONReader {
         byte[] buffer = new byte[size];
         is.read(buffer);
         is.close();
+
         return new JSONObject(new String(buffer, "UTF-8"));
     }
 }

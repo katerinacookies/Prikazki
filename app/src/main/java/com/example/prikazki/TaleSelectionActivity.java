@@ -78,4 +78,4 @@ public class TaleSelectionActivity extends AppCompatActivity {
             Toast.makeText(this, "Грешка при зареждане на JSON", Toast.LENGTH_SHORT).show();
         }
     }
-    }
+}

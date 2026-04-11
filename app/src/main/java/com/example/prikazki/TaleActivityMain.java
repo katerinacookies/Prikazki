@@ -1,5 +1,4 @@
 package com.example.prikazki;
-//package com.example.prikazki.models;
 
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
@@ -17,9 +16,11 @@ import com.aldebaran.qi.sdk.QiSDK;
 import com.aldebaran.qi.sdk.RobotLifecycleCallbacks;
 import com.example.prikazki.models.Tale;
 
-
 //logikata za prikazkite za 1, 2 i 3ta grupa
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
+    //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
+    public boolean isEmulatorMode = true;
+
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
     private Tale currentTale;
@@ -40,6 +41,11 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
+        if (isEmulatorMode) {
+            // Bypass the robot and start the tale after a 1-second delay
+            new Handler().postDelayed(this::startTaleIntro, 1000);
+        }
+
         findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
         QiSDK.register(this, this);
     }
@@ -51,6 +57,9 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     }
 
     private void startTaleIntro() {
+//        Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
+        Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
+
         try {
             String title = currentTale.name;
             String authorName = currentTale.authorName;
@@ -79,6 +88,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                 }
             });
         } catch (Exception e) {
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
             finish();
         }
     }

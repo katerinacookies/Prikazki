@@ -1,6 +1,7 @@
 package com.example.prikazki.models;
 
 import android.content.Context;
+import android.util.Log;
 import android.widget.Toast;
 
 import org.json.JSONArray;
@@ -55,9 +56,12 @@ public class Tale {
     }
 
     public static Tale GetTaleDataFromId(Context context, String id) throws JSONException {
+        Log.d("DEBUG_TAG", "$^$ HEllo world");
+
         JSONObject JSONRawData = JSONReader.getTaleJSONObject(context, id);
 
         //Toast.makeText(context, JSONRawData.getString("name"), Toast.LENGTH_LONG).show();
+
 
         if (JSONRawData == null)
             return null;
@@ -77,6 +81,7 @@ public class Tale {
 
         JSONArray animationsRaw = JSONRawData.getJSONArray("animations");
 
+
         int animsCount = animationsRaw.length();
         String[][] animations = new String[animsCount][];
         for (int i = 0; i < animsCount; i++) {
@@ -89,7 +94,6 @@ public class Tale {
         }
 
         Question[] questions = Question.GetQuestionsFromTaleId(context, id);
-
 
         return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations, questions);
     }

@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class JSONReader {
     public static JSONObject getTaleJSONObject(Context context, String targTaleId) {
         try {
-            String jsonStr = loadJSONStringFromAsset(context, "example.json");
+            String jsonStr = loadJSONStringFromAsset(context, "tales.json");
 
             JSONArray a = new JSONArray(jsonStr);
 

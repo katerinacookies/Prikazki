@@ -1,0 +1,68 @@
+[
+  {
+    "name" : "Вълшебната градина на пролетта",
+    "author_name" : "Янка Иванова",
+    "author_audio" : "yankaivanova.mp3",
+    "id" : "0",
+    "group" : "1",
+    "soundsPath" : "valshebnatagradina",
+    "pics" : [
+      "fairy",
+      "bunny",
+      "fairy",
+      "flowermeadow",
+      "flowermeadow",
+      "fairy",
+      "bunny"
+    ],
+    "animations" : [
+      ["slow_talk.anim"],
+      [""],
+      [""],
+      ["point_around.anim"],
+      ["rainbow.anim"],
+      [],
+      ["sassy_f.anim"]
+    ]
+  },
+  {
+    "name" : "Мечо и вълшебната утринна песен",
+    "author_name" : "$Митко Тромпета",
+    "author_audio" : "$mitko_trompeta",
+    "id" : "1",
+    "group" : "1",
+    "sounds_path" : "$mitko_trompeta",
+    "pics" : [ ],
+    "animations" : [
+      ["qurious.qianim", "point_around.qianim"],
+      ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
+      ["question.qianim", "sob.qianim"],
+      ["think.qianim", "idea.qianim"],
+      ["slow_talk.qianim", "no.qianim"],
+      ["rain.qianim", "search.qianim", "surprise.qianim"],
+      ["sweet_child.qianim", "rainbow.qianim"],
+      ["thank_you.qianim", "hello.qianim"]
+
+    ]
+  },
+  {
+    "name" : "Зайчето Бобо и голямото пролетно приключение",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "2",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      ["qurious.qianim", ".qianim"],
+      ["search.qianim", "surprise.qianim", "point_down_low.qianim"],
+      ["sweet_child.qianim", "follow_motion.qianim", "hello.qianim"],
+      ["arm_circle.qianim", "hand_raise.qianim", "blossom_gesture.qianim"],
+      ["thank_you.qianim", "slow_talk.qianim"],
+      ["disbelief.qianim", "idea.qianim"],
+      ["rain.qianim", "firefly_dance.qianim"],
+      ["hand_raise.qianim", "sweet_child.qianim", "sleep.qianim"]
+    ]
+  }
+
+]

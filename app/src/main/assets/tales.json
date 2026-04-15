@@ -35,7 +35,7 @@
     "pics" : [ ],
     "animations" : [
       ["qurious.qianim", "point_around.qianim"],
-      ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
+      ["wakeup.qianim", "arm_slide.qianim"],
       ["question.qianim", "sob.qianim"],
       ["think.qianim", "idea.qianim"],
       ["slow_talk.qianim", "no.qianim"],

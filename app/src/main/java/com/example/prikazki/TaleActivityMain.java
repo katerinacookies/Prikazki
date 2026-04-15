@@ -28,6 +28,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d("DEBUG", "Hello world");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tale_player);
 
@@ -134,6 +136,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             });
             mediaPlayer.start();
         } catch (Exception e) {
+            Log.e("ERROR", e.getMessage());
             if (onComplete != null) onComplete.run();
         }
     }

@@ -19,7 +19,7 @@ import com.example.prikazki.models.Tale;
 //logikata za prikazkite za 1, 2 i 3ta grupa
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
     //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
-    public boolean isEmulatorMode = false;
+    public boolean isEmulatorMode = true;
 
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;

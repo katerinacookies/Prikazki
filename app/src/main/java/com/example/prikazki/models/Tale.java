@@ -101,7 +101,7 @@ public class Tale {
         String authorName = JSONRawData.getString("author_name");
         String authorAudio = JSONRawData.getString("author_audio");
         String group = JSONRawData.getString("group");
-        String soundsPath = JSONRawData.getString("soundsPath");
+        String soundsPath = JSONRawData.getString("sounds_path");
 
         JSONArray picsRaw = JSONRawData.getJSONArray("pics");
         int picsCount = picsRaw.length();

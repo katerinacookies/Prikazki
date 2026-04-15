@@ -55,6 +55,37 @@ public class Tale {
         }
     }
 
+    public boolean IsValid() throws Exception {
+        boolean isValid = true;
+        String exceptionMessage = "";
+
+        if (name.contains("$")) {
+            exceptionMessage += ("Tale name not valid: " + name + "; ");
+
+            isValid = false;
+        }
+        if (authorName.contains("$")) {
+            exceptionMessage += ("Tale author name not valid: " + authorName + "; ");
+
+            isValid = false;
+        }
+        if (authorAudio.contains("$")) {
+            exceptionMessage += ("Tale author audio not valid: " + authorAudio + "; ");
+
+            isValid = false;
+        }
+        if (soundsPath.contains("$")) {
+            exceptionMessage += ("Tale sound path not valid: " + authorAudio + "; ");
+
+            isValid = false;
+        }
+
+        if (isValid)
+            return true;
+        else
+            throw new Exception(exceptionMessage);
+    }
+
     public static Tale GetTaleDataFromId(Context context, String id) throws JSONException {
         Log.d("DEBUG_TAG", "$^$ HEllo world");
 

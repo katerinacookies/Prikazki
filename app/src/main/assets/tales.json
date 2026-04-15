@@ -27,11 +27,11 @@
   },
   {
     "name" : "Мечо и вълшебната утринна песен",
-    "author_name" : "$Митко Тромпета",
-    "author_audio" : "$mitko_trompeta",
+    "author_name" : "Янка Иванова",
+    "author_audio" : "yankaivanova.mp3",
     "id" : "1",
     "group" : "1",
-    "sounds_path" : "$mitko_trompeta",
+    "sounds_path" : "valshebnatagradina",
     "pics" : [ ],
     "animations" : [
       ["qurious.qianim", "point_around.qianim"],

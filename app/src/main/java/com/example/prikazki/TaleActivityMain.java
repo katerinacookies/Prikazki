@@ -19,7 +19,7 @@ import com.example.prikazki.models.Tale;
 //logikata za prikazkite za 1, 2 i 3ta grupa
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
     //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
-    public boolean isEmulatorMode = true;
+    public boolean isEmulatorMode = false;
 
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
@@ -145,6 +145,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         if (index >= animations.length || qiContext == null) return;
         try {
             String animName = animations[index];
+
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
@@ -170,9 +171,14 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         try {
             currentTale = Tale.GetTaleDataFromId(this, targetTaleId);
 
-            if(currentTale == null) {
-                Toast.makeText(this, "JSON Loading Failed! Tale id: " + targetTaleId, Toast.LENGTH_LONG).show();
+            if  (currentTale == null) {
+//                Toast.makeText(this, "JSON Loading Failed! Tale id: " + targetTaleId, Toast.LENGTH_LONG).show();
+                throw new Exception("JSON Loading Failed! Tale id: " + targetTaleId);
             }
+
+            //invokes an exception when something is wrong
+            currentTale.IsValid();
+
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());
             //Toast.makeText(this, "$JSON Loading Failed!", Toast.LENGTH_LONG).show();

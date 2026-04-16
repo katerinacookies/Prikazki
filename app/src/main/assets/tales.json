@@ -113,7 +113,7 @@
     "id" : "5",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fox", "fox", "waterdrop", "fox", "owl", "cloud_happy","cloud_happy", "cloud_happy"],
     "animations" : [
       ["random.qianim"]
     ]
@@ -125,7 +125,7 @@
     "id" : "6",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["duckling", "wave_puhche", "wave_puhche", "duckling","duckling","rocks","wave", "wave_puhche","duckling"],
     "animations" : [
 
     ]
@@ -137,7 +137,7 @@
     "id" : "7",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["giraffe","giraffe","paintbrush","spirit","spirit","paintbrush","spirit","colorful","colorful","giraffe"],
     "animations" : [
 
     ]
@@ -149,7 +149,7 @@
     "id" : "8",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear","cloud_snow","cloud_snow","bear","mountain","mountain","clouds","cloud_snow","bush_snow"],
     "animations" : [
 
     ]
@@ -161,7 +161,7 @@
     "id" : "9",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel","walnut","walnut","owl","owl","squirrel","forest","squirrel"],
     "animations" : [
 
     ]
@@ -173,7 +173,7 @@
     "id" : "10",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["horse","horse","puhche","puhche","horse","pond","mountain","musical_notes2","puhche","horse"],
     "animations" : [
 
     ]
@@ -185,7 +185,7 @@
     "id" : "11",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fish","fish","bubble","bubble","fish","water_lily","crab","waterfall","fish","bubble","bubble","fish"],
     "animations" : [
 
     ]
@@ -197,7 +197,7 @@
     "id" : "12",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bunny","carrot","carrot","carrot","turtle","bunny","bunny","turtle","bunny"],
     "animations" : [
 
     ]
@@ -209,7 +209,8 @@
     "id" : "13",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["butterfly","flowers_colorless","flowers_colorless","flower_tulip","butterfly","cave","cloud_happy","cloud_happy","butterfly",
+    "flowermeadow","flower_tulip","cloud_happy"],
     "animations" : [
 
     ]
@@ -221,7 +222,7 @@
     "id" : "14",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear","star","star","star","bear","river","tree_spring","stairway_to_heaven","star","bear"],
     "animations" : [
 
     ]
@@ -233,7 +234,7 @@
     "id" : "15",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["turtle","pond","waterdrop","waterdrop","turtle","grass","cave","turtle","waterdrop","cloud_happy","turtle"],
     "animations" : [
 
     ]
@@ -245,7 +246,7 @@
     "id" : "16",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["lion","savannah","lion","lion","giraffe","elephant","lion","puhche","puhche","lion","lion","puhche","savannah","savannah"],
     "animations" : [
 
     ]
@@ -257,19 +258,19 @@
     "id" : "17",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bird_yellow","bird_yellow","feather","feather","bird_yellow","eagle","eagle","eagle","wind","bird_yellow"],
     "animations" : [
 
     ]
   },
   {
-    "name" : "Мечето Мони и часовникът на гората",
+    "name" : "(недовършени снимки) Мечето Мони и часовникът на гората",
     "author_name" : "$",
     "author_audio" : "$",
     "id" : "18",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear","bear","bear","clock_puhche","clock_puhche","bear"],
     "animations" : [
 
     ]
@@ -281,7 +282,7 @@
     "id" : "19",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["mouse","star","firefly1","firefly1","mouse","moon","river","river","leaf","leaf","firefly1","mouse"],
     "animations" : [
 
     ]
@@ -293,7 +294,7 @@
     "id" : "20",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["deer","deer","tree_snow","tree_snow","puhche","deer","pond","bell","bell","cloud_snow","deer"],
     "animations" : [
 
     ]
@@ -305,19 +306,19 @@
     "id" : "21",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["cat_grey","puddle","puddle","cat_grey","puddle","bush","waterdrop","cat_grey","puddle","cat_grey","cat_grey"],
     "animations" : [
 
     ]
   },
   {
-    "name" : "Патенцето Лили и облачната пързалка",
+    "name" : "(недовършени снимки) Патенцето Лили и облачната пързалка",
     "author_name" : "$",
     "author_audio" : "$",
     "id" : "22",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["duckling","cloud","duckling","cloud","duckling","pond"],
     "animations" : [
 
     ]
@@ -329,7 +330,7 @@
     "id" : "23",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["frog","moon","frog","moon","firefly1","firefly1","gem_yellow","frog","frog","moon","frog"],
     "animations" : [
 
     ]
@@ -341,7 +342,7 @@
     "id" : "24",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fox","fox","fox","puhche","puhche","fox","twig","puhche","flute","fox","fox"],
     "animations" : [
 
     ]
@@ -353,7 +354,7 @@
     "id" : "25",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bee","cloud","flower_tulip","star","bee","wind","bee","wind","sun","flowermeadow"],
     "animations" : [
 
     ]
@@ -365,7 +366,7 @@
     "id" : "26",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["hedgehog","hat","hat","hat","hat","hedgehog","forest","puhche","tree_autumn","hedgehog"],
     "animations" : [
 
     ]
@@ -377,7 +378,7 @@
     "id" : "27",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["cat_black","cat_black","cat_black","star","cat_black","owl","owl","owl","sparkles","cat_black"],
     "animations" : [
 
     ]
@@ -389,7 +390,7 @@
     "id" : "28",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel","cloud_snow","squirrel","puhche","puhche","squirrel","squirrel","cloud_happy","bush_snow","squirrel"],
     "animations" : [
 
     ]
@@ -401,7 +402,7 @@
     "id" : "29",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear","tree_autumn","tree_autumn","puhche","puhche","bear","pond","mountain","tree_autumn","tree_autumn","tree_autumn"],
     "animations" : [
 
     ]
@@ -413,7 +414,7 @@
     "id" : "30",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear","cloud","puhche","puhche","bear","mountain","cave","cloud_rain","flowers","bear"],
     "animations" : [
 
     ]
@@ -425,7 +426,7 @@
     "id" : "31",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel","walnut","walnut","balloon","balloon","squirrel","balloon","tree_autumn","walnut","walnut"],
     "animations" : [
 
     ]
@@ -437,7 +438,7 @@
     "id" : "32",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear","moon","firefly2","firefly2","bear","bag","bag","bag","firefly1","bear"],
     "animations" : [
 
     ]
@@ -449,7 +450,7 @@
     "id" : "33",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["panda","panda","panda","bamboo","puhche","panda","mountain","bamboo","flute","forest","forest"],
     "animations" : [
 
     ]
@@ -461,11 +462,9 @@
     "id" : "34",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bunny","letter","cloud_happy","bunny","cloud_happy","bunny","pond","pond","bag","cloud_happy","bunny"],
     "animations" : [
 
     ]
   }
-
-
 ]

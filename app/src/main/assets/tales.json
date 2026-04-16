@@ -32,7 +32,7 @@
     "id" : "1",
     "group" : "1",
     "sounds_path" : "valshebnatagradina",
-    "pics" : ["bear", "bird_blue", "bird_blue", "bird_blue", "forest", "river", "musical_notes2", "bear"],
+    "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
     "animations" : [
       ["qurious.qianim", "point_around.qianim"],
       ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
@@ -115,7 +115,14 @@
     "sounds_path" : "$",
     "pics" : ["fox", "fox", "waterdrop", "fox", "owl", "cloud_happy","cloud_happy", "cloud_happy"],
     "animations" : [
-      ["random.qianim"]
+      ["qurious.qianim", "sniff_motion.qianim"],
+      ["wakeup.qianim", "question.qianim"],
+      ["arm_slide.qianim", "point_down_low.qianim"],
+      ["surprise.qianim", "follow_motion.qianim"],
+      ["slow_talk.qianim", "think.qianim"],
+      ["point_to_bird.qianim", "rain.qianim"],
+      ["idea.qianim", "thank_you.qianim"],
+      ["gaze_up_slow.qianim", "sleep.qianim"]
     ]
   },
   {
@@ -127,7 +134,15 @@
     "sounds_path" : "$",
     "pics" : ["duckling", "wave_puhche", "wave_puhche", "duckling","duckling","rocks","wave", "wave_puhche","duckling"],
     "animations" : [
-
+      ["qurious.qianim"],
+      ["search.qianim", "surprise.qianim"],
+      ["nose_touch.qianim", "question.qianim"],
+      ["think.qianim", "idea.qianim"],
+      ["wave_motion.qianim", "arm_slide.qianim"],
+      ["point_forward.qianim", "arm_slide.qianim"],
+      ["slow_talk.qianim", "thank_you.qianim"],
+      ["blossom_gesture.qianim", "hello.qianim"],
+      ["bunny_hop.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -139,7 +154,16 @@
     "sounds_path" : "$",
     "pics" : ["giraffe","giraffe","paintbrush","spirit","spirit","paintbrush","spirit","colorful","colorful","giraffe"],
     "animations" : [
-
+      ["qurious.qianim", "gaze_up_slow.qianim"],
+      ["question.qianim", "slow_talk.qianim"],
+      ["point_to_bird.qianim", "hand_recieve.qianim"],
+      ["oh.qianim", "search.qianim"],
+      ["slow_talk.qianim", "paint.qianim"],
+      ["please.qianim", "call_motion.qianim"],
+      ["idea.qianim", "rainbow.qianim"],
+      ["paint.qianim", "arm_slide.qianim"],
+      ["blossom_gesture.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -151,7 +175,14 @@
     "sounds_path" : "$",
     "pics" : ["bear","cloud_snow","cloud_snow","bear","mountain","mountain","clouds","cloud_snow","bush_snow"],
     "animations" : [
-
+      ["qurious.qianim", "fly.qianim"],
+      ["sob.qianim", "point_down_low.qianim"],
+      ["question.qianim", "head_slow_talk.qianim"],
+      ["idea.qianim", "thank_you.qianim"],
+      ["hand_recieve.qianim", "nose_touch.qianim"],
+      ["point_to_bird.qianim", "hand_raise.qianim"],
+      ["hello.qianim", "thank_you.qianim"],
+      ["rain.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -163,7 +194,14 @@
     "sounds_path" : "$",
     "pics" : ["squirrel","walnut","walnut","owl","owl","squirrel","forest","squirrel"],
     "animations" : [
-
+      ["qurious.qianim", "hello.qianim"],
+      ["point_down_low.qianim", "surprise.qianim"],
+      ["hand_recieve.qianim", "blossom_gesture.qianim"],
+      ["think.qianim"],
+      ["head_slow_talk.qianim", "surprise.qianim"],
+      ["please.qianim", "thank_you.qianim"],
+      ["blossom_gesture.qianim", "rain.qianim"],
+      ["hello.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -175,7 +213,16 @@
     "sounds_path" : "$",
     "pics" : ["horse","horse","puhche","puhche","horse","pond","mountain","musical_notes2","puhche","horse"],
     "animations" : [
-
+      ["qurious.qianim", "fly.qianim"],
+      ["question.qianim", "sniff_motion.qianim"],
+      ["point_forward.qianim", "sob.qianim"],
+      ["head_slow_talk.qianim", "think.qianim"],
+      ["idea.qianim", "call_motion.qianim"],
+      ["wave_motion.qianim", "arm_slide.qianim"],
+      ["gaze_up_slow.qianim", "hello.qianim"],
+      ["firefly_dance.qianim", "blossom_gesture.qianim"],
+      ["thank_you.qianim", "nose_touch.qianim"],
+      ["fly.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -187,7 +234,17 @@
     "sounds_path" : "$",
     "pics" : ["fish","fish","bubble","bubble","fish","water_lily","crab","waterfall","fish","bubble","bubble","fish"],
     "animations" : [
-
+      ["qurious.qianim", "wave_motion.qianim"],
+      ["sniff_motion.qianim", "squeeze_motion.qianim"],
+      ["surprise.qianim", "blossom_gesture.qianim"],
+      ["gaze_up_slow.qianim", "point_to_bird.qianim"],
+      ["call_motion.qianim", "follow_motion.qianim"],
+      ["wave_motion.qianim", "head_slow_talk.qianim"],
+      ["oh.qianim", "question.qianim"],
+      ["fly.qianim", "point_forward.qianim"],
+      ["hand_recieve.qianim", "nose_touch.qianim"],
+      ["thank_you.qianim", "slow_talk.qianim"],
+      ["firefly_dance.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -199,7 +256,15 @@
     "sounds_path" : "$",
     "pics" : ["bunny","carrot","carrot","carrot","turtle","bunny","bunny","turtle","bunny"],
     "animations" : [
-
+      ["qurious.qianim", "thank_you.qianim"],
+      ["search.qianim", "point_down_low.qianim", "surprise.qianim"],
+      ["oh.qianim", "question.qianim"],
+      ["head_slow_talk.qianim", "hand_recieve.qianim"],
+      ["think.qianim", "slow_talk.qianim"],
+      ["please.qianim", "blossom_gesture.qianim"],
+      ["arm_slide.qianim", "sob.qianim"],
+      ["point_forward.qianim", "fly.qianim"],
+      ["hello.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -212,7 +277,18 @@
     "pics" : ["butterfly","flowers_colorless","flowers_colorless","flower_tulip","butterfly","cave","cloud_happy","cloud_happy","butterfly",
     "flowermeadow","flower_tulip","cloud_happy"],
     "animations" : [
-
+      ["fly.qianim", "sniff_motion.qianim"],
+      ["qurious.qianim", "head_slow_talk.qianim"],
+      ["oh.qianim", "point_forward.qianim"],
+      ["sob.qianim", "question.qianim"],
+      ["think.qianim", "idea.qianim"],
+      ["fly.qianim", "point_down_low.qianim"],
+      ["surprise.qianim", "head_slow_talk.qianim"],
+      ["hand_recieve.qianim", "slow_talk.qianim"],
+      ["thank_you.qianim", "please.qianim"],
+      ["hand_recieve.qianim", "blossom_gesture.qianim"],
+      ["hello.qianim", "thank_you.qianim"],
+      ["firefly_dance.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -224,7 +300,16 @@
     "sounds_path" : "$",
     "pics" : ["bear","star","star","star","bear","river","tree_spring","stairway_to_heaven","star","bear"],
     "animations" : [
-
+      ["sleep.qianim", "gaze_up_slow.qianim"],
+      ["qurious.qianim", "hello.qianim"],
+      ["head_slow_talk.qianim", "final_nod.qianim"],
+      ["question.qianim", "sob.qianim"],
+      ["idea.qianim", "arm_slide.qianim"],
+      ["wave_motion.qianim", "search.qianim"],
+      ["firefly_dance.qianim", "point_forward.qianim"],
+      ["point_down_low.qianim", "surprise.qianim"],
+      ["thank_you.qianim", "hand_recieve.qianim"],
+      ["hello.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -236,7 +321,17 @@
     "sounds_path" : "$",
     "pics" : ["turtle","pond","waterdrop","waterdrop","turtle","grass","cave","turtle","waterdrop","cloud_happy","turtle"],
     "animations" : [
-
+      ["qurious.qianim", "sob.qianim"],
+      ["question.qianim", "point_down_low.qianim"],
+      ["head_slow_talk.qianim", "hand_recieve.qianim"],
+      ["surprise.qianim", "gaze_up_slow.qianim"],
+      ["thank_you.qianim", "call_motion.qianim"],
+      ["squeeze_motion.qianim", "final_nod.qianim"],
+      ["wave_motion.qianim", "sleep.qianim"],
+      ["idea.qianim", "blossom_gesture.qianim"],
+      ["slow_talk.qianim", "hand_recieve.qianim"],
+      ["hello.qianim", "nose_touch.qianim"],
+      ["fly.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -248,7 +343,19 @@
     "sounds_path" : "$",
     "pics" : ["lion","savannah","lion","lion","giraffe","elephant","lion","puhche","puhche","lion","lion","puhche","savannah","savannah"],
     "animations" : [
-
+      ["qurious.qianim", "sniff_motion.qianim"],
+      ["gaze_up_slow.qianim", "think.qianim"],
+      ["question.qianim", "search.qianim"],
+      ["head_slow_talk.qianim", "point_to_bird.qianim"],
+      ["wave_motion.qianim", "sob.qianim"],
+      ["point_forward.qianim", "head_slow_talk.qianim"],
+      ["idea.qianim", "squeeze_motion.qianim"],
+      ["point_down_low.qianim", "hand_recieve.qianim"],
+      ["sob.qianim", "head_slow_talk.qianim"],
+      ["thank_you.qianim", "please.qianim"],
+      ["blossom_gesture.qianim", "firefly_dance.qianim"],
+      ["gaze_up_slow.qianim", "rainbow.qianim"],
+      ["hello.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -260,7 +367,16 @@
     "sounds_path" : "$",
     "pics" : ["bird_yellow","bird_yellow","feather","feather","bird_yellow","eagle","eagle","eagle","wind","bird_yellow"],
     "animations" : [
-
+      ["fly.qianim", "hello.qianim"],
+      ["question.qianim", "head_slow_talk.qianim"],
+      ["search.qianim", "head_slow_talk.qianim"],
+      ["sniff_motion.qianim", "head_slow_talk.qianim"],
+      ["idea.qianim", "squeeze_motion.qianim"],
+      ["gaze_up_slow.qianim", "think.qianim"],
+      ["hand_recieve.qianim", "fly.qianim"],
+      ["thank_you.qianim", "blossom_gesture.qianim"],
+      ["gaze_up_slow.qianim", "please.qianim", "firefly_dance.qianim"],
+      ["wave_motion.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -272,7 +388,16 @@
     "sounds_path" : "$",
     "pics" : ["bear","bear","bear","clock_puhche","clock_puhche","bear"],
     "animations" : [
-
+      ["qurious.qianim", "head_slow_talk.qianim"],
+      ["question.qianim", "search.qianim"],
+      ["sniff_motion.qianim", "point_down_low.qianim"],
+      ["surprise.qianim", "hand_recieve.qianim"],
+      ["sob.qianim", "head_slow_talk.qianim"],
+      ["idea.qianim", "arm_slide.qianim"],
+      ["slow_talk.qianim", "squeeze_motion.qianim"],
+      ["point_down_low.qianim", "wave_motion.qianim", "gaze_up_slow.qianim"],
+      ["firefly_dance.qianim", "hello.qianim"],
+      ["blossom_gesture.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -284,7 +409,19 @@
     "sounds_path" : "$",
     "pics" : ["mouse","star","firefly1","firefly1","mouse","moon","river","river","leaf","leaf","firefly1","mouse"],
     "animations" : [
-
+      ["qurious.qianim", "sniff_motion.qianim"],
+      ["search.qianim", "firefly_dance.qianim", "surprise.qianim"],
+      ["head_slow_talk.qianim", "question.qianim"],
+      ["sob.qianim", "gaze_up_slow.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"],
+      ["wave_motion.qianim", "arm_slide.qianim"],
+      ["point_forward.qianim", "idea.qianim"],
+      ["point_forward.qianim", "idea.qianim"],
+      ["point_to_bird.qianim", "hand_recieve.qianim"],
+      ["think.qianim", "point_down_low.qianim"],
+      ["hand_recieve.qianim", "wave_motion.qianim"],
+      ["blossom_gesture.qianim", "hello.qianim"],
+      ["firefly_dance.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -296,7 +433,17 @@
     "sounds_path" : "$",
     "pics" : ["deer","deer","tree_snow","tree_snow","puhche","deer","pond","bell","bell","cloud_snow","deer"],
     "animations" : [
-
+      ["qurious.qianim", "sniff_motion.qianim"],
+      ["think.qianim", "gaze_up_slow.qianim"],
+      ["question.qianim", "search.qianim"],
+      ["point_to_bird.qianim", "sob.qianim"],
+      ["head_slow_talk.qianim", "question.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["point_down_low.qianim", "search.qianim"],
+      ["squeeze_motion.qianim", "surprise.qianim"],
+      ["hand_recieve.qianim", "please.qianim"],
+      ["firefly_dance.qianim", "blossom_gesture.qianim"],
+      ["hello.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -308,7 +455,17 @@
     "sounds_path" : "$",
     "pics" : ["cat_grey","puddle","puddle","cat_grey","puddle","bush","waterdrop","cat_grey","puddle","cat_grey","cat_grey"],
     "animations" : [
-
+      ["qurious.qianim", "fly.qianim"],
+      ["search.qianim", "point_down_low.qianim"],
+      ["sniff_motion.qianim", "surprise.qianim"],
+      ["question.qianim", "head_slow_talk.qianim"],
+      ["sob.qianim", "idea.qianim"],
+      ["arm_slide.qianim", "point_down_low.qianim"],
+      ["head_slow_talk.qianim", "squeeze_motion.qianim"],
+      ["thank_you.qianim", "call_motion.qianim"],
+      ["hand_recieve.qianim", "wave_motion.qianim"],
+      ["think.qianim", "final_nod.qianim"],
+      ["hello.qianim", "thank_you.qianim"]
     ]
   },
   {
@@ -320,7 +477,17 @@
     "sounds_path" : "$",
     "pics" : ["duckling","cloud","duckling","cloud","duckling","pond"],
     "animations" : [
-
+      ["qurious.qianim", "gaze_up_slow.qianim"],
+      ["surprise.qianim", "point_forward.qianim"],
+      ["head_slow_talk.qianim"],
+      ["sob.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["wave_motion.qianim"],
+      ["point_down_low.qianim"],
+      ["fly.qianim", "hand_recieve.qianim"],
+      ["blossom_gesture.qianim", "firefly_dance.qianim"],
+      ["rainbow.qianim", "thank_you.qianim"],
+      ["rainbow.qianim", "thank_you.qianim"]
     ]
   },
   {
@@ -332,7 +499,17 @@
     "sounds_path" : "$",
     "pics" : ["frog","moon","frog","moon","firefly1","firefly1","gem_yellow","frog","frog","moon","frog"],
     "animations" : [
-
+      ["qurious.qianim", "point_down_low.qianim"],
+      ["gaze_up_slow.qianim", "surprise.qianim"],
+      ["question.qianim"],
+      ["head_slow_talk.qianim", "idea.qianim"],
+      ["wave_motion.qianim"],
+      ["firefly_dance.qianim"],
+      ["search.qianim", "point_down_low.qianim"],
+      ["oh.qianim"],
+      ["hand_recieve.qianim", "gaze_up_slow.qianim"],
+      ["blossom_gesture.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -344,7 +521,17 @@
     "sounds_path" : "$",
     "pics" : ["fox","fox","fox","puhche","puhche","fox","twig","puhche","flute","fox","fox"],
     "animations" : [
-
+      ["qurious.qianim", "fly.qianim"],
+      ["search.qianim", "gaze_up_slow.qianim"],
+      ["question.qianim"],
+      ["point_forward.qianim", "sob.qianim"],
+      ["head_slow_talk.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["sniff_motion.qianim", "hand_recieve.qianim"],
+      ["head_slow_talk.qianim"],
+      ["firefly_dance.qianim", "wave_motion.qianim"],
+      ["blossom_gesture.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -356,7 +543,15 @@
     "sounds_path" : "$",
     "pics" : ["bee","cloud","flower_tulip","star","bee","wind","bee","wind","sun","flowermeadow"],
     "animations" : [
-
+      ["fly.qianim", "hello.qianim"],
+      ["qurious.qianim", "search.qianim"],
+      ["point_forward.qianim", "point_down_low.qianim", "sob.qianim"],
+      ["question.qianim", "head_slow_talk.qianim"],
+      ["surprise.qianim", "idea.qianim"],
+      ["think.qianim", "call_motion.qianim"],
+      ["head_slow_talk.qianim"],
+      ["firefly_dance.qianim", "gaze_up_slow.qianim"],
+      ["blossom_gesture.qianim", "wave_motion.qianim"]
     ]
   },
   {
@@ -368,7 +563,16 @@
     "sounds_path" : "$",
     "pics" : ["hedgehog","hat","hat","hat","hat","hedgehog","forest","puhche","tree_autumn","hedgehog"],
     "animations" : [
-
+      ["qurious.qianim", "sniff_motion.qianim"],
+      ["search.qianim", "point_down_low.qianim"],
+      ["surprise.qianim", "hand_recieve.qianim"],
+      ["blossom_gesture.qianim", "firefly_dance.qianim"],
+      ["head_slow_talk.qianim", "sob.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["wave_motion.qianim", "arm_slide.qianim"],
+      ["gaze_up_slow.qianim", "please.qianim"],
+      ["blossom_gesture.qianim", "wave_motion.qianim"],
+      ["hand_recieve.qianim", "thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -380,7 +584,16 @@
     "sounds_path" : "$",
     "pics" : ["cat_black","cat_black","cat_black","star","cat_black","owl","owl","owl","sparkles","cat_black"],
     "animations" : [
-
+      ["fly.qianim", "sniff_motion.qianim"],
+      ["search.qianim", "point_down_low.qianim", "surprise.qianim"],
+      ["hand_recieve.qianim", "oh.qianim"],
+      ["head_slow_talk.qianim", "sob.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["arm_slide.qianim", "gaze_up_slow.qianim"],
+      ["head_slow_talk.qianim", "please.qianim"],
+      ["blossom_gesture.qianim", "gaze_up_slow.qianim"],
+      ["firefly_dance.qianim", "hello.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -392,7 +605,16 @@
     "sounds_path" : "$",
     "pics" : ["squirrel","cloud_snow","squirrel","puhche","puhche","squirrel","squirrel","cloud_happy","bush_snow","squirrel"],
     "animations" : [
-
+      ["qurious.qianim", "thank_you.qianim"],
+      ["surprise.qianim", "search.qianim"],
+      ["question.qianim", "arm_slide.qianim"],
+      ["sniff_motion.qianim", "point_down_low.qianim"],
+      ["head_slow_talk.qianim", "sob.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["hand_recieve.qianim", "fly.qianim"],
+      ["gaze_up_slow.qianim", "blossom_gesture.qianim"],
+      ["firefly_dance.qianim", "wave_motion.qianim"],
+      ["hello.qianim", "arm_slide.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -404,7 +626,17 @@
     "sounds_path" : "$",
     "pics" : ["bear","tree_autumn","tree_autumn","puhche","puhche","bear","pond","mountain","tree_autumn","tree_autumn","tree_autumn"],
     "animations" : [
-
+      ["fly.qianim", "thank_you.qianim"],
+      ["qurious.qianim", "blossom_gesture.qianim"],
+      ["surprise.qianim", "head_slow_talk.qianim"],
+      ["sob.qianim", "question.qianim"],
+      ["think.qianim", "idea.qianim"],
+      ["arm_slide.qianim"],
+      ["wave_motion.qianim", "search.qianim"],
+      ["gaze_up_slow.qianim", "point_down_low.qianim"],
+      ["hand_recieve.qianim", "arm_slide.qianim"],
+      ["blossom_gesture.qianim", "firefly_dance.qianim"],
+      ["hand_recieve.qianim", "thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -416,7 +648,16 @@
     "sounds_path" : "$",
     "pics" : ["bear","cloud","puhche","puhche","bear","mountain","cave","cloud_rain","flowers","bear"],
     "animations" : [
-
+      ["sniff_motion.qianim", "firefly_dance.qianim"],
+      ["qurious.qianim", "question.qianim"],
+      ["point_down_low.qianim", "head_slow_talk.qianim"],
+      ["sob.qianim", "hand_recieve.qianim"],
+      ["idea.qianim", "squeeze_motion.qianim"],
+      ["wave_motion.qianim", "search.qianim"],
+      ["surprise.qianim", "hand_recieve.qianim"],
+      ["blossom_gesture.qianim", "wave_motion.qianim"],
+      ["firefly_dance.qianim", "hello.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -428,7 +669,16 @@
     "sounds_path" : "$",
     "pics" : ["squirrel","walnut","walnut","balloon","balloon","squirrel","balloon","tree_autumn","walnut","walnut"],
     "animations" : [
-
+      ["fly.qianim", "sniff_motion.qianim"],
+      ["search.qianim", "point_down_low.qianim"],
+      ["surprise.qianim", "blossom_gesture.qianim"],
+      ["oh.qianim", "head_slow_talk.qianim"],
+      ["hand_recieve.qianim", "gaze_up_slow.qianim"],
+      ["hello.qianim", "wave_motion.qianim"],
+      ["head_slow_talk.qianim", "sob.qianim"],
+      ["search.qianim", "idea.qianim"],
+      ["point_forward.qianim", "hand_recieve.qianim"],
+      ["hand_recieve.qianim", "thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -440,7 +690,16 @@
     "sounds_path" : "$",
     "pics" : ["bear","moon","firefly2","firefly2","bear","bag","bag","bag","firefly1","bear"],
     "animations" : [
-
+      ["qurious.qianim", "firefly_dance.qianim"],
+      ["search.qianim", "question.qianim"],
+      ["sniff_motion.qianim", "point_down_low.qianim"],
+      ["head_slow_talk.qianim", "sob.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["arm_slide.qianim", "point_forward.qianim"],
+      ["surprise.qianim", "hand_recieve.qianim"],
+      ["hand_recieve.qianim", "wave_motion.qianim"],
+      ["blossom_gesture.qianim", "firefly_dance.qianim"],
+      ["thank_you.qianim", "gaze_up_slow.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -452,7 +711,17 @@
     "sounds_path" : "$",
     "pics" : ["panda","panda","panda","bamboo","puhche","panda","mountain","bamboo","flute","forest","forest"],
     "animations" : [
-
+      ["fly.qianim", "sniff_motion.qianim"],
+      ["question.qianim", "search.qianim"],
+      ["head_slow_talk.qianim"],
+      ["point_down_low.qianim", "sob.qianim"],
+      ["head_slow_talk.qianim", "question.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["wave_motion.qianim", "arm_slide.qianim"],
+      ["surprise.qianim", "hand_recieve.qianim"],
+      ["blossom_gesture.qianim", "wave_motion.qianim"],
+      ["firefly_dance.qianim", "hello.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -464,7 +733,17 @@
     "sounds_path" : "$",
     "pics" : ["bunny","letter","cloud_happy","bunny","cloud_happy","bunny","pond","pond","bag","cloud_happy","bunny"],
     "animations" : [
-
+      ["sniff_motion.qianim", "thank_you.qianim"],
+      ["gaze_up_slow.qianim", "hello.qianim"],
+      ["surprise.qianim", "search.qianim"],
+      ["question.qianim", "head_slow_talk.qianim"],
+      ["sob.qianim", "hand_recieve.qianim"],
+      ["idea.qianim", "final_nod.qianim"],
+      ["wave_motion.qianim", "point_down_low.qianim"],
+      ["surprise.qianim", "point_forward.qianim"],
+      ["hand_recieve.qianim", "please.qianim"],
+      ["blossom_gesture.qianim", "firefly_dance.qianim"],
+      ["call_motion.qianim", "thank_you.qianim", "final_nod.qianim"]
     ]
   }
 ]

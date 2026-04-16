@@ -32,7 +32,7 @@
     "id" : "1",
     "group" : "1",
     "sounds_path" : "valshebnatagradina",
-    "pics" : [ ],
+    "pics" : ["bear", "bird_blue", "bird_blue", "bird_blue", "forest", "river", "musical_notes2", "bear"],
     "animations" : [
       ["qurious.qianim", "point_around.qianim"],
       ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
@@ -52,7 +52,7 @@
     "id" : "2",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bunny", "waterdrop", "waterdrop", "flower_purple", "fairy", "bunny", "pond", "puhche" ],
     "animations" : [
       ["qurious.qianim"],
       ["search.qianim", "surprise.qianim", "point_down_low.qianim"],
@@ -72,7 +72,7 @@
     "id" : "3",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["cat_black", "moth", "moth", "cat_black", "forest", "tree_spring", "firefly1", "firefly1", "cat_black" ],
     "animations" : [
       ["qurious.qianim", "arm_slide.qianim"],
       ["hand_raise.qianim", "fly.qianim"],
@@ -92,7 +92,7 @@
     "id" : "4",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["turtle", "turtle", "seagull", "seagull", "cave", "puhche", "turtle", "puhche", "waves", "turtle", "puhche"],
     "animations" : [
       ["qurious.qianim", "wave_motion.qianim"],
       ["wakeup.qianim", "head_slow_tilt.qianim"],

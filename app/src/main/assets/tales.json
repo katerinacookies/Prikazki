@@ -5,7 +5,7 @@
     "author_audio" : "yankaivanova.mp3",
     "id" : "0",
     "group" : "1",
-    "sounds_path" : "valshebnatagradina",
+    "soundsPath" : "valshebnatagradina",
     "pics" : [
       "fairy",
       "bunny",
@@ -27,15 +27,15 @@
   },
   {
     "name" : "Мечо и вълшебната утринна песен",
-    "author_name" : "Янка Иванова",
-    "author_audio" : "yankaivanova.mp3",
+    "author_name" : "$Митко Тромпета",
+    "author_audio" : "$mitko_trompeta",
     "id" : "1",
     "group" : "1",
     "sounds_path" : "valshebnatagradina",
-    "pics" : [ ],
+    "pics" : ["bear", "bird_blue", "bird_blue", "bird_blue", "forest", "river", "musical_notes2", "bear"],
     "animations" : [
       ["qurious.qianim", "point_around.qianim"],
-      ["wakeup.qianim", "arm_slide.qianim"],
+      ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
       ["question.qianim", "sob.qianim"],
       ["think.qianim", "idea.qianim"],
       ["slow_talk.qianim", "no.qianim"],
@@ -52,9 +52,9 @@
     "id" : "2",
     "group" : "1",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bunny", "waterdrop", "waterdrop", "flower_purple", "fairy", "bunny", "pond", "puhche" ],
     "animations" : [
-      ["qurious.qianim", ".qianim"],
+      ["qurious.qianim"],
       ["search.qianim", "surprise.qianim", "point_down_low.qianim"],
       ["sweet_child.qianim", "follow_motion.qianim", "hello.qianim"],
       ["arm_circle.qianim", "hand_raise.qianim", "blossom_gesture.qianim"],
@@ -63,6 +63,408 @@
       ["rain.qianim", "firefly_dance.qianim"],
       ["hand_raise.qianim", "sweet_child.qianim", "sleep.qianim"]
     ]
-  }
+  },
+  {
+    "name" : "Котето Мъри и нощната пеперуда",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "3",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["cat_black", "moth", "moth", "cat_black", "forest", "tree_spring", "firefly1", "firefly1", "cat_black" ],
+    "animations" : [
+      ["qurious.qianim", "arm_slide.qianim"],
+      ["hand_raise.qianim", "fly.qianim"],
+      ["sob.qianim", "question.qianim"],
+      ["wakeup.qianim", "idea.qianim"],
+      ["sweet_child.qianim"],
+      ["point_forward.qianim", "disbelief.qianim"],
+      ["think.qianim", "call_motion.qianim", "rain.qianim"],
+      ["rainbow.qianim", "hand_raise.qianim"],
+      ["thank_you.qianim", "nose_touch.qianim", "sleep.qianim"]
+    ]
+  },
+  {
+    "name" : "Малката костенурка Тина и песента на морето",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "4",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["turtle", "turtle", "seagull", "seagull", "cave", "puhche", "turtle", "puhche", "waves", "turtle", "puhche"],
+    "animations" : [
+      ["qurious.qianim", "wave_motion.qianim"],
+      ["wakeup.qianim", "head_slow_tilt.qianim"],
+      ["arm_slide.qianim", "point_forward.qianim"],
+      ["question.qianim", "sob.qianim"],
+      ["search.qianim", "qurious.qianim"],
+      ["sweet_child.qianim", "heartattack.qianim"],
+      ["idea.qianim", "hello.qianim"],
+      ["slow_talk.qianim", "fly.qianim"],
+      ["wave_motion.qianim", "hand_raise.qianim"],
+      ["thank_you.qianim"],
+      ["nose_touch.qianim", "sleep.qianim"]
+    ]
+  },
+  {
+    "name" : "Лисичето Рони и тайният аромат на гората",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "5",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["fox", "fox", "waterdrop", "fox", "owl", "cloud_happy","cloud_happy", "cloud_happy"],
+    "animations" : [
+      ["random.qianim"]
+    ]
+  },
+  {
+    "name" : "Патенцето Пипи и златната вълничка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "6",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["duckling", "wave_puhche", "wave_puhche", "duckling","duckling","rocks","wave", "wave_puhche","duckling"],
+    "animations" : [
 
+    ]
+  },
+  {
+    "name" : "Жирафчето Лили и небесната четка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "7",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["giraffe","giraffe","paintbrush","spirit","spirit","paintbrush","spirit","colorful","colorful","giraffe"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Мечето Тото и приятелят от снежното облаче",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "8",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bear","cloud_snow","cloud_snow","bear","mountain","mountain","clouds","cloud_snow","bush_snow"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Катеричката Мими и вълшебният орех",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "9",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["squirrel","walnut","walnut","owl","owl","squirrel","forest","squirrel"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото конче Рони и песента на вятъра",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "10",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["horse","horse","puhche","puhche","horse","pond","mountain","musical_notes2","puhche","horse"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малката рибка Фифа и изгубеното мехурче",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "11",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["fish","fish","bubble","bubble","fish","water_lily","crab","waterfall","fish","bubble","bubble","fish"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Зайчето Тото и вълшебният морков",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "12",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bunny","carrot","carrot","carrot","turtle","bunny","bunny","turtle","bunny"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Пеперудката Зара и градината на цветовете",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "13",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["butterfly","flowers_colorless","flowers_colorless","flower_tulip","butterfly","cave","cloud_happy","cloud_happy","butterfly",
+    "flowermeadow","flower_tulip","cloud_happy"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Мечето Бруно и звездната пътека",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "14",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bear","star","star","star","bear","river","tree_spring","stairway_to_heaven","star","bear"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Костенурката Тина и малката капчица смелост",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "15",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["turtle","pond","waterdrop","waterdrop","turtle","grass","cave","turtle","waterdrop","cloud_happy","turtle"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото лъвче Лео и песента на саваната",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "16",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["lion","savannah","lion","lion","giraffe","elephant","lion","puhche","puhche","lion","lion","puhche","savannah","savannah"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Птичето Пико и изгубеното перце на вятъра",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "17",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bird_yellow","bird_yellow","feather","feather","bird_yellow","eagle","eagle","eagle","wind","bird_yellow"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "(недовършени снимки) Мечето Мони и часовникът на гората",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "18",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bear","bear","bear","clock_puhche","clock_puhche","bear"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малката мишчица Мина и нощният фенер",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "19",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["mouse","star","firefly1","firefly1","mouse","moon","river","river","leaf","leaf","firefly1","mouse"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Еленчето Рико и снежната мелодия",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "20",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["deer","deer","tree_snow","tree_snow","puhche","deer","pond","bell","bell","cloud_snow","deer"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Котето Мъри и музикалната локвичка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "21",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["cat_grey","puddle","puddle","cat_grey","puddle","bush","waterdrop","cat_grey","puddle","cat_grey","cat_grey"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "(недовършени снимки) Патенцето Лили и облачната пързалка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "22",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["duckling","cloud","duckling","cloud","duckling","pond"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Жабчето Кико и лунната корон",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "23",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["frog","moon","frog","moon","firefly1","firefly1","gem_yellow","frog","frog","moon","frog"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Лисичето Фифи и песента на есента",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "24",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["fox","fox","fox","puhche","puhche","fox","twig","puhche","flute","fox","fox"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малката пчеличка Биби и изгубеното слънчице",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "25",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bee","cloud","flower_tulip","star","bee","wind","bee","wind","sun","flowermeadow"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Ежко Пухчо и вълшебната есенна шапка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "26",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["hedgehog","hat","hat","hat","hat","hedgehog","forest","puhche","tree_autumn","hedgehog"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото кученце Рони и звездната костичка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "27",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["cat_black","cat_black","cat_black","star","cat_black","owl","owl","owl","sparkles","cat_black"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Катеричката Сиси и снежният пух",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "28",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["squirrel","cloud_snow","squirrel","puhche","puhche","squirrel","squirrel","cloud_happy","bush_snow","squirrel"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото мече Кики и високия бор",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "29",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bear","tree_autumn","tree_autumn","puhche","puhche","bear","pond","mountain","tree_autumn","tree_autumn","tree_autumn"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото мече Лоло и песента на пролетния дъжд",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "30",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bear","cloud","puhche","puhche","bear","mountain","cave","cloud_rain","flowers","bear"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малката катеричка Рони и ореховият балон",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "31",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["squirrel","walnut","walnut","balloon","balloon","squirrel","balloon","tree_autumn","walnut","walnut"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото мече Тими и светулковата нощ",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "32",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bear","moon","firefly2","firefly2","bear","bag","bag","bag","firefly1","bear"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото мече Лулу и бамбуковата мелодия",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "33",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["panda","panda","panda","bamboo","puhche","panda","mountain","bamboo","flute","forest","forest"],
+    "animations" : [
+
+    ]
+  },
+  {
+    "name" : "Малкото зайче Пипи и облачната поща",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "34",
+    "group" : "1",
+    "sounds_path" : "$",
+    "pics" : ["bunny","letter","cloud_happy","bunny","cloud_happy","bunny","pond","pond","bag","cloud_happy","bunny"],
+    "animations" : [
+
+    ]
+  }
 ]

@@ -7,8 +7,13 @@
         "group" : "1",
         "soundsPath" : "valshebnatagradina",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "fairy",
+            "bunny",
+            "fairy",
+            "flowermeadow",
+            "flowermeadow",
+            "fairy",
+            "bunny"
         ],
         "animations" : [
             ["slow_talk.anim"],
@@ -28,8 +33,15 @@
         "group" : "1",
         "soundsPath" : "parzalkazaoblache",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "mountain",
+            "cloudmom",
+            "mountain",
+            "bath",
+            "mountain",
+            "rainbow",
+            "rainbow",
+            "rainbow",
+            "cloud"
         ],
         "animations" : [
             [".anim" ],
@@ -86,26 +98,26 @@
         "name" : "Под Гъбата",
         "author_name" : "Владимир Сутеев",
         "author_audio" : "vladimirsuteev.wav",
-        "id" : "2",
+        "id" : "4",
         "group" : "1",
         "soundsPath" : "podgubata",
         "pics" : [
-            "podgubata_guba",
-            "podgubata_butterfly",
-            "podgubata_butterfly",
-            "podgubata_mouse",
-            "podgubata_mouse",
-            "podgubata_mouse",
-            "podgubata_sparrow",
-            "podgubata_sparrow",
-            "podgubata_bunny",
-            "podgubata_bunny",
-            "podgubata_fox",
-            "podgubata_sun",
-            "podgubata_sun",
-            "podgubata_frog",
-            "podgubata_frog",
-            "podgubata_guba"
+            "mushroom",
+            "butterfly",
+            "butterfly",
+            "mouse",
+            "mouse",
+            "mouse",
+            "sparrow",
+            "sparrow",
+            "bunny",
+            "bunny",
+            "fox",
+            "sun",
+            "sun",
+            "frog",
+            "frog",
+            "guba"
         ],
         "animations" : [
             ["rain.anim"],

@@ -1,0 +1,107 @@
+[
+  {
+    "tale_id" : "0",
+    "questions" : [
+      {
+        "text" : "Question 1",
+        "audio_dir" : "audio_dir",
+        "answers" : [
+          {
+            "text" : "answer 1",
+            "audio" : "auidio1_dir"
+          },
+          {
+            "text" : "answer 2",
+            "audio" : "auidio2_dir"
+          },
+          {
+            "text" : "answer 3",
+            "audio" : "auidio3_dir"
+          }
+        ],
+        "right_answer_id" : 2
+      },
+      {
+        "text" : "Question 2",
+        "audio_dir" : "audio_dir",
+        "answers" : [
+          {
+            "text" : "answer 1",
+            "audio" : "auidio1_dir"
+          },
+          {
+            "text" : "answer 2",
+            "audio" : "auidio2_dir"
+          },
+          {
+            "text" : "answer 3",
+            "audio" : "auidio3_dir"
+          }
+        ],
+        "right_answer_id" : 2
+      }
+    ]
+  },
+  {
+    "tale_id" : "4",
+    "questions" : [
+      {
+        "text" : "Колко са животните под гъбата?",
+        "audio_dir" : "tryagain",
+        "answers" : [
+          {
+            "text" : "3",
+            "audio" : "gj"
+          },
+          {
+            "text" : "5",
+            "audio" : "gj"
+          },
+          {
+            "text" : "4",
+            "audio" : "gj"
+          }
+        ],
+        "right_answer_id" : 1
+      },
+      {
+        "text" : "Кой седи върху гъбата?",
+        "audio_dir" : "tryagain",
+        "answers" : [
+          {
+            "text" : "Жабата",
+            "audio" : "gj"
+          },
+          {
+            "text" : "Пчелата",
+            "audio" : "gj"
+          },
+          {
+            "text" : "Катерицата",
+            "audio" : "gj"
+          }
+        ],
+        "right_answer_id" : 0
+      },
+      {
+        "text" : "От кого тича заекът?",
+        "audio_dir" : "tryagain",
+        "answers" : [
+          {
+            "text" : "Вълка",
+            "audio" : "gj"
+          },
+          {
+            "text" : "Мечката",
+            "audio" : "gj"
+          },
+          {
+            "text" : "Лисицата",
+            "audio" : "gj"
+          }
+        ],
+        "right_answer_id" : 2
+      }
+    ]
+  }
+]

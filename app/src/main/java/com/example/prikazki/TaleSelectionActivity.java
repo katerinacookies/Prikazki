@@ -49,7 +49,8 @@ public class TaleSelectionActivity extends AppCompatActivity {
 
     private void loadTalesFromJson(int groupId) {
         try {
-            InputStream is = getAssets().open("example.json");
+            //InputStream is = getAssets().open("example.json");
+            InputStream is = getAssets().open("tales.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -78,4 +79,4 @@ public class TaleSelectionActivity extends AppCompatActivity {
             Toast.makeText(this, "Грешка при зареждане на JSON", Toast.LENGTH_SHORT).show();
         }
     }
-    }
+}

@@ -1,0 +1,28 @@
+[
+    {
+        "name" : "Вълшебната градина на пролетта",
+        "author_name" : "Янка Иванова",
+        "author_audio" : "yankaivanova.mp3",
+        "id" : "0",
+        "group" : "1",
+        "soundsPath" : "valshebnatagradina",
+        "pics" : [
+            "fairy",
+            "bunny",
+            "fairy",
+            "flowermeadow",
+            "flowermeadow",
+            "fairy",
+            "bunny"
+        ],
+        "animations" : [
+            ["slow_talk.anim"],
+            [""],
+            [""],
+            ["point_around.anim"],
+            ["rainbow.anim"],
+            [],
+            ["sassy_f.anim"]
+        ]
+    }
+]

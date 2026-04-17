@@ -146,8 +146,15 @@
         "group" : "1",
         "soundsPath" : "akocvetovetebqhasivi",
         "pics" : [
-            "step1pic",
-            "step2pic"
+            "akocvetovetebqhasivi_village_start",
+            "akocvetovetebqhasivi_clear_sky",
+            "akocvetovetebqhasivi_people",
+            "akocvetovetebqhasivi_sky_smoke",
+            "akocvetovetebqhasivi_village_start",
+            "akocvetovetebqhasivi_grey_house",
+            "akocvetovetebqhasivi_grandma_child",
+            "akocvetovetebqhasivi_grey_house",
+            "akocvetovetebqhasivi_village_start"
         ],
         "animations" : [
             ["anim1.anim"]

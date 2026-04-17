@@ -1,7 +1,7 @@
 [
   {
     "tale_id" : "0",
-    "questions" :[
+    "questions" : [
       {
         "text" : "Question 1",
         "audio_dir" : "audio_dir",

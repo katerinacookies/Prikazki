@@ -235,7 +235,7 @@
     "pics" : ["fish","fish","bubble","bubble","fish","water_lily","crab","waterfall","fish","bubble","bubble","fish"],
     "animations" : [
       ["qurious.qianim", "wave_motion.qianim"],
-      ["sniff_motion.qianim", "squeeze_motion.qianim"],
+      ["sniff_motion.qianim"],
       ["surprise.qianim", "blossom_gesture.qianim"],
       ["gaze_up_slow.qianim", "point_to_bird.qianim"],
       ["call_motion.qianim", "follow_motion.qianim"],
@@ -326,7 +326,7 @@
       ["head_slow_talk.qianim", "hand_recieve.qianim"],
       ["surprise.qianim", "gaze_up_slow.qianim"],
       ["thank_you.qianim", "call_motion.qianim"],
-      ["squeeze_motion.qianim", "final_nod.qianim"],
+      ["final_nod.qianim"],
       ["wave_motion.qianim", "sleep.qianim"],
       ["idea.qianim", "blossom_gesture.qianim"],
       ["slow_talk.qianim", "hand_recieve.qianim"],
@@ -349,7 +349,7 @@
       ["head_slow_talk.qianim", "point_to_bird.qianim"],
       ["wave_motion.qianim", "sob.qianim"],
       ["point_forward.qianim", "head_slow_talk.qianim"],
-      ["idea.qianim", "squeeze_motion.qianim"],
+      ["idea.qianim"],
       ["point_down_low.qianim", "hand_recieve.qianim"],
       ["sob.qianim", "head_slow_talk.qianim"],
       ["thank_you.qianim", "please.qianim"],
@@ -371,7 +371,7 @@
       ["question.qianim", "head_slow_talk.qianim"],
       ["search.qianim", "head_slow_talk.qianim"],
       ["sniff_motion.qianim", "head_slow_talk.qianim"],
-      ["idea.qianim", "squeeze_motion.qianim"],
+      ["idea.qianim"],
       ["gaze_up_slow.qianim", "think.qianim"],
       ["hand_recieve.qianim", "fly.qianim"],
       ["thank_you.qianim", "blossom_gesture.qianim"],
@@ -394,7 +394,7 @@
       ["surprise.qianim", "hand_recieve.qianim"],
       ["sob.qianim", "head_slow_talk.qianim"],
       ["idea.qianim", "arm_slide.qianim"],
-      ["slow_talk.qianim", "squeeze_motion.qianim"],
+      ["slow_talk.qianim"],
       ["point_down_low.qianim", "wave_motion.qianim", "gaze_up_slow.qianim"],
       ["firefly_dance.qianim", "hello.qianim"],
       ["blossom_gesture.qianim", "final_nod.qianim"]
@@ -440,7 +440,7 @@
       ["head_slow_talk.qianim", "question.qianim"],
       ["idea.qianim", "final_nod.qianim"],
       ["point_down_low.qianim", "search.qianim"],
-      ["squeeze_motion.qianim", "surprise.qianim"],
+      ["surprise.qianim"],
       ["hand_recieve.qianim", "please.qianim"],
       ["firefly_dance.qianim", "blossom_gesture.qianim"],
       ["hello.qianim", "final_nod.qianim"]
@@ -461,7 +461,7 @@
       ["question.qianim", "head_slow_talk.qianim"],
       ["sob.qianim", "idea.qianim"],
       ["arm_slide.qianim", "point_down_low.qianim"],
-      ["head_slow_talk.qianim", "squeeze_motion.qianim"],
+      ["head_slow_talk.qianim"],
       ["thank_you.qianim", "call_motion.qianim"],
       ["hand_recieve.qianim", "wave_motion.qianim"],
       ["think.qianim", "final_nod.qianim"],
@@ -652,7 +652,7 @@
       ["qurious.qianim", "question.qianim"],
       ["point_down_low.qianim", "head_slow_talk.qianim"],
       ["sob.qianim", "hand_recieve.qianim"],
-      ["idea.qianim", "squeeze_motion.qianim"],
+      ["idea.qianim"],
       ["wave_motion.qianim", "search.qianim"],
       ["surprise.qianim", "hand_recieve.qianim"],
       ["blossom_gesture.qianim", "wave_motion.qianim"],
@@ -744,6 +744,487 @@
       ["hand_recieve.qianim", "please.qianim"],
       ["blossom_gesture.qianim", "firefly_dance.qianim"],
       ["call_motion.qianim", "thank_you.qianim", "final_nod.qianim"]
+    ]
+  },
+
+  {
+    "name" : "Лисичето Рони и приятелството, което се изгуби",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "35",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Мечето Бруно и новият съсед в гората",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "36",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Зайчето Лили и споделената морковена торта",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "37",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Катеричката Мина и изгубената игра",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "38",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Патето Фифо и приятелят, който се страхуваше от вода",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "39",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Костенурчето Тото и приятелят, който бързаше твърде много",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "40",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Птичето Пико и приятелят, който не можеше да лети",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "41",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Лъвчето Лео и приятелят, който се срамуваше да говори",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "42",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Лъвчето Лео и тъмната пещера",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "43",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Костенурчето Нана и високият мост",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "44",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Птичето Рико и първият полет",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "45",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Мечето Тими и големият шум в гората",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "46",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Жабчето Кико и големият скок",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "47",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Котенцето Моли и бурята на прозореца",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "48",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Пингвинчето Пепи и първото гмуркане",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "49",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Мишлето Тити и голямата сянка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "50",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Катеричката Сиси и първият пролетен цвят",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "51",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Мечето Бруно и най-топлият летен ден",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "52",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Лисичето Рони и танцът на есенните листа",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "53",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Зайчето Лили и първият сняг",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "54",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Патето Фифо и песента на дъжда",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "55",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Мишлето Мими и вятърният шепот",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "56",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Рибката Лили и тайната на реката",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "57",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Совата Ори и нощното небе",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "58",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Мечето Боби и тъжният облак",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "59",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Зайчето Поли и голямата радост",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "60",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Лисичето Фреди и ядосаната опашка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "61",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Катеричката Мина и страхът от нови неща",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "62",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Еленчето Рина и спокойният дъх",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "63",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Пандата Лили и денят на обърканите чувства",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "64",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Жабчето Коко и думите, които нараняват",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "65",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Катеричката Сиси и голямата прегръдка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "66",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Лисичето Рони и вълшебната светулка Луми",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "67",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Пеперудката Фея и изгубеното вълшебство",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "68",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Дракончето Дино и огненото сърце",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "69",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Русалчето Мира и песента на морето",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "70",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Еднорoжката Луна и звездният мост",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "71",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Малката вещица Мила и метлата, която не слушаше",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "72",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Гномчето Тото и златната шишарка",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "73",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
+    ]
+  },
+  {
+    "name" : "Малкият великан Вико и гората на гигантите",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "74",
+    "group" : "2",
+    "sounds_path" : "$",
+    "pics" : [ ],
+    "animations" : [
+      
     ]
   }
 ]

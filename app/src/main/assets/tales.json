@@ -754,7 +754,7 @@
     "id" : "35",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fox_happy", "hedgehog", "tree_oak", "forest", "fox_happy", "hedgehog", "fox_happy", "hedgehog", "tree_oak", "hedgehog"],
     "animations" : [
       
     ]
@@ -766,7 +766,7 @@
     "id" : "36",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear", "mole", "mole","bear", "happy_animals", "happy_animals", "mole", "bear", "happy_animals", "mole", "bear", "mole"],
     "animations" : [
       
     ]
@@ -778,7 +778,7 @@
     "id" : "37",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bunny_chef", "carrot_cake","carrot_cake", "bird_bear_squirrel", "bunny_normal", "bird_bear_squirrel", "bunny_normal"],
     "animations" : [
       
     ]
@@ -790,7 +790,7 @@
     "id" : "38",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel", "happy_animals", "squirrel", "tree_oak", "squirrel", "happy_animals"],
     "animations" : [
       
     ]
@@ -802,7 +802,7 @@
     "id" : "39",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["duckling", "mouse", "mouse", "duckling", "ducky", "mouse", "mouse", "ducky"],
     "animations" : [
       
     ]
@@ -814,7 +814,7 @@
     "id" : "40",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["turtle", "deer", "turtle", "forest_path2", "deer", "deer", "turtle", "mountain"],
     "animations" : [
       
     ]
@@ -826,7 +826,7 @@
     "id" : "41",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bird_yellow", "hedgehog", "leaf", "mountain", "hedgehog", "bird_yellow"],
     "animations" : [
       
     ]
@@ -838,7 +838,7 @@
     "id" : "42",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["lion", "antelope", "happy_animals", "lion", "happy_animals", "antelope", "lion", "lion"],
     "animations" : [
       
     ]
@@ -850,7 +850,7 @@
     "id" : "43",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["lion", "cave", "lion", "cave", "firefly1", "firefly1", "lion", "happy_animals", "lion", "lion"],
     "animations" : [
       
     ]
@@ -862,7 +862,7 @@
     "id" : "44",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["turtle", "bridge", "turtle", "happy_animals", "bunny_normal", "turtle", "bridge", "happy_animals", "turtle"],
     "animations" : [
       
     ]
@@ -874,7 +874,7 @@
     "id" : "45",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bird_blue", "bird_yellow", "bird_blue", "bird_nest", "bird_blue", "bird_branch", "bird_blue", "bird_flying", "bird_flying"],
     "animations" : [
       
     ]
@@ -886,7 +886,7 @@
     "id" : "46",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear", "bear", "bird_yellow", "bird_yellow", "pinecone", "bird_yellow", "bear"],
     "animations" : [
       
     ]
@@ -898,7 +898,7 @@
     "id" : "47",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["frog", "frog","frogs", "turtle", "turtle", "frog", "frog", "frog_scared", "frogs"],
     "animations" : [
       
     ]
@@ -910,7 +910,7 @@
     "id" : "48",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["cat_black", "cloud_thunders", "cat_grey", "cat_grey", "cat_grey", "cloud_thunders", "cat_black"],
     "animations" : [
       
     ]
@@ -922,7 +922,7 @@
     "id" : "49",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["penguin1", "penguin1", "penguin1", "penguin2", "penguin2", "penguin1", "penguin1"],
     "animations" : [
       
     ]
@@ -934,7 +934,7 @@
     "id" : "50",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["mouse", "rat_shadow", "rat_shadow", "owl", "owl", "rat_shadow", "mouse"],
     "animations" : [
       
     ]

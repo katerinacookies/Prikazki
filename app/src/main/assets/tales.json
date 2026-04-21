@@ -1013,7 +1013,7 @@
     "id" : "51",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel", "bush_snow", "tree_snow", "flower_stages", "flower_stages", "flower_stages", "flower_spring"],
     "animations" : [
       
     ]
@@ -1025,7 +1025,7 @@
     "id" : "52",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear", "river", "turtle", "fruit_basket", "forest_path", "bear"],
     "animations" : [
       
     ]
@@ -1037,7 +1037,7 @@
     "id" : "53",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["leaves_autumn", "fox_happy", "leaves_autumn", "fox_happy", "puhche", "fox_happy", "leaf_yellow"],
     "animations" : [
       
     ]
@@ -1049,7 +1049,7 @@
     "id" : "54",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bunny", "deer", "snowball", "snowball", "bunny", "deer"],
     "animations" : [
       
     ]
@@ -1061,7 +1061,7 @@
     "id" : "55",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["duckling", "cloud_rain", "frog", "frog", "cloud_rain", "musical_notes2", "ducky", "ducky"],
     "animations" : [
       
     ]
@@ -1073,7 +1073,7 @@
     "id" : "56",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["mouse", "wind", "squirrel", "squirrel", "wind", "mouse","mouse"],
     "animations" : [
       
     ]
@@ -1085,7 +1085,7 @@
     "id" : "57",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fish", "river", "fish", "lake1", "waterfall", "underwater", "fish"],
     "animations" : [
       
     ]
@@ -1097,7 +1097,7 @@
     "id" : "58",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["owl", "deer", "owl", "sky_night", "sky_night", "sky_night"],
     "animations" : [
       
     ]
@@ -1109,7 +1109,7 @@
     "id" : "59",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["bear", "bird_yellow", "bird_yellow", "cloud_dark", "sky_sunny", "bear"],
     "animations" : [
       
     ]
@@ -1121,7 +1121,7 @@
     "id" : "60",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["strawberry", "bunny_normal", "turtle", "turtle", "squirrel", "squirrel", "bear", "bear", "bunny_normal"],
     "animations" : [
       
     ]
@@ -1133,7 +1133,7 @@
     "id" : "61",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fox", "pine_cones", "fox", "deer", "deer", "fox", "deer", "fox_happy"],
     "animations" : [
       
     ]
@@ -1145,7 +1145,7 @@
     "id" : "62",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel", "happy_animals", "frog_scared", "squirrel", "leaf", "squirrel"],
     "animations" : [
       
     ]
@@ -1157,7 +1157,7 @@
     "id" : "63",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["deer", "happy_animals", "owl", "tree_oak", "deer", "owl"],
     "animations" : [
       
     ]
@@ -1169,7 +1169,7 @@
     "id" : "64",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["panda", "panda", "panda", "owl", "owl", "sky_sunny", "panda"],
     "animations" : [
       
     ]
@@ -1181,7 +1181,7 @@
     "id" : "65",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["frog_scared", "frog", "turtle", "turtle", "frog", "frog", "frogs", "frog"],
     "animations" : [
       
     ]
@@ -1193,7 +1193,7 @@
     "id" : "66",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["squirrel", "squirrel", "bear", "bear", "bear", "squirrel"],
     "animations" : [
       
     ]
@@ -1205,7 +1205,7 @@
     "id" : "67",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["fox_happy", "firefly1", "forest_path", "meadow_night", "meadow_night", "fox_happy"],
     "animations" : [
       
     ]
@@ -1217,7 +1217,7 @@
     "id" : "68",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["butterfly", "butterfly", "mouse", "pond", "sparkles", "flower_tulip", "butterfly"],
     "animations" : [
       
     ]
@@ -1229,7 +1229,7 @@
     "id" : "69",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["dragon_small", "dragon_small", "dragon_big", "rolling_stone", "dragon_small", "dragon_small", "dragon_big"],
     "animations" : [
       
     ]
@@ -1241,7 +1241,7 @@
     "id" : "70",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["mermaid", "turtle", "lake1", "cave_underwater", "turtle", "musical_notes2", "mermaid"],
     "animations" : [
       
     ]
@@ -1253,7 +1253,7 @@
     "id" : "71",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["unicorn", "star", "unicorn", "sparkles", "unicorn", "star"],
     "animations" : [
       
     ]
@@ -1265,7 +1265,7 @@
     "id" : "72",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["witch", "broom", "broom", "witch", "broom", "witch"],
     "animations" : [
       
     ]
@@ -1277,7 +1277,7 @@
     "id" : "73",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["tree_oak", "dwarves", "pinecone", "bunny_normal", "dwarves", "bunny_normal", "dwarves"],
     "animations" : [
       
     ]
@@ -1289,7 +1289,7 @@
     "id" : "74",
     "group" : "2",
     "sounds_path" : "$",
-    "pics" : [ ],
+    "pics" : ["giant", "rolling_stone", "rolling_stone", "giant", "happy_animals", "giant"],
     "animations" : [
       
     ]

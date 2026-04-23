@@ -69,14 +69,15 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
-                ((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
+                //временно комент
+                //((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
             });
 
             // 1. Play Title Audio
             playAudio(authorAudio, () -> {
                 // 2. Play Author Audio
                 try {
-                    playAudio(authorAudio, () -> {
+                    /*playAudio(authorAudio, () -> {
                         // 3. Start Steps
                         runOnUiThread(() -> {
                             findViewById(R.id.headerLayout).setVisibility(View.GONE);
@@ -84,6 +85,12 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                             findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                         });
                         nextStep();
+                    });*/
+                    // 3. Start Steps
+                    runOnUiThread(() -> {
+                        findViewById(R.id.headerLayout).setVisibility(View.GONE);
+                        findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+                        findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                     });
                 } catch (Exception e) {
                     nextStep();

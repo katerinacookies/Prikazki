@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, TaleActivity4.class);
+                Intent intent = new Intent(MainActivity.this, TaleSelectionActivity.class);
                 intent.putExtra("GROUP_ID", 4);
                 startActivity(intent);
             }

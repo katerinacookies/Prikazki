@@ -1,0 +1,86 @@
+[
+  {
+    "name" : "Прасенцето Пумпи и приятелят, който се страхуваше да готви",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "0",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
+        "animations" : [
+          ["qurious.qianim", "point_around.qianim"],
+          ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
+          ["question.qianim", "sob.qianim"],
+          ["think.qianim", "idea.qianim"],
+          ["slow_talk.qianim", "no.qianim"],
+          ["rain.qianim", "search.qianim", "surprise.qianim"],
+          ["sweet_child.qianim", "rainbow.qianim"],
+          ["thank_you.qianim", "hello.qianim"]
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
+        "animations" : [
+          ["qurious.qianim", "point_around.qianim"],
+          ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
+          ["question.qianim", "sob.qianim"],
+          ["think.qianim", "idea.qianim"],
+          ["slow_talk.qianim", "no.qianim"],
+          ["rain.qianim", "search.qianim", "surprise.qianim"],
+          ["sweet_child.qianim", "rainbow.qianim"],
+          ["thank_you.qianim", "hello.qianim"]
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
+        "animations" : [
+          ["qurious.qianim", "point_around.qianim"],
+          ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
+          ["question.qianim", "sob.qianim"],
+          ["think.qianim", "idea.qianim"],
+          ["slow_talk.qianim", "no.qianim"],
+          ["rain.qianim", "search.qianim", "surprise.qianim"],
+          ["sweet_child.qianim", "rainbow.qianim"],
+          ["thank_you.qianim", "hello.qianim"]
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Мечето Тони и приятелят, който се страхуваше да разказва истории",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "1",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : [],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : [],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : [],
+        "animations" : [
+
+        ]
+      }
+    ]
+  }
+]

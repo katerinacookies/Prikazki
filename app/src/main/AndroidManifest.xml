@@ -19,6 +19,7 @@
         </activity>
         <activity android:name=".TaleSelectionActivity" />
         <activity android:name=".TaleActivityMain" />
+        <activity android:name=".TaleActivity4"/>
     </application>
 
     <uses-feature android:name="com.softbank.hardware.pepper"/>

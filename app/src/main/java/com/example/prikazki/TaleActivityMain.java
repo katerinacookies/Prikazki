@@ -34,8 +34,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         setContentView(R.layout.activity_tale_player);
 
         try {
-            String taleIdString = getIntent().getStringExtra("TALE_ID");
-            String taleId = taleIdString;
+            String taleId = getIntent().getStringExtra("TALE_ID");
             loadTaleFromJSON(taleId);
         } catch (Exception e){
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
@@ -111,7 +110,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             runAnimationChain(animations, 0);
 
             // Play Step Audio
-            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".mp3";
+            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".wav";
 
             playAudio(audio, () -> {
                 // When audio finishes, wait a beat and go to next step

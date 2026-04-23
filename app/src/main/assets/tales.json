@@ -27,11 +27,11 @@
   },
   {
     "name" : "Мечо и вълшебната утринна песен",
-    "author_name" : "$Митко Тромпета",
-    "author_audio" : "$mitko_trompeta",
+    "author_name" : "Митко Тромпета",
+    "author_audio" : "mechoivalshebnatautrinnapesen_title",
     "id" : "1",
     "group" : "1",
-    "sounds_path" : "valshebnatagradina",
+    "sounds_path" : "mechoivalshebnatautrinnapesen",
     "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
     "animations" : [
       ["qurious.qianim", "point_around.qianim"],

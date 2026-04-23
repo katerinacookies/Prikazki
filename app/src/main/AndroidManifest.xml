@@ -18,6 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TaleSelectionActivity" />
+        <activity android:name=".TaleSelectionActivity4" />
+        <activity android:name=".Tale4PartSelectionActivity" />
         <activity android:name=".TaleActivityMain" />
         <activity android:name=".TaleActivity4"/>
     </application>

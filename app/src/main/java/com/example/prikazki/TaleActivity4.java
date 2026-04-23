@@ -30,7 +30,7 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d("DEBUG", "Hello world");
+        Log.e("DEBUG", "Hello world");
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tale_player);
@@ -174,7 +174,6 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             currentTale = Tale4.GetTaleDataFromId(this, targetTaleId, talePartId);
 
             if  (currentTale == null) {
-//                Toast.makeText(this, "JSON Loading Failed! Tale id: " + targetTaleId, Toast.LENGTH_LONG).show();
                 throw new Exception("JSON Loading Failed! Tale id: " + targetTaleId);
             }
 

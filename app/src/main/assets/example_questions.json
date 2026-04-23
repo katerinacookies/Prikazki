@@ -1,106 +1,5295 @@
 [
   {
-    "tale_id" : "0",
-    "questions" : [
+    "tale_id": "1",
+    "questions": [
       {
-        "text" : "Question 1",
-        "audio_dir" : "audio_dir",
-        "answers" : [
+        "text": "Какво беше загубила синята птичка?",
+        "audio_dir": "mecho/mecho_q1.mp3",
+        "answers": [
           {
-            "text" : "answer 1",
-            "audio" : "auidio1_dir"
+            "id": 0,
+            "text": "Гнездото си",
+            "audio": "mecho/mecho_q1_a1.mp3"
           },
           {
-            "text" : "answer 2",
-            "audio" : "auidio2_dir"
+            "id": 1,
+            "text": "Утринната си песен",
+            "audio": "mecho/mecho_q1_correct.mp3"
           },
           {
-            "text" : "answer 3",
-            "audio" : "auidio3_dir"
+            "id": 2,
+            "text": "Крилцето си",
+            "audio": "mecho/mecho_q1_a2.mp3"
           }
         ],
-        "right_answer_id" : 2
+        "right_answer_id": 1
       },
       {
-        "text" : "Question 2",
-        "audio_dir" : "audio_dir",
-        "answers" : [
+        "text": "Кой помогна да я намери?",
+        "audio_dir": "mecho/mecho_q2.mp3",
+        "answers": [
           {
-            "text" : "answer 1",
-            "audio" : "auidio1_dir"
+            "id": 0,
+            "text": "Катеричката",
+            "audio": "mecho/mecho_q2_a1.mp3"
           },
           {
-            "text" : "answer 2",
-            "audio" : "auidio2_dir"
+            "id": 1,
+            "text": "Мечо",
+            "audio": "mecho/mecho_q2_correct.mp3"
           },
           {
-            "text" : "answer 3",
-            "audio" : "auidio3_dir"
+            "id": 2,
+            "text": "Дъбът",
+            "audio": "mecho/mecho_q2_a2.mp3"
           }
         ],
-        "right_answer_id" : 2
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде откриха песента?",
+        "audio_dir": "tale_0/tale_0_q3.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "В хралупата",
+            "audio": "mecho/mecho_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "До реката върху камъче",
+            "audio": "mecho/mecho_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "На дървото",
+            "audio": "mecho/mecho_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
       }
     ]
   },
   {
-    "tale_id" : "4",
-    "questions" : [
+    "tale_id": "2",
+    "questions": [
       {
-        "text" : "Колко са животните под гъбата?",
-        "audio_dir" : "tryagain",
-        "answers" : [
+        "text": "Какво намери Бобо в началото?",
+        "audio_dir": "bunnybobo/bunnybobo_q1.mp3",
+        "answers": [
           {
-            "text" : "3",
-            "audio" : "gj"
+            "id": 0,
+            "text": "Листо",
+            "audio": "bunnybobo/tale_1_q1_a1.mp3"
           },
           {
-            "text" : "5",
-            "audio" : "gj"
+            "id": 1,
+            "text": "Блестяща капчица",
+            "audio": "bunnybobo/bunnybobo_q1_correct.mp3"
           },
           {
-            "text" : "4",
-            "audio" : "gj"
+            "id": 2,
+            "text": "Камъче",
+            "audio": "bunnybobo/bunnybobo_q1_a2.mp3"
           }
         ],
-        "right_answer_id" : 1
+        "right_answer_id": 1
       },
       {
-        "text" : "Кой седи върху гъбата?",
-        "audio_dir" : "tryagain",
-        "answers" : [
+        "text": "Коя се появи от розовото цвете?",
+        "audio_dir": "bunnybobo/bunnybobo_q2.mp3",
+        "answers": [
           {
-            "text" : "Жабата",
-            "audio" : "gj"
+            "id": 0,
+            "text": "Пеперуда",
+            "audio": "bunnybobo/bunnybobo_q2_a1.mp3"
           },
           {
-            "text" : "Пчелата",
-            "audio" : "gj"
+            "id": 1,
+            "text": "Водна фея",
+            "audio": "bunnybobo/bunnybobo_q2_correct.mp3"
           },
           {
-            "text" : "Катерицата",
-            "audio" : "gj"
+            "id": 2,
+            "text": "Рибка",
+            "audio": "bunnybobo/bunnybobo_q2_a2.mp3"
           }
         ],
-        "right_answer_id" : 0
+        "right_answer_id": 1
       },
       {
-        "text" : "От кого тича заекът?",
-        "audio_dir" : "tryagain",
-        "answers" : [
+        "text": "Какво получи Бобо като подарък?",
+        "audio_dir": "bunnybobo/bunnybobo_q3.mp3",
+        "answers": [
           {
-            "text" : "Вълка",
-            "audio" : "gj"
+            "id": 0,
+            "text": "Пролетно пухче",
+            "audio": "bunnybobo/bunnybobo_q3_correct.mp3"
           },
           {
-            "text" : "Мечката",
-            "audio" : "gj"
+            "id": 1,
+            "text": "Цвете",
+            "audio": "bunnybobo/bunnybobo_q3_a1.mp3"
           },
           {
-            "text" : "Лисицата",
-            "audio" : "gj"
+            "id": 2,
+            "text": "Камбанка",
+            "audio": "bunnybobo/bunnybobo_q3_a2.mp3"
           }
         ],
-        "right_answer_id" : 2
+        "right_answer_id": 0
+      }
+    ]
+  },
+  {
+    "tale_id": "3",
+    "questions": [
+      {
+        "text": "Кой помоли Мъри за помощ?",
+        "audio_dir": "catmurry/catmurry_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Светулка",
+            "audio": "catmurry/catmurry_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Нощна пеперуда",
+            "audio": "catmurry/catmurry_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Птичка",
+            "audio": "catmurry/catmurry_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха светулките?",
+        "audio_dir": "catmurry/catmurry_q2.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Запяха",
+            "audio": "catmurry/catmurry_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Направиха мост от светлина",
+            "audio": "catmurry/catmurry_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Заспаха",
+            "audio": "catmurry/catmurry_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво обеща пеперудата на Мъри?",
+        "audio_dir": "catmurry/catmurry_q3.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Игра",
+            "audio": "catmurry/catmurry_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Лунен лъч за сън",
+            "audio": "catmurry/catmurry_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Цвете",
+            "audio": "catmurry/catmurry_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "4",
+    "questions": [
+      {
+        "text": "Какво беше изгубено в началото?",
+        "audio_dir": "smalltina/smalltina_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Морето",
+            "audio": "smalltina/smalltina_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Вятърът",
+            "audio": "smalltina/smalltina_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Песъчето",
+            "audio": "smalltina/smalltina_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой помогна на вятърчето?",
+        "audio_dir": "smalltina/smalltina_q2.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Чайката",
+            "audio": "smalltina/smalltina_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Тина",
+            "audio": "smalltina/smalltina_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Рибката",
+            "audio": "smalltina/smalltina_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато вятърът се върна?",
+        "audio_dir": "smalltina/smalltina_q3.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Заваля дъжд",
+            "audio": "smalltina/smalltina_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Вълните запяха",
+            "audio": "smalltina/smalltina_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Слънцето изгря",
+            "audio": "smalltina/smalltina_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "5",
+    "questions": [
+      {
+        "text": "Какво усети Рони във въздуха?",
+        "audio_dir": "foxroni/foxroni_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Студ",
+            "audio": "foxroni/foxroni_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Сладък аромат",
+            "audio": "foxroni/foxroni_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Дим",
+            "audio": "foxroni/foxroni_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му обясни откъде идва ароматът?",
+        "audio_dir": "foxroni/foxroni_q2.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Мечето",
+            "audio": "foxroni/foxroni_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Совата Бела",
+            "audio": "foxroni/foxroni_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Катеричката",
+            "audio": "foxroni/foxroni_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как изглеждаше ароматният облак?",
+        "audio_dir": "foxroni/foxroni_q3.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Сив и голям",
+            "audio": "foxroni/foxroni_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Розов и пухкав",
+            "audio": "foxroni/foxroni_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Черен",
+            "audio": "foxroni/foxroni_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "6",
+    "questions": [
+      {
+        "text": "Какво различно видя Пипи във водата?",
+        "audio_dir": "duckpipi/duckpipi_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Камък",
+            "audio": "duckpipi/duckpipi_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Златна вълничка",
+            "audio": "duckpipi/duckpipi_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Листо",
+            "audio": "duckpipi/duckpipi_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Откъде беше златната вълничка?",
+        "audio_dir": "duckpipi/duckpipi_q2.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "От реката",
+            "audio": "duckpipi/duckpipi_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "От Голямото езеро",
+            "audio": "duckpipi/duckpipi_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От морето",
+            "audio": "duckpipi/duckpipi_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой дойде да я вземе?",
+        "audio_dir": "duckpipi/duckpipi_q3.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Патето",
+            "audio": "duckpipi/duckpipi_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Голяма вълна",
+            "audio": "duckpipi/duckpipi_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Рибка",
+            "audio": "duckpipi/duckpipi_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "7",
+    "questions": [
+      {
+        "text": "Какво намери Лили?",
+        "audio_dir": "giraffelily/giraffelily_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Камбанка",
+            "audio": "giraffelily/giraffelily_q1_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Небесна четка",
+            "audio": "giraffelily/giraffelily_q1_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Перце",
+            "audio": "giraffelily/giraffelily_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Защо небето било безцветно?",
+        "audio_dir": "giraffelily/giraffelily_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Било нощ",
+            "audio": "giraffelily/giraffelily_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Четката била изгубена",
+            "audio": "giraffelily/giraffelily_q2_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Валял дъжд",
+            "audio": "giraffelily/giraffelily_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "С кого Лили оцвети небето?",
+        "audio_dir": "giraffelily/giraffelily_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "С птичка",
+            "audio": "giraffelily/giraffelily_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "С облачно духче",
+            "audio": "giraffelily/giraffelily_q3_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "С лъвче",
+            "audio": "giraffelily/giraffelily_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "8",
+    "questions": [
+      {
+        "text": "Какво намери Тото в снега?",
+        "audio_dir": "beartoto/beartoto_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Снежно облаче",
+            "audio": "beartoto/beartoto_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Камък",
+            "audio": "beartoto/beartoto_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Шейна",
+            "audio": "beartoto/beartoto_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Защо облачето било тъжно?",
+        "audio_dir": "beartoto/beartoto_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Било гладно",
+            "audio": "beartoto/beartoto_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Било изгубено",
+            "audio": "beartoto/beartoto_q2_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Било мокро",
+            "audio": "beartoto/beartoto_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво обеща облачето?",
+        "audio_dir": "beartoto/beartoto_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Дъжд",
+            "audio": "beartoto/beartoto_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Снежинки",
+            "audio": "beartoto/beartoto_q3_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Слънце",
+            "audio": "beartoto/beartoto_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "9",
+    "questions": [
+      {
+        "text": "Какво необичайно намери Мими?",
+        "audio_dir": "squirrelmimi/squirrelmimi_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Златен орех",
+            "audio": "squirrelmimi/squirrelmimi_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Ябълка",
+            "audio": "squirrelmimi/squirrelmimi_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Камък",
+            "audio": "squirrelmimi/squirrelmimi_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво желание си пожела?",
+        "audio_dir": "squirrelmimi/squirrelmimi_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Играчка",
+            "audio": "squirrelmimi/squirrelmimi_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Храна за всички животни",
+            "audio": "squirrelmimi/squirrelmimi_q2_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да лети",
+            "audio": "squirrelmimi/squirrelmimi_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво се случи на следващия ден?",
+        "audio_dir": "squirrelmimi/squirrelmimi_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Заваля сняг",
+            "audio": "squirrelmimi/squirrelmimi_q3_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Гората се напълни с храна",
+            "audio": "squirrelmimi/squirrelmimi_q3_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стана тъмно",
+            "audio": "squirrelmimi/squirrelmimi_q3_a1.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "10",
+    "questions": [
+      {
+        "text": "Какво беше изгубило вятърчето?",
+        "audio_dir": "ponyroni/ponyroni_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Шапка",
+            "audio": "ponyroni/ponyroni_q1_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Песента си",
+            "audio": "ponyroni/ponyroni_q1_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Приятел",
+            "audio": "ponyroni/ponyroni_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Къде търсиха песента?",
+        "audio_dir": "ponyroni/ponyroni_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Само в реката",
+            "audio": "ponyroni/ponyroni_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "На различни места – река, гора, хълм",
+            "audio": "ponyroni/ponyroni_q2_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В къщата",
+            "audio": "ponyroni/ponyroni_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво се случи, когато я намериха?",
+        "audio_dir": "ponyroni/ponyroni_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Заваля дъжд",
+            "audio": "ponyroni/ponyroni_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вятърът засвири",
+            "audio": "ponyroni/ponyroni_q3_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Настана нощ",
+            "audio": "ponyroni/ponyroni_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "11",
+    "questions": [
+      {
+        "text": "Какво направи Фифа в началото?",
+        "audio_dir": "fishfifa/fishfifa_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Заспала",
+            "audio": "fishfifa/fishfifa_q1_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Направила голямо мехурче",
+            "audio": "fishfifa/fishfifa_q1_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Скрила се",
+            "audio": "fishfifa/fishfifa_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Къде почти отиде мехурчето?",
+        "audio_dir": "fishfifa/fishfifa_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "До дъното",
+            "audio": "fishfifa/fishfifa_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Към водопада",
+            "audio": "fishfifa/fishfifa_q2_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В тръстиките",
+            "audio": "fishfifa/fishfifa_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво направи Фифа?",
+        "audio_dir": "fishfifa/fishfifa_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Изплака",
+            "audio": "fishfifa/fishfifa_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Хвана мехурчето",
+            "audio": "fishfifa/fishfifa_q3_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Избяга",
+            "audio": "fishfifa/fishfifa_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "12",
+    "questions": [
+      {
+        "text": "Какво намери Тото?",
+        "audio_dir": "bunnytoto/bunnytoto_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Камък",
+            "audio": "bunnytoto/bunnytoto_q1_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вълшебен морков",
+            "audio": "bunnytoto/bunnytoto_q1_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Цвете",
+            "audio": "bunnytoto/bunnytoto_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво си пожела?",
+        "audio_dir": "bunnytoto/bunnytoto_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да е бързо",
+            "audio": "bunnytoto/bunnytoto_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да помогне на Тина",
+            "audio": "bunnytoto/bunnytoto_q2_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Много моркови",
+            "audio": "bunnytoto/bunnytoto_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "На кого помогна?",
+        "audio_dir": "bunnytoto/bunnytoto_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "На птичка",
+            "audio": "bunnytoto/bunnytoto_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "На костенурката Тина",
+            "audio": "bunnytoto/bunnytoto_q3_correct.mp3"
+          },
+          {
+            "id": 3,
+            "text": "На мечето",
+            "audio": "bunnytoto/bunnytoto_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "13",
+    "questions": [
+      {
+        "text": "Какво беше изчезнало от градината?",
+        "audio_dir": "butterflyzara/butterflyzara_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Цветната капка",
+            "audio": "butterflyzara/butterflyzara_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Слънчевият лъч",
+            "audio": "butterflyzara/butterflyzara_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Дъждовната роса",
+            "audio": "butterflyzara/butterflyzara_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой беше взел Цветната капка?",
+        "audio_dir": "butterflyzara/butterflyzara_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Малко сиво облаче",
+            "audio": "butterflyzara/butterflyzara_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вятърът",
+            "audio": "butterflyzara/butterflyzara_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Бръмбара",
+            "audio": "butterflyzara/butterflyzara_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато Зара я върна?",
+        "audio_dir": "butterflyzara/butterflyzara_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Цветовете станаха ярки",
+            "audio": "butterflyzara/butterflyzara_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Заваля дъжд",
+            "audio": "butterflyzara/butterflyzara_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Градината заспа",
+            "audio": "butterflyzara/butterflyzara_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "14",
+    "questions": [
+      {
+        "text": "Кой помоли Бруно за помощ?",
+        "audio_dir": "bearbruno/bearbruno_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Звездичката Луна",
+            "audio": "bearbruno/bearbruno_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Светулка",
+            "audio": "bearbruno/bearbruno_q1_a2.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Сова",
+            "audio": "bearbruno/bearbruno_q1_a1.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как изглеждаше звездната пътека?",
+        "audio_dir": "bearbruno/bearbruno_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Блестящи камъчета като следи",
+            "audio": "bearbruno/bearbruno_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Златен мост",
+            "audio": "bearbruno/bearbruno_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Лунна дъга",
+            "audio": "bearbruno/bearbruno_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи Бруно накрая?",
+        "audio_dir": "bearbruno/bearbruno_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Малка искрица",
+            "audio": "bearbruno/bearbruno_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Звезда",
+            "audio": "bearbruno/bearbruno_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Камъче",
+            "audio": "bearbruno/bearbruno_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "15",
+    "questions": [
+      {
+        "text": "Кого намери Тина на листото?",
+        "audio_dir": "turtletina/turtletina_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Капчица Смелост",
+            "audio": "turtletina/turtletina_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Светулка",
+            "audio": "turtletina/turtletina_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Дъждовна капка",
+            "audio": "turtletina/turtletina_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "От какво се страхуваше Тина?",
+        "audio_dir": "turtletina/turtletina_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От треви и тъмни места",
+            "audio": "turtletina/turtletina_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От вода",
+            "audio": "turtletina/turtletina_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От птици",
+            "audio": "turtletina/turtletina_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи тя накрая?",
+        "audio_dir": "turtletina/turtletina_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Смелост",
+            "audio": "turtletina/turtletina_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Черупка",
+            "audio": "turtletina/turtletina_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Листо",
+            "audio": "turtletina/turtletina_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "16",
+    "questions": [
+      {
+        "text": "Какво търсеше Лео?",
+        "audio_dir": "tale_16/tale_16_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Песента на саваната",
+            "audio": "tale_16/tale_16_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Река",
+            "audio": "tale_16/tale_16_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Сянка",
+            "audio": "tale_16/tale_16_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде я намери?",
+        "audio_dir": "tale_16/tale_16_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Под баобаба",
+            "audio": "tale_16/tale_16_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В реката",
+            "audio": "tale_16/tale_16_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В небето",
+            "audio": "tale_16/tale_16_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Защо беше тъжна Песента?",
+        "audio_dir": "tale_16/tale_16_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Никой не я слушал",
+            "audio": "tale_16/tale_16_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Била изгубена",
+            "audio": "tale_16/tale_16_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Била уморена",
+            "audio": "tale_16/tale_16_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "17",
+    "questions": [
+      {
+        "text": "Какво намери Пико на земята?",
+        "audio_dir": "tale_17/tale_17_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Перцето на вятъра",
+            "audio": "tale_17/tale_17_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Листо",
+            "audio": "tale_17/tale_17_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Семе",
+            "audio": "tale_17/tale_17_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой помогна на Пико да стигне до небето?",
+        "audio_dir": "tale_17/tale_17_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Орелът Орландо",
+            "audio": "tale_17/tale_17_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Гарван",
+            "audio": "tale_17/tale_17_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Сова",
+            "audio": "tale_17/tale_17_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи вятърът, когато получи перцето си?",
+        "audio_dir": "tale_17/tale_17_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Разнесе песента",
+            "audio": "tale_17/tale_17_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Спря да духа",
+            "audio": "tale_17/tale_17_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Заваля дъжд",
+            "audio": "tale_17/tale_17_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "18",
+    "questions": [
+      {
+        "text": "Какво странно забеляза Мони?",
+        "audio_dir": "tale_18/tale_18_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Всичко е в грешно време",
+            "audio": "tale_18/tale_18_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Няма животни",
+            "audio": "tale_18/tale_18_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Гората е тъмна",
+            "audio": "tale_18/tale_18_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой поправи часовника?",
+        "audio_dir": "tale_18/tale_18_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Бобърът Бобо",
+            "audio": "tale_18/tale_18_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Мони",
+            "audio": "tale_18/tale_18_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птица",
+            "audio": "tale_18/tale_18_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато часовникът заработи?",
+        "audio_dir": "tale_18/tale_18_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Гората се нормализира",
+            "audio": "tale_18/tale_18_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Заваля сняг",
+            "audio": "tale_18/tale_18_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Всичко спря",
+            "audio": "tale_18/tale_18_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "19",
+    "questions": [
+      {
+        "text": "Кого срещна Мина?",
+        "audio_dir": "tale_19/tale_19_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Фенерчо",
+            "audio": "tale_19/tale_19_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Светулка",
+            "audio": "tale_19/tale_19_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Жаба",
+            "audio": "tale_19/tale_19_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как преминаха реката?",
+        "audio_dir": "tale_19/tale_19_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "С листо като лодка",
+            "audio": "tale_19/tale_19_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Плувайки",
+            "audio": "tale_19/tale_19_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "По мост",
+            "audio": "tale_19/tale_19_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи накрая?",
+        "audio_dir": "tale_19/tale_19_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Поляната засия",
+            "audio": "tale_19/tale_19_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Реката пресъхна",
+            "audio": "tale_19/tale_19_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Настъпи буря",
+            "audio": "tale_19/tale_19_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "20",
+    "questions": [
+      {
+        "text": "Какво беше изгубило духчето?",
+        "audio_dir": "tale_20/tale_20_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Снежна камбанка",
+            "audio": "tale_20/tale_20_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Клон",
+            "audio": "tale_20/tale_20_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Листо",
+            "audio": "tale_20/tale_20_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде Рико намери камбанката?",
+        "audio_dir": "tale_20/tale_20_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Под леда в езерото",
+            "audio": "tale_20/tale_20_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В снега",
+            "audio": "tale_20/tale_20_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "На дърво",
+            "audio": "tale_20/tale_20_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато духчето я получи обратно?",
+        "audio_dir": "tale_20/tale_20_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Снегът зазвъня",
+            "audio": "tale_20/tale_20_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Спря снегът",
+            "audio": "tale_20/tale_20_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стана тъмно",
+            "audio": "tale_20/tale_20_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "21",
+    "questions": [
+      {
+        "text": "Какво правеше локвичката?",
+        "audio_dir": "tale_21/tale_21_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Пееше",
+            "audio": "tale_21/tale_21_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Светеше",
+            "audio": "tale_21/tale_21_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Тичаше",
+            "audio": "tale_21/tale_21_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво беше изгубила?",
+        "audio_dir": "tale_21/tale_21_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Дъждовни капки",
+            "audio": "tale_21/tale_21_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Листа",
+            "audio": "tale_21/tale_21_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Камъни",
+            "audio": "tale_21/tale_21_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Мъри ѝ помогна?",
+        "audio_dir": "tale_21/tale_21_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Върна капките",
+            "audio": "tale_21/tale_21_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Изпя песен",
+            "audio": "tale_21/tale_21_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Скри локвата",
+            "audio": "tale_21/tale_21_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "22",
+    "questions": [
+      {
+        "text": "Какво беше изгубило облачето?",
+        "audio_dir": "tale_22/tale_22_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Облачната пързалка",
+            "audio": "tale_22/tale_22_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Дъжд",
+            "audio": "tale_22/tale_22_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Вятър",
+            "audio": "tale_22/tale_22_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде Лили я намери?",
+        "audio_dir": "tale_22/tale_22_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "В езерото",
+            "audio": "tale_22/tale_22_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В гората",
+            "audio": "tale_22/tale_22_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В небето",
+            "audio": "tale_22/tale_22_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи облачето?",
+        "audio_dir": "tale_22/tale_22_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Създаде дъга",
+            "audio": "tale_22/tale_22_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Заваля сняг",
+            "audio": "tale_22/tale_22_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Изчезна",
+            "audio": "tale_22/tale_22_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "23",
+    "questions": [
+      {
+        "text": "Какво беше изгубила Луната?",
+        "audio_dir": "tale_23/tale_23_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Лунно зрънце",
+            "audio": "tale_23/tale_23_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Звезда",
+            "audio": "tale_23/tale_23_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Облак",
+            "audio": "tale_23/tale_23_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде беше зрънцето?",
+        "audio_dir": "tale_23/tale_23_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "На камък",
+            "audio": "tale_23/tale_23_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Във вода",
+            "audio": "tale_23/tale_23_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В дърво",
+            "audio": "tale_23/tale_23_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи Кико?",
+        "audio_dir": "tale_23/tale_23_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Лунно отражение",
+            "audio": "tale_23/tale_23_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Камъче",
+            "audio": "tale_23/tale_23_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Коронка",
+            "audio": "tale_23/tale_23_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "24",
+    "questions": [
+      {
+        "text": "Какво беше счупено?",
+        "audio_dir": "tale_24/tale_24_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Флейта",
+            "audio": "tale_24/tale_24_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Клон",
+            "audio": "tale_24/tale_24_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Листо",
+            "audio": "tale_24/tale_24_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "С какво помогна Фифи?",
+        "audio_dir": "tale_24/tale_24_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Клонче и жълъдче",
+            "audio": "tale_24/tale_24_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Камъни",
+            "audio": "tale_24/tale_24_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Вода",
+            "audio": "tale_24/tale_24_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи?",
+        "audio_dir": "tale_24/tale_24_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Есенната песен се върна",
+            "audio": "tale_24/tale_24_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Заваля сняг",
+            "audio": "tale_24/tale_24_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стана тихо",
+            "audio": "tale_24/tale_24_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "25",
+    "questions": [
+      {
+        "text": "Кого намери Биби?",
+        "audio_dir": "tale_25/tale_25_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Слънчицето-Искрица",
+            "audio": "tale_25/tale_25_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Облак",
+            "audio": "tale_25/tale_25_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Капка",
+            "audio": "tale_25/tale_25_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой помогна да върнат искрицата?",
+        "audio_dir": "tale_25/tale_25_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Вихърко",
+            "audio": "tale_25/tale_25_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Пчела",
+            "audio": "tale_25/tale_25_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птица",
+            "audio": "tale_25/tale_25_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи накрая?",
+        "audio_dir": "tale_25/tale_25_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Слънцето засия",
+            "audio": "tale_25/tale_25_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Заваля дъжд",
+            "audio": "tale_25/tale_25_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стана нощ",
+            "audio": "tale_25/tale_25_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "26",
+    "questions": [
+      {
+        "text": "Какво намери Пухчо?",
+        "audio_dir": "tale_26/tale_26_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Вълшебна шапка",
+            "audio": "tale_26/tale_26_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Камък",
+            "audio": "tale_26/tale_26_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Листо",
+            "audio": "tale_26/tale_26_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "На кого принадлежеше шапката?",
+        "audio_dir": "tale_26/tale_26_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Есенния дух",
+            "audio": "tale_26/tale_26_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вятъра",
+            "audio": "tale_26/tale_26_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Лисицата",
+            "audio": "tale_26/tale_26_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи Пухчо?",
+        "audio_dir": "tale_26/tale_26_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Вълшебно листо",
+            "audio": "tale_26/tale_26_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Орех",
+            "audio": "tale_26/tale_26_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Камъче",
+            "audio": "tale_26/tale_26_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "27",
+    "questions": [
+      {
+        "text": "Какво намери Рони в тревата?",
+        "audio_dir": "tale_27/tale_27_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Звездна искра (костичка)",
+            "audio": "tale_27/tale_27_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Обикновен камък",
+            "audio": "tale_27/tale_27_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Листо",
+            "audio": "tale_27/tale_27_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой помогна да върнат искрата в небето?",
+        "audio_dir": "tale_27/tale_27_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Бухалката Лума",
+            "audio": "tale_27/tale_27_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Лисица",
+            "audio": "tale_27/tale_27_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Зайче",
+            "audio": "tale_27/tale_27_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво стана със звездичката?",
+        "audio_dir": "tale_27/tale_27_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Стана нова звезда в небето",
+            "audio": "tale_27/tale_27_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Изчезна",
+            "audio": "tale_27/tale_27_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Падна на земята",
+            "audio": "tale_27/tale_27_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "28",
+    "questions": [
+      {
+        "text": "Какво беше изгубило снежното пухче?",
+        "audio_dir": "tale_28/tale_28_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Своята връзка със снежния облак",
+            "audio": "tale_28/tale_28_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Крилете си",
+            "audio": "tale_28/tale_28_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Гласa си",
+            "audio": "tale_28/tale_28_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде Сиси върна пухчето?",
+        "audio_dir": "tale_28/tale_28_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "На върха на хълма при снежния облак",
+            "audio": "tale_28/tale_28_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В реката",
+            "audio": "tale_28/tale_28_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В дупка",
+            "audio": "tale_28/tale_28_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи облакът за Сиси?",
+        "audio_dir": "tale_28/tale_28_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Даде ѝ снежна пътека към дома",
+            "audio": "tale_28/tale_28_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Направи буря",
+            "audio": "tale_28/tale_28_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Изчезна",
+            "audio": "tale_28/tale_28_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "29",
+    "questions": [
+      {
+        "text": "Какво необичайно видя Кики?",
+        "audio_dir": "tale_29/tale_29_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Дъгово дърво",
+            "audio": "tale_29/tale_29_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Летяща къща",
+            "audio": "tale_29/tale_29_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Говорещ камък",
+            "audio": "tale_29/tale_29_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кое цветно зрънце липсваше?",
+        "audio_dir": "tale_29/tale_29_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Оранжевото",
+            "audio": "tale_29/tale_29_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Синьото",
+            "audio": "tale_29/tale_29_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Зелено",
+            "audio": "tale_29/tale_29_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи Кики като подарък?",
+        "audio_dir": "tale_29/tale_29_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Дъгово листенце",
+            "audio": "tale_29/tale_29_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Камък",
+            "audio": "tale_29/tale_29_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птица",
+            "audio": "tale_29/tale_29_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "30",
+    "questions": [
+      {
+        "text": "Какво беше изгубило дъждовното духче?",
+        "audio_dir": "tale_30/tale_30_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Дъждовна пръчица",
+            "audio": "tale_30/tale_30_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Облак",
+            "audio": "tale_30/tale_30_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Река",
+            "audio": "tale_30/tale_30_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде Лоло намери пръчицата?",
+        "audio_dir": "tale_30/tale_30_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "В пещера",
+            "audio": "tale_30/tale_30_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В езеро",
+            "audio": "tale_30/tale_30_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В дърво",
+            "audio": "tale_30/tale_30_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато духчето я получи?",
+        "audio_dir": "tale_30/tale_30_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Започна красив дъжд",
+            "audio": "tale_30/tale_30_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Спира дъждът",
+            "audio": "tale_30/tale_30_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Изчезна гората",
+            "audio": "tale_30/tale_30_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "31",
+    "questions": [
+      {
+        "text": "Какво се случи с ореха?",
+        "audio_dir": "tale_31/tale_31_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Превърна се в орехов балон",
+            "audio": "tale_31/tale_31_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Счупи се",
+            "audio": "tale_31/tale_31_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Изчезна",
+            "audio": "tale_31/tale_31_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде Рони върна ореховия балон?",
+        "audio_dir": "tale_31/tale_31_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "При Ореховото дърво",
+            "audio": "tale_31/tale_31_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В реката",
+            "audio": "tale_31/tale_31_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В дупка",
+            "audio": "tale_31/tale_31_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи Рони като подарък?",
+        "audio_dir": "tale_31/tale_31_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Орехче на щастието",
+            "audio": "tale_31/tale_31_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Листо",
+            "audio": "tale_31/tale_31_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Перо",
+            "audio": "tale_31/tale_31_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "32",
+    "questions": [
+      {
+        "text": "Кого срещна Тими в тъмната гора?",
+        "audio_dir": "tale_32/tale_32_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Светулката Луми",
+            "audio": "tale_32/tale_32_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вълк",
+            "audio": "tale_32/tale_32_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Зайче",
+            "audio": "tale_32/tale_32_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде намериха искриците?",
+        "audio_dir": "tale_32/tale_32_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "При Големия камък",
+            "audio": "tale_32/tale_32_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В реката",
+            "audio": "tale_32/tale_32_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В дърво",
+            "audio": "tale_32/tale_32_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха светулките, когато ги получиха обратно?",
+        "audio_dir": "tale_32/tale_32_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Започнаха да светят и танцуват",
+            "audio": "tale_32/tale_32_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Изчезнаха",
+            "audio": "tale_32/tale_32_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Заспаха",
+            "audio": "tale_32/tale_32_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "33",
+    "questions": [
+      {
+        "text": "Какво беше счупено при бамбуковото духче?",
+        "audio_dir": "tale_33/tale_33_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Бамбукова флейта",
+            "audio": "tale_33/tale_33_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Клон",
+            "audio": "tale_33/tale_33_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Листо",
+            "audio": "tale_33/tale_33_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Лулу помогна?",
+        "audio_dir": "tale_33/tale_33_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Намери ново бамбуково стъбло",
+            "audio": "tale_33/tale_33_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Изгради къща",
+            "audio": "tale_33/tale_33_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Изпя песен",
+            "audio": "tale_33/tale_33_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато флейтата зазвуча?",
+        "audio_dir": "tale_33/tale_33_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Бамбукът оживя и зашумоля",
+            "audio": "tale_33/tale_33_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Всичко спря",
+            "audio": "tale_33/tale_33_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Започна буря",
+            "audio": "tale_33/tale_33_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "34",
+    "questions": [
+      {
+        "text": "Какво беше изгубило облачето?",
+        "audio_dir": "tale_34/tale_34_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Пощенската си торбичка",
+            "audio": "tale_34/tale_34_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Слънцето",
+            "audio": "tale_34/tale_34_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Дъга",
+            "audio": "tale_34/tale_34_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде Пипи намери торбичката?",
+        "audio_dir": "tale_34/tale_34_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "На храст в гората",
+            "audio": "tale_34/tale_34_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В реката",
+            "audio": "tale_34/tale_34_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В дупка",
+            "audio": "tale_34/tale_34_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво обеща облачето на Пипи?",
+        "audio_dir": "tale_34/tale_34_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да носи писмата бързо",
+            "audio": "tale_34/tale_34_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да спре да вали",
+            "audio": "tale_34/tale_34_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да изчезне",
+            "audio": "tale_34/tale_34_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "35",
+    "title": "Лисичето Рони и приятелството, което се изгуби",
+    "questions": [
+      {
+        "text": "Защо Пухчо се натъжи?",
+        "audio_dir": "tale_35/tale_35_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото Рони тичаше твърде бързо и го остави сам",
+            "audio": "tale_35/tale_35_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото падна и се удари",
+            "audio": "tale_35/tale_35_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото не искаше да участва в състезанието",
+            "audio": "tale_35/tale_35_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра Рони?",
+        "audio_dir": "tale_35/tale_35_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че приятелството е по-важно от победата",
+            "audio": "tale_35/tale_35_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че винаги трябва да печели",
+            "audio": "tale_35/tale_35_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че Пухчо трябва да тича по-бързо",
+            "audio": "tale_35/tale_35_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха накрая двамата приятели?",
+        "audio_dir": "tale_35/tale_35_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Тръгнаха заедно, бавно и спокойно",
+            "audio": "tale_35/tale_35_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Разделиха се и си тръгнаха",
+            "audio": "tale_35/tale_35_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Продължиха да се състезават",
+            "audio": "tale_35/tale_35_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "36",
+    "title": "Мечето Бруно и новият съсед в гората",
+    "questions": [
+      {
+        "text": "Защо Мъри се чувстваше тъжен в началото?",
+        "audio_dir": "tale_36/tale_36_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото не познаваше никого и другите го отбягваха",
+            "audio": "tale_36/tale_36_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото беше гладен",
+            "audio": "tale_36/tale_36_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото искаше да си тръгне от гората",
+            "audio": "tale_36/tale_36_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи Бруно, за да помогне?",
+        "audio_dir": "tale_36/tale_36_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защити Мъри и предложи да го опознаят",
+            "audio": "tale_36/tale_36_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Остави го сам да се справя",
+            "audio": "tale_36/tale_36_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Скара се и си тръгна",
+            "audio": "tale_36/tale_36_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво научиха животните за приятелството?",
+        "audio_dir": "tale_36/tale_36_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че е важно какъв си отвътре, не как изглеждаш",
+            "audio": "tale_36/tale_36_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че приятелството е само за еднакви животни",
+            "audio": "tale_36/tale_36_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че новите не са добре дошли",
+            "audio": "tale_36/tale_36_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "37",
+    "title": "Зайчето Лили и споделената морковена торта",
+    "questions": [
+      {
+        "text": "Защо Лили не можеше да изяде тортата сама?",
+        "audio_dir": "tale_37/tale_37_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото тортата беше твърде голяма",
+            "audio": "tale_37/tale_37_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото не ѝ хареса",
+            "audio": "tale_37/tale_37_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото я изпусна",
+            "audio": "tale_37/tale_37_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво реши да направи накрая?",
+        "audio_dir": "tale_37/tale_37_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да сподели тортата с приятелите си",
+            "audio": "tale_37/tale_37_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да я скрие",
+            "audio": "tale_37/tale_37_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да я изхвърли",
+            "audio": "tale_37/tale_37_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувстваха приятелите ѝ?",
+        "audio_dir": "tale_37/tale_37_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Радостни и щастливи",
+            "audio": "tale_37/tale_37_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Сърдити",
+            "audio": "tale_37/tale_37_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Уплашени",
+            "audio": "tale_37/tale_37_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "38",
+    "title": "Катеричката Мина и изгубената игра",
+    "questions": [
+      {
+        "text": "Защо Мина се ядоса?",
+        "audio_dir": "tale_38/tale_38_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото никой не можеше да я настигне и тя се ядоса",
+            "audio": "tale_38/tale_38_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото не ѝ дадоха играчка",
+            "audio": "tale_38/tale_38_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото искаше да си почива",
+            "audio": "tale_38/tale_38_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра, когато остана сама?",
+        "audio_dir": "tale_38/tale_38_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че без приятели играта не е забавна",
+            "audio": "tale_38/tale_38_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че е по-добре да играе сама",
+            "audio": "tale_38/tale_38_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че никой не я харесва",
+            "audio": "tale_38/tale_38_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи, за да оправи нещата?",
+        "audio_dir": "tale_38/tale_38_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Извини се и предложи да играят заедно",
+            "audio": "tale_38/tale_38_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Избяга",
+            "audio": "tale_38/tale_38_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Започна нова игра сама",
+            "audio": "tale_38/tale_38_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "39",
+    "title": "Патето Фифо и приятелят, който се страхуваше от вода",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Мимо?",
+        "audio_dir": "tale_39/tale_39_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От водата",
+            "audio": "tale_39/tale_39_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От Фифо",
+            "audio": "tale_39/tale_39_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От гората",
+            "audio": "tale_39/tale_39_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Фифо му помогна?",
+        "audio_dir": "tale_39/tale_39_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Показваше му стъпка по стъпка и не го насилваше",
+            "audio": "tale_39/tale_39_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Бутна го във водата",
+            "audio": "tale_39/tale_39_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Се присмя на страха му",
+            "audio": "tale_39/tale_39_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Мимо накрая?",
+        "audio_dir": "tale_39/tale_39_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "По-смел и щастлив",
+            "audio": "tale_39/tale_39_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "По-уплашен",
+            "audio": "tale_39/tale_39_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Сърдит",
+            "audio": "tale_39/tale_39_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "40",
+    "title": "Костенурчето Тото и приятелят, който бързаше твърде много",
+    "questions": [
+      {
+        "text": "Защо Тото се почувства сам?",
+        "audio_dir": "tale_40/tale_40_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото Лея тръгна твърде бързо напред",
+            "audio": "tale_40/tale_40_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото се загуби",
+            "audio": "tale_40/tale_40_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото не искаше да ходи",
+            "audio": "tale_40/tale_40_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра Лея?",
+        "audio_dir": "tale_40/tale_40_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че приятелите трябва да вървят заедно",
+            "audio": "tale_40/tale_40_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че е по-добре да бърза сама",
+            "audio": "tale_40/tale_40_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че Тото трябва да я настигне",
+            "audio": "tale_40/tale_40_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха двамата приятели накрая?",
+        "audio_dir": "tale_40/tale_40_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Тръгнаха отново, но заедно и по-бавно",
+            "audio": "tale_40/tale_40_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Скараха се",
+            "audio": "tale_40/tale_40_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Се разделиха",
+            "audio": "tale_40/tale_40_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "41",
+    "title": "Птичето Пико и приятелят, който не можеше да лети",
+    "questions": [
+      {
+        "text": "Какво искаше Бобо?",
+        "audio_dir": "tale_41/tale_41_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да може да лети",
+            "audio": "tale_41/tale_41_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да стане птица",
+            "audio": "tale_41/tale_41_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да си тръгне от гората",
+            "audio": "tale_41/tale_41_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Пико му помогна?",
+        "audio_dir": "tale_41/tale_41_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Измисли начин да се плъзга с листо",
+            "audio": "tale_41/tale_41_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Му се подигра",
+            "audio": "tale_41/tale_41_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Го остави сам",
+            "audio": "tale_41/tale_41_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво правеха двамата след това?",
+        "audio_dir": "tale_41/tale_41_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Измисляха нови начини да „летят“ заедно",
+            "audio": "tale_41/tale_41_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Спираха да играят",
+            "audio": "tale_41/tale_41_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Се караха",
+            "audio": "tale_41/tale_41_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "42",
+    "title": "Лъвчето Лео и приятелят, който се срамуваше да говори",
+    "questions": [
+      {
+        "text": "Защо Нана се срамуваше?",
+        "audio_dir": "tale_42/tale_42_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото говореше много тихо",
+            "audio": "tale_42/tale_42_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото не знаеше какво да каже",
+            "audio": "tale_42/tale_42_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото не искаше приятели",
+            "audio": "tale_42/tale_42_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Лео помогна на приятелката си?",
+        "audio_dir": "tale_42/tale_42_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защити я и насърчи другите да я слушат",
+            "audio": "tale_42/tale_42_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Говореше вместо нея",
+            "audio": "tale_42/tale_42_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Я остави сама",
+            "audio": "tale_42/tale_42_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво правеха животните накрая?",
+        "audio_dir": "tale_42/tale_42_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Рисуваха заедно",
+            "audio": "tale_42/tale_42_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Тичаха",
+            "audio": "tale_42/tale_42_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Спяха",
+            "audio": "tale_42/tale_42_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "43",
+    "title": "Лъвчето Лео и тъмната пещера",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Лео",
+        "audio_dir": "tale_43/tale_43_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От тъмнината",
+            "audio": "tale_43/tale_43_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От високите скали",
+            "audio": "tale_43/tale_43_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От силния вятър",
+            "audio": "tale_43/tale_43_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му помогна да влезе в пещерата",
+        "audio_dir": "tale_43/tale_43_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Светулката Луми",
+            "audio": "tale_43/tale_43_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Птичето Пико",
+            "audio": "tale_43/tale_43_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Майка му",
+            "audio": "tale_43/tale_43_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Лео накрая",
+        "audio_dir": "tale_43/tale_43_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Горд и по-смел",
+            "audio": "tale_43/tale_43_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Ядосан",
+            "audio": "tale_43/tale_43_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Уморен",
+            "audio": "tale_43/tale_43_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "44",
+    "title": "Костенурчето Нана и високият мост",
+    "questions": [
+      {
+        "text": "Защо Нана не искаше да мине по моста",
+        "audio_dir": "tale_44/tale_44_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото мостът бил висок и я било страх",
+            "audio": "tale_44/tale_44_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото мостът бил хлъзгав",
+            "audio": "tale_44/tale_44_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото бързала",
+            "audio": "tale_44/tale_44_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой ѝ помогна",
+        "audio_dir": "tale_44/tale_44_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Зайчето Лили",
+            "audio": "tale_44/tale_44_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Мечето Бруно",
+            "audio": "tale_44/tale_44_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Катеричката Сиси",
+            "audio": "tale_44/tale_44_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво почувства, когато стигна другия край",
+        "audio_dir": "tale_44/tale_44_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Радост и гордост",
+            "audio": "tale_44/tale_44_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Яд",
+            "audio": "tale_44/tale_44_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Страх",
+            "audio": "tale_44/tale_44_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "45",
+    "title": "Птичето Рико и първият полет",
+    "questions": [
+      {
+        "text": "Защо Рико се страхуваше да полети",
+        "audio_dir": "tale_45/tale_45_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото се страхувал, че ще падне",
+            "audio": "tale_45/tale_45_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото крилата му били малки",
+            "audio": "tale_45/tale_45_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото било студено",
+            "audio": "tale_45/tale_45_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво му каза татко птицата",
+        "audio_dir": "tale_45/tale_45_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че смелостта става по-силна, когато я използваш",
+            "audio": "tale_45/tale_45_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да не опитва",
+            "audio": "tale_45/tale_45_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да изчака още една година",
+            "audio": "tale_45/tale_45_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато скочи",
+        "audio_dir": "tale_45/tale_45_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Разпери криле и полетя",
+            "audio": "tale_45/tale_45_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Падна на земята",
+            "audio": "tale_45/tale_45_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Върна се в гнездото",
+            "audio": "tale_45/tale_45_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "46",
+    "title": "Мечето Тими и големият шум в гората",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Тими",
+        "audio_dir": "tale_46/tale_46_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От силните шумове",
+            "audio": "tale_46/tale_46_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От тъмното",
+            "audio": "tale_46/tale_46_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От водата",
+            "audio": "tale_46/tale_46_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му помогна да провери шума",
+        "audio_dir": "tale_46/tale_46_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Птичето Пико",
+            "audio": "tale_46/tale_46_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Катеричката Мина",
+            "audio": "tale_46/tale_46_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Бухалът Оли",
+            "audio": "tale_46/tale_46_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се оказа, че е страшният звук",
+        "audio_dir": "tale_46/tale_46_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Паднала голяма шишарка",
+            "audio": "tale_46/tale_46_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Чудовище",
+            "audio": "tale_46/tale_46_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Гръмотевица",
+            "audio": "tale_46/tale_46_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "47",
+    "title": "Жабчето Кико и големият скок",
+    "questions": [
+      {
+        "text": "Защо Кико не искаше да скача",
+        "audio_dir": "tale_47/tale_47_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото се страхувало, че няма да се справи",
+            "audio": "tale_47/tale_47_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото не обичало състезания",
+            "audio": "tale_47/tale_47_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото било уморено",
+            "audio": "tale_47/tale_47_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му помогна да опита",
+        "audio_dir": "tale_47/tale_47_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Костенурката Нана",
+            "audio": "tale_47/tale_47_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Големите жаби",
+            "audio": "tale_47/tale_47_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птичето Рико",
+            "audio": "tale_47/tale_47_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи Кико накрая",
+        "audio_dir": "tale_47/tale_47_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Скочи смело",
+            "audio": "tale_47/tale_47_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Отказа се",
+            "audio": "tale_47/tale_47_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Скри се",
+            "audio": "tale_47/tale_47_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "48",
+    "title": "Котенцето Моли и бурята на прозореца",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Моли",
+        "audio_dir": "tale_48/tale_48_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От бурите",
+            "audio": "tale_48/tale_48_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От вятъра",
+            "audio": "tale_48/tale_48_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От тъмното",
+            "audio": "tale_48/tale_48_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как баба Котка му помогна",
+        "audio_dir": "tale_48/tale_48_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Като му обясни какво е бурята и беше до него",
+            "audio": "tale_48/tale_48_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Като затвори прозореца",
+            "audio": "tale_48/tale_48_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Като му даде играчка",
+            "audio": "tale_48/tale_48_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Моли, когато гледаха бурята заедно",
+        "audio_dir": "tale_48/tale_48_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Спокойно и по-смело",
+            "audio": "tale_48/tale_48_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Още по-уплашено",
+            "audio": "tale_48/tale_48_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Ядосано",
+            "audio": "tale_48/tale_48_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "49",
+    "title": "Пингвинчето Пепи и първото гмуркане",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Пепи",
+        "audio_dir": "tale_49/tale_49_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От студената вода и че няма да изплува",
+            "audio": "tale_49/tale_49_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От рибите",
+            "audio": "tale_49/tale_49_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От тъмното",
+            "audio": "tale_49/tale_49_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му помогна да опита",
+        "audio_dir": "tale_49/tale_49_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Големият пингвин Тато",
+            "audio": "tale_49/tale_49_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Приятелите му",
+            "audio": "tale_49/tale_49_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Майка му",
+            "audio": "tale_49/tale_49_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Пепи след първото гмуркане",
+        "audio_dir": "tale_49/tale_49_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Гордo и щастливо",
+            "audio": "tale_49/tale_49_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Уморено",
+            "audio": "tale_49/tale_49_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Разочаровано",
+            "audio": "tale_49/tale_49_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "50",
+    "title": "Мишлето Тити и голямата сянка",
+    "questions": [
+      {
+        "text": "Какво видя Тити на стената",
+        "audio_dir": "tale_50/tale_50_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Голяма сянка",
+            "audio": "tale_50/tale_50_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Истинско чудовище",
+            "audio": "tale_50/tale_50_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Голямо животно",
+            "audio": "tale_50/tale_50_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му обясни истината",
+        "audio_dir": "tale_50/tale_50_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Бухалът Оли",
+            "audio": "tale_50/tale_50_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Катеричката Сиси",
+            "audio": "tale_50/tale_50_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птичето Пико",
+            "audio": "tale_50/tale_50_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра мишлето за сенките",
+        "audio_dir": "tale_50/tale_50_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че са просто отражения и не могат да наранят",
+            "audio": "tale_50/tale_50_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че са опасни",
+            "audio": "tale_50/tale_50_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че идват нощем",
+            "audio": "tale_50/tale_50_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "51",
+    "title": "Катеричката Сиси и първият пролетен цвят",
+    "questions": [
+      {
+        "text": "Какво търсеше Сиси",
+        "audio_dir": "tale_51/tale_51_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Първия пролетен цвят",
+            "audio": "tale_51/tale_51_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Храна за зимата",
+            "audio": "tale_51/tale_51_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Ново дърво за катерене",
+            "audio": "tale_51/tale_51_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде го намери",
+        "audio_dir": "tale_51/tale_51_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "В земята, като малко зелено връхче",
+            "audio": "tale_51/tale_51_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В реката",
+            "audio": "tale_51/tale_51_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В хралупа на дърво",
+            "audio": "tale_51/tale_51_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи с малкото връхче",
+        "audio_dir": "tale_51/tale_51_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Порасна и разцъфна жълто цвете",
+            "audio": "tale_51/tale_51_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Изчезна",
+            "audio": "tale_51/tale_51_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Остана същото без промяна",
+            "audio": "tale_51/tale_51_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "52",
+    "title": "Мечето Бруно и най-топлият летен ден",
+    "questions": [
+      {
+        "text": "Защо Бруно се чувстваше зле",
+        "audio_dir": "tale_52/tale_52_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото беше много горещо",
+            "audio": "tale_52/tale_52_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото беше гладен",
+            "audio": "tale_52/tale_52_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото беше тъжен за приятел",
+            "audio": "tale_52/tale_52_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво носеше Нана",
+        "audio_dir": "tale_52/tale_52_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Диня, ягоди, вода и листо за ветрило",
+            "audio": "tale_52/tale_52_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Само ябълки",
+            "audio": "tale_52/tale_52_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Играчки",
+            "audio": "tale_52/tale_52_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха двамата приятели",
+        "audio_dir": "tale_52/tale_52_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Споделиха храната и се разхладиха заедно",
+            "audio": "tale_52/tale_52_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Отидоха да спят",
+            "audio": "tale_52/tale_52_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Се разделиха",
+            "audio": "tale_52/tale_52_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "53",
+    "title": "Лисичето Рони и танцът на есенните листа",
+    "questions": [
+      {
+        "text": "Какво правеха листата",
+        "audio_dir": "tale_53/tale_53_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Падаха и се въртяха като танц",
+            "audio": "tale_53/tale_53_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Растяха",
+            "audio": "tale_53/tale_53_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стояха неподвижни",
+            "audio": "tale_53/tale_53_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой водеше танца",
+        "audio_dir": "tale_53/tale_53_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Есенното духче",
+            "audio": "tale_53/tale_53_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Рони",
+            "audio": "tale_53/tale_53_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Вятърът като животно",
+            "audio": "tale_53/tale_53_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво получи Рони накрая",
+        "audio_dir": "tale_53/tale_53_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Златно листо",
+            "audio": "tale_53/tale_53_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Жълъд",
+            "audio": "tale_53/tale_53_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Цвете",
+            "audio": "tale_53/tale_53_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "54",
+    "title": "Зайчето Лили и първият сняг",
+    "questions": [
+      {
+        "text": "Какво видя Лили, когато се събуди",
+        "audio_dir": "tale_54/tale_54_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Сняг навсякъде",
+            "audio": "tale_54/tale_54_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Дъжд",
+            "audio": "tale_54/tale_54_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Цветя",
+            "audio": "tale_54/tale_54_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой ѝ показа какво е сняг",
+        "audio_dir": "tale_54/tale_54_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Сърничката Лея",
+            "audio": "tale_54/tale_54_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Бруно",
+            "audio": "tale_54/tale_54_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птичка",
+            "audio": "tale_54/tale_54_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво правеха двете приятелки",
+        "audio_dir": "tale_54/tale_54_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Играеха със сняг",
+            "audio": "tale_54/tale_54_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Събираха листа",
+            "audio": "tale_54/tale_54_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Плуваха",
+            "audio": "tale_54/tale_54_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "55",
+    "title": "Патето Фифо и песента на дъжда",
+    "questions": [
+      {
+        "text": "Защо Фифо не харесваше дъжда",
+        "audio_dir": "tale_55/tale_55_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото не можеше да играе навън",
+            "audio": "tale_55/tale_55_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото беше студен",
+            "audio": "tale_55/tale_55_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото обичаше само сняг",
+            "audio": "tale_55/tale_55_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой му показа песента на дъжда",
+        "audio_dir": "tale_55/tale_55_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Жабката",
+            "audio": "tale_55/tale_55_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Лисица",
+            "audio": "tale_55/tale_55_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Птица",
+            "audio": "tale_55/tale_55_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво правеше Фифо накрая",
+        "audio_dir": "tale_55/tale_55_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Танцуваше в локвите",
+            "audio": "tale_55/tale_55_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Спеше",
+            "audio": "tale_55/tale_55_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Се криеше",
+            "audio": "tale_55/tale_55_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "56",
+    "title": "Мишлето Мими и вятърният шепот",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Мими",
+        "audio_dir": "tale_56/tale_56_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От силния вятър",
+            "audio": "tale_56/tale_56_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От тъмнината",
+            "audio": "tale_56/tale_56_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От дъжда",
+            "audio": "tale_56/tale_56_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво му показа Сиси",
+        "audio_dir": "tale_56/tale_56_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че вятърът говори и не е страшен",
+            "audio": "tale_56/tale_56_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че трябва да бяга",
+            "audio": "tale_56/tale_56_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че трябва да се крие",
+            "audio": "tale_56/tale_56_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Мими накрая",
+        "audio_dir": "tale_56/tale_56_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Спокойно и любопитно",
+            "audio": "tale_56/tale_56_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Уплашено",
+            "audio": "tale_56/tale_56_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Сърдито",
+            "audio": "tale_56/tale_56_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "57",
+    "title": "Рибката Лили и тайната на реката",
+    "questions": [
+      {
+        "text": "Какво реши да направи Лили",
+        "audio_dir": "tale_57/tale_57_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да последва течението на реката",
+            "audio": "tale_57/tale_57_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да се върне назад",
+            "audio": "tale_57/tale_57_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да спре да плува",
+            "audio": "tale_57/tale_57_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво откри в края на реката",
+        "audio_dir": "tale_57/tale_57_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Водопад и ново езерце",
+            "audio": "tale_57/tale_57_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Пясък",
+            "audio": "tale_57/tale_57_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Гора",
+            "audio": "tale_57/tale_57_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства, когато видя новото място",
+        "audio_dir": "tale_57/tale_57_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Възхитена и любопитна",
+            "audio": "tale_57/tale_57_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Тъжна",
+            "audio": "tale_57/tale_57_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Уплашена",
+            "audio": "tale_57/tale_57_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "58",
+    "title": "Совата Ори и нощното небе",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Рина",
+        "audio_dir": "tale_58/tale_58_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От тъмното нощно небе",
+            "audio": "tale_58/tale_58_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От животните",
+            "audio": "tale_58/tale_58_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От водата",
+            "audio": "tale_58/tale_58_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво ѝ показа Ори",
+        "audio_dir": "tale_58/tale_58_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Звездите и Луната",
+            "audio": "tale_58/tale_58_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Слънцето",
+            "audio": "tale_58/tale_58_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Дъжда",
+            "audio": "tale_58/tale_58_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Рина, когато видя звездите",
+        "audio_dir": "tale_58/tale_58_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Спокойна и удивена",
+            "audio": "tale_58/tale_58_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Тъжна",
+            "audio": "tale_58/tale_58_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Гневна",
+            "audio": "tale_58/tale_58_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "59",
+    "title": "Мечето Боби и тъжният облак",
+    "questions": [
+      {
+        "text": "Как се чувстваше Боби",
+        "audio_dir": "tale_59/tale_59_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Тъжен и без настроение",
+            "audio": "tale_59/tale_59_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Много ядосан",
+            "audio": "tale_59/tale_59_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Много гладен",
+            "audio": "tale_59/tale_59_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха двамата приятели",
+        "audio_dir": "tale_59/tale_59_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Седнаха и гледаха облаците заедно",
+            "audio": "tale_59/tale_59_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Отидоха да тичат",
+            "audio": "tale_59/tale_59_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Скара се",
+            "audio": "tale_59/tale_59_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра Боби за тъгата",
+        "audio_dir": "tale_59/tale_59_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че става по-лека, когато я споделиш",
+            "audio": "tale_59/tale_59_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че не трябва да говори за нея",
+            "audio": "tale_59/tale_59_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че изчезва сама веднага",
+            "audio": "tale_59/tale_59_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "60",
+    "title": "Зайчето Поли и голямата радост",
+    "questions": [
+      {
+        "text": "Защо Поли беше толкова щастливо",
+        "audio_dir": "tale_60/tale_60_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото намери голяма ягода",
+            "audio": "tale_60/tale_60_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото се изгуби",
+            "audio": "tale_60/tale_60_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото заваля дъжд",
+            "audio": "tale_60/tale_60_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "С кого сподели радостта си",
+        "audio_dir": "tale_60/tale_60_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "С Нана, Сиси и Бруно",
+            "audio": "tale_60/tale_60_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Само със себе си",
+            "audio": "tale_60/tale_60_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "С никого",
+            "audio": "tale_60/tale_60_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра накрая",
+        "audio_dir": "tale_60/tale_60_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че радостта става по-голяма, когато се споделя",
+            "audio": "tale_60/tale_60_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че радостта трябва да се крие",
+            "audio": "tale_60/tale_60_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че радостта изчезва, ако я кажеш",
+            "audio": "tale_60/tale_60_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "61",
+    "title": "Лисичето Фреди и ядосаната опашка",
+    "questions": [
+      {
+        "text": "Защо Фреди се ядоса",
+        "audio_dir": "tale_61/tale_61_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото кулата му падна",
+            "audio": "tale_61/tale_61_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото се събуди",
+            "audio": "tale_61/tale_61_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото беше гладен",
+            "audio": "tale_61/tale_61_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Лея му помогна",
+        "audio_dir": "tale_61/tale_61_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Научи го да диша спокойно",
+            "audio": "tale_61/tale_61_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Накара го да тича",
+            "audio": "tale_61/tale_61_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Даде му нови шишарки",
+            "audio": "tale_61/tale_61_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Фреди накрая",
+        "audio_dir": "tale_61/tale_61_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "По-спокоен и щастлив",
+            "audio": "tale_61/tale_61_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "По-ядосан",
+            "audio": "tale_61/tale_61_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "По-уплашен",
+            "audio": "tale_61/tale_61_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "62",
+    "title": "Катеричката Мина и страхът от нови неща",
+    "questions": [
+      {
+        "text": "От какво се страхуваше Мина",
+        "audio_dir": "tale_62/tale_62_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "От нови игри",
+            "audio": "tale_62/tale_62_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От вода",
+            "audio": "tale_62/tale_62_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "От сняг",
+            "audio": "tale_62/tale_62_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой ѝ помогна",
+        "audio_dir": "tale_62/tale_62_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Жабчето Кико",
+            "audio": "tale_62/tale_62_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Птица",
+            "audio": "tale_62/tale_62_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Лисица",
+            "audio": "tale_62/tale_62_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато опита",
+        "audio_dir": "tale_62/tale_62_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Успя и се забавлява",
+            "audio": "tale_62/tale_62_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Се отказа веднага",
+            "audio": "tale_62/tale_62_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Се прибра вкъщи",
+            "audio": "tale_62/tale_62_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "63",
+    "title": "Еленчето Рина и спокойният дъх",
+    "questions": [
+      {
+        "text": "Защо Рина се почувства претоварена",
+        "audio_dir": "tale_63/tale_63_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото имаше твърде много шум",
+            "audio": "tale_63/tale_63_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото беше гладна",
+            "audio": "tale_63/tale_63_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото беше сама",
+            "audio": "tale_63/tale_63_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой ѝ помогна да се успокои",
+        "audio_dir": "tale_63/tale_63_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Совата Ори",
+            "audio": "tale_63/tale_63_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Бруно",
+            "audio": "tale_63/tale_63_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Лили",
+            "audio": "tale_63/tale_63_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха под дървото",
+        "audio_dir": "tale_63/tale_63_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Дишаха спокойно и мълчаха",
+            "audio": "tale_63/tale_63_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Тичаха",
+            "audio": "tale_63/tale_63_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Скачаха",
+            "audio": "tale_63/tale_63_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "64",
+    "title": "Пандата Лили и денят на обърканите чувства",
+    "questions": [
+      {
+        "text": "Как се чувстваше Лили в началото",
+        "audio_dir": "tale_64/tale_64_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Объркана и странно",
+            "audio": "tale_64/tale_64_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Много щастлива",
+            "audio": "tale_64/tale_64_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Много ядосана",
+            "audio": "tale_64/tale_64_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво предложи Ори",
+        "audio_dir": "tale_64/tale_64_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да нарисува чувствата си",
+            "audio": "tale_64/tale_64_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да ги забрави",
+            "audio": "tale_64/tale_64_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да излезе навън",
+            "audio": "tale_64/tale_64_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбра Лили накрая",
+        "audio_dir": "tale_64/tale_64_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че може да има много чувства едновременно",
+            "audio": "tale_64/tale_64_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че има само едно чувство",
+            "audio": "tale_64/tale_64_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че чувствата са грешни",
+            "audio": "tale_64/tale_64_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "65",
+    "title": "Жабчето Коко и думите, които нараняват",
+    "questions": [
+      {
+        "text": "Защо Коко се натъжи",
+        "audio_dir": "tale_65/tale_65_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото другите му се смяха",
+            "audio": "tale_65/tale_65_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото беше уморен",
+            "audio": "tale_65/tale_65_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото валя дъжд",
+            "audio": "tale_65/tale_65_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво го посъветва Нана",
+        "audio_dir": "tale_65/tale_65_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да каже как се чувства спокойно",
+            "audio": "tale_65/tale_65_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да се скрие",
+            "audio": "tale_65/tale_65_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да не говори повече",
+            "audio": "tale_65/tale_65_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха жабките накрая",
+        "audio_dir": "tale_65/tale_65_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Извиниха се и играха заедно",
+            "audio": "tale_65/tale_65_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Отидоха си",
+            "audio": "tale_65/tale_65_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Спряха да говорят",
+            "audio": "tale_65/tale_65_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "66",
+    "title": "Катеричката Сиси и голямата прегръдка",
+    "questions": [
+      {
+        "text": "Как се чувстваше Сиси",
+        "audio_dir": "tale_66/tale_66_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Самотна",
+            "audio": "tale_66/tale_66_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Ядосана",
+            "audio": "tale_66/tale_66_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Гладна",
+            "audio": "tale_66/tale_66_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво предложи Бруно",
+        "audio_dir": "tale_66/tale_66_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Прегръдка",
+            "audio": "tale_66/tale_66_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Играчка",
+            "audio": "tale_66/tale_66_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Храна",
+            "audio": "tale_66/tale_66_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как се почувства Сиси след прегръдката",
+        "audio_dir": "tale_66/tale_66_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Спокойна и щастлива",
+            "audio": "tale_66/tale_66_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Уплашена",
+            "audio": "tale_66/tale_66_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Сърдита",
+            "audio": "tale_66/tale_66_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "67",
+    "title": "Лисичето Рони и вълшебната светулка Луми",
+    "questions": [
+      {
+        "text": "Кого срещна Рони",
+        "audio_dir": "tale_67/tale_67_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Вълшебната светулка Луми",
+            "audio": "tale_67/tale_67_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Едно зайче и една пеперуда",
+            "audio": "tale_67/tale_67_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стария вълк от гората",
+            "audio": "tale_67/tale_67_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво можеше да прави Луми",
+        "audio_dir": "tale_67/tale_67_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да показва тайни пътеки",
+            "audio": "tale_67/tale_67_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да говори с животните и да тича бързо",
+            "audio": "tale_67/tale_67_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да прави храна от светлина",
+            "audio": "tale_67/tale_67_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво откриха заедно",
+        "audio_dir": "tale_67/tale_67_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Поляна с светещи цветя",
+            "audio": "tale_67/tale_67_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Подземна пещера със съкровища",
+            "audio": "tale_67/tale_67_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Замръзнало езеро",
+            "audio": "tale_67/tale_67_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "68",
+    "title": "Пеперудката Фея и изгубеното вълшебство",
+    "questions": [
+      {
+        "text": "Какво беше изгубила Фея",
+        "audio_dir": "tale_68/tale_68_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Вълшебния прашец",
+            "audio": "tale_68/tale_68_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Крилцата си",
+            "audio": "tale_68/tale_68_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Къщичката си",
+            "audio": "tale_68/tale_68_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой ѝ помогна",
+        "audio_dir": "tale_68/tale_68_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Мишлето Тити",
+            "audio": "tale_68/tale_68_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Гръмливия лъв",
+            "audio": "tale_68/tale_68_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Стария орел",
+            "audio": "tale_68/tale_68_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде намериха прашеца",
+        "audio_dir": "tale_68/tale_68_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "В цвете, което блестяло",
+            "audio": "tale_68/tale_68_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В дупка под дърво",
+            "audio": "tale_68/tale_68_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В реката сред камъни",
+            "audio": "tale_68/tale_68_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "69",
+    "title": "Дракончето Дино и огненото сърце",
+    "questions": [
+      {
+        "text": "Защо Дино беше тъжен",
+        "audio_dir": "tale_69/tale_69_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото не можел да бълва огън",
+            "audio": "tale_69/tale_69_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото изгубил опашката си",
+            "audio": "tale_69/tale_69_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото не можел да лети",
+            "audio": "tale_69/tale_69_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво му каза старият дракон",
+        "audio_dir": "tale_69/tale_69_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че огънят идва от сърцето",
+            "audio": "tale_69/tale_69_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че трябва да тренира повече с криле",
+            "audio": "tale_69/tale_69_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че никога няма да стане голям",
+            "audio": "tale_69/tale_69_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Дино откри своя огън",
+        "audio_dir": "tale_69/tale_69_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Когато се уплашил и после защитил приятелите си",
+            "audio": "tale_69/tale_69_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Като се ядосал много силно",
+            "audio": "tale_69/tale_69_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Като изял магически камък",
+            "audio": "tale_69/tale_69_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "70",
+    "title": "Русалчето Мира и песента на морето",
+    "questions": [
+      {
+        "text": "Какво изгуби Мира",
+        "audio_dir": "tale_70/tale_70_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Гласа си",
+            "audio": "tale_70/tale_70_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Опашката си",
+            "audio": "tale_70/tale_70_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Перлите си",
+            "audio": "tale_70/tale_70_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой ѝ помогна",
+        "audio_dir": "tale_70/tale_70_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Костенурката Тара",
+            "audio": "tale_70/tale_70_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Морският кон",
+            "audio": "tale_70/tale_70_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Големият октопод",
+            "audio": "tale_70/tale_70_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Къде намериха гласа ѝ",
+        "audio_dir": "tale_70/tale_70_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "В малка морска пещера",
+            "audio": "tale_70/tale_70_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "В корабна лодка",
+            "audio": "tale_70/tale_70_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "В пясъка на брега",
+            "audio": "tale_70/tale_70_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "71",
+    "title": "Еднорoжката Луна и звездният мост",
+    "questions": [
+      {
+        "text": "Защо звездите бяха тъжни",
+        "audio_dir": "tale_71/tale_71_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото мостът им се счупил",
+            "audio": "tale_71/tale_71_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото били уморени от игра",
+            "audio": "tale_71/tale_71_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото се изгубили в морето",
+            "audio": "tale_71/tale_71_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Луна им помогна",
+        "audio_dir": "tale_71/tale_71_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Като направила мост от лунна светлина",
+            "audio": "tale_71/tale_71_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Като ги събудила със звук",
+            "audio": "tale_71/tale_71_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Като ги завела в гората",
+            "audio": "tale_71/tale_71_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво се случи, когато се върнаха на небето",
+        "audio_dir": "tale_71/tale_71_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Те засияли отново",
+            "audio": "tale_71/tale_71_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Небето потъмняло още повече",
+            "audio": "tale_71/tale_71_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Звездите изчезнали пак",
+            "audio": "tale_71/tale_71_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "72",
+    "title": "Малката вещица Мила и метлата, която не слушаше",
+    "questions": [
+      {
+        "text": "Какъв беше проблемът с метлата",
+        "audio_dir": "tale_72/tale_72_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Била непослушна и не я слушала",
+            "audio": "tale_72/tale_72_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Не можела да лети изобщо",
+            "audio": "tale_72/tale_72_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Била счупена",
+            "audio": "tale_72/tale_72_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Как Мила разбра какво иска тя",
+        "audio_dir": "tale_72/tale_72_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Като говори с нея",
+            "audio": "tale_72/tale_72_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Като ѝ извика силно",
+            "audio": "tale_72/tale_72_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Като я заключи",
+            "audio": "tale_72/tale_72_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направиха накрая",
+        "audio_dir": "tale_72/tale_72_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Първо играли, после летели",
+            "audio": "tale_72/tale_72_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Изхвърлиха метлата",
+            "audio": "tale_72/tale_72_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Оставиха я в къщата",
+            "audio": "tale_72/tale_72_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "73",
+    "title": "Гномчето Тото и златната шишарка",
+    "questions": [
+      {
+        "text": "Какво намери Тото",
+        "audio_dir": "tale_73/tale_73_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Златна шишарка",
+            "audio": "tale_73/tale_73_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Сребърен ключ",
+            "audio": "tale_73/tale_73_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Магическа пръчка",
+            "audio": "tale_73/tale_73_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво можеше да направи с шишарката",
+        "audio_dir": "tale_73/tale_73_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да изпълни едно желание",
+            "audio": "tale_73/tale_73_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да яде от нея",
+            "audio": "tale_73/tale_73_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да я превърне в животно",
+            "audio": "tale_73/tale_73_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво пожела накрая",
+        "audio_dir": "tale_73/tale_73_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Зайчето да има топъл дом",
+            "audio": "tale_73/tale_73_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Нови играчки за себе си",
+            "audio": "tale_73/tale_73_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Да стане най-силен",
+            "audio": "tale_73/tale_73_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "74",
+    "title": "Малкият великан Вико и гората на гигантите",
+    "questions": [
+      {
+        "text": "Защо Вико се различаваше от другите великани",
+        "audio_dir": "tale_74/tale_74_q1.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Защото бил най-малък и тих",
+            "audio": "tale_74/tale_74_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Защото бил най-силен",
+            "audio": "tale_74/tale_74_q1_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Защото можел да лети",
+            "audio": "tale_74/tale_74_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво направи, когато камъкът се търкаляше",
+        "audio_dir": "tale_74/tale_74_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Насочи камъка в безопасна посока",
+            "audio": "tale_74/tale_74_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Скри се зад дърво",
+            "audio": "tale_74/tale_74_q2_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Извика помощ и избяга",
+            "audio": "tale_74/tale_74_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво разбраха всички накрая",
+        "audio_dir": "tale_74/tale_74_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Че малък не означава слаб",
+            "audio": "tale_74/tale_74_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Че само силните са важни",
+            "audio": "tale_74/tale_74_q3_a1.mp3"
+          },
+          {
+            "id": 3,
+            "text": "Че малките не помагат",
+            "audio": "tale_74/tale_74_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
       }
     ]
   }

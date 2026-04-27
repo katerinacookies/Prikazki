@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class QuestionsActivity extends AppCompatActivity {
+    private QiContext qiContext;
     private String taleId; // don't ask why it's String
     private Question[] questions;
     private TextView questionText;
@@ -46,6 +47,7 @@ public class QuestionsActivity extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.btn2);
         btn3 = (Button) findViewById(R.id.btn3);
         btnNext = (Button) findViewById(R.id.btn_skip);
+        qiContext = (QiContext) this.getBaseContext();
 
         btnNext.setOnClickListener(v -> {
             questionId++;
@@ -68,19 +70,19 @@ public class QuestionsActivity extends AppCompatActivity {
 
             btn3.getId();
             // Correct Answer Logic
-            if (currentQuestionIndex == 0 && id == R.id.btn3) isCorrect = true; // Q1 -> 4
-            else if (currentQuestionIndex == 1 && id == R.id.btn3) isCorrect = true; // Q2 -> Words
-            else if (currentQuestionIndex == 2 && id == R.id.btn1) isCorrect = true; // Q3 -> Sun
+            if (questionId == 0 && id == R.id.btn3) isCorrect = true; // Q1 -> 4
+            else if (questionId == 1 && id == R.id.btn2) isCorrect = true; // Q2 -> Words
+            else if (questionId == 2 && id == R.id.btn1) isCorrect = true; // Q3 -> Sun
 
             if (isCorrect) {
                 Toast.makeText(this, "БРАВО!", Toast.LENGTH_SHORT).show();
-                runAnimation(R.raw.happy);
+                runAnimation(R.raw.final_nod);
                 playFeedbackAudio("robot/gj.wav");
-                skipNextBtn.setText("Следващ въпрос");
-                skipNextBtn.setVisibility(View.VISIBLE);
+                btnNext.setText("Следващ въпрос");
+                btnNext.setVisibility(View.VISIBLE);
             } else {
                 Toast.makeText(this, "Опитай пак.", Toast.LENGTH_SHORT).show();
-                runAnimation(R.raw.sad);
+                runAnimation(R.raw.pain);
                 playFeedbackAudio("robot/tryagain.wav");
             }
         };
@@ -116,5 +118,12 @@ public class QuestionsActivity extends AppCompatActivity {
         } catch (Exception e) {
             Log.e("ERROR", "Feedback audio error: " + e.getMessage());
         }
+    }
+
+    private void runAnimation(int resId){
+        if (qiContext == null) return;
+        AnimationBuilder.with(qiContext).withResources(resId).buildAsync().andThenConsume(animation ->
+                AnimateBuilder.with(qiContext).withAnimation(animation).buildAsync().andThenConsume(animate -> animate.async().run())
+        );
     }
 }

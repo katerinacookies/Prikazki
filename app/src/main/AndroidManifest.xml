@@ -22,6 +22,8 @@
         <activity android:name=".Tale4PartSelectionActivity" />
         <activity android:name=".TaleActivityMain" />
         <activity android:name=".TaleActivity4"/>
+        <activity android:name=".QuestionsActivity"/>
+
     </application>
 
     <uses-feature android:name="com.softbank.hardware.pepper"/>

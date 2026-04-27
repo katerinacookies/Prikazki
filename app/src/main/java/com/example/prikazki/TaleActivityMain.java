@@ -1,5 +1,6 @@
 package com.example.prikazki;
 
+import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -82,6 +84,14 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                             findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
                             findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                         });
+                        Button btnQuestions = (Button) findViewById(R.id.btnQuestions);
+                        btnQuestions.setOnClickListener(v -> {
+                            releaseMediaPlayer();
+                            Intent intent = new Intent(TaleActivityMain.this, QuestionsActivity.class);
+                            intent.putExtra("TALE_ID", currentTale.id);
+                            startActivity(intent);
+                        });
+
                         nextStep();
                     });
                 } catch (Exception e) {

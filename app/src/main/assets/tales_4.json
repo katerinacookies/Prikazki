@@ -1,9 +1,9 @@
 [
   {
-    "name" : "Прасенцето Пумпи и приятелят, който се страхуваше да готви",
+    "name" : "test",
     "author_name" : "DinaMitko",
     "author_audio" : "dimitarspasov.mp3",
-    "id" : "0",
+    "id" : "1000",
     "group" : "4",
     "parts": [
       {
@@ -22,8 +22,8 @@
         ]
       },
       {
-        "sounds_path" : "dobritestopani",
-        "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
+        "sounds_path" : "ejkopuhcho",
+        "pics" : ["deer", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
         "animations" : [
           ["qurious.qianim", "point_around.qianim"],
           ["wakeup.qianim", "arm_slide.qianim", "point_to_bird.qianim"],
@@ -54,10 +54,10 @@
     ]
   },
   {
-    "name" : "Мечето Тони и приятелят, който се страхуваше да разказва истории",
+    "name" : "json blueprint",
     "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "1",
+    "author_audio" : "$.mp3",
+    "id" : "1001",
     "group" : "4",
     "parts": [
       {
@@ -77,6 +77,308 @@
       {
         "sounds_path" : "$",
         "pics" : [],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Прасенцето Пумпи и приятелят, който се страхуваше да готви",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "0",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["pig1","cookbook","dinner_table","dog","dog_sad","food_stand","pig1","dog_sad","dog_sad"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["fruit_basket","pond","pig1","dog","fruit_basket","dog_sad","dog","pig1","salad","food_stand","fruit_salad","fruit_salad","dog_sad","happy_animals"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["happy_animals","dog","pig","pig"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Мечето Тони и приятелят, който се страхуваше да разказва истории",
+    "author_name" : "$",
+    "author_audio" : "$",
+    "id" : "1",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["forest","bear","happy_animals","beaver_normal","beaver_normal","bear","beaver_normal","bear"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["bear","animals_wood","animals_wood","beaver_normal","animals_wood","beaver_normal","happy_animals","beaver_normal","theater","happy_animals","beaver_normal"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["happy_animals","beaver_normal","animals_wood"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Лисичето Реми и приятелят, който се страхуваше да пее",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "2",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["fox_happy","squirrel","squirrel"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["bell_small","squirrel","musical_notes2","happy_animals","squirrel","musical_notes2","happy_animals","squirrel"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["happy_animals","fox_happy","squirrel"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Зайчето Мими и приятелят, който се страхуваше да танцува",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "3",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["bunny","beaver_normal","beaver_normal"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["drum","drum","musical_notes2","happy_animals","beaver_normal","drum","beaver_normal"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["happy_animals","bunny"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Птичето Рио и приятелят, който се страхуваше да лети високо",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "4",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["bird_blue","owl","bird_blue","owl"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["ribbon","ribbon","bird_flying","birds","owl","ribbon"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["birds","bird_blue"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Костенурчето Тико и приятелят, който се страхуваше да плува",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "5",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["turtle","mouse","turtle","mouse"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["boat","mouse","boat","underwater","boat","underwater"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["mouse","turtle"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Пингвинчето Нино и приятелят, който се страхуваше да се пързаля",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "6",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["penguin1","penguin1","seal","seal","ice_rink","penguin1","seal"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["ice_rink","snowball2","penguin1","seal","snowball2","seal","happy_animals","ice_rink","seal","penguin1","seal",
+          "snowball2","happy_animals","happy_animals"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["seal","seal"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Катеричката Сиси и приятелят, който се страхуваше да рисува пред другите",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "7",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["squirrel2","chalk","squirrel2","mouse","mouse","art_poster","squirrel2","mouse","squirrel2"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["pond","rock_tower","rock_tower","squirrel2","mouse","garden_drawing","squirrel2","mouse","garden_drawing",
+        "happy_animals","mouse","happy_animals","mouse"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["happy_animals","squirrel2","mouse"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Жабчето Лили и приятелят, който се страхуваше от дъжда",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "8",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["frog","hedgehog","frog_scared","hedgehog","frog"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["frog_rain","frog_rain","frog_rain","puddle","puddle","hedgehog","hedgehog"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["happy_animals","frog","hedgehog"],
+        "animations" : [
+
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Лъвчето Лео и приятелят, който се страхуваше от тъмното",
+    "author_name" : "$",
+    "author_audio" : "$.mp3",
+    "id" : "9",
+    "group" : "4",
+    "parts": [
+      {
+        "sounds_path" : "$",
+        "pics" : ["lion","monkey","lion","monkey"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["lantern","monkey","meadow_night","meadow_night","monkey"],
+        "animations" : [
+
+        ]
+      },
+      {
+        "sounds_path" : "$",
+        "pics" : ["lion","monkey"],
         "animations" : [
 
         ]

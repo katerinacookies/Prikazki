@@ -21,7 +21,7 @@ import com.example.prikazki.models.Tale;
 //logikata za prikazkite za 1, 2 i 3ta grupa
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
     //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
-    public boolean isEmulatorMode = true;
+    public boolean isEmulatorMode = false;
 
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
@@ -44,13 +44,16 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
+        findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
+
         if (isEmulatorMode) {
             // Bypass the robot and start the tale after a 1-second delay
             new Handler().postDelayed(this::startTaleIntro, 1000);
         }
-
-        findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
-        QiSDK.register(this, this);
+        else{
+            startTaleIntro();
+            QiSDK.register(this, this);
+        }
     }
 
     @Override

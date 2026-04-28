@@ -47,11 +47,11 @@
   },
   {
     "name" : "Зайчето Бобо и голямото пролетно приключение",
-    "author_name" : "$",
-    "author_audio" : "$",
+    "author_name" : "gosho",
+    "author_audio" : "zaichetobobo_title",
     "id" : "2",
     "group" : "1",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetobobo",
     "pics" : ["bunny", "waterdrop", "waterdrop", "flower_purple", "fairy", "bunny", "pond", "puhche" ],
     "animations" : [
       ["qurious.qianim"],

@@ -24,7 +24,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class QuestionsActivity extends AppCompatActivity {
     private QiContext qiContext;
@@ -34,11 +36,15 @@ public class QuestionsActivity extends AppCompatActivity {
     private Button btn1,btn2,btn3,btnNext;
     private MediaPlayer mediaPlayer;
     private int questionId = 0;
+    private Map<Integer,Integer> questionBtnIds = new HashMap<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.e("T_ERROR","in questioons activity");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.questions);
+
+        Log.e("T_ERROR","in questioons activity 2");
 
         taleId = getIntent().getStringExtra("TALE_ID");
 
@@ -49,30 +55,36 @@ public class QuestionsActivity extends AppCompatActivity {
         btnNext = (Button) findViewById(R.id.btn_skip);
         qiContext = (QiContext) this.getBaseContext();
 
+        Log.e("T_ERROR","in questioons activity 3");
+        questionBtnIds.put(0,2131165206); questionBtnIds.put(1,2131165207); questionBtnIds.put(2,2131165208);
+        Log.e("T_ERROR","in questioons activity 4");
+
         btnNext.setOnClickListener(v -> {
             questionId++;
+            if(questionId==3) finish();
+            btnNext.setText("Пропусни");
             loadQuestions();
         });
 
+        Log.e("T_ERROR","in questioons activity 5");
         try {
             questions = Question.GetQuestionsFromTaleId(this,taleId);
         } catch (Exception e){
             Log.e("ERROR","Couldn't fetch question from questions JSON: "+e.getMessage());
         }
-
+        loadQuestions();
+        Log.e("T_ERROR","in questioons activity 6");
         setupQuizButtons();
+        Log.e("T_ERROR","in questioons activity 7");
     }
 
     private void setupQuizButtons() {
         View.OnClickListener quizListener = v -> {
             boolean isCorrect = false;
-            int id = v.getId();
+            int pressedId = v.getId();
 
-            btn3.getId();
             // Correct Answer Logic
-            if (questionId == 0 && id == R.id.btn3) isCorrect = true; // Q1 -> 4
-            else if (questionId == 1 && id == R.id.btn2) isCorrect = true; // Q2 -> Words
-            else if (questionId == 2 && id == R.id.btn1) isCorrect = true; // Q3 -> Sun
+            if (pressedId == questionBtnIds.get(questions[questionId].rightAnswerId)) isCorrect = true;
 
             if (isCorrect) {
                 Toast.makeText(this, "БРАВО!", Toast.LENGTH_SHORT).show();
@@ -82,7 +94,7 @@ public class QuestionsActivity extends AppCompatActivity {
                 btnNext.setVisibility(View.VISIBLE);
             } else {
                 Toast.makeText(this, "Опитай пак.", Toast.LENGTH_SHORT).show();
-                runAnimation(R.raw.pain);
+                runAnimation(R.raw.think);
                 playFeedbackAudio("robot/tryagain.wav");
             }
         };
@@ -93,7 +105,10 @@ public class QuestionsActivity extends AppCompatActivity {
     }
 
     public void loadQuestions(){
-
+        btn1.setText(questions[questionId].answers[0].text);
+        btn2.setText(questions[questionId].answers[1].text);
+        btn3.setText(questions[questionId].answers[2].text);
+        questionText.setText(questions[questionId].text);
     }
 
     private void releaseMediaPlayer() {

@@ -1,5 +1,6 @@
 package com.example.prikazki;
 
+import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -34,8 +36,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         setContentView(R.layout.activity_tale_player);
 
         try {
-            String taleIdString = getIntent().getStringExtra("TALE_ID");
-            String taleId = taleIdString;
+            String taleId = getIntent().getStringExtra("TALE_ID");
             loadTaleFromJSON(taleId);
         } catch (Exception e){
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
@@ -84,6 +85,14 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                             findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
                             findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                         });
+                        Button btnQuestions = (Button) findViewById(R.id.btnQuestions);
+                        btnQuestions.setOnClickListener(v -> {
+                            releaseMediaPlayer();
+                            Intent intent = new Intent(TaleActivityMain.this, QuestionsActivity.class);
+                            intent.putExtra("TALE_ID", currentTale.id);
+                            startActivity(intent);
+                        });
+
                         nextStep();
                     });*/
                     // 3. Start Steps
@@ -118,7 +127,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             runAnimationChain(animations, 0);
 
             // Play Step Audio
-            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".mp3";
+            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".wav";
 
             playAudio(audio, () -> {
                 // When audio finishes, wait a beat and go to next step

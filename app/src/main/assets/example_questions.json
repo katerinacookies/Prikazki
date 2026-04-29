@@ -3848,7 +3848,7 @@
     "questions": [
       {
         "text": "Защо Фифо не харесваше дъжда",
-        "audio_dir": "02_duckfiforain/duckfiforain_55_q1.mp3",
+        "audio_dir": "02_duckfiforain/duckfiforain_q1.mp3",
         "answers": [
           {
             "id": 0,
@@ -3858,7 +3858,7 @@
           {
             "id": 1,
             "text": "Защото не можеше да играе навън",
-            "audio": "02_duckfiforain/duckfiforainorrect.mp3"
+            "audio": "02_duckfiforain/duckfiforain_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -3870,7 +3870,7 @@
       },
       {
         "text": "Кой му показа песента на дъжда",
-        "audio_dir": "02_duckfiforain/duckfiforain_55_q2.mp3",
+        "audio_dir": "02_duckfiforain/duckfiforain_q2.mp3",
         "answers": [
           {
             "id": 0,
@@ -3880,7 +3880,7 @@
           {
             "id": 1,
             "text": "Жабката",
-            "audio": "02_duckfiforain/duckfiforainorrect.mp3"
+            "audio": "02_duckfiforain/duckfiforain_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -3892,7 +3892,7 @@
       },
       {
         "text": "Какво правеше Фифо накрая",
-        "audio_dir": "02_duckfiforain/duckfiforain_55_q3.mp3",
+        "audio_dir": "02_duckfiforain/duckfiforain_q3.mp3",
         "answers": [
           {
             "id": 0,
@@ -3902,7 +3902,7 @@
           {
             "id": 1,
             "text": "Танцуваше в локвите",
-            "audio": "02_duckfiforain/duckfiforainorrect.mp3"
+            "audio": "02_duckfiforain/duckfiforain_q3_correct.mp3"
           },
           {
             "id": 2,

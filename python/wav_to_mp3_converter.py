@@ -1,9 +1,8 @@
 from pydub import AudioSegment
-from pydub.playback import play
 import os
 
-OG_PATH = "../../Prikazki/app/src/main/assets/robot/wav"
-NEW_PATH = "../../Prikazki/app/src/main/assets/robot/mp3"
+OG_PATH = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/wav"
+NEW_PATH = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/mp3"
 
 # AudioSegment.from_wav("dobritestopani_0.wav").export("test.mp3", format="mp3")
 
@@ -16,11 +15,28 @@ NEW_PATH = "../../Prikazki/app/src/main/assets/robot/mp3"
 #         if file.endswith(".wav"):
 #             filePath = f"{PATH}/{subf}/{file}"
 #             play(AudioSegment.from_wav(filePath))
-files = os.listdir(OG_PATH)
+# files = os.listdir(OG_PATH)
+
+# for file in files:
+#     if file.endswith(".wav"):
+#         filePath = f"{OG_PATH}/{file}"
+#         convertedFilePath = f"{NEW_PATH}/{file}"
+#         AudioSegment.from_wav(filePath).export(convertedFilePath, format="mp3")
+#         # play(AudioSegment.from_wav(filePath))
+
+files = os.listdir(NEW_PATH)
 
 for file in files:
+    # Find the ones that still have the .wav extension
     if file.endswith(".wav"):
-        filePath = f"{OG_PATH}/{file}"
-        convertedFilePath = f"{NEW_PATH}/{file}"
-        AudioSegment.from_wav(filePath).export(convertedFilePath, format="mp3")
-        # play(AudioSegment.from_wav(filePath))
+        old_file_path = f"{NEW_PATH}/{file}"
+        
+        # Swap the extension string
+        new_file_name = file.replace(".wav", ".mp3")
+        new_file_path = f"{NEW_PATH}/{new_file_name}"
+        
+        # Tell the operating system to instantly rename it
+        os.rename(old_file_path, new_file_path)
+        print(f"Renamed: {file} -> {new_file_name}")
+
+print("All files renamed successfully!")

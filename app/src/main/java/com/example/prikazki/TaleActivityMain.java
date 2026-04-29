@@ -19,9 +19,9 @@ import com.aldebaran.qi.sdk.RobotLifecycleCallbacks;
 import com.example.prikazki.models.Tale;
 
 //logikata za prikazkite za 1, 2 i 3ta grupa
-public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
+public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks {
     //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
-    public boolean isEmulatorMode = true;
+    public boolean isEmulatorMode = false;
 
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
@@ -73,7 +73,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
             String title = currentTale.name;
             String authorName = currentTale.authorName;
-            String authorAudio = currentTale.authorAudio;
+            String titleAudio = currentTale.titleAudio;
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
@@ -82,7 +82,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             });
 
             try {
-                playAudio(authorAudio, () -> {
+                playAudio(titleAudio, () -> {
                     runOnUiThread(() -> {
                         findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);

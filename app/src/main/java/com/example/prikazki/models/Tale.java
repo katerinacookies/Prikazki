@@ -1,8 +1,6 @@
 package com.example.prikazki.models;
 
 import android.content.Context;
-import android.util.Log;
-import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -14,7 +12,7 @@ import com.example.prikazki.JSONReader;
 public class Tale {
     public String name;
     public String authorName;
-    public String authorAudio;
+    public String titleAudio;
     public String id;
     public String group;
     public String soundsPath;
@@ -24,13 +22,13 @@ public class Tale {
 
     public Question[] questions;
 
-    public Tale(String name, String authorName, String authorAudio, String id, String group, String soundsPath, String[] pics, String[][] animations, Question[] questions) {
+    public Tale(String name, String id, String group, String soundsPath, String[] pics, String[][] animations, Question[] questions) {
         this.name = name;
-        this.authorName = authorName;
-        this.authorAudio = authorAudio;
         this.id = id;
         this.group = group;
         this.soundsPath = soundsPath;
+
+        this.titleAudio = soundsPath + "_title";
 
         int picsCount = pics.length;
         this.pics = new String[picsCount];
@@ -64,18 +62,13 @@ public class Tale {
 
             isValid = false;
         }
-        if (authorName.contains("$")) {
-            exceptionMessage += ("Tale author name not valid: " + authorName + ";\n");
-
-            isValid = false;
-        }
-        if (authorAudio.contains("$")) {
-            exceptionMessage += ("Tale author audio not valid: " + authorAudio + ";\n");
+        if (titleAudio.contains("$")) {
+            exceptionMessage += ("Tale author audio not valid: " + titleAudio + ";\n");
 
             isValid = false;
         }
         if (soundsPath.contains("$")) {
-            exceptionMessage += ("Tale sound path not valid: " + authorAudio + ";\n");
+            exceptionMessage += ("Tale sound path not valid: " + titleAudio + ";\n");
 
             isValid = false;
         }
@@ -93,8 +86,6 @@ public class Tale {
             return null;
 
         String name = JSONRawData.getString("name");
-        String authorName = JSONRawData.getString("author_name");
-        String authorAudio = JSONRawData.getString("author_audio");
         String group = JSONRawData.getString("group");
         String soundsPath = JSONRawData.getString("sounds_path");
 
@@ -120,6 +111,6 @@ public class Tale {
 
         Question[] questions = Question.GetQuestionsFromTaleId(context, id);
 
-        return new Tale(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations, questions);
+        return new Tale(name, id, group, soundsPath, picsPaths, animations, questions);
     }
 }

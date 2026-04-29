@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
+import android.widget.Toast;
+
+import junit.framework.Test;
 
 
 //izbirane na prikazka
@@ -27,6 +30,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, TaleSelectionActivity4.class);
                 intent.putExtra("GROUP_ID", 4);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_testanims = (Button) findViewById(R.id.btn_testanims);
+        btn_testanims.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(MainActivity.this, "Entering test anims activity", Toast.LENGTH_SHORT).show();
+
+                // Fix 1: Use MainActivity.this for the Intent context
+                Intent intent = new Intent(MainActivity.this, TestAnimsActivity.class);
+
+                // Fix 2: Use MainActivity.this or v.getContext() for the Toast
+
                 startActivity(intent);
             }
         });

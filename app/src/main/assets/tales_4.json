@@ -666,21 +666,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bird_blue","hedgehog","hedgehog","happy_animals","hedgehog","bird_blue"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["sand","hedgehog","hedgehog","sand","beach","hedgehog","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bird_blue","hedgehog"],
         "animations" : [
 
         ]
@@ -696,21 +696,22 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bear","xylophone","fox","fox","bear","fox"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","rock_tower","fox","rock_tower","rock_tower","happy_animals","fox","happy_animals","bear","fox",
+        "musical_notes2","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bear","fox_happy"],
         "animations" : [
 
         ]
@@ -726,21 +727,22 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["cat_grey","harmonica","dog","dog","musical_notes1","dog"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","rocks_color","rocks_color","rocks_color","cat_grey","musical_notes2","dog","happy_animals",
+        "dog","musical_notes2","dog"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["cat_grey","dog"],
         "animations" : [
 
         ]
@@ -756,21 +758,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["frog","snail","snail","frog","snail"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","animals_wood","snail","animals_wood","happy_animals","frog","snail","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["snail","frog"],
         "animations" : [
 
         ]
@@ -786,21 +788,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["goat","drum","sheep","sheep","musical_notes1","sheep"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","drumsticks","drum","sheep","sheep","happy_animals","goat","musical_notes2","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["goat","sheep"],
         "animations" : [
 
         ]
@@ -816,21 +818,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["squirrel","squirrel","hedgehog","squirrel","hedgehog"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","bells","bells","hedgehog","hedgehog","squirrel","happy_animals","squirrel","hedgehog","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["squirrel","hedgehog"],
         "animations" : [
 
         ]
@@ -846,21 +848,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["savannah","lion","zebra","zebra","savannah","lion","zebra"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["valley","trail_signs","trail_signs","lion","valley","zebra","savannah","lion","zebra","savannah","happy_animals","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["lion","zebra"],
         "animations" : [
 
         ]
@@ -876,21 +878,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bunny","bunny","mouse","mouse","bunny","mouse"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","leaf","paintbrush","flowers","paintbrush","happy_animals","garden_drawing"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bunny","mouse"],
         "animations" : [
 
         ]
@@ -906,21 +908,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bird_blue","bird_flying","owl","bird_blue","owl"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bridge","strings_color","strings_color","owl","birds","owl","birds"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bird_flying","owl"],
         "animations" : [
 
         ]
@@ -936,261 +938,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bear","bear","deer","deer","bear","deer"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","animals_wood","animals_wood","deer","deer","happy_animals","bear","happy_animals","deer"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Пеперудката Фея и приятелят, който се страхуваше да показва таланта си",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "30",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "jКостенурчето Тико и приятелят, който се страхуваше да бъде бърз",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "31",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Лисичето Фреди и приятелят, който се страхуваше да бъде различен",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "32",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Птичето Рио и приятелят, който се страхуваше да мечтае големи мечти",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "33",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Катеричето Пипи и приятелят, който се страхуваше да пази тайни",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "34",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Жабчето Лили и приятелят, който се страхуваше да се състезава",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "35",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Котето Мая и приятелят, който се страхуваше да бъде забелязан",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "36",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Птичето Нана и приятелят, който се страхуваше да пътува далеч",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "37",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bear","deer"],
         "animations" : [
 
         ]
@@ -1206,21 +968,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bear","bunny","bear","bunny"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["pond","wooden_cubes","wooden_cubes","happy_animals","wooden_cubes","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bear","bunny"],
         "animations" : [
 
         ]
@@ -1236,21 +998,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["butterfly","beetle","butterfly","beetle"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["valley","rocks_color","rocks_color","rocks_color","happy_animals","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["butterfly","beetle"],
         "animations" : [
 
         ]
@@ -1266,21 +1028,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["lion","giraffe","lion","giraffe"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["valley","pool_noodles","giraffe","musical_notes2","savannah","giraffe","giraffe"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["lion","giraffe"],
         "animations" : [
 
         ]
@@ -1296,21 +1058,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["butterfly","caterpillar","butterfly","caterpillar"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["valley","leaves_autumn","leaf_blue","caterpillar","happy_animals","caterpillar"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["butterfly","caterpillar"],
         "animations" : [
 
         ]
@@ -1326,21 +1088,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["dog","dog","cat_grey","dog"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["cat_grey","rocks","dog","dog","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["cat_grey","dog"],
         "animations" : [
 
         ]
@@ -1356,21 +1118,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["elephant","elephant","monkey","elephant"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["monkey","elephant","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["elephant"],
         "animations" : [
 
         ]
@@ -1386,21 +1148,21 @@
     "parts": [
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["bird_blue","turtle","bird_blue"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["red_flags","red_flags","happy_animals"],
         "animations" : [
 
         ]
       },
       {
         "sounds_path" : "$",
-        "pics" : [],
+        "pics" : ["turtle"],
         "animations" : [
 
         ]

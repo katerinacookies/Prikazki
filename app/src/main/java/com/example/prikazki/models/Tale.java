@@ -60,22 +60,22 @@ public class Tale {
         String exceptionMessage = "";
 
         if (name.contains("$")) {
-            exceptionMessage += ("Tale name not valid: " + name + "; ");
+            exceptionMessage += ("Tale name not valid: " + name + ";\n");
 
             isValid = false;
         }
         if (authorName.contains("$")) {
-            exceptionMessage += ("Tale author name not valid: " + authorName + "; ");
+            exceptionMessage += ("Tale author name not valid: " + authorName + ";\n");
 
             isValid = false;
         }
         if (authorAudio.contains("$")) {
-            exceptionMessage += ("Tale author audio not valid: " + authorAudio + "; ");
+            exceptionMessage += ("Tale author audio not valid: " + authorAudio + ";\n");
 
             isValid = false;
         }
         if (soundsPath.contains("$")) {
-            exceptionMessage += ("Tale sound path not valid: " + authorAudio + "; ");
+            exceptionMessage += ("Tale sound path not valid: " + authorAudio + ";\n");
 
             isValid = false;
         }
@@ -87,12 +87,7 @@ public class Tale {
     }
 
     public static Tale GetTaleDataFromId(Context context, String id) throws JSONException {
-        Log.d("DEBUG_TAG", "$^$ HEllo world");
-
         JSONObject JSONRawData = JSONReader.getTaleJSONObject(context, id);
-
-        //Toast.makeText(context, JSONRawData.getString("name"), Toast.LENGTH_LONG).show();
-
 
         if (JSONRawData == null)
             return null;
@@ -111,7 +106,6 @@ public class Tale {
         }
 
         JSONArray animationsRaw = JSONRawData.getJSONArray("animations");
-
 
         int animsCount = animationsRaw.length();
         String[][] animations = new String[animsCount][];

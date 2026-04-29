@@ -36,7 +36,7 @@ public class QuestionsActivity extends AppCompatActivity {
     private Button btn1,btn2,btn3,btnNext;
     private MediaPlayer mediaPlayer;
     private int questionId = 0;
-    private Map<Integer,Integer> questionBtnIds = new HashMap<>();
+    private Map<Integer, Integer> questionBtnIds = new HashMap<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

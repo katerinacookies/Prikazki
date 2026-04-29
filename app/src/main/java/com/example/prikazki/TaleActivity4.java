@@ -1,5 +1,6 @@
 package com.example.prikazki;
 
+import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,7 +23,7 @@ import com.example.prikazki.models.Tale4;
 //logikata za prikazkite za 4ta grupa
 public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCallbacks {
     //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
-    public boolean isEmulatorMode = true;
+    public boolean isEmulatorMode = false;
 
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
@@ -45,13 +47,15 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
         }
 
+        findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
+
         if (isEmulatorMode) {
             // Bypass the robot and start the tale after a 1-second delay
             new Handler().postDelayed(this::startTaleIntro, 1000);
         }
-
-        findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
-        QiSDK.register(this, this);
+        else{
+            QiSDK.register(this, this);
+        }
     }
 
     @Override
@@ -62,34 +66,52 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
     private void startTaleIntro() {
 //        Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
-        Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
 
         try {
             String title = currentTale.name;
-            String authorName = currentTale.authorName;
             String authorAudio = currentTale.authorAudio;
+
+            //Toast.makeText(this, "Author audio: " + authorAudio, Toast.LENGTH_SHORT).show();
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
-                ((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
+                //временно комент
+                //((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
             });
 
             // 1. Play Title Audio
-            playAudio(authorAudio, () -> {
-                // 2. Play Author Audio
-                try {
-                    playAudio(authorAudio, () -> {
-                        // 3. Start Steps
-                        runOnUiThread(() -> {
-                            findViewById(R.id.headerLayout).setVisibility(View.GONE);
-                            findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+
+            try {
+                playAudio(authorAudio, () -> {
+                    // 3. Start Steps
+                    runOnUiThread(() -> {
+                        findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
+                        findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+                        findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+
+                        Button btnQuestions = (Button) findViewById(R.id.btnQuestions);
+                        btnQuestions.setOnClickListener(v -> {
+                            releaseMediaPlayer();
+                            Intent intent = new Intent(TaleActivity4.this, QuestionsActivity.class);
+                            intent.putExtra("TALE_ID", currentTale.id);
+                            startActivity(intent);
                         });
-                        nextStep();
                     });
-                } catch (Exception e) {
+
                     nextStep();
-                }
-            });
+                });
+                // 3. Start Steps
+                runOnUiThread(() -> {
+                    findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
+                    findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+                    findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+                });
+            } catch (Exception e) {
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                finish();
+            }
+
         } catch (Exception e) {
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
@@ -112,7 +134,8 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             runAnimationChain(animations, 0);
 
             // Play Step Audio
-            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".wav";
+            String talePartId = getIntent().getStringExtra("TALE_PART_ID");
+            String audio = currentTale.soundsPath + "_" +talePartId+"_"+ currentStep;
 
             playAudio(audio, () -> {
                 // When audio finishes, wait a beat and go to next step
@@ -143,11 +166,16 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
     }
 
     private void runAnimationChain(String[] animations, int index) {
-        if (index >= animations.length || qiContext == null) return;
+        if (index >= animations.length || qiContext == null) {
+            return;
+        }
         try {
             String animName = animations[index];
 
+            animName = animName.replace(".qianim", "");
+
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
+            Toast.makeText(this,"Anim id: " + resId+"",Toast.LENGTH_SHORT).show();
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
             e.printStackTrace();

@@ -50,8 +50,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             // Bypass the robot and start the tale after a 1-second delay
             new Handler().postDelayed(this::startTaleIntro, 1000);
         }
-        else {
-            startTaleIntro();
+        else{
             QiSDK.register(this, this);
         }
     }

@@ -1490,7 +1490,14 @@
     "sounds_path" : "lisichetoroniiizgubenotopriqtelstvo",
     "pics" : [ ],
     "animations" : [
-      
+      ["happy_smile.qianim", "wave_motion.qianim"],
+      ["hello.qianim", "call_motion.qianim"],
+      ["fly.qianim", "heartattack.qianim"],
+      ["sob.qianim", "disbelief.qianim"],
+      ["search.qianim", "qurious.qianim"],
+      ["slow_talk.qianim", "pain.qianim"],
+      ["final_nod.qianim", "sweet_child.qianim"],
+      ["blossom_gesture.qianim", "happy_smile.qianim"]
     ]
   },
   {
@@ -1525,7 +1532,12 @@
     "sounds_path" : "zaichetoliliimorkovenatatorta",
     "pics" : [ ],
     "animations" : [
-      
+      ["happy_smile.qianim", "thoughtful_announce.qianim"],
+      ["paint.qianim", "hands_down.qianim"],
+      ["firefly_dance.qianim", "hello.qianim"],
+      ["point_around.qianim", "please.qianim"],
+      ["surprise.qianim", "happy_smile.qianim"],
+      ["blossom_gesture.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1537,7 +1549,13 @@
     "sounds_path" : "katerichkataminaiizgubenataigra",
     "pics" : [ ],
     "animations" : [
-      
+      ["fly.qianim", "happy_smile.qianim"],
+      ["slide.qianim", "point_around.qianim"],
+      ["heartattack.qianim", "disbelief.qianim"],
+      ["stop.qianim", "pain.qianim"],
+      ["slow_talk.qianim", "question.qianim"],
+      ["thing.qianim", "final_nod.qianim"],
+      ["blossom_gesture.qianim", "happy_smile.qianim"]
     ]
   },
   {
@@ -1549,7 +1567,13 @@
     "sounds_path" : "patetofifoimishleto",
     "pics" : [ ],
     "animations" : [
-      
+      ["wave_motion.qianim", "fly.qianim"],
+      ["surprise.qianim", "hello.qianim"],
+      ["heartattack.qianim", "pain.qianim"],
+      ["slow_talk.qianim", "point_down_low.qianim"],
+      ["qurious.qianim", "slide.qianim"],
+      ["vdignahruce.qianim", "happy_smile.qianim"],
+      ["blossom_gesture.qianim", "thank_you.qianim"]
     ]
   },
   {
@@ -1561,7 +1585,12 @@
     "sounds_path" : "kostenurchetototoipriqtelqt",
     "pics" : [ ],
     "animations" : [
-      
+      ["hands_down.qianim", "fly.qianim"],
+      ["hello.qianim", "no.qianim"],
+      ["slide.qianim", "tired.qianim"],
+      ["final_nod.qianim", "slow_talk.qianim"],
+      ["qurious.qianim", "point_around.qianim"],
+      ["thoughtful_announce.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1585,7 +1614,12 @@
     "sounds_path" : "luvutleo",
     "pics" : [ ],
     "animations" : [
-      
+      ["strong.qianim", "pain.qianim"],
+      ["question.qianim", "pain.qianim"],
+      ["no.qianim", "thoughtful_announce.qianim"],
+      ["paint.qianim", "surprise.qianim"],
+      ["hands_down.qianim", "happy_smile.qianim"],
+      ["blossom_gesture.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1597,7 +1631,11 @@
     "sounds_path" : "pandatalulu",
     "pics" : [ ],
     "animations" : [
-      
+      ["happy_smile.qianim", "strong.qianim"],
+      ["paint.qianim", "heartattack.qianim"],
+      ["strong.qianim", "hands_down.qianim"],
+      ["final_nod.qianim", "paint.qianim"],
+      ["vdignahruce.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1609,7 +1647,11 @@
     "sounds_path" : "elenchetorinaipriqtelstvoto",
     "pics" : [ ],
     "animations" : [
-      
+      ["happy_smile.qianim", "no.qianim"],
+      ["sob.qianim", "slide.qianim"],
+      ["pain.qianim", "slow_talk.qianim"],
+      ["thoughtful_announce.qianim", "final_nod.qianim"],
+      ["blossom_gesture.qianim", "happy_smile.qianim"]
     ]
   },
   {
@@ -1621,7 +1663,13 @@
     "sounds_path" : "lavchetoleo",
     "pics" : [ ],
     "animations" : [
-      
+      ["strong.qianim", "point_around.qianim"],
+      ["qurious.qianim", "pain.qianim"],
+      ["slow_talk.qianim", "firefly_dance.qianim"],
+      ["pain.qianim", "happy_smile.qianim"],
+      ["slide.qianim", "rainbow.qianim"],
+      ["surprise.qianim", "thoughtful_announce.qianim"],
+      ["vdignahruce.qianim", "thank_you.qianim"]
     ]
   },
   {
@@ -1633,7 +1681,12 @@
     "sounds_path" : "kostenurchetonanaivisokiqt",
     "pics" : [ ],
     "animations" : [
-      
+      ["hands_down.qianim", "wave_motion.qianim"],
+      ["qurious.qianim", "pain.qianim"],
+      ["slow_talk.qianim", "question.qianim"],
+      ["hello.qianim", "hands_down.qianim"],
+      ["slide.qianim", "final_nod.qianim"],
+      ["vdignahruce.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1645,7 +1698,12 @@
     "sounds_path" : "ptichetorikoipurviqt",
     "pics" : [ ],
     "animations" : [
-      
+      ["pain.qianim", "pain.qianim"],
+      ["hello.qianim", "point_around.qianim"],
+      ["question.qianim", "hands_down.qianim"],
+      ["heartattack.qianim", "wave_motion.qianim"],
+      ["fly.qianim", "vdignahruce.qianim"],
+      ["final_nod.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1657,7 +1715,11 @@
     "sounds_path" : "mechetotimi",
     "pics" : [ ],
     "animations" : [
-      
+      ["qurious.qianim", "heartattack.qianim"],
+      ["search.qianim", "question.qianim"],
+      ["slow_talk.qianim", "slide.qianim"],
+      ["point_around.qianim", "happy_smile.qianim"],
+      ["final_nod.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1669,7 +1731,10 @@
     "sounds_path" : "zhabchetokikoigolemiqt",
     "pics" : [ ],
     "animations" : [
-      
+      ["fly.qianim", "point_around.qianim"],
+      ["hello.qianim", "pain.qianim"],
+      ["question.qianim", "hands_down.qianim"],
+      ["vdignahruce.qianim", "happy_smile.qianim"]
     ]
   },
   {
@@ -1681,7 +1746,11 @@
     "sounds_path" : "kotencetomoliiburqta",
     "pics" : [ ],
     "animations" : [
-      
+      ["qurious.qianim", "heartattack.qianim"],
+      ["pain.qianim", "slow_talk.qianim"],
+      ["hello.qianim", "point_around.qianim"],
+      ["thoughtful_announce.qianim", "happy_smile.qianim"],
+      ["blossom_gesture.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1693,7 +1762,10 @@
     "sounds_path" : "pingvinchetopepiipurvoto",
     "pics" : [ ],
     "animations" : [
-      
+      ["rainbow.qianim", "pain.qianim"],
+      ["hello.qianim", "hands_down.qianim"],
+      ["surprise.qianim", "wave_motion.qianim"],
+      ["vdignahruce.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1705,7 +1777,11 @@
     "sounds_path" : "mishletotitiigolqmata",
     "pics" : [ ],
     "animations" : [
-      
+      ["strong.qianim", "search.qianim"],
+      ["heartattack.qianim", "pain.qianim"],
+      ["question.qianim", "slow_talk.qianim"],
+      ["happy_smile.qianim", "point_around.qianim"],
+      ["surprise.qianim", "blossom_gesture.qianim"] 
     ]
   },
   {
@@ -1717,7 +1793,10 @@
     "sounds_path" : "zaichetoroni",
     "pics" : [ ],
     "animations" : [
-      
+      ["fly.qianim", "qurious.qianim"],
+      ["slow_talk.qianim", "heartattack.qianim"],
+      ["hello.qianim", "happy_smile.qianim"],
+      ["point_around.qianim", "thank_you.qianim"]
     ]
   },
   {
@@ -1729,7 +1808,10 @@
     "sounds_path" : "pandatamimi",
     "pics" : [ ],
     "animations" : [
-      
+      ["qurious.qianim", "pain.qianim"],
+      ["hands_down.qianim", "hello.qianim"],
+      ["point_around.qianim", "surprise.qianim"],
+      ["vdignahruce.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1741,7 +1823,11 @@
     "sounds_path" : "katericatasisi",
     "pics" : [ ],
     "animations" : [
-      
+      ["happy_smile.qianim", "point_around.qianim"],
+      ["qurious.qianim", "surprise.qianim"],
+      ["rainbow.qianim", "hello.qianim"],
+      ["thoughtful_announce.qianim", "blossom_gesture.qianim"],
+      ["vdignahruce.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1753,7 +1839,11 @@
     "sounds_path" : "mechkatabruno",
     "pics" : [ ],
     "animations" : [
-      
+      ["rainbow.qianim", "pain.qianim"],
+      ["search.qianim", "hello.qianim"],
+      ["wave_motion.qianim", "hands_down.qianim"],
+      ["paint.qianim", "blossom_gesture.qianim"],
+      ["happy_smile.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1765,7 +1855,11 @@
     "sounds_path" : "lisicataroni",
     "pics" : [ ],
     "animations" : [
-      
+      ["rainbow.qianim", "fly.qianim"],
+      ["search.qianim", "happy_smile.qianim"],
+      ["wave_motion.qianim", "hello.qianim"],
+      ["question.qianim", "blossom_gesture.qianim"],
+      ["paint.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1777,7 +1871,11 @@
     "sounds_path" : "zaichetoliliisnqg",
     "pics" : [ ],
     "animations" : [
-      
+      ["surprise.qianim", "rainbow.qianim"],
+      ["vdignahruce.qianim", "paint.qianim"],
+      ["hello.qianim", "thoughtful_announce.qianim"],
+      ["search.qianim", "point_around.qianim"],
+      ["happy_smile.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1789,7 +1887,11 @@
     "sounds_path" : "patetof",
     "pics" : [ ],
     "animations" : [
-      
+      ["qurious.qianim", "thoughtful_announce.qianim"],
+      ["wave_motion.qianim", "hello.qianim"],
+      ["happy_smile.qianim", "slow_talk.qianim"],
+      ["paint.qianim", "vdignahruce.qianim"],
+      ["blossom_gesture.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1801,7 +1903,11 @@
     "sounds_path" : "mishletomi",
     "pics" : [ ],
     "animations" : [
-      
+      ["search.qianim", "pain.qianim"],
+      ["question.qianim", "slow_talk.qianim"],
+      ["qurious.qianim", "fly.qianim"],
+      ["surprise.qianim", "point_around.qianim"],
+      ["happy_smile.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1813,7 +1919,10 @@
     "sounds_path" : "ribatalili",
     "pics" : [ ],
     "animations" : [
-      
+      ["wave_motion.qianim", "qurious.qianim"],
+      ["question.qianim", "search.qianim"],
+      ["rainbow.qianim", "thoughtful_announce.qianim"],
+      ["vdignahruce.qianim", "hello.qianim"]
     ]
   },
   {
@@ -1825,7 +1934,10 @@
     "sounds_path" : "sovata",
     "pics" : [ ],
     "animations" : [
-      
+      ["final_nod.qianim", "rainbow.qianim"],
+      ["hello.qianim", "point_around.qianim"],
+      ["surprise.qianim", "vdignahruce.qianim"],
+      ["slow_talk.qianim", "blossom_gesture.qianim"]
     ]
   },
   {
@@ -1837,7 +1949,12 @@
     "sounds_path" : "pchelatazara",
     "pics" : [ ],
     "animations" : [
-      
+      ["strong.qianim", "search.qianim"],
+      ["qurious.qianim", "question.qianim"],
+      ["slow_talk.qianim", "pain.qianim"],
+      ["hello.qianim", "hands_down.qianim"],
+      ["rainbow.qianim", "surprise.qianim"],
+      ["happy_smile.qianim", "thank_you.qianim"]
     ]
   },
   {
@@ -1849,7 +1966,10 @@
     "sounds_path" : "ohluvcheto",
     "pics" : [ ],
     "animations" : [
-      
+      ["pain.qianim", "slow_talk.qianim"],
+      ["surprise.qianim", "rainbow.qianim"],
+      ["question.qianim", "hello.qianim"],
+      ["thoughtful_announce.qianim", "happy_smile.qianim"]
     ]
   },
   {
@@ -1861,7 +1981,12 @@
     "sounds_path" : "mechetobobi",
     "pics" : [ ],
     "animations" : [
-      
+      ["pain.qianim", "hands_down.qianim"],
+      ["hello.qianim", "slow_talk.qianim"],
+      ["point_around.qianim", "thoughtful_announce.qianim"],
+      ["question.qianim", "happy_smile.qianim"],
+      ["fly.qianim", "rainbow.qianim"],
+      ["blossom_gesture.qianim", "final_nod.qianim"]
     ]
   },
   {

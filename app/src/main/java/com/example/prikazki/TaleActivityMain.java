@@ -42,6 +42,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
             //Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
+            finish();
         }
 
         findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
@@ -62,10 +64,13 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     }
 
     private void startTaleIntro() {
-//        Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
+        //Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
         //Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
 
         try {
+            if (!currentTale.IsValid())
+                return;
+
             String title = currentTale.name;
             String authorName = currentTale.authorName;
             String authorAudio = currentTale.authorAudio;
@@ -90,6 +95,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                             intent.putExtra("TALE_ID", currentTale.id);
                             startActivity(intent);
                         });
+
+                        ((TextView) findViewById(R.id.txtTitle)).setText("");
                     });
 
                     nextStep();
@@ -102,6 +109,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                 });
             } catch (Exception e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
                 finish();
             }
 
@@ -116,9 +124,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
         currentStep++;
 
-        if (currentStep >= currentTale.pics.length){
-            return; // Story finished!
-        }
+        if (currentStep >= currentTale.pics.length)
+            return;
 
         try {
             // Show Image
@@ -164,17 +171,16 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     }
 
     private void runAnimationChain(String[] animations, int index) {
-        if (index >= animations.length || qiContext == null) {
-            Toast.makeText(this,"QiContext null? "+(qiContext == null),Toast.LENGTH_SHORT).show();
+        if (index >= animations.length || qiContext == null)
             return;
-        }
+
         try {
             String animName = animations[index];
 
             animName = animName.replace(".qianim", "");
 
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
-            Toast.makeText(this,"Anim id: " + resId+"",Toast.LENGTH_SHORT).show();
+
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
             e.printStackTrace();
@@ -199,18 +205,17 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
         try {
             currentTale = Tale.GetTaleDataFromId(this, targetTaleId);
 
-            if  (currentTale == null) {
-//                Toast.makeText(this, "JSON Loading Failed! Tale id: " + targetTaleId, Toast.LENGTH_LONG).show();
+            if  (currentTale == null)
                 throw new Exception("JSON Loading Failed! Tale id: " + targetTaleId);
-            }
 
             //invokes an exception when something is wrong
             currentTale.IsValid();
 
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());
-            //Toast.makeText(this, "$JSON Loading Failed!", Toast.LENGTH_LONG).show();
+
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
             finish();
         }
     }

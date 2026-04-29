@@ -35,11 +35,25 @@ for file in files:
         new_file_name = file.replace(".wav", ".mp3")
         convertedFilePath = f"{NEW_PATH}/{new_file_name}"
         
+        # We use a flag to track if we should convert or not
+        should_convert = False
+        
         # Check if the converted file already exists in the new path
         if os.path.exists(convertedFilePath):
-            print(f"Skipping: {new_file_name} (Already exists)")
+            # Ask the user what to do and clean up their input (make it lowercase, remove extra spaces)
+            answer = input(f"File '{new_file_name}' already exists. Replace it? (yes/no): ").strip().lower()
+            
+            if answer in ['yes', 'y']:
+                print(f"Replacing: {new_file_name}...")
+                should_convert = True
+            else:
+                print(f"Skipped: {new_file_name}")
         else:
             print(f"Converting: {file} -> {new_file_name}...")
+            should_convert = True
+
+        # Run the actual conversion if the flag was set to True
+        if should_convert:
             AudioSegment.from_wav(filePath).export(convertedFilePath, format="mp3")
 
 print("All done!")

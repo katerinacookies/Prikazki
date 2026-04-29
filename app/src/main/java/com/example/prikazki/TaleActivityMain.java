@@ -21,7 +21,7 @@ import com.example.prikazki.models.Tale;
 //logikata za prikazkite za 1, 2 i 3ta grupa
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks{
     //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
-    public boolean isEmulatorMode = false;
+    public boolean isEmulatorMode = true;
 
     private QiContext qiContext;
     private MediaPlayer mediaPlayer;
@@ -50,7 +50,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             // Bypass the robot and start the tale after a 1-second delay
             new Handler().postDelayed(this::startTaleIntro, 1000);
         }
-        else{
+        else {
             QiSDK.register(this, this);
         }
     }
@@ -70,19 +70,14 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             String authorName = currentTale.authorName;
             String authorAudio = currentTale.authorAudio;
 
-            //Toast.makeText(this, "Author audio: " + authorAudio, Toast.LENGTH_SHORT).show();
-
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
                 //временно комент
                 //((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
             });
 
-            // 1. Play Title Audio
-
             try {
                 playAudio(authorAudio, () -> {
-                    // 3. Start Steps
                     runOnUiThread(() -> {
                         findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);

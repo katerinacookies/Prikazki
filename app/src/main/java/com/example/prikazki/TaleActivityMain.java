@@ -84,7 +84,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                 playAudio(authorAudio, () -> {
                     // 3. Start Steps
                     runOnUiThread(() -> {
-                        findViewById(R.id.headerLayout).setVisibility(View.GONE);
+                        findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
                         findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
 
@@ -107,7 +107,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                 });
             } catch (Exception e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
-                nextStep();
+                finish();
             }
 
         } catch (Exception e) {
@@ -118,8 +118,12 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     }
 
     private void nextStep() {
+
         currentStep++;
-        if (currentStep >= currentTale.pics.length) return; // Story finished!
+
+        if (currentStep >= currentTale.pics.length){
+            return; // Story finished!
+        }
 
         try {
             // Show Image
@@ -165,11 +169,17 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     }
 
     private void runAnimationChain(String[] animations, int index) {
-        if (index >= animations.length || qiContext == null) return;
+        if (index >= animations.length || qiContext == null) {
+            Toast.makeText(this,"QiContext null? "+(qiContext == null),Toast.LENGTH_SHORT).show();
+            return;
+        }
         try {
             String animName = animations[index];
 
+            animName = animName.replace(".qianim", "");
+
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
+            Toast.makeText(this,"Anim id: " + resId+"",Toast.LENGTH_SHORT).show();
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
             e.printStackTrace();

@@ -102,7 +102,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                 });
                 // 3. Start Steps
                 runOnUiThread(() -> {
-                    findViewById(R.id.headerLayout).setVisibility(View.GONE);
+                    findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                     findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
                     findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                 });

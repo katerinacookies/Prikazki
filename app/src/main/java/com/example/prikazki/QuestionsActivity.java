@@ -62,7 +62,12 @@ public class QuestionsActivity extends AppCompatActivity {
 
         btnNext.setOnClickListener(v -> {
             questionId++;
-            if(questionId==3) finish();
+
+            if(questionId==3) {
+                //btnNext.setText("ВЪРНИ");
+                finish();
+            }
+
             btnNext.setText("Пропусни");
             loadQuestions();
         });
@@ -116,8 +121,6 @@ public class QuestionsActivity extends AppCompatActivity {
         });
 
         playQuestionAudio(currQuestion);
-
-
     }
 
     private void releaseMediaPlayer() {

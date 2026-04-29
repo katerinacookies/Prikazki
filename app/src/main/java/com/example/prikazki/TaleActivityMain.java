@@ -50,7 +50,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             // Bypass the robot and start the tale after a 1-second delay
             new Handler().postDelayed(this::startTaleIntro, 1000);
         }
-        else{
+        else {
             startTaleIntro();
             QiSDK.register(this, this);
         }
@@ -107,7 +107,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                     findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                 });
             } catch (Exception e) {
-                Toast.makeText(this, "!!!ERROR", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 nextStep();
             }
 

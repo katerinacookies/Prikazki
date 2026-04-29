@@ -40,7 +40,8 @@ public class QuestionsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.e("T_ERROR","in questioons activity");
+        //Log.e("T_ERROR","in questioons activity");
+        //Toast.makeText(this, "ENTER QUESTIONSs", Toast.LENGTH_SHORT).show();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.questions);
 
@@ -53,7 +54,7 @@ public class QuestionsActivity extends AppCompatActivity {
         btn2 = (Button) findViewById(R.id.btn2);
         btn3 = (Button) findViewById(R.id.btn3);
         btnNext = (Button) findViewById(R.id.btn_skip);
-        qiContext = (QiContext) this.getBaseContext();
+        //qiContext = (QiContext) this.getBaseContext();
 
         Log.e("T_ERROR","in questioons activity 3");
         questionBtnIds.put(0,2131165206); questionBtnIds.put(1,2131165207); questionBtnIds.put(2,2131165208);
@@ -88,14 +89,14 @@ public class QuestionsActivity extends AppCompatActivity {
 
             if (isCorrect) {
                 Toast.makeText(this, "БРАВО!", Toast.LENGTH_SHORT).show();
-                runAnimation(R.raw.point_air);
-                playFeedbackAudio("robot/gj.wav");
+                //runAnimation(R.raw.point_air);
+                playFeedbackAudio("robot/mp3/gj.mp3");
                 btnNext.setText("Следващ въпрос");
                 btnNext.setVisibility(View.VISIBLE);
             } else {
                 Toast.makeText(this, "Опитай пак.", Toast.LENGTH_SHORT).show();
-                runAnimation(R.raw.think);
-                playFeedbackAudio("robot/tryagain.wav");
+                //runAnimation(R.raw.think);
+                playFeedbackAudio("robot/mp3/tryagain.mp3");
             }
         };
 
@@ -105,10 +106,18 @@ public class QuestionsActivity extends AppCompatActivity {
     }
 
     public void loadQuestions(){
-        btn1.setText(questions[questionId].answers[0].text);
-        btn2.setText(questions[questionId].answers[1].text);
-        btn3.setText(questions[questionId].answers[2].text);
-        questionText.setText(questions[questionId].text);
+        Question currQuestion = questions[questionId];
+
+        runOnUiThread(() -> {
+            btn1.setText(questions[questionId].answers[0].text);
+            btn2.setText(questions[questionId].answers[1].text);
+            btn3.setText(questions[questionId].answers[2].text);
+            questionText.setText(questions[questionId].text);
+        });
+
+        playQuestionAudio(currQuestion);
+
+
     }
 
     private void releaseMediaPlayer() {
@@ -118,6 +127,36 @@ public class QuestionsActivity extends AppCompatActivity {
                 mediaPlayer.release();
             } catch (Exception e) {}
             mediaPlayer = null;
+        }
+    }
+
+    private void playQuestionAudio(Question question) {
+        playAudio(question.audioDir, () -> {
+            playAudio(question.answers[0].audioDir, () -> {
+                playAudio(question.answers[1].audioDir, () -> {
+                    playAudio(question.answers[2].audioDir, () -> { });
+                });
+            });
+        });
+    }
+
+    private void playAudio(String fileName, Runnable onComplete) {
+        releaseMediaPlayer();
+
+        try {
+            mediaPlayer = new MediaPlayer();
+            AssetFileDescriptor afd = getAssets().openFd("robot/questions/" + fileName);
+            mediaPlayer.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+            afd.close();
+            mediaPlayer.prepare();
+            mediaPlayer.setOnCompletionListener(mp -> {
+                if (onComplete != null) onComplete.run();
+            });
+            mediaPlayer.start();
+        } catch (Exception e) {
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            //Log.e("ERROR", e.getMessage());
+            if (onComplete != null) onComplete.run();
         }
     }
 
@@ -131,6 +170,7 @@ public class QuestionsActivity extends AppCompatActivity {
             mediaPlayer.prepare();
             mediaPlayer.start();
         } catch (Exception e) {
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
             Log.e("ERROR", "Feedback audio error: " + e.getMessage());
         }
     }

@@ -64,12 +64,14 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
     private void startTaleIntro() {
 //        Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
-        Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
 
         try {
             String title = currentTale.name;
             String authorName = currentTale.authorName;
             String authorAudio = currentTale.authorAudio;
+
+            //Toast.makeText(this, "Author audio: " + authorAudio, Toast.LENGTH_SHORT).show();
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
@@ -78,16 +80,15 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             });
 
             // 1. Play Title Audio
-            playAudio(authorAudio, () -> {
-                // 2. Play Author Audio
-                try {
-                    /*playAudio(authorAudio, () -> {
-                        // 3. Start Steps
-                        runOnUiThread(() -> {
-                            findViewById(R.id.headerLayout).setVisibility(View.GONE);
-                            findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
-                            findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
-                        });
+
+            try {
+                playAudio(authorAudio, () -> {
+                    // 3. Start Steps
+                    runOnUiThread(() -> {
+                        findViewById(R.id.headerLayout).setVisibility(View.GONE);
+                        findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+                        findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+
                         Button btnQuestions = (Button) findViewById(R.id.btnQuestions);
                         btnQuestions.setOnClickListener(v -> {
                             releaseMediaPlayer();
@@ -95,19 +96,21 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                             intent.putExtra("TALE_ID", currentTale.id);
                             startActivity(intent);
                         });
-
-                        nextStep();
-                    });*/
-                    // 3. Start Steps
-                    runOnUiThread(() -> {
-                        findViewById(R.id.headerLayout).setVisibility(View.GONE);
-                        findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
-                        findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
                     });
-                } catch (Exception e) {
+
                     nextStep();
-                }
-            });
+                });
+                // 3. Start Steps
+                runOnUiThread(() -> {
+                    findViewById(R.id.headerLayout).setVisibility(View.GONE);
+                    findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+                    findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+                });
+            } catch (Exception e) {
+                Toast.makeText(this, "!!!ERROR", Toast.LENGTH_SHORT).show();
+                nextStep();
+            }
+
         } catch (Exception e) {
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
@@ -130,7 +133,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             runAnimationChain(animations, 0);
 
             // Play Step Audio
-            String audio = "robot/"+currentTale.soundsPath+"_"+currentStep+".wav";
+            String audio = currentTale.soundsPath + "_" + currentStep;
 
             playAudio(audio, () -> {
                 // When audio finishes, wait a beat and go to next step
@@ -144,9 +147,10 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
 
     private void playAudio(String fileName, Runnable onComplete) {
         releaseMediaPlayer();
+
         try {
             mediaPlayer = new MediaPlayer();
-            AssetFileDescriptor afd = getAssets().openFd(fileName);
+            AssetFileDescriptor afd = getAssets().openFd("robot/mp3/" + fileName + ".mp3");
             mediaPlayer.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
             afd.close();
             mediaPlayer.prepare();
@@ -155,7 +159,8 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
             });
             mediaPlayer.start();
         } catch (Exception e) {
-            Log.e("ERROR", e.getMessage());
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            //Log.e("ERROR", e.getMessage());
             if (onComplete != null) onComplete.run();
         }
     }

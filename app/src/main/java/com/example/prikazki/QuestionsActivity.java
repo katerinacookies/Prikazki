@@ -88,7 +88,7 @@ public class QuestionsActivity extends AppCompatActivity {
 
             if (isCorrect) {
                 Toast.makeText(this, "БРАВО!", Toast.LENGTH_SHORT).show();
-                runAnimation(R.raw.final_nod);
+                runAnimation(R.raw.point_air);
                 playFeedbackAudio("robot/gj.wav");
                 btnNext.setText("Следващ въпрос");
                 btnNext.setVisibility(View.VISIBLE);

@@ -753,7 +753,7 @@
     "author_audio" : "$",
     "id" : "35",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "lisichetoroniipriqtelstvoto",
     "pics" : ["fox_happy", "hedgehog", "tree_oak", "forest", "fox_happy", "hedgehog", "fox_happy", "hedgehog", "tree_oak", "hedgehog"],
     "animations" : [
       ["strong.qianim", "firefly_dance.qianim"],
@@ -775,7 +775,7 @@
     "author_audio" : "$",
     "id" : "36",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "mechetobrunoinoviqtsused",
     "pics" : ["bear", "mole", "mole","bear", "happy_animals", "happy_animals", "mole", "bear", "happy_animals", "mole", "bear", "mole"],
     "animations" : [
       ["wakeup.qianim", "point_around.qianim"],
@@ -798,7 +798,7 @@
     "author_audio" : "$",
     "id" : "37",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetolili",
     "pics" : ["bunny_chef", "carrot_cake","carrot_cake", "bird_bear_squirrel", "bunny_normal", "bird_bear_squirrel", "bunny_normal"],
     "animations" : [
       ["eat_soup.qianim", "big_arm_circle.qianim"],
@@ -816,7 +816,7 @@
     "author_audio" : "$",
     "id" : "38",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "katerichkatamina",
     "pics" : ["squirrel", "happy_animals", "squirrel", "tree_oak", "squirrel", "happy_animals"],
     "animations" : [
       ["firefly_dance.qianim", "angry_tantrum.qianim"],
@@ -833,7 +833,7 @@
     "author_audio" : "$",
     "id" : "39",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "patetofifo",
     "pics" : ["duckling", "mouse", "mouse", "duckling", "ducky", "mouse", "mouse", "ducky"],
     "animations" : [
       ["fly.qianim", "rain.qianim"],
@@ -852,7 +852,7 @@
     "author_audio" : "$",
     "id" : "40",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "kostenurchetototo",
     "pics" : ["turtle", "deer", "turtle", "forest_path2", "deer", "deer", "turtle", "mountain"],
     "animations" : [
       ["slow_talk.qianim", "arm_slide.qianim"],
@@ -871,7 +871,7 @@
     "author_audio" : "$",
     "id" : "41",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "ptichetopikoipriqtelstvoto",
     "pics" : ["bird_yellow", "hedgehog", "leaf", "mountain", "hedgehog", "bird_yellow"],
     "animations" : [
       ["fly.qianim", "gaze_up_slow.qianim"],
@@ -888,7 +888,7 @@
     "author_audio" : "$",
     "id" : "42",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "luvchetoleoipriqtelqt",
     "pics" : ["lion", "antelope", "happy_animals", "lion", "happy_animals", "antelope", "lion", "lion"],
     "animations" : [
       ["strong.qianim", "head_slow_talk.qianim"],
@@ -907,7 +907,7 @@
     "author_audio" : "$",
     "id" : "43",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "luvchetoleoitamnatapeshtera",
     "pics" : ["lion", "cave", "lion", "cave", "firefly1", "firefly1", "lion", "happy_animals", "lion", "lion"],
     "animations" : [
       ["strong.qianim", "leave_it.qianim"],
@@ -928,7 +928,7 @@
     "author_audio" : "$",
     "id" : "44",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "kostenurchetonana",
     "pics" : ["turtle", "bridge", "turtle", "happy_animals", "bunny_normal", "turtle", "bridge", "happy_animals", "turtle"],
     "animations" : [
       ["arm_slide.qianim", "final_nod.qianim"],
@@ -948,7 +948,7 @@
     "author_audio" : "$",
     "id" : "45",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "ptichetoriko",
     "pics" : ["bird_blue", "bird_yellow", "bird_blue", "bird_nest", "bird_blue", "bird_branch", "bird_blue", "bird_flying", "bird_flying"],
     "animations" : [
       ["point_to_bird.qianim", "pain.qianim"],
@@ -968,7 +968,7 @@
     "author_audio" : "$",
     "id" : "46",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "mechetotimiigolemiqtshum",
     "pics" : ["bear", "bear", "bird_yellow", "bird_yellow", "pinecone", "bird_yellow", "bear"],
     "animations" : [
       ["qurious.qianim", "surprise.qianim"],
@@ -986,7 +986,7 @@
     "author_audio" : "$",
     "id" : "47",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "zhabchetokikoigolemiqtskok",
     "pics" : ["frog", "frog","frogs", "turtle", "turtle", "frog", "frog", "frog_scared", "frogs"],
     "animations" : [
       ["point_down_low.qianim", "disbelief.qianim"],
@@ -1005,7 +1005,7 @@
     "author_audio" : "$",
     "id" : "48",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "kotencetomoli",
     "pics" : ["cat_black", "cloud_thunders", "cat_grey", "cat_grey", "cat_grey", "cloud_thunders", "cat_black"],
     "animations" : [
       ["point_around.qianim", "pain.qianim"],
@@ -1020,7 +1020,7 @@
   {
     "name" : "Пингвинчето Пепи и първото гмуркане",
     "author_name" : "$",
-    "author_audio" : "$",
+    "author_audio" : "pingvinchetopepi",
     "id" : "49",
     "group" : "2",
     "sounds_path" : "$",
@@ -1041,7 +1041,7 @@
     "author_audio" : "$",
     "id" : "50",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "mishletotiti",
     "pics" : ["mouse", "rat_shadow", "rat_shadow", "owl", "owl", "rat_shadow", "mouse"],
     "animations" : [
       ["search.qianim", "surprise.qianim"],
@@ -1059,7 +1059,7 @@
     "author_audio" : "$",
     "id" : "51",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "katerichkatasisiipurviqtproletencvqt",
     "pics" : ["squirrel", "bush_snow", "tree_snow", "flower_stages", "flower_stages", "flower_stages", "flower_spring"],
     "animations" : [
       ["happy_smile.qianim", "final_nod.qianim"],
@@ -1077,7 +1077,7 @@
     "author_audio" : "$",
     "id" : "52",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "mechetobrunoinaitopliqt",
     "pics" : ["bear", "river", "turtle", "fruit_basket", "forest_path", "bear"],
     "animations" : [
       ["happy_smile.qianim", "blossom_gesture.qianim"],
@@ -1094,7 +1094,7 @@
     "author_audio" : "$",
     "id" : "53",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "lisichetoroniitancut",
     "pics" : ["leaves_autumn", "fox_happy", "leaves_autumn", "fox_happy", "puhche", "fox_happy", "leaf_yellow"],
     "animations" : [
       ["rain.qianim", "wave_motion.qianim"],
@@ -1112,7 +1112,7 @@
     "author_audio" : "$",
     "id" : "54",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetoliliipurviqtsnqg",
     "pics" : ["bunny", "deer", "snowball", "snowball", "bunny", "deer"],
     "animations" : [
       ["surprise.qianim", "search.qianim"],
@@ -1129,7 +1129,7 @@
     "author_audio" : "$",
     "id" : "55",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "patetofifoipesentanadujda",
     "pics" : ["duckling", "cloud_rain", "frog", "frog", "cloud_rain", "musical_notes2", "ducky", "ducky"],
     "animations" : [
       ["rain.qianim", "no.qianim"],
@@ -1148,7 +1148,7 @@
     "author_audio" : "$",
     "id" : "56",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "mishletomimiivqturniqtshepot",
     "pics" : ["mouse", "wind", "squirrel", "squirrel", "wind", "mouse","mouse"],
     "animations" : [
       ["wave_motion.qianim", "surprise.qianim"],
@@ -1166,7 +1166,7 @@
     "author_audio" : "$",
     "id" : "57",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "ribkatalili",
     "pics" : ["fish", "river", "fish", "lake1", "waterfall", "underwater", "fish"],
     "animations" : [
       ["wave_motion.qianim", "final_nod.qianim"],
@@ -1184,7 +1184,7 @@
     "author_audio" : "$",
     "id" : "58",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "sovataori",
     "pics" : ["owl", "deer", "owl", "sky_night", "sky_night", "sky_night"],
     "animations" : [
       ["fly.qianim", "final_nod.qianim"],
@@ -1202,7 +1202,7 @@
     "author_audio" : "$",
     "id" : "59",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "mechetobobiitujniqtoblak",
     "pics" : ["bear", "bird_yellow", "bird_yellow", "cloud_dark", "sky_sunny", "bear"],
     "animations" : [
       ["tired.qianim", "thoughtful_announce.qianim"],
@@ -1220,7 +1220,7 @@
     "author_audio" : "$",
     "id" : "60",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetopoli",
     "pics" : ["strawberry", "bunny_normal", "turtle", "turtle", "squirrel", "squirrel", "bear", "bear", "bunny_normal"],
     "animations" : [
       ["fly.qianim", "blossom_gesture.qianim"],
@@ -1240,7 +1240,7 @@
     "author_audio" : "$",
     "id" : "61",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "lisichetofrediiqdosanataopashka",
     "pics" : ["fox", "pine_cones", "fox", "deer", "deer", "fox", "deer", "fox_happy"],
     "animations" : [
       ["sweet_child.qianim", "heartattack.qianim"],
@@ -1259,7 +1259,7 @@
     "author_audio" : "$",
     "id" : "62",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "katerichkataminaistrahut",
     "pics" : ["squirrel", "happy_animals", "frog_scared", "squirrel", "leaf", "squirrel"],
     "animations" : [
       ["strong.qianim", "qurious.qianim"],
@@ -1276,7 +1276,7 @@
     "author_audio" : "$",
     "id" : "63",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "elenchetorinaispokoiniqtduh",
     "pics" : ["deer", "happy_animals", "owl", "tree_oak", "deer", "owl"],
     "animations" : [
       ["tired.qianim", "thoughtful_announce.qianim"],
@@ -1293,7 +1293,7 @@
     "author_audio" : "$",
     "id" : "64",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "pandatalili",
     "pics" : ["panda", "panda", "panda", "owl", "owl", "sky_sunny", "panda"],
     "animations" : [
       ["think.qianim", "qurious.qianim"],
@@ -1311,7 +1311,7 @@
     "author_audio" : "$",
     "id" : "65",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "zhabchetokokoidumite",
     "pics" : ["frog_scared", "frog", "turtle", "turtle", "frog", "frog", "frogs", "frog"],
     "animations" : [
       ["fly.qianim", "surprise.qianim"],
@@ -1330,7 +1330,7 @@
     "author_audio" : "$",
     "id" : "66",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "katerichkatasisiigolqmatapregrudka",
     "pics" : ["squirrel", "squirrel", "bear", "bear", "bear", "squirrel"],
     "animations" : [
       ["fly.qianim", "point_around.qianim"],
@@ -1347,7 +1347,7 @@
     "author_audio" : "$",
     "id" : "67",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "lisichetoroniivalshebnatasvetulka",
     "pics" : ["fox_happy", "firefly1", "forest_path", "meadow_night", "meadow_night", "fox_happy"],
     "animations" : [
       ["slide.qianim", "surprise.qianim"],
@@ -1363,7 +1363,7 @@
     "author_audio" : "$",
     "id" : "68",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "peperudkatafeq",
     "pics" : ["butterfly", "butterfly", "mouse", "pond", "sparkles", "flower_tulip", "butterfly"],
     "animations" : [
       ["firefly_dance.qianim", "disbelief.qianim"],
@@ -1381,7 +1381,7 @@
     "author_audio" : "$",
     "id" : "69",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "drakonchetodino",
     "pics" : ["dragon_small", "dragon_small", "dragon_big", "rolling_stone", "dragon_small", "dragon_small", "dragon_big"],
     "animations" : [
       ["sweet_child.qianim", "no.qianim"],
@@ -1399,7 +1399,7 @@
     "author_audio" : "$",
     "id" : "70",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "rusalchetomira",
     "pics" : ["mermaid", "turtle", "lake1", "cave_underwater", "turtle", "musical_notes2", "mermaid"],
     "animations" : [
       ["wave_motion.qianim", "pain.qianim"],
@@ -1417,7 +1417,7 @@
     "author_audio" : "$",
     "id" : "71",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "ednorojkataluna",
     "pics" : ["unicorn", "star", "unicorn", "sparkles", "unicorn", "star"],
     "animations" : [
       ["firefly_dance.qianim", "pain.qianim"],
@@ -1434,7 +1434,7 @@
     "author_audio" : "$",
     "id" : "72",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "malkataveshticamila",
     "pics" : ["witch", "broom", "broom", "witch", "broom", "witch"],
     "animations" : [
       ["fly.qianim", "no.qianim"],
@@ -1451,7 +1451,7 @@
     "author_audio" : "$",
     "id" : "73",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "gnomchetototo",
     "pics" : ["tree_oak", "dwarves", "pinecone", "bunny_normal", "dwarves", "bunny_normal", "dwarves"],
     "animations" : [
       ["point_down_low.qianim", "surprise.qianim"],
@@ -1469,7 +1469,7 @@
     "author_audio" : "$",
     "id" : "74",
     "group" : "2",
-    "sounds_path" : "$",
+    "sounds_path" : "malkiqtvelikanviko",
     "pics" : ["giant", "rolling_stone", "rolling_stone", "giant", "happy_animals", "giant"],
     "animations" : [
       ["sweet_child.qianim", "thoughtful_announce.qianim"],
@@ -1487,7 +1487,7 @@
     "author_audio" : "$",
     "id" : "75",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "lisichetoroniiizgubenotopriqtelstvo",
     "pics" : [ ],
     "animations" : [
       
@@ -1499,10 +1499,21 @@
     "author_audio" : "$",
     "id" : "76",
     "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
+    "sounds_path" : "mechetobrunoinoviqtsused",
+    "pics" : ["bear", "mole", "mole","bear", "happy_animals", "happy_animals", "mole", "bear", "happy_animals", "mole", "bear", "mole"],
     "animations" : [
-      
+      ["wakeup.qianim", "point_around.qianim"],
+      ["sniff_motion.qianim", "digging.qianim"],
+      ["hello.qianim", "surprise.qianim"],
+      ["blossom_gesture.qianim", "point_forward.qianim"],
+      ["call_motion.qianim", "leave_it.qianim"],
+      ["head_slow_talk.qianim", "disbelief.qianim"],
+      ["sob.qianim"],
+      ["angry_tantrum.qianim", "strong.qianim"],
+      ["question.qianim", "idea.qianim"],
+      ["qurious.qianim", "talk_and_point_around.qianim"],
+      ["arm_circle.qianim", "sweet_child.qianim"],
+      ["thank_you.qianim", "final_nod.qianim"]
     ]
   },
   {
@@ -1511,7 +1522,7 @@
     "author_audio" : "$",
     "id" : "77",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetoliliimorkovenatatorta",
     "pics" : [ ],
     "animations" : [
       
@@ -1523,7 +1534,7 @@
     "author_audio" : "$",
     "id" : "78",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "katerichkataminaiizgubenataigra",
     "pics" : [ ],
     "animations" : [
       
@@ -1535,7 +1546,7 @@
     "author_audio" : "$",
     "id" : "79",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "patetofifoimishleto",
     "pics" : [ ],
     "animations" : [
       
@@ -1547,7 +1558,7 @@
     "author_audio" : "$",
     "id" : "80",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "kostenurchetototoipriqtelqt",
     "pics" : [ ],
     "animations" : [
       
@@ -1559,7 +1570,7 @@
     "author_audio" : "$",
     "id" : "81",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "ptichetopikoipriqtelqt",
     "pics" : [ ],
     "animations" : [
       
@@ -1571,7 +1582,7 @@
     "author_audio" : "$",
     "id" : "82",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "luvutleo",
     "pics" : [ ],
     "animations" : [
       
@@ -1583,7 +1594,7 @@
     "author_audio" : "$",
     "id" : "83",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "pandatalulu",
     "pics" : [ ],
     "animations" : [
       
@@ -1595,7 +1606,7 @@
     "author_audio" : "$",
     "id" : "84",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "elenchetorinaipriqtelstvoto",
     "pics" : [ ],
     "animations" : [
       
@@ -1607,7 +1618,7 @@
     "author_audio" : "$",
     "id" : "85",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "lavchetoleo",
     "pics" : [ ],
     "animations" : [
       
@@ -1619,7 +1630,7 @@
     "author_audio" : "$",
     "id" : "86",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "kostenurchetonanaivisokiqt",
     "pics" : [ ],
     "animations" : [
       
@@ -1631,7 +1642,7 @@
     "author_audio" : "$",
     "id" : "87",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "ptichetorikoipurviqt",
     "pics" : [ ],
     "animations" : [
       
@@ -1643,7 +1654,7 @@
     "author_audio" : "$",
     "id" : "88",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "mechetotimi",
     "pics" : [ ],
     "animations" : [
       
@@ -1655,7 +1666,7 @@
     "author_audio" : "$",
     "id" : "89",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "zhabchetokikoigolemiqt",
     "pics" : [ ],
     "animations" : [
       
@@ -1667,7 +1678,7 @@
     "author_audio" : "$",
     "id" : "90",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "kotencetomoliiburqta",
     "pics" : [ ],
     "animations" : [
       
@@ -1679,7 +1690,7 @@
     "author_audio" : "$",
     "id" : "91",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "pingvinchetopepiipurvoto",
     "pics" : [ ],
     "animations" : [
       
@@ -1691,7 +1702,7 @@
     "author_audio" : "$",
     "id" : "92",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "mishletotitiigolqmata",
     "pics" : [ ],
     "animations" : [
       
@@ -1703,7 +1714,7 @@
     "author_audio" : "$",
     "id" : "93",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetoroni",
     "pics" : [ ],
     "animations" : [
       
@@ -1715,7 +1726,7 @@
     "author_audio" : "$",
     "id" : "94",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "pandatamimi",
     "pics" : [ ],
     "animations" : [
       
@@ -1727,7 +1738,7 @@
     "author_audio" : "$",
     "id" : "95",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "katericatasisi",
     "pics" : [ ],
     "animations" : [
       
@@ -1739,7 +1750,7 @@
     "author_audio" : "$",
     "id" : "96",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "mechkatabruno",
     "pics" : [ ],
     "animations" : [
       
@@ -1751,7 +1762,7 @@
     "author_audio" : "$",
     "id" : "97",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "lisicataroni",
     "pics" : [ ],
     "animations" : [
       
@@ -1763,7 +1774,7 @@
     "author_audio" : "$",
     "id" : "98",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetoliliisnqg",
     "pics" : [ ],
     "animations" : [
       
@@ -1775,7 +1786,7 @@
     "author_audio" : "$",
     "id" : "99",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "patetof",
     "pics" : [ ],
     "animations" : [
       
@@ -1787,7 +1798,7 @@
     "author_audio" : "$",
     "id" : "100",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "mishletomi",
     "pics" : [ ],
     "animations" : [
       
@@ -1799,7 +1810,7 @@
     "author_audio" : "$",
     "id" : "101",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "ribatalili",
     "pics" : [ ],
     "animations" : [
       
@@ -1811,7 +1822,7 @@
     "author_audio" : "$",
     "id" : "102",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "sovata",
     "pics" : [ ],
     "animations" : [
       
@@ -1823,7 +1834,7 @@
     "author_audio" : "$",
     "id" : "103",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "pchelatazara",
     "pics" : [ ],
     "animations" : [
       
@@ -1835,7 +1846,7 @@
     "author_audio" : "$",
     "id" : "104",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "ohluvcheto",
     "pics" : [ ],
     "animations" : [
       
@@ -1847,7 +1858,7 @@
     "author_audio" : "$",
     "id" : "105",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "mechetobobi",
     "pics" : [ ],
     "animations" : [
       
@@ -1859,7 +1870,7 @@
     "author_audio" : "$",
     "id" : "106",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "zaichetopoliigolqmata",
     "pics" : [ ],
     "animations" : [
       
@@ -1871,7 +1882,7 @@
     "author_audio" : "$",
     "id" : "107",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "lisicatafredi",
     "pics" : [ ],
     "animations" : [
       
@@ -1883,7 +1894,7 @@
     "author_audio" : "$",
     "id" : "108",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "katericatamina",
     "pics" : [ ],
     "animations" : [
       
@@ -1895,7 +1906,7 @@
     "author_audio" : "$",
     "id" : "109",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "elencherina",
     "pics" : [ ],
     "animations" : [
       
@@ -1907,7 +1918,7 @@
     "author_audio" : "$",
     "id" : "110",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "pandalili",
     "pics" : [ ],
     "animations" : [
       
@@ -1919,7 +1930,7 @@
     "author_audio" : "$",
     "id" : "111",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "zhabchetokoko",
     "pics" : [ ],
     "animations" : [
       
@@ -1931,7 +1942,7 @@
     "author_audio" : "$",
     "id" : "112",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "katericasisi",
     "pics" : [ ],
     "animations" : [
       
@@ -1943,7 +1954,7 @@
     "author_audio" : "$",
     "id" : "113",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "patetofifogadenden",
     "pics" : [ ],
     "animations" : [
       
@@ -1955,130 +1966,21 @@
     "author_audio" : "$",
     "id" : "114",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "elenchetoliq",
     "pics" : [ ],
     "animations" : [
       
     ]
   },
   {
-    "name" : "Лисичето Рони и вълшебната светулка Луми",
+    "name" : "Калинката Кати",
     "author_name" : "$",
     "author_audio" : "$",
-    "id" : "115",
+    "id" : "114",
     "group" : "3",
-    "sounds_path" : "$",
+    "sounds_path" : "kalinkatakati",
     "pics" : [ ],
     "animations" : [
-      
+
     ]
   },
-  {
-    "name" : "Пеперудката Фея и изгубеното вълшебство",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "116",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Дракончето Дино и огненото сърце",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "117",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Русалчето Мира и песента на морето",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "118",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Еднорoжката Луна и звездният мост",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "119",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Малката вещица Мила и метлата, която не слушаше",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "120",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Гномчето Тото и златната шишарка",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "121",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Малкият великан Вико и гората на гигантите",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "122",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Феята Ния и огледалото на истината",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "123",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  },
-  {
-    "name" : "Еднорoжката Сия и последната искра на дъгата",
-    "author_name" : "$",
-    "author_audio" : "$",
-    "id" : "124",
-    "group" : "3",
-    "sounds_path" : "$",
-    "pics" : [ ],
-    "animations" : [
-      
-    ]
-  }
-]

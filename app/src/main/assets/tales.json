@@ -379,13 +379,13 @@
     ]
   },
   {
-    "name" : "(недовършени снимки) Мечето Мони и часовникът на гората",
+    "name" : "Мечето Мони и часовникът на гората",
     "author_name" : "$",
     "author_audio" : "$",
     "id" : "18",
     "group" : "1",
     "sounds_path" : "mechetomoni",
-    "pics" : ["bear","bear","bear","clock_puhche","clock_puhche","bear"],
+    "pics" : ["bear","forest","bear","clock_puhche","clock_puhche","beaver","beaver","forest","beaver","clock_puhche"],
     "animations" : [
       ["qurious.qianim", "head_slow_talk.qianim"],
       ["question.qianim", "search.qianim"],
@@ -468,13 +468,13 @@
     ]
   },
   {
-    "name" : "(недовършени снимки) Патенцето Лили и облачната пързалка",
+    "name" : "Патенцето Лили и облачната пързалка",
     "author_name" : "$",
     "author_audio" : "$",
     "id" : "22",
     "group" : "1",
     "sounds_path" : "patencetolili",
-    "pics" : ["duckling","cloud","duckling","cloud","duckling","pond"],
+    "pics" : ["duckling","cloud","duckling","cloud","duckling","pond","cloud_slide","cloud_slide","cloud_slide","duckling"],
     "animations" : [
       ["qurious.qianim", "gaze_up_slow.qianim"],
       ["surprise.qianim", "point_forward.qianim"],

@@ -25,8 +25,8 @@
             android:id="@+id/btn_proj4"
             android:layout_width="200dp"
             android:layout_height="80dp"
-            android:text="Група 54"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:text="Група 4" />
 
         <Button
             android:id="@+id/btn_testanims"

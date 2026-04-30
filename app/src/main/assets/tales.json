@@ -1487,7 +1487,7 @@
     "id" : "75",
     "group" : "3",
     "sounds_path" : "lisichetoroniiizgubenotopriqtelstvo",
-    "pics" : [ ],
+    "pics" : ["fox_happy","forest_path2","bunny","fox_happy","tree_oak","fox_happy","bunny","bunny"],
     "animations" : [
       ["happy_smile.qianim", "wave_motion.qianim"],
       ["hello.qianim", "call_motion.qianim"],
@@ -1529,7 +1529,7 @@
     "id" : "77",
     "group" : "3",
     "sounds_path" : "zaichetoliliimorkovenatatorta",
-    "pics" : [ ],
+    "pics" : ["bunny_chef","bunny_chef","squirrel","carrot_cake","carrot_cake","bunny_normal"],
     "animations" : [
       ["happy_smile.qianim", "thoughtful_announce.qianim"],
       ["paint.qianim", "hands_down.qianim"],
@@ -1546,7 +1546,7 @@
     "id" : "78",
     "group" : "3",
     "sounds_path" : "katerichkataminaiizgubenataigra",
-    "pics" : [ ],
+    "pics" : ["squirrel","pond","hedgehog","mouse","squirrel","tree_oak","tree_oak"],
     "animations" : [
       ["fly.qianim", "happy_smile.qianim"],
       ["slide.qianim", "point_around.qianim"],
@@ -1564,7 +1564,7 @@
     "id" : "79",
     "group" : "3",
     "sounds_path" : "patetofifoimishleto",
-    "pics" : [ ],
+    "pics" : ["ducky","duckling","duckling","ducky","ducky","duckling","lake3"],
     "animations" : [
       ["wave_motion.qianim", "fly.qianim"],
       ["surprise.qianim", "hello.qianim"],
@@ -1582,7 +1582,7 @@
     "id" : "80",
     "group" : "3",
     "sounds_path" : "kostenurchetototoipriqtelqt",
-    "pics" : [ ],
+    "pics" : ["turtle","turtle","deer","turtle","forest_path2","deer"],
     "animations" : [
       ["hands_down.qianim", "fly.qianim"],
       ["hello.qianim", "no.qianim"],
@@ -1599,7 +1599,7 @@
     "id" : "81",
     "group" : "3",
     "sounds_path" : "ptichetopikoipriqtelqt",
-    "pics" : [ ],
+    "pics" : ["bird_yellow", "hedgehog", "leaf", "mountain", "hedgehog", "bird_yellow"],
     "animations" : [
       ["fly.qianim", "gaze_up_slow.qianim"],
       ["disbelief.qianim", "idea.qianim"],
@@ -1616,7 +1616,7 @@
     "id" : "82",
     "group" : "3",
     "sounds_path" : "luvutleo",
-    "pics" : [ ],
+    "pics" : ["lion","lion","deer","garden_drawing","deer","deer"],
     "animations" : [
       ["strong.qianim", "pain.qianim"],
       ["question.qianim", "pain.qianim"],
@@ -1633,7 +1633,7 @@
     "id" : "83",
     "group" : "3",
     "sounds_path" : "pandatalulu",
-    "pics" : [ ],
+    "pics" : ["panda","bamboo","panda","bear","bear"],
     "animations" : [
       ["happy_smile.qianim", "strong.qianim"],
       ["paint.qianim", "heartattack.qianim"],
@@ -1649,7 +1649,7 @@
     "id" : "84",
     "group" : "3",
     "sounds_path" : "elenchetorinaipriqtelstvoto",
-    "pics" : [ ],
+    "pics" : ["fox","deer","fox","fox_happy","deer"],
     "animations" : [
       ["happy_smile.qianim", "no.qianim"],
       ["sob.qianim", "slide.qianim"],
@@ -1665,7 +1665,7 @@
     "id" : "85",
     "group" : "3",
     "sounds_path" : "lavchetoleo",
-    "pics" : [ ],
+    "pics" : ["lion","cave","firefly1","lion","sparkles","firefly1","lion"],
     "animations" : [
       ["strong.qianim", "point_around.qianim"],
       ["qurious.qianim", "pain.qianim"],
@@ -1683,7 +1683,7 @@
     "id" : "86",
     "group" : "3",
     "sounds_path" : "kostenurchetonanaivisokiqt",
-    "pics" : [ ],
+    "pics" : ["turtle","bridge","frog","frog","bridge","turtle"],
     "animations" : [
       ["hands_down.qianim", "wave_motion.qianim"],
       ["qurious.qianim", "pain.qianim"],
@@ -1700,7 +1700,7 @@
     "id" : "87",
     "group" : "3",
     "sounds_path" : "ptichetorikoipurviqt",
-    "pics" : [ ],
+    "pics" : ["bird_blue","bird_branch","bird_nest","bird_branch","bird_flying"],
     "animations" : [
       ["pain.qianim", "pain.qianim"],
       ["hello.qianim", "point_around.qianim"],
@@ -1717,7 +1717,7 @@
     "id" : "88",
     "group" : "3",
     "sounds_path" : "mechetotimi",
-    "pics" : [ ],
+    "pics" : ["bear","owl","tree_oak","pine_cones","bear"],
     "animations" : [
       ["qurious.qianim", "heartattack.qianim"],
       ["search.qianim", "question.qianim"],
@@ -1733,7 +1733,7 @@
     "id" : "89",
     "group" : "3",
     "sounds_path" : "zhabchetokikoigolemiqt",
-    "pics" : [ ],
+    "pics" : ["frog","turtle","frog","frog_scared"],
     "animations" : [
       ["fly.qianim", "point_around.qianim"],
       ["hello.qianim", "pain.qianim"],
@@ -1748,7 +1748,7 @@
     "id" : "90",
     "group" : "3",
     "sounds_path" : "kotencetomoliiburqta",
-    "pics" : [ ],
+    "pics" : ["cat_black","cat_black","cat_grey","cloud_thunders","cat_grey"],
     "animations" : [
       ["qurious.qianim", "heartattack.qianim"],
       ["pain.qianim", "slow_talk.qianim"],
@@ -1764,7 +1764,7 @@
     "id" : "91",
     "group" : "3",
     "sounds_path" : "pingvinchetopepiipurvoto",
-    "pics" : [ ],
+    "pics" : ["penguin1","penguin2","underwater","penguin1"],
     "animations" : [
       ["rainbow.qianim", "pain.qianim"],
       ["hello.qianim", "hands_down.qianim"],
@@ -1779,7 +1779,7 @@
     "id" : "92",
     "group" : "3",
     "sounds_path" : "mishletotitiigolqmata",
-    "pics" : [ ],
+    "pics" : ["mouse","bunny","mouse","bunny","rat_shadow"],
     "animations" : [
       ["strong.qianim", "search.qianim"],
       ["heartattack.qianim", "pain.qianim"],
@@ -1795,7 +1795,7 @@
     "id" : "93",
     "group" : "3",
     "sounds_path" : "zaichetoroni",
-    "pics" : [ ],
+    "pics" : ["bunny","grass","beetle","flowers"],
     "animations" : [
       ["fly.qianim", "qurious.qianim"],
       ["slow_talk.qianim", "heartattack.qianim"],
@@ -1810,7 +1810,7 @@
     "id" : "94",
     "group" : "3",
     "sounds_path" : "pandatamimi",
-    "pics" : [ ],
+    "pics" : ["panda","monkey","tree_oak","panda"],
     "animations" : [
       ["qurious.qianim", "pain.qianim"],
       ["hands_down.qianim", "hello.qianim"],
@@ -1825,7 +1825,7 @@
     "id" : "95",
     "group" : "3",
     "sounds_path" : "katericatasisi",
-    "pics" : [ ],
+    "pics" : ["squirrel","flower_tulip","flower_tulip","bird_yellow","squirrel"],
     "animations" : [
       ["happy_smile.qianim", "point_around.qianim"],
       ["qurious.qianim", "surprise.qianim"],
@@ -1841,7 +1841,7 @@
     "id" : "96",
     "group" : "3",
     "sounds_path" : "mechkatabruno",
-    "pics" : [ ],
+    "pics" : ["bear","squirrel","river","watermelon","watermelon"],
     "animations" : [
       ["rainbow.qianim", "pain.qianim"],
       ["search.qianim", "hello.qianim"],
@@ -1857,7 +1857,7 @@
     "id" : "97",
     "group" : "3",
     "sounds_path" : "lisicataroni",
-    "pics" : [ ],
+    "pics" : ["fox_happy","leaves_autumn","leaves_autumn","happy_animals","leaves_autumn"],
     "animations" : [
       ["rainbow.qianim", "fly.qianim"],
       ["search.qianim", "happy_smile.qianim"],
@@ -1873,7 +1873,7 @@
     "id" : "98",
     "group" : "3",
     "sounds_path" : "zaichetoliliisnqg",
-    "pics" : [ ],
+    "pics" : ["bunny","tree_snow","bird_bear_squirrel","snowman","snowman"],
     "animations" : [
       ["surprise.qianim", "rainbow.qianim"],
       ["vdignahruce.qianim", "paint.qianim"],
@@ -1889,7 +1889,7 @@
     "id" : "99",
     "group" : "3",
     "sounds_path" : "patetof",
-    "pics" : [ ],
+    "pics" : ["duckling","turtle","musical_notes2","cloud_rain","duckling"],
     "animations" : [
       ["qurious.qianim", "thoughtful_announce.qianim"],
       ["wave_motion.qianim", "hello.qianim"],
@@ -1905,7 +1905,7 @@
     "id" : "100",
     "group" : "3",
     "sounds_path" : "mishletomi",
-    "pics" : [ ],
+    "pics" : ["mouse","wind","wind","pond","mouse"],
     "animations" : [
       ["search.qianim", "pain.qianim"],
       ["question.qianim", "slow_talk.qianim"],
@@ -1921,7 +1921,7 @@
     "id" : "101",
     "group" : "3",
     "sounds_path" : "ribatalili",
-    "pics" : [ ],
+    "pics" : ["fish","river","waterfall","waterfall"],
     "animations" : [
       ["wave_motion.qianim", "qurious.qianim"],
       ["question.qianim", "search.qianim"],
@@ -1936,7 +1936,7 @@
     "id" : "102",
     "group" : "3",
     "sounds_path" : "sovata",
-    "pics" : [ ],
+    "pics" : ["owl","sky_night","happy_animals","sky_night"],
     "animations" : [
       ["final_nod.qianim", "rainbow.qianim"],
       ["hello.qianim", "point_around.qianim"],
@@ -1951,7 +1951,7 @@
     "id" : "103",
     "group" : "3",
     "sounds_path" : "pchelatazara",
-    "pics" : [ ],
+    "pics" : ["bee","flower_tulip","flower_tulip","flower_purple","bee","flower_purple"],
     "animations" : [
       ["strong.qianim", "search.qianim"],
       ["qurious.qianim", "question.qianim"],
@@ -1968,7 +1968,7 @@
     "id" : "104",
     "group" : "3",
     "sounds_path" : "ohluvcheto",
-    "pics" : [ ],
+    "pics" : [ "snail","rainbow","bird_yellow","snail"],
     "animations" : [
       ["pain.qianim", "slow_talk.qianim"],
       ["surprise.qianim", "rainbow.qianim"],
@@ -1985,7 +1985,7 @@
     "id" : "105",
     "group" : "3",
     "sounds_path" : "mechetobobi",
-    "pics" : [ ],
+    "pics" : ["bear","bird_yellow","cloud_dark","bird_yellow","sky_sunny","bear"],
     "animations" : [
       ["pain.qianim", "hands_down.qianim"],
       ["hello.qianim", "slow_talk.qianim"],
@@ -2002,7 +2002,7 @@
     "id" : "106",
     "group" : "3",
     "sounds_path" : "zaichetopoliigolqmata",
-    "pics" : [ ],
+    "pics" : ["strawberry","turtle","squirrel","bear","bunny"],
     "animations" : [
       ["happy_smile.qianim", "surprise.qianim"],
       ["vdignahruce.qianim", "hello.qianim"],
@@ -2018,7 +2018,7 @@
     "id" : "107",
     "group" : "3",
     "sounds_path" : "lisicatafredi",
-    "pics" : [ ],
+    "pics" : ["fox","pine_cones","fox","deer","fox_happy","fox_happy"],
     "animations" : [
       ["wave_motion.qianim", "slow_talk.qianim"],
       ["strong.qianim", "pain.qianim"],
@@ -2035,7 +2035,7 @@
     "id" : "108",
     "group" : "3",
     "sounds_path" : "katericatamina",
-    "pics" : [ ],
+    "pics" : ["squirrel","leaf","frog","squirrel","squirrel2"],
     "animations" : [
       ["strong.qianim", "pain.qianim"],
       ["point_around.qianim", "hello.qianim"],
@@ -2051,7 +2051,7 @@
     "id" : "109",
     "group" : "3",
     "sounds_path" : "elencherina",
-    "pics" : [ ],
+    "pics" : ["deer","owl","owl","deer"],
     "animations" : [
       ["pain.qianim", "point_around.qianim"],
       ["slow_talk.qianim", "hello.qianim"],
@@ -2066,7 +2066,7 @@
     "id" : "110",
     "group" : "3",
     "sounds_path" : "pandalili",
-    "pics" : [ ],
+    "pics" : ["panda","owl","owl","sky_sunny"],
     "animations" : [
       ["question.qianim", "slow_talk.qianim"],
       ["qurious.qianim", "final_nod.qianim"],
@@ -2081,7 +2081,7 @@
     "id" : "111",
     "group" : "3",
     "sounds_path" : "zhabchetokoko",
-    "pics" : [ ],
+    "pics" : ["frogs","turtle","turtle","frogs"],
     "animations" : [
       ["wave_motion.qianim", "pain.qianim"],
       ["hands_down.qianim", "hello.qianim"],
@@ -2096,7 +2096,7 @@
     "id" : "112",
     "group" : "3",
     "sounds_path" : "katericasisi",
-    "pics" : [ ],
+    "pics" : ["squirrel","bear","bear"],
     "animations" : [
       ["strong.qianim", "pain.qianim"],
       ["question.qianim", "slow_talk.qianim"],
@@ -2110,7 +2110,7 @@
     "id" : "113",
     "group" : "3",
     "sounds_path" : "patetofifogadenden",
-    "pics" : [ ],
+    "pics" : ["ducky","bird_yellow","feather"],
     "animations" : [
       ["pain.qianim", "hands_down.qianim"],
       ["vdignahruce.qianim", "hello.qianim"],
@@ -2124,7 +2124,7 @@
     "id" : "114",
     "group" : "3",
     "sounds_path" : "elenchetoliq",
-    "pics" : [ ],
+    "pics" : ["forest","gem_yellow","deer"],
     "animations" : [
       ["search.qianim", "qurious.qianim"],
       ["rainbow.qianim", "wave_motion.qianim"],

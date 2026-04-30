@@ -54,36 +54,6 @@
     ]
   },
   {
-    "name" : "json blueprint",
-    "author_name" : "$",
-    "author_audio" : "$.mp3",
-    "id" : "1001",
-    "group" : "4",
-    "parts": [
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      },
-      {
-        "sounds_path" : "$",
-        "pics" : [],
-        "animations" : [
-
-        ]
-      }
-    ]
-  },
-  {
     "name" : "Прасенцето Пумпи и приятелят, който се страхуваше да готви",
     "author_name" : "$",
     "author_audio" : "$.mp3",

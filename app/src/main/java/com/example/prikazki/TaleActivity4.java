@@ -72,12 +72,10 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             String title = currentTale.name;
             String authorAudio = currentTale.authorAudio;
 
-            //Toast.makeText(this, "Author audio: " + authorAudio, Toast.LENGTH_SHORT).show();
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
-                //временно комент
-                //((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
+                findViewById(R.id.btnQuestions).setVisibility(View.GONE);
             });
 
             // 1. Play Title Audio
@@ -88,15 +86,9 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
                     runOnUiThread(() -> {
                         findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
-                        findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+                        findViewById(R.id.btnQuestions).setVisibility(View.GONE);
 
-                        Button btnQuestions = (Button) findViewById(R.id.btnQuestions);
-                        btnQuestions.setOnClickListener(v -> {
-                            releaseMediaPlayer();
-                            Intent intent = new Intent(TaleActivity4.this, QuestionsActivity.class);
-                            intent.putExtra("TALE_ID", currentTale.id);
-                            startActivity(intent);
-                        });
+                        ((TextView) findViewById(R.id.txtTitle)).setText("");
                     });
 
                     nextStep();
@@ -105,7 +97,7 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
                 runOnUiThread(() -> {
                     findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                     findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
-                    findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+                    findViewById(R.id.btnQuestions).setVisibility(View.GONE);
                 });
             } catch (Exception e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();

@@ -21,13 +21,12 @@ public class Tale4 {
     public String[] pics;
     public String[][] animations;
 
-    public Tale4(String name, String authorName, String authorAudio, String id, String group, String soundsPath, String[] pics, String[][] animations) {
+    public Tale4(String name, String id, String group, String soundsPath, String[] pics, String[][] animations) {
         this.name = name;
-        this.authorName = authorName;
-        this.authorAudio = authorAudio;
         this.id = id;
         this.group = group;
         this.soundsPath = soundsPath;
+        this.authorAudio = soundsPath+"_title";
 
         int picsCount = pics.length;
         this.pics = new String[picsCount];
@@ -52,22 +51,17 @@ public class Tale4 {
         String exceptionMessage = "";
 
         if (name.contains("$")) {
-            exceptionMessage += ("Tale name not valid: " + name + "; ");
-
-            isValid = false;
-        }
-        if (authorName.contains("$")) {
-            exceptionMessage += ("Tale author name not valid: " + authorName + "; ");
+            exceptionMessage += ("Tale name not valid: " + name + ";\n");
 
             isValid = false;
         }
         if (authorAudio.contains("$")) {
-            exceptionMessage += ("Tale author audio not valid: " + authorAudio + "; ");
+            exceptionMessage += ("Tale author audio not valid: " + authorAudio + ";\n");
 
             isValid = false;
         }
         if (soundsPath.contains("$")) {
-            exceptionMessage += ("Tale sound path not valid: " + authorAudio + "; ");
+            exceptionMessage += ("Tale sound path not valid: " + soundsPath + ";\n");
 
             isValid = false;
         }
@@ -87,8 +81,6 @@ public class Tale4 {
             return null;
 
         String name = JSONRawData.getString("name");
-        String authorName = JSONRawData.getString("author_name");
-        String authorAudio = JSONRawData.getString("author_audio");
         String group = JSONRawData.getString("group");
 
         JSONArray partsRaw = JSONRawData.getJSONArray("parts");
@@ -114,7 +106,7 @@ public class Tale4 {
             }
         }
 
-        return new Tale4(name, authorName, authorAudio, id, group, soundsPath, picsPaths, animations);
+        return new Tale4(name, id, group, soundsPath, picsPaths, animations);
     }
 
 

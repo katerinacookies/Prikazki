@@ -93,12 +93,6 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
                     nextStep();
                 });
-                // 3. Start Steps
-                runOnUiThread(() -> {
-                    findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
-                    findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
-                    findViewById(R.id.btnQuestions).setVisibility(View.GONE);
-                });
             } catch (Exception e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 finish();
@@ -141,9 +135,10 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
     private void playAudio(String fileName, Runnable onComplete) {
         releaseMediaPlayer();
+
         try {
             mediaPlayer = new MediaPlayer();
-            AssetFileDescriptor afd = getAssets().openFd(fileName);
+            AssetFileDescriptor afd = getAssets().openFd("robot/mp3/" + fileName + ".mp3");
             mediaPlayer.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
             afd.close();
             mediaPlayer.prepare();
@@ -152,7 +147,8 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             });
             mediaPlayer.start();
         } catch (Exception e) {
-            Log.e("ERROR", e.getMessage());
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            //Log.e("ERROR", e.getMessage());
             if (onComplete != null) onComplete.run();
         }
     }

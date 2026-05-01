@@ -1,6 +1,5 @@
 package com.example.prikazki;
 
-import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -8,7 +7,6 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -16,7 +14,6 @@ import android.widget.Toast;
 import com.aldebaran.qi.sdk.QiContext;
 import com.aldebaran.qi.sdk.QiSDK;
 import com.aldebaran.qi.sdk.RobotLifecycleCallbacks;
-import com.example.prikazki.models.Tale;
 import com.example.prikazki.models.Tale4;
 
 
@@ -70,7 +67,7 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
         try {
             String title = currentTale.name;
-            String authorAudio = currentTale.authorAudio;
+            String titleAudio = currentTale.titleAudio;
 
 
             runOnUiThread(() -> {
@@ -81,8 +78,19 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             // 1. Play Title Audio
 
             try {
-                playAudio(authorAudio, () -> {
-                    // 3. Start Steps
+
+                if(getIntent().getStringExtra("TALE_PART_ID").equals("0"))
+                    playAudio(titleAudio, () -> {
+                        runOnUiThread(() -> {
+                            findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
+                            findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+                            findViewById(R.id.btnQuestions).setVisibility(View.GONE);
+
+                            ((TextView) findViewById(R.id.txtTitle)).setText("");
+                        });
+                        nextStep();
+                    });
+                else {
                     runOnUiThread(() -> {
                         findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
@@ -90,9 +98,9 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
                         ((TextView) findViewById(R.id.txtTitle)).setText("");
                     });
-
                     nextStep();
-                });
+                }
+
             } catch (Exception e) {
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 finish();

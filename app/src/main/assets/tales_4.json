@@ -7,7 +7,7 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "dobritestopani",
+        "sounds_path" : "katsisi",
         "pics" : ["bear", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
         "animations" : [
           ["qurious.qianim", "point_around.qianim"],
@@ -22,7 +22,7 @@
         ]
       },
       {
-        "sounds_path" : "ejkopuhcho",
+        "sounds_path" : "kostenurtiko",
         "pics" : ["deer", "bird_blue", "bird_blue",  "bird_blue", "forest", "river", "musical_notes2", "bear"],
         "animations" : [
           ["qurious.qianim", "point_around.qianim"],

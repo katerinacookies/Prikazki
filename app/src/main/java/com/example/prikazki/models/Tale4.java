@@ -8,13 +8,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import com.example.prikazki.JSONReader;
-
 
 public class Tale4 {
     public String name;
-    public String authorName;
-    public String authorAudio;
+    public String titleAudio;
     public String id;
     public String group;
     public String soundsPath;
@@ -26,7 +23,7 @@ public class Tale4 {
         this.id = id;
         this.group = group;
         this.soundsPath = soundsPath;
-        this.authorAudio = soundsPath+"_title";
+        this.titleAudio = soundsPath+"_title";
 
         int picsCount = pics.length;
         this.pics = new String[picsCount];
@@ -55,8 +52,8 @@ public class Tale4 {
 
             isValid = false;
         }
-        if (authorAudio.contains("$")) {
-            exceptionMessage += ("Tale author audio not valid: " + authorAudio + ";\n");
+        if (titleAudio.contains("$")) {
+            exceptionMessage += ("Tale title audio not valid: " + titleAudio + ";\n");
 
             isValid = false;
         }

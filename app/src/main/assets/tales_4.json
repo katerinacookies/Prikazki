@@ -61,21 +61,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "prasencetopumpi",
         "pics" : ["pig1","cookbook","dinner_table","dog","dog_sad","food_stand","pig1","dog_sad","dog_sad"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "prasencetopumpi",
         "pics" : ["fruit_basket","pond","pig1","dog","fruit_basket","dog_sad","dog","pig1","salad","food_stand","fruit_salad","fruit_salad","dog_sad","happy_animals"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "prasencetopumpi",
         "pics" : ["happy_animals","dog","pig","pig"],
         "animations" : [
 
@@ -91,21 +91,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "mechetotoni",
         "pics" : ["forest","bear","happy_animals","beaver_normal","beaver_normal","bear","beaver_normal","bear"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "mechetotoni",
         "pics" : ["bear","animals_wood","animals_wood","beaver_normal","animals_wood","beaver_normal","happy_animals","beaver_normal","theater","happy_animals","beaver_normal"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "mechetotoni",
         "pics" : ["happy_animals","beaver_normal","animals_wood"],
         "animations" : [
 
@@ -121,21 +121,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "lisichetoremi",
         "pics" : ["fox_happy","squirrel","squirrel"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "lisichetoremi",
         "pics" : ["bell_small","squirrel","musical_notes2","happy_animals","squirrel","musical_notes2","happy_animals","squirrel"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "lisichetoremi",
         "pics" : ["happy_animals","fox_happy","squirrel"],
         "animations" : [
 
@@ -151,21 +151,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "zaichetomimi",
         "pics" : ["bunny","beaver_normal","beaver_normal"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "zaichetomimi",
         "pics" : ["drum","drum","musical_notes2","happy_animals","beaver_normal","drum","beaver_normal"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "zaichetomimi",
         "pics" : ["happy_animals","bunny"],
         "animations" : [
 
@@ -181,21 +181,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "ptichetorio",
         "pics" : ["bird_blue","owl","bird_blue","owl"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "ptichetorio",
         "pics" : ["ribbon","ribbon","bird_flying","birds","owl","ribbon"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "ptichetorio",
         "pics" : ["birds","bird_blue"],
         "animations" : [
 
@@ -211,21 +211,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "kostenurchetotiko",
         "pics" : ["turtle","mouse","turtle","mouse"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "kostenurchetotiko",
         "pics" : ["boat","mouse","boat","underwater","boat","underwater"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "kostenurchetotiko",
         "pics" : ["mouse","turtle"],
         "animations" : [
 
@@ -241,14 +241,14 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "pingvinchetonino",
         "pics" : ["penguin1","penguin1","seal","seal","ice_rink","penguin1","seal"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "pingvinchetonino",
         "pics" : ["ice_rink","snowball2","penguin1","seal","snowball2","seal","happy_animals","ice_rink","seal","penguin1","seal",
           "snowball2","happy_animals","happy_animals"],
         "animations" : [
@@ -256,7 +256,7 @@
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "pingvinchetonino",
         "pics" : ["seal","seal"],
         "animations" : [
 
@@ -272,14 +272,14 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "katsisi",
         "pics" : ["squirrel2","chalk","squirrel2","mouse","mouse","art_poster","squirrel2","mouse","squirrel2"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "katsisi",
         "pics" : ["pond","rock_tower","rock_tower","squirrel2","mouse","garden_drawing","squirrel2","mouse","garden_drawing",
         "happy_animals","mouse","happy_animals","mouse"],
         "animations" : [
@@ -287,7 +287,7 @@
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "katsisi",
         "pics" : ["happy_animals","squirrel2","mouse"],
         "animations" : [
 
@@ -303,21 +303,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "zhabchetolili",
         "pics" : ["frog","hedgehog","frog_scared","hedgehog","frog"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "zhabchetolili",
         "pics" : ["frog_rain","frog_rain","frog_rain","puddle","puddle","hedgehog","hedgehog"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "zhabchetolili",
         "pics" : ["happy_animals","frog","hedgehog"],
         "animations" : [
 
@@ -333,21 +333,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "lavleo",
         "pics" : ["lion","monkey","lion","monkey"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "lavleo",
         "pics" : ["lantern","monkey","meadow_night","meadow_night","monkey"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "lavleo",
         "pics" : ["lion","monkey"],
         "animations" : [
 
@@ -363,21 +363,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "vidrichkata",
         "pics" : ["otter","bunny"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "vidrichkata",
         "pics" : ["boat","otter","bunny"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "vidrichkata",
         "pics" : ["happy_animals","otter"],
         "animations" : [
 
@@ -393,21 +393,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "peperudatafeq",
         "pics" : ["butterfly","moth"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "peperudatafeq",
         "pics" : ["leaf","happy_animals","moth"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "peperudatafeq",
         "pics" : ["butterfly"],
         "animations" : [
 
@@ -423,21 +423,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "kostenurtiko",
         "pics" : ["turtle","mouse","mouse","turtle","mouse"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "kostenurtiko",
         "pics" : ["flute","turtle","flute","flute","happy_animals","mouse","mouse","mouse"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "kostenurtiko",
         "pics" : ["happy_animals","turtle","mouse"],
         "animations" : [
 
@@ -453,21 +453,21 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "strahdastroi",
         "pics" : ["bear","deer","bear","deer"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "strahdastroi",
         "pics" : ["pine_cones","deer","pine_cones","deer","happy_animals","deer","pine_cones"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "strahdastroi",
         "pics" : ["happy_animals","bear","deer"],
         "animations" : [
 
@@ -483,14 +483,14 @@
     "group" : "4",
     "parts": [
       {
-        "sounds_path" : "$",
+        "sounds_path" : "elenchetoluna",
         "pics" : ["deer","musical_notes2","badger","badger","tree_oak","badger","deer"],
         "animations" : [
 
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "elenchetoluna",
         "pics" : ["pond","drum","deer","badger","deer","musical_notes2","happy_animals","deer","happy_animals","deer",
         "theater","musical_notes2","badger","happy_animals"],
         "animations" : [
@@ -498,7 +498,7 @@
         ]
       },
       {
-        "sounds_path" : "$",
+        "sounds_path" : "elenchetoluna",
         "pics" : ["deer","badger"],
         "animations" : [
 

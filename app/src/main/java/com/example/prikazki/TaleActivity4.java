@@ -171,7 +171,7 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             animName = animName.replace(".qianim", "");
 
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
-            Toast.makeText(this,"Anim id: " + resId+"",Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this,"Anim id: " + resId+"",Toast.LENGTH_SHORT).show();
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
 //            Toast.makeText(this, "Anim not found", Toast.LENGTH_SHORT).show();

@@ -6008,78 +6008,78 @@
           }
         ],
         "right_answer_id": 0
+      }
+    ]
+  },
+  {
+    "tale_id": "85",
+    "title": "Лъвчето Лео",
+    "questions": [
+      {
+        "text": "От какво се страхува Лео?",
+        "audio_dir": "03_lavchetoleo/lavchetoleo_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "От водата",
+            "audio": "03_lavchetoleo/lavchetoleo_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "От тъмното в пещерата",
+            "audio": "03_lavchetoleo/lavchetoleo_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "От светлината",
+            "audio": "03_lavchetoleo/lavchetoleo_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
       },
       {
-        "tale_id": "85",
-        "title": "Лъвчето Лео",
-        "questions": [
+        "text": "Кой помага на Лео?",
+        "audio_dir": "03_lavchetoleo/lavchetoleo_q2.mp3",
+        "answers": [
           {
-            "text": "От какво се страхува Лео?",
-            "audio_dir": "03_lavchetoleo/lavchetoleo_q1.mp3",
-            "answers": [
-              {
-                "id": 0,
-                "text": "От водата",
-                "audio": "03_lavchetoleo/lavchetoleo_q1_a1.mp3"
-              },
-              {
-                "id": 1,
-                "text": "От тъмното в пещерата",
-                "audio": "03_lavchetoleo/lavchetoleo_q1_correct.mp3"
-              },
-              {
-                "id": 2,
-                "text": "От светлината",
-                "audio": "03_lavchetoleo/lavchetoleo_q1_a2.mp3"
-              }
-            ],
-            "right_answer_id": 1
+            "id": 1,
+            "text": "Луми – светулката",
+            "audio": "03_lavchetoleo/lavchetoleo_q2_correct.mp3"
           },
           {
-            "text": "Кой помага на Лео?",
-            "audio_dir": "03_lavchetoleo/lavchetoleo_q2.mp3",
-            "answers": [
-              {
-                "id": 1,
-                "text": "Луми – светулката",
-                "audio": "03_lavchetoleo/lavchetoleo_q2_correct.mp3"
-              },
-              {
-                "id": 0,
-                "text": "Бухалът Ори",
-                "audio": "03_lavchetoleo/lavchetoleo_q2_a1.mp3"
-              },
-              {
-                "id": 2,
-                "text": "Катеричката Сиси",
-                "audio": "03_lavchetoleo/lavchetoleo_q2_a2.mp3"
-              }
-            ],
-            "right_answer_id": 1
+            "id": 0,
+            "text": "Бухалът Ори",
+            "audio": "03_lavchetoleo/lavchetoleo_q2_a1.mp3"
           },
           {
-            "text": "Какво намират в пещерата?",
-            "audio_dir": "03_lavchetoleo/lavchetoleo_q3.mp3",
-            "answers": [
-              {
-                "id": 2,
-                "text": "Блестящи кристали и светлина",
-                "audio": "03_lavchetoleo/lavchetoleo_q3_correct.mp3"
-              },
-              {
-                "id": 0,
-                "text": "Играчки",
-                "audio": "03_lavchetoleo/lavchetoleo_q3_a1.mp3"
-              },
-              {
-                "id": 1,
-                "text": "Злато",
-                "audio": "03_lavchetoleo/lavchetoleo_q3_a2.mp3"
-              }
-            ],
-            "right_answer_id": 2
+            "id": 2,
+            "text": "Катеричката Сиси",
+            "audio": "03_lavchetoleo/lavchetoleo_q2_a2.mp3"
           }
-        ]
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво намират в пещерата?",
+        "audio_dir": "03_lavchetoleo/lavchetoleo_q3.mp3",
+        "answers": [
+          {
+            "id": 2,
+            "text": "Блестящи кристали и светлина",
+            "audio": "03_lavchetoleo/lavchetoleo_q3_correct.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Играчки",
+            "audio": "03_lavchetoleo/lavchetoleo_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Злато",
+            "audio": "03_lavchetoleo/lavchetoleo_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 2
       }
     ]
   },

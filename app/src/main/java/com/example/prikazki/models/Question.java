@@ -49,7 +49,6 @@ public class Question {
 
         if (questionData == null) return null;
 
-        String taleId = questionData.getString("tale_id");
         JSONArray questionsArray = questionData.getJSONArray("questions");
 
         int questionsCount = questionsArray.length();
@@ -71,7 +70,7 @@ public class Question {
                 answers[j] = Answer.ConvertToAnswer(rawAnswers.getJSONObject(j));
             }
 
-            questions[i] = new Question(taleId, questionText, audioDir, answers, rightAnswerId);
+            questions[i] = new Question(id, questionText, audioDir, answers, rightAnswerId);
         }
 
         return questions;

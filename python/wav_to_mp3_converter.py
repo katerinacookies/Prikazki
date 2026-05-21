@@ -16,9 +16,9 @@
 #             filePath = f"{PATH}/{subf}/{file}"
 #             play(AudioSegment.from_wav(filePath))
 
-import static_ffmpeg
-# This automatically finds the binaries and sets them up for pydub
-static_ffmpeg.add_paths()
+# import static_ffmpeg
+# # This automatically finds the binaries and sets them up for pydub
+# static_ffmpeg.add_paths()
 
 from pydub import AudioSegment
 import os

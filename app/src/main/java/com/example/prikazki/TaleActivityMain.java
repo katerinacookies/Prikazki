@@ -1,235 +1,420 @@
 package com.example.prikazki;
-
 import android.content.Intent;
+
 import android.content.res.AssetFileDescriptor;
+
 import android.media.MediaPlayer;
+
 import android.os.Bundle;
+
 import android.os.Handler;
+
 import android.support.v7.app.AppCompatActivity;
+
 import android.util.Log;
+
 import android.view.View;
+
 import android.widget.Button;
+
 import android.widget.ImageView;
+
 import android.widget.TextView;
+
 import android.widget.Toast;
 
+
 import com.aldebaran.qi.sdk.QiContext;
+
 import com.aldebaran.qi.sdk.QiSDK;
+
 import com.aldebaran.qi.sdk.RobotLifecycleCallbacks;
+
 import com.example.prikazki.models.Tale;
 
+
 //logikata za prikazkite za 1, 2 i 3ta grupa
+
 public class TaleActivityMain extends AppCompatActivity implements RobotLifecycleCallbacks {
-    //!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
+
+//!ADDED THIS BOOLEAN FLAG FOR PHONE EMULATION
+
     public boolean isEmulatorMode = false;
 
+
     private QiContext qiContext;
+
     private MediaPlayer mediaPlayer;
+
     private Tale currentTale;
+
     private int currentStep = -1; // -1 = Intro, 0+ = Story steps
 
+
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
+
         Log.d("DEBUG", "Hello world");
 
+
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_tale_player);
 
+
         try {
+
             String taleId = getIntent().getStringExtra("TALE_ID");
+
             loadTaleFromJSON(taleId);
+
         } catch (Exception e){
+
             Log.e("JSON_ERROR", "Error loading tale: " + e.getMessage());
-            //Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+
+//Toast.makeText(this, "JSON Loading Failed!", Toast.LENGTH_LONG).show();
+
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
+
             finish();
+
         }
+
 
         findViewById(R.id.btnBackToList).setOnClickListener(v -> finish());
 
+
         if (isEmulatorMode) {
-            // Bypass the robot and start the tale after a 1-second delay
+
+// Bypass the robot and start the tale after a 1-second delay
+
             new Handler().postDelayed(this::startTaleIntro, 1000);
+
         }
+
         else {
+
             QiSDK.register(this, this);
+
         }
+
     }
+
 
     @Override
+
     public void onRobotFocusGained(QiContext context) {
+
         this.qiContext = context;
+
         startTaleIntro();
+
     }
+
 
     private void startTaleIntro() {
-        //Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
-        //Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
+
+//Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
+
+//Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
+
 
         try {
+
             if (!currentTale.IsValid())
+
                 return;
 
+
             String title = currentTale.name;
+
             String authorName = currentTale.authorName;
+
             String titleAudio = currentTale.titleAudio;
 
+
             runOnUiThread(() -> {
+
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
-                //временно комент
-                //((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
+
+//временно комент
+
+//((TextView) findViewById(R.id.txtAuthor)).setText(authorName);
+
             });
 
+
             try {
+
                 playAudio(titleAudio, () -> {
+
                     runOnUiThread(() -> {
+
                         findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
+
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+
                         findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
 
+
                         Button btnQuestions = (Button) findViewById(R.id.btnQuestions);
+
                         btnQuestions.setOnClickListener(v -> {
+
                             releaseMediaPlayer();
+
                             Intent intent = new Intent(TaleActivityMain.this, QuestionsActivity.class);
+
                             intent.putExtra("TALE_ID", currentTale.id);
+
                             startActivity(intent);
+
                         });
 
+
                         ((TextView) findViewById(R.id.txtTitle)).setText("");
+
                     });
 
+
                     nextStep();
+
                 });
-                // 3. Start Steps
+
+// 3. Start Steps
+
                 runOnUiThread(() -> {
+
                     findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
+
                     findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
+
                     findViewById(R.id.btnQuestions).setVisibility(View.VISIBLE);
+
                 });
+
             } catch (Exception e) {
+
                 Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
+
                 finish();
+
             }
 
+
         } catch (Exception e) {
+
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
+
             finish();
+
         }
+
     }
+
 
     private void nextStep() {
 
+
         currentStep++;
 
+
         if (currentStep >= currentTale.pics.length)
+
             return;
 
+
         try {
-            // Show Image
+
+// Show Image
+
             String imgName = currentTale.pics[currentStep];
+
             int resID = getResources().getIdentifier(imgName, "drawable", getPackageName());
+
             runOnUiThread(() -> ((ImageView) findViewById(R.id.storyImageView)).setImageResource(resID));
 
-            // Run Animation Chain
+
+// Run Animation Chain
+
             String[] animations = currentTale.animations[currentStep];
+
             runAnimationChain(animations, 0);
 
-            // Play Step Audio
+
+// Play Step Audio
+
             String audio = currentTale.soundsPath + "_" + currentStep;
 
+
             playAudio(audio, () -> {
-                // When audio finishes, wait a beat and go to next step
+
+// When audio finishes, wait a beat and go to next step
+
                 new Handler().postDelayed(this::nextStep, 1000);
+
             });
 
+
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
+
     }
+
 
     private void playAudio(String fileName, Runnable onComplete) {
+
         releaseMediaPlayer();
 
+
         try {
+
             mediaPlayer = new MediaPlayer();
+
             AssetFileDescriptor afd = getAssets().openFd("robot/mp3/" + fileName + ".mp3");
+
             mediaPlayer.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
+
             afd.close();
+
             mediaPlayer.prepare();
+
             mediaPlayer.setOnCompletionListener(mp -> {
+
                 if (onComplete != null) onComplete.run();
+
             });
+
             mediaPlayer.start();
+
         } catch (Exception e) {
+
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
-            //Log.e("ERROR", e.getMessage());
+
+//Log.e("ERROR", e.getMessage());
+
             if (onComplete != null) onComplete.run();
+
         }
+
     }
 
+
     private void runAnimationChain(String[] animations, int index) {
+
         if (index >= animations.length || qiContext == null)
+
             return;
 
+
         try {
+
             String animName = animations[index];
+
 
             animName = animName.replace(".qianim", "");
 
+
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
 
+
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
+
         } catch (Exception e) {
+
             e.printStackTrace();
+
         }
+
     }
+
 
     private void releaseMediaPlayer() {
+
         if (mediaPlayer != null) {
+
             mediaPlayer.release();
+
             mediaPlayer = null;
+
         }
+
     }
+
 
     @Override
+
     protected void onDestroy() {
+
         releaseMediaPlayer();
+
         QiSDK.unregister(this, this);
+
         super.onDestroy();
+
     }
 
+
     private void loadTaleFromJSON(String targetTaleId) {
+
         try {
+
             currentTale = Tale.GetTaleDataFromId(this, targetTaleId);
 
-            if  (currentTale == null)
+
+            if (currentTale == null)
+
                 throw new Exception("JSON Loading Failed! Tale id: " + targetTaleId);
 
-            //invokes an exception when something is wrong
+
+//invokes an exception when something is wrong
+
             currentTale.IsValid();
 
+
         } catch (Exception e) {
+
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());
+
 
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
 
+
             finish();
+
         }
+
     }
 
+
     @Override
+
     public void onRobotFocusLost() {
-        // This is called if someone touches Pepper's head or a safety triggers
+
+// This is called if someone touches Pepper's head or a safety triggers
+
         this.qiContext = null;
+
         releaseMediaPlayer();
+
     }
 
+
     @Override
+
     public void onRobotFocusRefused(String reason) {
-        // This is called if the robot is busy or in an error state
+
+// This is called if the robot is busy or in an error state
+
         Log.e("QiSDK", "Focus refused: " + reason);
+
     }
-}
+
+} 

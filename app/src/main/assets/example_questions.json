@@ -231,7 +231,7 @@
           },
           {
             "id": 2,
-            "text": "Песъчето",
+            "text": "Пясъчето",
             "audio": "smalltina/smalltina_q1_a2.mp3"
           }
         ],
@@ -892,7 +892,7 @@
           },
           {
             "id": 2,
-            "text": "Бръмбара",
+            "text": "Бръмбарът",
             "audio": "butterflyzara/butterflyzara_q2_a2.mp3"
           }
         ],
@@ -1154,7 +1154,7 @@
           },
           {
             "id": 2,
-            "text": "Лист",
+            "text": "Листо",
             "audio": "birdpiko/birdpiko_q1_a1.mp3"
           }
         ],
@@ -2433,7 +2433,7 @@
           },
           {
             "id": 2,
-            "text": "Защото Рони тичаше твърде бързо и го остави",
+            "text": "Защото Рони тичаше сам и го остави",
             "audio": "02_foxroni/foxroni_q1_correct.mp3"
           }
         ],
@@ -2477,7 +2477,7 @@
           },
           {
             "id": 2,
-            "text": "Тръгнаха заедно",
+            "text": "Тичаха заедно",
             "audio": "02_foxroni/foxroni_q3_correct.mp3"
           }
         ],
@@ -2607,7 +2607,7 @@
       },
       {
         "text": "Как се почувстваха приятелите?",
-        "audio_dir": "02_bunnylily/bunnylily_q3.mp3",
+          "audio_dir": "02_bunnylily/bunnylily_q3.mp3",
         "answers": [
           {
             "id": 0,
@@ -2707,6 +2707,7 @@
     "questions": [
       {
         "text": "От какво се страхуваше Мимо?",
+        "audio_dir": "02_duckfifo/duckfifo_q1.mp3",
         "answers": [
           {
             "id": 1,
@@ -2728,6 +2729,7 @@
       },
       {
         "text": "Как Фифо му помогна?",
+        "audio_dir": "02_duckfifo/duckfifo_q2.mp3",
         "answers": [
           {
             "id": 2,
@@ -2749,6 +2751,7 @@
       },
       {
         "text": "Как се почувства Мимо накрая?",
+        "audio_dir": "02_duckfifo/duckfifo_q3.mp3",
         "answers": [
           {
             "id": 0,
@@ -2776,6 +2779,7 @@
     "questions": [
       {
         "text": "Защо Тото се почувства сам?",
+        "audio_dir": "02_turtletoto/turtletoto_q1.mp3",
         "answers": [
           {
             "id": 1,
@@ -2797,6 +2801,7 @@
       },
       {
         "text": "Какво разбра Лея?",
+        "audio_dir": "02_turtletoto/turtletoto_q2.mp3",
         "answers": [
           {
             "id": 0,
@@ -2818,6 +2823,7 @@
       },
       {
         "text": "Какво направиха двамата приятели накрая?",
+        "audio_dir": "02_turtletoto/turtletoto_q3.mp3",
         "answers": [
           {
             "id": 2,
@@ -2988,7 +2994,7 @@
     "title": "Лъвчето Лео и тъмната пещера",
     "questions": [
       {
-        "text": "От какво се страхуваше Лео",
+        "text": "От какво се страхуваше Лео?",
         "audio_dir": "02_lionleocave/lionleocave_q1.mp3",
         "answers": [
           {
@@ -3010,7 +3016,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Кой му помогна да влезе в пещерата",
+        "text": "Кой му помогна да влезе в пещерата?",
         "audio_dir": "02_lionleocave/lionleocave_q2.mp3",
         "answers": [
           {
@@ -3032,7 +3038,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Как се почувства Лео накрая",
+        "text": "Как се почувства Лео накрая?",
         "audio_dir": "02_lionleocave/lionleocave_q3.mp3",
         "answers": [
           {
@@ -3133,66 +3139,66 @@
     "questions": [
       {
         "text": "Защо Рико се страхуваше да полети",
-        "audio_dir": "02_birdkiko/birdkiko_q1.mp3",
+        "audio_dir": "02_birdriko/birdriko_q1.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Защото крилата му били малки",
-            "audio": "02_birdkiko/birdkiko_q1_a1.mp3"
+            "audio": "02_birdriko/birdriko_q1_a1.mp3"
           },
           {
             "id": 1,
             "text": "Защото се страхувал, че ще падне",
-            "audio": "02_birdkiko/birdkiko_q1_correct.mp3"
+            "audio": "02_birdriko/birdriko_q1_correct.mp3"
           },
           {
             "id": 2,
             "text": "Защото било студено",
-            "audio": "02_birdkiko/birdkiko_q1_a2.mp3"
+            "audio": "02_birdriko/birdriko_q1_a2.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
         "text": "Какво му каза татко птицата",
-        "audio_dir": "02_birdkiko/birdkiko_q2.mp3",
+        "audio_dir": "02_birdriko/birdriko_q2.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Да не опитва",
-            "audio": "02_birdkiko/birdkiko_q2_a1.mp3"
+            "audio": "02_birdriko/birdriko_q2_a1.mp3"
           },
           {
             "id": 1,
             "text": "Че смелостта става по-силна, когато я използваш",
-            "audio": "02_birdkiko/birdkiko_q2_correct.mp3"
+            "audio": "02_birdriko/birdriko_q2_correct.mp3"
           },
           {
             "id": 2,
             "text": "Да изчака още една година",
-            "audio": "02_birdkiko/birdkiko_q2_a2.mp3"
+            "audio": "02_birdriko/birdriko_q2_a2.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
         "text": "Какво се случи, когато скочи",
-        "audio_dir": "02_birdkiko/birdkiko_q3.mp3",
+        "audio_dir": "02_birdriko/birdriko_q3.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Върна се в гнездото",
-            "audio": "02_birdkiko/birdkiko_q3_a2.mp3"
+            "audio": "02_birdriko/birdriko_q3_a2.mp3"
           },
           {
             "id": 1,
             "text": "Падна на земята",
-            "audio": "02_birdkiko/birdkiko_q3_a1.mp3"
+            "audio": "02_birdriko/birdriko_q3_a1.mp3"
           },
           {
             "id": 2,
             "text": "Разпери криле и полетя",
-            "audio": "02_birdkiko/birdkiko_q3_correct.mp3"
+            "audio": "02_birdriko/birdriko_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -3227,6 +3233,7 @@
       },
       {
         "text": "Кой му помогна да провери шума",
+        "audio_dir": "02_beartimi/beartimi_q1.mp3",
         "answers": [
           {
             "id": 0,
@@ -3248,6 +3255,7 @@
       },
       {
         "text": "Какво се оказа, че е страшният звук",
+        "audio_dir": "02_beartimi/beartimi_q1.mp3",
         "answers": [
           {
             "id": 0,
@@ -3275,6 +3283,7 @@
     "questions": [
       {
         "text": "Защо Кико не искаше да скача",
+        "audio_dir": "02_frogkiko/frogkiko_q1.mp3",
         "answers": [
           {
             "id": 0,
@@ -3344,12 +3353,12 @@
     "questions": [
       {
         "text": "От какво се страхуваше Моли",
-        "audio_dir": "02_catmolly/catmolly_48_q1.mp3",
+        "audio_dir": "02_catmolly/catmolly_q1.mp3",
         "answers": [
           {
             "id": 0,
             "text": "От бурите",
-            "audio": "02_catmolly/catmollyorrect.mp3"
+            "audio": "02_catmolly/catmolly_q1_correct.mp3"
           },
           {
             "id": 1,
@@ -3366,12 +3375,12 @@
       },
       {
         "text": "Как баба Котка му помогна",
-        "audio_dir": "02_catmolly/catmolly_48_q2.mp3",
+        "audio_dir": "02_catmolly/catmolly_q2.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Като му обясни какво е бурята и беше до него",
-            "audio": "02_catmolly/catmollyorrect.mp3"
+            "audio": "02_catmolly/catmolly_q2_correct.mp3"
           },
           {
             "id": 1,
@@ -3388,7 +3397,7 @@
       },
       {
         "text": "Как се почувства Моли, когато гледаха бурята заедно",
-        "audio_dir": "02_catmolly/catmolly_48_q3.mp3",
+        "audio_dir": "02_catmolly/catmolly_q3.mp3",
         "answers": [
           {
             "id": 0,
@@ -3398,7 +3407,7 @@
           {
             "id": 1,
             "text": "Спокойно и по-смело",
-            "audio": "02_catmolly/catmollyorrect.mp3"
+            "audio": "02_catmolly/catmolly_q3_correct.mp3"
           },
           {
             "id": 2,
@@ -3709,17 +3718,17 @@
           {
             "id": 0,
             "text": "Растяха",
-            "audio": "02_foxronileafs/foxronileafs_a1.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q1_a1.mp3"
           },
           {
             "id": 1,
             "text": "Падаха и се въртяха като танц",
-            "audio": "02_foxronileafs/foxronileafsect.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q1_correct.mp3"
           },
           {
             "id": 2,
             "text": "Стояха неподвижни",
-            "audio": "02_foxronileafs/foxronileafs_a2.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q1_a2.mp3"
           }
         ],
         "right_answer_id": 1
@@ -3731,17 +3740,17 @@
           {
             "id": 0,
             "text": "Рони",
-            "audio": "02_foxronileafs/foxronileafs_a1.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q2_a1.mp3"
           },
           {
             "id": 1,
             "text": "Вятърът като животно",
-            "audio": "02_foxronileafs/foxronileafs_a2.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q2_a2.mp3"
           },
           {
             "id": 2,
             "text": "Есенното духче",
-            "audio": "02_foxronileafsect.mp3"
+            "audio": "02_foxronileafs_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -3753,17 +3762,17 @@
           {
             "id": 0,
             "text": "Жълъд",
-            "audio": "02_foxronileafs/foxronileafs_a1.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q3_a1.mp3"
           },
           {
             "id": 1,
             "text": "Златно листо",
-            "audio": "02_foxronileafsect.mp3"
+            "audio": "02_foxronileafs_q3_correct.mp3"
           },
           {
             "id": 2,
             "text": "Цвете",
-            "audio": "02_foxronileafs/foxronileafs_a2.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q3_a2.mp3"
           }
         ],
         "right_answer_id": 1
@@ -3830,12 +3839,12 @@
           {
             "id": 1,
             "text": "Плуваха",
-            "audio": "02_bunnylilysnow/bunnylilysnow_q3_a2.mp3"
+            "audio": "02_bunnylilysnow/bunnylilysnow_q3_a1.mp3"
           },
           {
             "id": 2,
             "text": "Събираха листа",
-            "audio": "02_bunnylilysnow/bunnylilysnow_q3_a1.mp3"
+            "audio": "02_bunnylilysnow/bunnylilysnow_q3_a2.mp3"
           }
         ],
         "right_answer_id": 0
@@ -4280,12 +4289,12 @@
     "questions": [
       {
         "text": "Защо Фреди се ядоса",
-        "audio_dir": "foxfredi/tale_61_q1.mp3",
+        "audio_dir": "02_foxfredi/foxfredi_q1.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Защото се събуди",
-            "audio": "02_foxfredi/foxfredile_61_q1_a1.mp3"
+            "audio": "02_foxfredi/foxfredi_q1_a1.mp3"
           },
           {
             "id": 1,
@@ -4295,24 +4304,24 @@
           {
             "id": 2,
             "text": "Защото беше гладен",
-            "audio": "02_foxfredi/foxfredile_61_q1_a2.mp3"
+            "audio": "02_foxfredi/foxfredi_q1_a2.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
         "text": "Как Лея му помогна",
-        "audio_dir": "foxfredi/tale_61_q2.mp3",
+        "audio_dir": "02_foxfredi/foxfredi_q2.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Накара го да тича",
-            "audio": "02_foxfredi/foxfredile_61_q2_a1.mp3"
+            "audio": "02_foxfredi/foxfredi_q2_a1.mp3"
           },
           {
             "id": 1,
             "text": "Даде му нови шишарки",
-            "audio": "02_foxfredi/foxfredile_61_q2_a2.mp3"
+            "audio": "02_foxfredi/foxfredi_q2_a2.mp3"
           },
           {
             "id": 2,
@@ -4324,12 +4333,12 @@
       },
       {
         "text": "Как се почувства Фреди накрая",
-        "audio_dir": "foxfredi/tale_61_q3.mp3",
+        "audio_dir": "02_foxfredi/foxfredi_q3.mp3",
         "answers": [
           {
             "id": 0,
             "text": "По-ядосан",
-            "audio": "02_foxfredi/foxfredile_61_q3_a1.mp3"
+            "audio": "02_foxfredi/foxfredi_q3_a1.mp3"
           },
           {
             "id": 1,
@@ -4339,7 +4348,7 @@
           {
             "id": 2,
             "text": "По-уплашен",
-            "audio": "02_foxfredi/foxfredile_61_q3_a2.mp3"
+            "audio": "02_foxfredi/foxfredi_q3_a2.mp3"
           }
         ],
         "right_answer_id": 1
@@ -4352,66 +4361,66 @@
     "questions": [
       {
         "text": "От какво се страхуваше Мина",
-        "audio_dir": "squirrelminafear/squirrelminafear_q1.mp3",
+        "audio_dir": "02_squirrelminafear/squirrelminafear_q1.mp3",
         "answers": [
           {
             "id": 0,
             "text": "От вода",
-            "audio": "squirrelminafear/squirrelminafear_q1_a1.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q1_a1.mp3"
           },
           {
             "id": 1,
             "text": "От нови игри",
-            "audio": "squirrelminafear/squirrelminafear_q1_correct.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q1_correct.mp3"
           },
           {
             "id": 2,
             "text": "От сняг",
-            "audio": "squirrelminafear/squirrelminafear_q1_a2.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q1_a2.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
         "text": "Кой ѝ помогна",
-        "audio_dir": "squirrelminafear/squirrelminafear_q2.mp3",
+        "audio_dir": "02_squirrelminafear/squirrelminafear_q2.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Птица",
-            "audio": "squirrelminafear/squirrelminafear_q2_a1.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q2_a1.mp3"
           },
           {
             "id": 1,
             "text": "Жабчето Кико",
-            "audio": "squirrelminafear/squirrelminafear_q2_correct.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q2_correct.mp3"
           },
           {
             "id": 2,
             "text": "Лисица",
-            "audio": "squirrelminafear/squirrelminafear_q2_a2.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q2_a2.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
         "text": "Какво се случи, когато опита",
-        "audio_dir": "squirrelminafear/squirrelminafear_q3.mp3",
+        "audio_dir": "02_squirrelminafear/squirrelminafear_q3.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Успя и се забавлява",
-            "audio": "squirrelminafear/squirrelminafear_q3_correct.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q3_correct.mp3"
           },
           {
             "id": 1,
             "text": "Отказа се веднага",
-            "audio": "squirrelminafear/squirrelminafear_q3_a1.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q3_a1.mp3"
           },
           {
             "id": 2,
             "text": "Прибра се вкъщи",
-            "audio": "squirrelminafear/squirrelminafear_q3_a2.mp3"
+            "audio": "02_squirrelminafear/squirrelminafear_q3_a2.mp3"
           }
         ],
         "right_answer_id": 0
@@ -4429,12 +4438,12 @@
           {
             "id": 0,
             "text": "Защото беше сама",
-            "audio": "02_reindeerrina/reindeerrinale_q1_a2.mp3"
+            "audio": "02_reindeerrina/reindeerrina_q1_a2.mp3"
           },
           {
             "id": 1,
             "text": "Защото беше гладна",
-            "audio": "02_reindeerrina/reindeerrinale_q1_a1.mp3"
+            "audio": "02_reindeerrina/reindeerrina_q1_a1.mp3"
           },
           {
             "id": 2,
@@ -4446,7 +4455,7 @@
       },
       {
         "text": "Кой ѝ помогна да се успокои",
-        "audio_dir": "02_reindeerrina/reindeerrinale_q2.mp3",
+        "audio_dir": "02_reindeerrina/reindeerrina_q2.mp3",
         "answers": [
           {
             "id": 0,
@@ -4456,7 +4465,7 @@
           {
             "id": 1,
             "text": "Бруно",
-            "audio": "02_reindeerrina/reindeerrinale_q2_a1.mp3"
+            "audio": "02_reindeerrina/reindeerrina_q2_a1.mp3"
           },
           {
             "id": 2,
@@ -4468,12 +4477,12 @@
       },
       {
         "text": "Какво направиха под дървото",
-        "audio_dir": "02_reindeerrina/reindeerrinale_q3.mp3",
+        "audio_dir": "02_reindeerrina/reindeerrina_q3.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Скачаха",
-            "audio": "02_reindeerrina/reindeerrinale_q3_a2.mp3"
+            "audio": "02_reindeerrina/reindeerrina_q3_a2.mp3"
           },
           {
             "id": 1,
@@ -4483,7 +4492,7 @@
           {
             "id": 2,
             "text": "Тичаха",
-            "audio": "02_reindeerrina/reindeerrinale_q3_a1.mp3"
+            "audio": "02_reindeerrina/reindeerrina_q3_a1.mp3"
           }
         ],
         "right_answer_id": 1
@@ -4765,7 +4774,7 @@
           },
           {
             "id": 1,
-            "text": "Поляна с светещи цветя",
+            "text": "Поляна със светещи цветя",
             "audio": "02_foxronilumi/foxronilumi_q3_correct.mp3"
           },
           {
@@ -4856,66 +4865,66 @@
     "questions": [
       {
         "text": "Защо Дино беше тъжен",
-        "audio_dir": "dragondino/dragondino_q1.mp3",
+        "audio_dir": "02_dragondino/dragondino_q1.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Защото не можел да лети",
-            "audio": "dragondino/dragondino_q1_a2.mp3"
+            "audio": "02_dragondino/dragondino_q1_a2.mp3"
           },
           {
             "id": 1,
             "text": "Защото изгубил опашката си",
-            "audio": "dragondino/dragondino_q1_a1.mp3"
+            "audio": "02_dragondino/dragondino_q1_a1.mp3"
           },
           {
             "id": 2,
             "text": "Защото не можел да бълва огън",
-            "audio": "dragondino/dragondino_q1_correct.mp3"
+            "audio": "02_dragondino/dragondino_q1_correct.mp3"
           }
         ],
         "right_answer_id": 2
       },
       {
         "text": "Какво му каза старият дракон",
-        "audio_dir": "dragondino/dragondino_q2.mp3",
+        "audio_dir": "02_dragondino/dragondino_q2.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Че никога няма да стане голям",
-            "audio": "dragondino/dragondino_q2_a2.mp3"
+            "audio": "02_dragondino/dragondino_q2_a2.mp3"
           },
           {
             "id": 1,
             "text": "Че огънят идва от сърцето",
-            "audio": "dragondino/dragondino_q2_correct.mp3"
+            "audio": "02_dragondino/dragondino_q2_correct.mp3"
           },
           {
             "id": 2,
             "text": "Че трябва да тренира повече с криле",
-            "audio": "dragondino/dragondino_q2_a1.mp3"
+            "audio": "02_dragondino/dragondino_q2_a1.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
         "text": "Как Дино откри своя огън",
-        "audio_dir": "dragondino/dragondino_q3.mp3",
+        "audio_dir": "02_dragondino/dragondino_q3.mp3",
         "answers": [
           {
             "id": 0,
             "text": "Като изял магически камък",
-            "audio": "dragondino/dragondino_q3_a2.mp3"
+            "audio": "02_dragondino/dragondino_q3_a2.mp3"
           },
           {
             "id": 1,
             "text": "Като се ядосал много силно",
-            "audio": "dragondino/dragondino_q3_a1.mp3"
+            "audio": "02_dragondino/dragondino_q3_a1.mp3"
           },
           {
             "id": 2,
             "text": "Когато се уплашил и после защитил приятелите си",
-            "audio": "dragondino/dragondino_q3_correct.mp3"
+            "audio": "02_dragondino/dragondino_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2

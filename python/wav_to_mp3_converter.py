@@ -4,7 +4,7 @@
 # OG_PATH = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/wav"
 # NEW_PATH = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/mp3"
 
-# AudioSegment.from_wav("dobritestopani_0.wav").export("test.mp3", format="mp3")
+# AudioSegment.from_wav("dobritestopani_0.wav").export("test.mp3", format="mp3")    
 
 # subfolders = [f.name for f in os.scandir(PATH) if f.is_dir()]
 # print(subfolders)
@@ -16,11 +16,15 @@
 #             filePath = f"{PATH}/{subf}/{file}"
 #             play(AudioSegment.from_wav(filePath))
 
+import static_ffmpeg
+# This automatically finds the binaries and sets them up for pydub
+static_ffmpeg.add_paths()
+
 from pydub import AudioSegment
 import os
 
-OG_PATH = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot"
-NEW_PATH = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/mp3"
+OG_PATH = "D:/Proekti/Work/Pepper/Prikazki/app/src/main/assets/robot"
+NEW_PATH = "D:/Proekti/Work/Pepper/Prikazki/app/src/main/assets/robot/mp3"
 
 # Make sure the new folder exists, just in case
 os.makedirs(NEW_PATH, exist_ok=True)

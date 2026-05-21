@@ -3305,6 +3305,7 @@
       },
       {
         "text": "Кой му помогна да опита",
+        "audio_dir": "02_frogkiko/frogkiko_q2.mp3",
         "answers": [
           {
             "id": 0,
@@ -3326,6 +3327,7 @@
       },
       {
         "text": "Какво направи Кико накрая",
+        "audio_dir": "02_frogkiko/frogkiko_q3.mp3",
         "answers": [
           {
             "id": 0,

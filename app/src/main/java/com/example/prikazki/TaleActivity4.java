@@ -174,6 +174,10 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
             Toast.makeText(this,"Anim id: " + resId+"",Toast.LENGTH_SHORT).show();
             RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
         } catch (Exception e) {
+//            Toast.makeText(this, "Anim not found", Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+
             e.printStackTrace();
         }
     }

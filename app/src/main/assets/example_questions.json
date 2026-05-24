@@ -8172,5 +8172,77 @@
         "right_answer_id": 1
       }
     ]
+  },
+  {
+    "tale_id": "116",
+    "title": "Ако цветовете бяха сиви",
+    "questions": [
+      {
+        "text": "Кой е главният герой?",
+        "audio_dir": "akocvetovete/akocvetovete_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Бабата",
+            "audio": "akocvetovete/akocvetovete_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Пушекът",
+            "audio": "akocvetovete/akocvetovete_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Бебето",
+            "audio": "akocvetovete/akocvetovete_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво започна да прави пушекът?",
+        "audio_dir": "akocvetovete/akocvetovete_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да боядисва",
+            "audio": "akocvetovete/akocvetovete_q2_correct.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Да пее",
+            "audio": "akocvetovete/akocvetovete_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да плаче",
+            "audio": "akocvetovete/akocvetovete_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "В какъв цвят започна да боядисва пушекът?",
+        "audio_dir": "akocvetovete/akocvetovete_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Бяло",
+            "audio": "akocvetovete/akocvetovete_q3_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Червено",
+            "audio": "akocvetovete/akocvetovete_q3_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Сиво",
+            "audio": "akocvetovete/akocvetovete_q3_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
   }
 ]

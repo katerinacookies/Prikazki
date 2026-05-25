@@ -63,8 +63,8 @@ def find_missing_files(dir1, dir2):
             print(f"  - {f} (Original name: {data2[f]})")
 
 if __name__ == "__main__":
-    dir_a = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/_questions"
-    dir_b = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/questions"
+    dir_a = "D:/Proekti/Work/Pepper/Prikazki/app/src/main/assets/robot/_questions"
+    dir_b = "D:/Proekti/Work/Pepper/Prikazki/app/src/main/assets/robot/questions"
     
     # dir_a = 
 

@@ -1,10 +1,14 @@
 import os
 import shutil
 from pydub import AudioSegment
+from pathlib import Path
 
 # Define your main source and destination folders
-OG_DIR = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/_questions"
-NEW_DIR = "D:/Projects/prikazki/Prikazki/app/src/main/assets/robot/questions"
+SCRIPT_DIR = Path(__file__).resolve().parent
+
+# 2. Go up one folder level to reach the root, then navigate down to 'app'
+OG_DIR = SCRIPT_DIR.parent / "app/src/main/assets/robot/_questions"
+NEW_DIR = SCRIPT_DIR.parent / "app/src/main/assets/robot/questions"
 
 for current_folder, subfolders, files in os.walk(OG_DIR):
     

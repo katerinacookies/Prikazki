@@ -22,9 +22,12 @@
 
 from pydub import AudioSegment
 import os
+from pathlib import Path
 
-OG_PATH = "D:/Proekti/Work/Pepper/Prikazki/app/src/main/assets/robot"
-NEW_PATH = "D:/Proekti/Work/Pepper/Prikazki/app/src/main/assets/robot/mp3"
+SCRIPT_DIR = Path(__file__).resolve().parent
+
+OG_PATH = SCRIPT_DIR.parent / "app/src/main/assets/robot"
+NEW_PATH = SCRIPT_DIR.parent / "app/src/main/assets/robot/mp3"
 
 # Make sure the new folder exists, just in case
 os.makedirs(NEW_PATH, exist_ok=True)

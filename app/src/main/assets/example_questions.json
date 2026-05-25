@@ -8174,6 +8174,78 @@
     ]
   },
   {
+    "tale_id": "118",
+    "title": "Вълшебната градина на пролетта",
+    "questions": [
+      {
+        "text": "Как се казва вълшебницата?",
+        "audio_dir": "valshebnatagradina/valshebnatagradina_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Есен",
+            "audio": "valshebnatagradina/valshebnatagradina_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Прелест",
+            "audio": "valshebnatagradina/valshebnatagradina_q1_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Пролет",
+            "audio": "valshebnatagradina/valshebnatagradina_q1_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво животинче е Бобо?",
+        "audio_dir": "valshebnatagradina/valshebnatagradina_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Коте",
+            "audio": "valshebnatagradina/valshebnatagradina_q2_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Зайче",
+            "audio": "valshebnatagradina/valshebnatagradina_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Мишле",
+            "audio": "valshebnatagradina/valshebnatagradina_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 0
+      },
+      {
+        "text": "Как Бобо намери градината на вълшебницата?",
+        "audio_dir": "valshebnatagradina/valshebnatagradina_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Изгуби се в гората",
+            "audio": "valshebnatagradina/valshebnatagradina_q3_correct.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Вълшебницата го заведе",
+            "audio": "valshebnatagradina/valshebnatagradina_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Цветята му показаха пътя",
+            "audio": "valshebnatagradina/valshebnatagradina_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
     "tale_id": "116",
     "title": "Ако цветовете бяха сиви",
     "questions": [
@@ -8242,6 +8314,150 @@
           }
         ],
         "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "117",
+    "title": "Пързалка за облаче",
+    "questions": [
+      {
+        "text": "Кой е главният герой?",
+        "audio_dir": "parzalkaza/parzalkaza_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Майката",
+            "audio": "parzalkaza/parzalkaza_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Облачето",
+            "audio": "parzalkaza/parzalkaza_q1_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Слънцето",
+            "audio": "parzalkaza/parzalkaza_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "На какво се пързаля облачето накрая?",
+        "audio_dir": "parzalkaza/parzalkaza_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "По небето",
+            "audio": "parzalkaza/parzalkaza_q2_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "По реката",
+            "audio": "parzalkaza/parzalkaza_q2_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "По дъгата",
+            "audio": "parzalkaza/parzalkaza_q2_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Кой се тревожи за облачето?",
+        "audio_dir": "parzalkaza/parzalkaza_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Майката",
+            "audio": "parzalkaza/parzalkaza_q3_correct.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Планината",
+            "audio": "parzalkaza/parzalkaza_q3_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Слънцето",
+            "audio": "parzalkaza/parzalkaza_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      }
+    ]
+  },
+  {
+    "tale_id": "115",
+    "title": "Под гъбата",
+    "questions": [
+      {
+        "text": "Къде се скриха животните от дъжда?",
+        "audio_dir": "podgubata/podgubata_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Под листо",
+            "audio": "podgubata/podgubata_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "В хралупа",
+            "audio": "podgubata/podgubata_q1_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Под гъба",
+            "audio": "podgubata/podgubata_q1_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Кой пръв се скри под гъбата?",
+        "audio_dir": "podgubata/podgubata_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Мравката",
+            "audio": "podgubata/podgubata_q2_correct.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Мишката",
+            "audio": "podgubata/podgubata_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Врабчо",
+            "audio": "podgubata/podgubata_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Кой седял върху гъбата?",
+        "audio_dir": "podgubata/podgubata_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Лисицата",
+            "audio": "podgubata/podgubata_q3_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Жабата",
+            "audio": "podgubata/podgubata_q3_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Змията",
+            "audio": "podgubata/podgubata_q3_a2.mp3"
+          }
+        ],
+        "right_answer_id": 0
       }
     ]
   }

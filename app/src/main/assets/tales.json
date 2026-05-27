@@ -2139,22 +2139,40 @@
     "group" : "1",
     "sounds_path" : "podgubata",
     "pics" : [
-      "fairy",
+      "beetle",
+      "butterfly",
+      "mushroom",
+      "mouse",
+      "mushroom",
+      "mushroom",
+      "sparrow",
+      "mushroom",
       "bunny",
-      "fairy",
-      "flowermeadow",
-      "flowermeadow",
-      "fairy",
-      "bunny"
+      "fox",
+      "fox",
+      "sun",
+      "beetle",
+      "frog",
+      "frog",
+      "mushroom"
     ],
     "animations" : [
-      ["slow_talk", "blossom_gesture", "point_around"],
-      ["point_to_bird", "knock", "knock", "knock", "blossom_gesture"],
-      ["hello", "point_down_low", "rainbow", "arms_sway"],
-      ["arm_slide", "oh", "point_around", "question"],
-      ["rainbow", "slow_talk", "qurious"],
-      ["point_air", "surprise", "thank_you"],
-      ["sassy_f", "point_air", "arm_circle", "arms_sway"]
+      ["rain.qianim", "search.qianim", "tired.qianim", "point_air.qianim"],
+      ["final_nod.qianim"],
+      ["surprise.qianim", "think.qianim"],
+      ["drops.qianim"],
+      ["tired.qianim", "oh.qianim"],
+      ["vdignahruce.qianim", "drops.qianim"],
+      ["sob.qianim", "fly.qianim"],
+      ["please.qianim"],
+      ["qurious.qianim"],
+      ["sweet_child.qianim", "call_motion.qianim"],
+      ["question.qianim", "search.qianim"],
+      ["rainbow.qianim", "point_air.qianim"],
+      ["think.qianim", "drops.qianim"],
+      ["qurious.qianim", "fly.qianim"],
+      ["leave_it.qianim", "idea.qianim"],
+      ["question.qianim"]
     ]
   },
   {
@@ -2165,22 +2183,27 @@
     "group" : "1",
     "sounds_path" : "akocvetovete",
     "pics" : [
-      "fairy",
-      "bunny",
-      "fairy",
-      "flowermeadow",
-      "flowermeadow",
-      "fairy",
-      "bunny"
+      "wind",
+      "sky_sunny",
+      "forest_rain",
+      "akocvetovetebqhasivi_sky_smoke",
+      "akocvetovetebqhasivi_clear_sky",
+      "akocvetovetebqhasivi_grey_house",
+      "bubbles",
+      "akocvetovetebqhasivi_grandma_child",
+      "wind",
+      "chalk"
     ],
     "animations" : [
-      ["slow_talk", "blossom_gesture", "point_around"],
-      ["point_to_bird", "knock", "knock", "knock", "blossom_gesture"],
-      ["hello", "point_down_low", "rainbow", "arms_sway"],
-      ["arm_slide", "oh", "point_around", "question"],
-      ["rainbow", "slow_talk", "qurious"],
-      ["point_air", "surprise", "thank_you"],
-      ["sassy_f", "point_air", "arm_circle", "arms_sway"]
+      ["gaze_up_slow.qianim", "point_down_low.qianim", "point_around.qianim", "hands_down.qianim"],
+      ["question.qianim", "no.qianim", "think.qianim", "blossom_gesture.qianim"],
+      ["point_air.qianim", "search.qianim", "hand_raise.qianim"],
+      ["slide.qianim", "search.qianim", "slide.qianim", "paint.qianim", "leave_it.qianim"],
+      ["nose_touch.qianim", "idea.qianim"],
+      ["surprise.qianim", "paint.qianim", "tired.qianim"],
+      ["think.qianim", "sweet_child.qianim", "paint.qianim", "sassy_f.qianim"],
+      ["blossom_gesture.qianim", "no.qianim", "vdignahruce.qianim", "shake_fist.qianim"],
+      ["paint.qianim", "point_around.qianim"]
     ]
   },
   {
@@ -2191,22 +2214,25 @@
     "group" : "1",
     "sounds_path" : "parzalkaza",
     "pics" : [
-      "fairy",
-      "bunny",
-      "fairy",
-      "flowermeadow",
-      "flowermeadow",
-      "fairy",
-      "bunny"
+      "mountain",
+      "cloudmom",
+      "mountain",
+      "bath",
+      "mountain",
+      "rainbow",
+      "rainbow",
+      "rainbow",
+      "cloud"
     ],
     "animations" : [
-      ["slow_talk", "blossom_gesture", "point_around"],
-      ["point_to_bird", "knock", "knock", "knock", "blossom_gesture"],
-      ["hello", "point_down_low", "rainbow", "arms_sway"],
-      ["arm_slide", "oh", "point_around", "question"],
-      ["rainbow", "slow_talk", "qurious"],
-      ["point_air", "surprise", "thank_you"],
-      ["sassy_f", "point_air", "arm_circle", "arms_sway"]
+      ["slide.qianim"],
+      ["search.qianim"],
+      ["point_air.qianim", "point_around.qianim"],
+      ["heartattack.qianim"],
+      ["oh.qianim", "search.qianim"],
+      ["blossom_gesture.qianim"],
+      ["think.qianim"],
+      ["slide.qianim", "sassy_f.qianim"]
     ]
   },
   {

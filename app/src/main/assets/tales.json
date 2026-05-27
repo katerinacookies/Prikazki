@@ -1,31 +1,5 @@
 [
   {
-    "name" : "Вълшебната градина на пролетта",
-    "author_name" : "Янка Иванова",
-    "author_audio" : "yankaivanova.mp3",
-    "id" : "0",
-    "group" : "1",
-    "soundsPath" : "valshebnatagradina",
-    "pics" : [
-      "fairy",
-      "bunny",
-      "fairy",
-      "flowermeadow",
-      "flowermeadow",
-      "fairy",
-      "bunny"
-    ],
-    "animations" : [
-      ["slow_talk.anim", "blossom_gesture", "point_around"],
-      ["point_to_bird", "knock", "knock", "knock", "blossom_gesture"],
-      ["hello", "point_down_low", "rainbow", "arms_sway"],
-      ["arm_slide", "oh", "point_around", "question"],
-      ["rainbow", "slow_talk", "qurious"],
-      ["point_air", "surprise", "thank_you"],
-      ["sassy_f", "point_air", "arm_circle", "arms_sway"]
-    ]
-  },
-  {
     "name" : "Мечо и вълшебната утринна песен",
     "author_name" : "Митко Тромпета",
     "author_audio" : "mechoivalshebnatautrinnapesen_title",

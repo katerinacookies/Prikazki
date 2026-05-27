@@ -2133,11 +2133,11 @@
   },
   {
     "name" : "Под гъбата",
-    "author_name" : "Янка Иванова",
-    "author_audio" : "yankaivanova.mp3",
+    "author_name" : "$",
+    "author_audio" : "$",
     "id" : "115",
     "group" : "1",
-    "soundsPath" : "valshebnatagradina",
+    "soundsPath" : "podgubata",
     "pics" : [
       "fairy",
       "bunny",
@@ -2159,11 +2159,11 @@
   },
   {
     "name" : "Ако цветовете бяха сиви",
-    "author_name" : "Янка Иванова",
-    "author_audio" : "yankaivanova.mp3",
+    "author_name" : "$",
+    "author_audio" : "$",
     "id" : "116",
     "group" : "1",
-    "soundsPath" : "valshebnatagradina",
+    "soundsPath" : "akocvetovete",
     "pics" : [
       "fairy",
       "bunny",
@@ -2185,11 +2185,11 @@
   },
   {
     "name" : "Пързалка за облаче",
-    "author_name" : "Янка Иванова",
-    "author_audio" : "yankaivanova.mp3",
+    "author_name" : "$",
+    "author_audio" : "$",
     "id" : "117",
     "group" : "1",
-    "soundsPath" : "valshebnatagradina",
+    "soundsPath" : "parzalkaza",
     "pics" : [
       "fairy",
       "bunny",
@@ -2211,8 +2211,8 @@
   },
   {
     "name" : "Вълшебната градина на пролетта",
-    "author_name" : "Янка Иванова",
-    "author_audio" : "yankaivanova.mp3",
+    "author_name" : "$",
+    "author_audio" : "$",
     "id" : "118",
     "group" : "1",
     "soundsPath" : "valshebnatagradina",

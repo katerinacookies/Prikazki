@@ -93,6 +93,7 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
                             releaseMediaPlayer();
                             Intent intent = new Intent(TaleActivityMain.this, QuestionsActivity.class);
                             intent.putExtra("TALE_ID", currentTale.id);
+                            intent.putExtra("GROUP_ID",currentTale.group);
                             startActivity(intent);
                         });
                         ((TextView) findViewById(R.id.txtTitle)).setText("");

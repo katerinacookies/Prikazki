@@ -1,5 +1,6 @@
 package com.example.prikazki;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Color;
@@ -64,8 +65,9 @@ public class QuestionsActivity extends AppCompatActivity {
             questionId++;
 
             if(questionId==3) {
-                //btnNext.setText("ВЪРНИ");
-                finish();
+                Intent intent = new Intent(QuestionsActivity.this, TaleSelectionActivity.class);
+                intent.putExtra("GROUP_ID", intent.getStringExtra("GROUP_ID"));
+                startActivity(intent);
             }
 
             btnNext.setText("Пропусни");

@@ -193,9 +193,6 @@ public class TaleActivityMain extends AppCompatActivity implements RobotLifecycl
     private void loadTaleFromJSON(String targetTaleId) {
         try {
             currentTale = Tale.GetTaleDataFromId(this, targetTaleId);
-            if (currentTale == null)
-                throw new Exception("JSON Loading Failed! Tale id: " + targetTaleId);
-//invokes an exception when something is wrong
             currentTale.IsValid();
         } catch (Exception e) {
             Log.e("JSON_ERROR", "Error loading tale (loadTaleFromJSON): " + e.getMessage());

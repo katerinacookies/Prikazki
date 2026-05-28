@@ -2202,12 +2202,13 @@
     "animations" : [
       ["slide.qianim"],
       ["search.qianim"],
-      ["point_air.qianim", "point_around.qianim"],
+      ["point_air.qianim", "point_around.qianim", "shake_fist.qianim"],
       ["heartattack.qianim"],
       ["oh.qianim", "search.qianim"],
       ["blossom_gesture.qianim"],
       ["think.qianim"],
-      ["slide.qianim", "sassy_f.qianim"]
+      ["slide.qianim", "sassy_f.qianim"],
+      ["point_air.qianim"]
     ]
   },
   {

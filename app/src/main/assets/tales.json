@@ -2134,14 +2134,14 @@
       ["rain.qianim", "search.qianim", "tired.qianim", "point_air.qianim"],
       ["final_nod.qianim"],
       ["surprise.qianim", "think.qianim"],
-      ["drops.qianim"],
+      ["rain.qianim"],
       ["tired.qianim", "oh.qianim"],
       ["vdignahruce.qianim", "drops.qianim"],
       ["sob.qianim", "fly.qianim"],
       ["please.qianim"],
-      ["qurious.qianim"],
+      ["qurious.qianim", "please.qianim"],
       ["sweet_child.qianim", "call_motion.qianim"],
-      ["question.qianim", "search.qianim"],
+      ["question.qianim", "point_air.qianim" , "search.qianim"],
       ["rainbow.qianim", "point_air.qianim"],
       ["think.qianim", "drops.qianim"],
       ["qurious.qianim", "fly.qianim"],
@@ -2170,7 +2170,7 @@
     ],
     "animations" : [
       ["gaze_up_slow.qianim", "point_down_low.qianim", "point_around.qianim", "hands_down.qianim", "point_to_bird.qianim"],
-      ["question.qianim", "no.qianim", "think.qianim", "blossom_gesture.qianim"],
+      ["question.qianim", "no.qianim", "think.qianim", "blossom_gesture.qianim", "point_to_bird.qianim"],
       ["hand_raise.qianim", "final_nod.qianim", "leave_it.qianim"],
       ["point_air.qianim", "search.qianim", "hand_raise.qianim"],
       ["slide.qianim", "search.qianim", "slide.qianim", "paint.qianim", "leave_it.qianim"],
@@ -2201,12 +2201,12 @@
     ],
     "animations" : [
       ["slide.qianim"],
-      ["search.qianim"],
-      ["point_air.qianim", "point_around.qianim", "shake_fist.qianim"],
+      ["qurious.qianim"],
+      ["point_air.qianim", "shake_fist.qianim"],
       ["heartattack.qianim"],
       ["oh.qianim", "search.qianim"],
       ["blossom_gesture.qianim"],
-      ["think.qianim"],
+      ["think.qianim", "rainbow.qianim"],
       ["slide.qianim", "sassy_f.qianim"],
       ["point_air.qianim"]
     ]
@@ -2228,13 +2228,13 @@
       "bunny"
     ],
     "animations" : [
-      ["slow_talk", "blossom_gesture", "point_around"],
-      ["point_to_bird", "knock", "knock", "knock", "blossom_gesture"],
-      ["hello", "point_down_low", "rainbow", "arms_sway"],
-      ["arm_slide", "oh", "point_around", "question"],
-      ["rainbow", "slow_talk", "qurious"],
-      ["point_air", "surprise", "thank_you"],
-      ["sassy_f", "point_air", "arm_circle", "arms_sway"]
+      ["slow_talk.qianim", "blossom_gesture.qianim", "point_air.qianim"],
+      ["point_to_bird.qianim", "knock.qianim", "knock.qianim", "knock.qianim", "blossom_gesture.qianim"],
+      ["hello.qianim", "point_down_low.qianim", "rainbow.qianim", "arms_sway.qianim"],
+      ["arm_slide", "oh", "point_around", "question", "point_around.qianim"],
+      ["rainbow.qianim", "slow_talk.qianim", "qurious.qianim"],
+      ["point_air.qianim", "surprise.qianim", "thank_you.qianim"],
+      ["sassy_f.qianim", "point_air.qianim", "arm_circle.qianim", "arms_sway.qianim"]
     ]
   }
 ]

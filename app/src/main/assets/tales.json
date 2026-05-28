@@ -2169,8 +2169,9 @@
       "chalk"
     ],
     "animations" : [
-      ["gaze_up_slow.qianim", "point_down_low.qianim", "point_around.qianim", "hands_down.qianim"],
+      ["gaze_up_slow.qianim", "point_down_low.qianim", "point_around.qianim", "hands_down.qianim", "point_to_bird.qianim"],
       ["question.qianim", "no.qianim", "think.qianim", "blossom_gesture.qianim"],
+      ["hand_raise.qianim", "final_nod.qianim", "leave_it.qianim"],
       ["point_air.qianim", "search.qianim", "hand_raise.qianim"],
       ["slide.qianim", "search.qianim", "slide.qianim", "paint.qianim", "leave_it.qianim"],
       ["nose_touch.qianim", "idea.qianim"],

@@ -1480,21 +1480,19 @@
     "author_audio" : "$",
     "id" : "76",
     "group" : "3",
-    "sounds_path" : "mechetobrunoinoviqtsused",
+    "sounds_path" : "mechetobrunodrug",
     "pics" : ["bear", "mole", "mole","bear", "happy_animals", "happy_animals", "mole", "bear", "happy_animals", "mole", "bear", "mole"],
     "animations" : [
       ["wakeup.qianim", "point_around.qianim"],
-      ["sniff_motion.qianim", "wolf.qianim", "search.qianim", "sweet_child.qianim"],
+      ["sniff_motion.qianim", "qurious.qianim"],
       ["hello.qianim", "surprise.qianim", "hand_raise.qianim"],
       ["blossom_gesture.qianim", "point_forward.qianim"],
-      ["call_motion.qianim", "leave_it.qianim", "nose_touch.qianim"],
-      ["head_slow_talk.qianim", "disbelief.qianim"],
-      ["tired.qianim"],
-      ["angry_tantrum.qianim", "strong.qianim"],
-      ["question.qianim", "idea.qianim"],
-      ["qurious.qianim", "talk_and_point_around.qianim", "question"],
-      ["arm_circle.qianim", "sweet_child.qianim"],
-      ["thank_you.qianim", "final_nod.qianim"]
+      ["leave_it.qianim"],
+      ["head_slow_talk.qianim"],
+      ["point_air.qianim", "rainbow.qianim"],
+      ["nose_touch.qianim", "point_around.qianim"],
+      ["hands_down.qianim", "idea.qianim", "blossom_gesture.qianim"],
+      ["sassy_f.qianim"]
     ]
   },
   {

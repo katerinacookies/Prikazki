@@ -166,24 +166,33 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
     }
 
     private void runAnimationChain(String[] animations, int index) {
-        if (index >= animations.length || qiContext == null) {
+        // If we finished the array or context is lost, stop
+        if (animations == null || index >= animations.length || qiContext == null) {
             return;
         }
+
         try {
             String animName = animations[index];
-
             animName = animName.replace(".qianim", "");
 
             int resId = getResources().getIdentifier(animName, "raw", getPackageName());
-            Toast.makeText(this,"Anim name: " + animName,Toast.LENGTH_SHORT).show();
-            if(isEmulatorMode) runAnimationChain(animations,index+1);
-            else RobotHelper.runAnimation(qiContext, resId, () -> runAnimationChain(animations, index + 1));
+
+            // REMOVED: The Toast message that was showing labels on screen and crashing background threads
+
+            if (isEmulatorMode) {
+                runAnimationChain(animations, index + 1);
+            } else {
+                // Run the animation on Pepper
+                RobotHelper.runAnimation(qiContext, resId, () -> {
+                    // FIX: Force the next animation in the chain to execute safely
+                    // back on the Main UI Thread to keep the chain alive
+                    runOnUiThread(() -> runAnimationChain(animations, index + 1));
+                });
+            }
         } catch (Exception e) {
-//            Toast.makeText(this, "Anim not found", Toast.LENGTH_SHORT).show();
-
-            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
-
-            e.printStackTrace();
+            Log.e("ANIMATION_ERROR", "Error playing animation index " + index + ": " + e.getMessage());
+            // Fallback: Try to play the next animation anyway if one fails
+            runOnUiThread(() -> runAnimationChain(animations, index + 1));
         }
     }
 

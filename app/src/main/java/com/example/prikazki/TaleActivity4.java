@@ -62,43 +62,41 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
     }
 
     private void startTaleIntro() {
-//        Log.e("DEBUG_TAG", "Entering tale: " + currentTale.name);
-//        Toast.makeText(this, "Entering tale: " + currentTale.name, Toast.LENGTH_SHORT).show();
-
         try {
             String title = currentTale.name;
             String titleAudio = currentTale.titleAudio;
-
 
             runOnUiThread(() -> {
                 ((TextView) findViewById(R.id.txtTitle)).setText(title);
                 findViewById(R.id.btnQuestions).setVisibility(View.GONE);
             });
 
-            // 1. Play Title Audio
+            // Get the current part ID safely
+            String partId = getIntent().getStringExtra("TALE_PART_ID");
 
             try {
-
-                if(getIntent().getStringExtra("TALE_PART_ID").equals("0"))
+                if ("0".equals(partId)) {
+                    // Part 0 plays the title audio, then switches over to nextStep() safely
                     playAudio(titleAudio, () -> {
                         runOnUiThread(() -> {
                             findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                             findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
                             findViewById(R.id.btnQuestions).setVisibility(View.GONE);
-
                             ((TextView) findViewById(R.id.txtTitle)).setText("");
                         });
                         nextStep();
                     });
-                else {
+                } else {
+                    // Parts 1 & 2 skip intro audio. We MUST execute nextStep() inside the UI Thread block!
                     runOnUiThread(() -> {
                         findViewById(R.id.headerLayout).setVisibility(View.VISIBLE);
                         findViewById(R.id.storyImageView).setVisibility(View.VISIBLE);
                         findViewById(R.id.btnQuestions).setVisibility(View.GONE);
-
                         ((TextView) findViewById(R.id.txtTitle)).setText("");
+
+                        // Fixed: Forcing the story loops for Middle/End to start cleanly on the Main thread
+                        nextStep();
                     });
-                    nextStep();
                 }
 
             } catch (Exception e) {
@@ -108,12 +106,18 @@ public class TaleActivity4 extends AppCompatActivity implements RobotLifecycleCa
 
         } catch (Exception e) {
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
-
             finish();
         }
     }
 
     private void nextStep() {
+        //check for stuff
+        if (android.os.Looper.myLooper() != android.os.Looper.getMainLooper()) {
+            runOnUiThread(this::nextStep);
+            return;
+        }
+
+
         currentStep++;
         if (currentStep >= currentTale.pics.length) return; // Story finished!
 

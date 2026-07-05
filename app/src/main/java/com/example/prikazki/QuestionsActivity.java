@@ -64,10 +64,19 @@ public class QuestionsActivity extends AppCompatActivity {
         btnNext.setOnClickListener(v -> {
             questionId++;
 
-            if(questionId==3) {
+            // If we have answered all questions, redirect safely and EXIT the method
+            if (questions == null || questionId >= questions.length || questionId == 3) {
+                // Release the media player so audio tracks stop playing instantly on return
+                releaseMediaPlayer();
+
                 Intent intent = new Intent(QuestionsActivity.this, TaleSelectionActivity.class);
-                intent.putExtra("GROUP_ID", intent.getStringExtra("GROUP_ID"));
+                // Fix: Grab the original group ID passed into this activity
+                String originalGroupId = getIntent().getStringExtra("GROUP_ID");
+                intent.putExtra("GROUP_ID", originalGroupId);
+
                 startActivity(intent);
+                finish(); // Destroys the questions activity so users can't go back to it with the back button
+                return;   // CRITICAL: Stops execution here so loadQuestions() never runs out of bounds!
             }
 
             btnNext.setText("Пропусни");

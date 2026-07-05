@@ -13,10 +13,10 @@
           ["qurious.qianim", "point_around.qianim"],
           ["eat_soup.qianim", "head_slow_talk.qianim"],
           ["arm_slide.qianim", "point_forward.qianim", "sweet_child.qianim"],
-          ["sniff_motion.qianim", "head_slow_talk.qianim", "disbelief.qianim", "question.qianim"],
+          ["sniff_motion.qianim", "head_slow_talk.qianim", "disbelief.qianim", "point_air.qianim"],
           ["sob.qianim", "hands_down.qianim"],
           ["sniff_motion.qianim", "surprise.qianim", "big_arm_circle.qianim"],
-          ["wakeup.qianim", "hello.qianim"],
+          ["wakeup.qianim"],
           ["sob.qianim", "oh.qianim"],
           ["search.qianim", "think.qianim", "idea.qianim"]
         ]
@@ -28,14 +28,14 @@
           ["arm_circle.qianim", "point_down_low.qianim", "sweet_child.qianim"],
           ["call_motion.qianim", "wave_motion.qianim", "point_around.qianim"],
           ["point_down_low.qianim", "sob.qianim", "head_slow_talk.qianim", "oh.qianim"],
-          ["surprise.qianim", "idea.qianim", "arm_circle.qianim", "final_nod.qianim"],
+          ["surprise.qianim", "idea.qianim", "arm_circle.qianim"],
           ["hands_down.qianim", "blossom_gesture.qianim", "paint.qianim"],
-          ["question.qianim", "sweet_child.qianim", "head_slow_talk.qianim", "final_nod.qianim"],
-          ["point_down_low.qianim", "arm_slide.qianim", "paint.qianim", "oh.qianim"],
-          ["surprise.qianim", "gaze_up_slow.qianim", "qurious.qianim"],
+          ["question.qianim", "head_slow_talk.qianim", "final_nod.qianim"],
+          ["point_down_low.qianim", "arm_slide.qianim", "paint.qianim"],
+          ["surprise.qianim", "gaze_up_slow.qianim"],
           ["eat_soup.qianim", "paint.qianim", "final_nod.qianim"],
           ["sniff_motion.qianim", "point_around.qianim"],
-          ["point_forward.qianim", "hands_down.qianim", "sob.qianim"],
+          ["point_forward.qianim", "hands_down.qianim", "tired.qianim"],
           ["surprise.qianim", "blossom_gesture.qianim", "arm_slide.qianim"],
           ["point_down_low.qianim", "surprise.qianim", "oh.qianim"],
           ["hand_raise.qianim", "disbelief.qianim", "sweet_child.qianim", "final_nod.qianim"]
@@ -43,7 +43,7 @@
       },
       {
         "sounds_path" : "prasencetopumpi",
-        "pics" : ["happy_animals","dog","pig","pig"],
+        "pics" : ["happy_animals","dog","pig1","pig1"],
         "animations" : [
           ["point_around.qianim", "blossom_gesture.qianim", "hello.qianim"],
           ["thank_you.qianim", "head_slow_talk.qianim", "oh.qianim"],

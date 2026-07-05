@@ -80,7 +80,7 @@
           {
             "id": 0,
             "text": "Листо",
-            "audio": "bunnybobo/tale_1_q1_a1.mp3"
+            "audio": "bunnybobo/bunnybobo_q1_a1.mp3"
           },
           {
             "id": 1,
@@ -107,7 +107,7 @@
           {
             "id": 1,
             "text": "Пеперуда",
-            "audio": "bunnybobo/bunnybobo_q2_a1.mp3"
+            "audio": "bunnybobo/bobo_q2_a1.mp3"
           },
           {
             "id": 2,
@@ -1029,7 +1029,7 @@
           },
           {
             "id": 1,
-            "text": "От треви и тъмни места",
+            "text": "От треви, шумове и тъмни места",
             "audio": "turtletina/turtletina_q2_correct.mp3"
           },
           {
@@ -2794,7 +2794,7 @@
           {
             "id": 2,
             "text": "Защото не искаше да ходи",
-            "audio": "02_turtletoto/turtletoto_q1_a2.mp3"
+            "audio": "02_turtletoto/turtletoto_q1_а2.mp3"
           }
         ],
         "right_answer_id": 1
@@ -2905,12 +2905,12 @@
           {
             "id": 0,
             "text": "Спряха да играят",
-            "audio": "02_birdpiko/birdpiko_q3_a1.mp3"
+            "audio": "02_birdpiko/birdpiko_q3_а1.mp3"
           },
           {
             "id": 1,
             "text": "Скараха се",
-            "audio": "02_birdpiko/birdpiko_q3_a2.mp3"
+            "audio": "02_birdpiko/birdpiko_q3_а2.mp3"
           }
         ],
         "right_answer_id": 2
@@ -3066,7 +3066,7 @@
     "title": "Костенурчето Нана и високият мост",
     "questions": [
       {
-        "text": "Защо Нана не искаше да мине по моста",
+        "text": "Защо Нана не искаше да мине по моста?",
         "audio_dir": "02_turtlenana/turtlenana_q1.mp3",
         "answers": [
           {
@@ -3088,7 +3088,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой ѝ помогна",
+        "text": "Кой ѝ помогна?",
         "audio_dir": "02_turtlenana/turtlenana_q2.mp3",
         "answers": [
           {
@@ -3110,7 +3110,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво почувства, когато стигна другия край",
+        "text": "Какво почувства, когато стигна другия край?",
         "audio_dir": "02_turtlenana/turtlenana_q3.mp3",
         "answers": [
           {
@@ -3138,7 +3138,7 @@
     "title": "Птичето Рико и първият полет",
     "questions": [
       {
-        "text": "Защо Рико се страхуваше да полети",
+        "text": "Защо Рико се страхуваше да полети?",
         "audio_dir": "02_birdriko/birdriko_q1.mp3",
         "answers": [
           {
@@ -3160,7 +3160,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво му каза татко птицата",
+        "text": "Какво му каза татко птицата?",
         "audio_dir": "02_birdriko/birdriko_q2.mp3",
         "answers": [
           {
@@ -3182,7 +3182,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво се случи, когато скочи",
+        "text": "Какво се случи, когато скочи?",
         "audio_dir": "02_birdriko/birdriko_q3.mp3",
         "answers": [
           {
@@ -3210,7 +3210,7 @@
     "title": "Мечето Тими и големият шум в гората",
     "questions": [
       {
-        "text": "От какво се страхуваше Тими",
+        "text": "От какво се страхуваше Тими?",
         "audio_dir": "02_beartimi/beartimi_q1.mp3",
         "answers": [
           {
@@ -3233,7 +3233,7 @@
       },
       {
         "text": "Кой му помогна да провери шума",
-        "audio_dir": "02_beartimi/beartimi_q1.mp3",
+        "audio_dir": "02_beartimi/beartimi_q2.mp3",
         "answers": [
           {
             "id": 0,
@@ -3254,8 +3254,8 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво се оказа, че е страшният звук",
-        "audio_dir": "02_beartimi/beartimi_q1.mp3",
+        "text": "Какво се оказа, че е страшният звук?",
+        "audio_dir": "02_beartimi/beartimi_q3.mp3",
         "answers": [
           {
             "id": 0,
@@ -3354,7 +3354,7 @@
     "title": "Котенцето Моли и бурята на прозореца",
     "questions": [
       {
-        "text": "От какво се страхуваше Моли",
+        "text": "От какво се страхуваше Моли?",
         "audio_dir": "02_catmolly/catmolly_q1.mp3",
         "answers": [
           {
@@ -3376,7 +3376,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Как баба Котка му помогна",
+        "text": "Как баба Котка му помогна?",
         "audio_dir": "02_catmolly/catmolly_q2.mp3",
         "answers": [
           {
@@ -3398,7 +3398,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Как се почувства Моли, когато гледаха бурята заедно",
+        "text": "Как се почувства Моли, когато гледаха бурята заедно?",
         "audio_dir": "02_catmolly/catmolly_q3.mp3",
         "answers": [
           {
@@ -3426,7 +3426,7 @@
     "title": "Пингвинчето Пепи и първото гмуркане",
     "questions": [
       {
-        "text": "От какво се страхуваше Пепи",
+        "text": "От какво се страхуваше Пепи?",
         "audio_dir": "02_penguinpepi/penguinpepi_q1.mp3",
         "answers": [
           {
@@ -3448,7 +3448,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Кой му помогна да опита",
+        "text": "Кой му помогна да опита?",
         "audio_dir": "02_penguinpepi/penguinpepi_q2.mp3",
         "answers": [
           {
@@ -3470,7 +3470,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Как се почувства Пепи след първото гмуркане",
+        "text": "Как се почувства Пепи след първото гмуркане?",
         "audio_dir": "02_penguinpepi/penguinpepi_q3.mp3",
         "answers": [
           {
@@ -3498,7 +3498,7 @@
     "title": "Мишлето Тити и голямата сянка",
     "questions": [
       {
-        "text": "Какво видя Тити на стената",
+        "text": "Какво видя Тити на стената?",
         "audio_dir": "02_mousetiti/mousetiti_q1.mp3",
         "answers": [
           {
@@ -3520,7 +3520,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой му обясни истината",
+        "text": "Кой му обясни истината?",
         "audio_dir": "02_mousetiti/mousetiti_q2.mp3",
         "answers": [
           {
@@ -3542,7 +3542,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво разбра мишлето за сенките",
+        "text": "Какво разбра мишлето за сенките?",
         "audio_dir": "02_mousetiti/mousetiti_q3.mp3",
         "answers": [
           {
@@ -3570,7 +3570,7 @@
     "title": "Катеричката Сиси и първият пролетен цвят",
     "questions": [
       {
-        "text": "Какво търсеше Сиси",
+        "text": "Какво търсеше Сиси?",
         "audio_dir": "02_squirrelsisi/squirrelsisi_q1.mp3",
         "answers": [
           {
@@ -3592,7 +3592,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Къде го намери",
+        "text": "Къде го намери?",
         "audio_dir": "02_squirrelsisi/squirrelsisi_q2.mp3",
         "answers": [
           {
@@ -3614,7 +3614,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво се случи с малкото връхче",
+        "text": "Какво се случи с малкото връхче?",
         "audio_dir": "02_squirrelsisi/squirrelsisi_q3.mp3",
         "answers": [
           {
@@ -3642,7 +3642,7 @@
     "title": "Мечето Бруно и най-топлият летен ден",
     "questions": [
       {
-        "text": "Защо Бруно се чувстваше зле",
+        "text": "Защо Бруно се чувстваше зле?",
         "audio_dir": "02_bearbrunohotday/bearbrunohotday_q1.mp3",
         "answers": [
           {
@@ -3664,7 +3664,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво носеше Нана",
+        "text": "Какво носеше Нана?",
         "audio_dir": "02_bearbrunohotday/bearbrunohotday_q2.mp3",
         "answers": [
           {
@@ -3686,7 +3686,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво направиха двамата приятели",
+        "text": "Какво направиха двамата приятели?",
         "audio_dir": "02_bearbrunohotday/bearbrunohotday_q3.mp3",
         "answers": [
           {
@@ -3714,7 +3714,7 @@
     "title": "Лисичето Рони и танцът на есенните листа",
     "questions": [
       {
-        "text": "Какво правеха листата",
+        "text": "Какво правеха листата?",
         "audio_dir": "02_foxronileafs/foxronileafs_q1.mp3",
         "answers": [
           {
@@ -3736,7 +3736,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой водеше танца",
+        "text": "Кой водеше танца?",
         "audio_dir": "02_foxronileafs/foxronileafs_q2.mp3",
         "answers": [
           {
@@ -3752,13 +3752,13 @@
           {
             "id": 2,
             "text": "Есенното духче",
-            "audio": "02_foxronileafs_q2_correct.mp3"
+            "audio": "02_foxronileafs/foxronileafs_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
       },
       {
-        "text": "Какво получи Рони накрая",
+        "text": "Какво получи Рони накрая?",
         "audio_dir": "02_foxronileafs/foxronileafs_q3.mp3",
         "answers": [
           {
@@ -3786,7 +3786,7 @@
     "title": "Зайчето Лили и първият сняг",
     "questions": [
       {
-        "text": "Какво видя Лили, когато се събуди",
+        "text": "Какво видя Лили, когато се събуди?",
         "audio_dir": "02_bunnylilysnow/bunnylilysnow_q1.mp3",
         "answers": [
           {
@@ -3808,7 +3808,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой ѝ показа какво е сняг",
+        "text": "Кой ѝ показа какво е сняг?",
         "audio_dir": "02_bunnylilysnow/bunnylilysnow_q2.mp3",
         "answers": [
           {
@@ -3830,7 +3830,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво правеха двете приятелки",
+        "text": "Какво правеха двете приятелки?",
         "audio_dir": "02_bunnylilysnow/bunnylilysnow_q3.mp3",
         "answers": [
           {
@@ -3858,7 +3858,7 @@
     "title": "Патето Фифо и песента на дъжда",
     "questions": [
       {
-        "text": "Защо Фифо не харесваше дъжда",
+        "text": "Защо Фифо не харесваше дъжда?",
         "audio_dir": "02_duckfiforain/duckfiforain_q1.mp3",
         "answers": [
           {
@@ -3880,7 +3880,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой му показа песента на дъжда",
+        "text": "Кой му показа песента на дъжда?",
         "audio_dir": "02_duckfiforain/duckfiforain_q2.mp3",
         "answers": [
           {
@@ -3902,7 +3902,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво правеше Фифо накрая",
+        "text": "Какво правеше Фифо накрая?",
         "audio_dir": "02_duckfiforain/duckfiforain_q3.mp3",
         "answers": [
           {
@@ -3930,7 +3930,7 @@
     "title": "Мишлето Мими и вятърният шепот",
     "questions": [
       {
-        "text": "От какво се страхуваше Мими",
+        "text": "От какво се страхуваше Мими?",
         "audio_dir": "02_mousemimiwind/mousemimiwind_q1.mp3",
         "answers": [
           {
@@ -3952,7 +3952,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво му показа Сиси",
+        "text": "Какво му показа Сиси?",
         "audio_dir": "02_mousemimiwind/mousemimiwind_q2.mp3",
         "answers": [
           {
@@ -3974,7 +3974,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Как се почувства Мими накрая",
+        "text": "Как се почувства Мими накрая?",
         "audio_dir": "02_mousemimiwind/mousemimiwind_q3.mp3",
         "answers": [
           {
@@ -4002,7 +4002,7 @@
     "title": "Рибката Лили и тайната на реката",
     "questions": [
       {
-        "text": "Какво реши да направи Лили",
+        "text": "Какво реши да направи Лили?",
         "audio_dir": "02_fishlily/fishlily_q1.mp3",
         "answers": [
           {
@@ -4024,7 +4024,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво откри в края на реката",
+        "text": "Какво откри в края на реката?",
         "audio_dir": "02_fishlily/fishlily_q2.mp3",
         "answers": [
           {
@@ -4046,7 +4046,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Как се почувства, когато видя новото място",
+        "text": "Как се почувства, когато видя новото място?",
         "audio_dir": "02_fishlily/fishlily_q3.mp3",
         "answers": [
           {
@@ -4074,7 +4074,7 @@
     "title": "Совата Ори и нощното небе",
     "questions": [
       {
-        "text": "От какво се страхуваше Рина",
+        "text": "От какво се страхуваше Рина?",
         "audio_dir": "02_owlori/owllori_q1.mp3",
         "answers": [
           {
@@ -4096,7 +4096,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво ѝ показа Ори",
+        "text": "Какво ѝ показа Ори?",
         "audio_dir": "02_owlori/owllori_q2.mp3",
         "answers": [
           {
@@ -4118,7 +4118,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Как се почувства Рина, когато видя звездите",
+        "text": "Как се почувства Рина, когато видя звездите?",
         "audio_dir": "02_owlori/owllori_q3.mp3",
         "answers": [
           {
@@ -4146,7 +4146,7 @@
     "title": "Мечето Боби и тъжният облак",
     "questions": [
       {
-        "text": "Как се чувстваше Боби",
+        "text": "Как се чувстваше Боби?",
         "audio_dir": "02_bearbobi/bearbobi_q1.mp3",
         "answers": [
           {
@@ -4168,7 +4168,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво направиха двамата приятели",
+        "text": "Какво направиха двамата приятели?",
         "audio_dir": "02_bearbobi/bearbobi_q2.mp3",
         "answers": [
           {
@@ -4190,7 +4190,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво разбра Боби за тъгата",
+        "text": "Какво разбра Боби за тъгата?",
         "audio_dir": "02_bearbobi/bearbobi_q3.mp3",
         "answers": [
           {
@@ -4218,7 +4218,7 @@
     "title": "Зайчето Поли и голямата радост",
     "questions": [
       {
-        "text": "Защо Поли беше толкова щастливо зайче",
+        "text": "Защо Поли беше толкова щастливо зайче?",
         "audio_dir": "02_bunnypolly/bunnypolly_q1.mp3",
         "answers": [
           {
@@ -4240,7 +4240,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "С кого сподели радостта си",
+        "text": "С кого сподели радостта си?",
         "audio_dir": "02_bunnypolly/bunnypolly_q2.mp3",
         "answers": [
           {
@@ -4262,7 +4262,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво разбра накрая",
+        "text": "Какво разбра накрая?",
         "audio_dir": "02_bunnypolly/bunnypolly_q3.mp3",
         "answers": [
           {
@@ -4290,7 +4290,7 @@
     "title": "Лисичето Фреди и ядосаната опашка",
     "questions": [
       {
-        "text": "Защо Фреди се ядоса",
+        "text": "Защо Фреди се ядоса?",
         "audio_dir": "02_foxfredi/foxfredi_q1.mp3",
         "answers": [
           {
@@ -4312,7 +4312,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Как Лея му помогна",
+        "text": "Как Лея му помогна?",
         "audio_dir": "02_foxfredi/foxfredi_q2.mp3",
         "answers": [
           {
@@ -4334,12 +4334,12 @@
         "right_answer_id": 2
       },
       {
-        "text": "Как се почувства Фреди накрая",
+        "text": "Как се почувства Фреди накрая?",
         "audio_dir": "02_foxfredi/foxfredi_q3.mp3",
         "answers": [
           {
             "id": 0,
-            "text": "По-ядосан",
+            "text": "По-уплашен",
             "audio": "02_foxfredi/foxfredi_q3_a1.mp3"
           },
           {
@@ -4349,7 +4349,7 @@
           },
           {
             "id": 2,
-            "text": "По-уплашен",
+            "text": "По-ядосан",
             "audio": "02_foxfredi/foxfredi_q3_a2.mp3"
           }
         ],
@@ -4362,7 +4362,7 @@
     "title": "Катеричката Мина и страхът от нови неща",
     "questions": [
       {
-        "text": "От какво се страхуваше Мина",
+        "text": "От какво се страхуваше Мина?",
         "audio_dir": "02_squirrelminafear/squirrelminafear_q1.mp3",
         "answers": [
           {
@@ -4384,7 +4384,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой ѝ помогна",
+        "text": "Кой ѝ помогна?",
         "audio_dir": "02_squirrelminafear/squirrelminafear_q2.mp3",
         "answers": [
           {
@@ -4406,7 +4406,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво се случи, когато опита",
+        "text": "Какво се случи, когато опита?",
         "audio_dir": "02_squirrelminafear/squirrelminafear_q3.mp3",
         "answers": [
           {
@@ -4434,7 +4434,7 @@
     "title": "Еленчето Рина и спокойният дъх",
     "questions": [
       {
-        "text": "Защо Рина се почувства претоварена",
+        "text": "Защо Рина се почувства претоварена?",
         "audio_dir": "02_reindeerrina/reindeerrina_q1.mp3",
         "answers": [
           {
@@ -4456,7 +4456,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Кой ѝ помогна да се успокои",
+        "text": "Кой ѝ помогна да се успокои?",
         "audio_dir": "02_reindeerrina/reindeerrina_q2.mp3",
         "answers": [
           {
@@ -4478,7 +4478,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Какво направиха под дървото",
+        "text": "Какво направиха под дървото?",
         "audio_dir": "02_reindeerrina/reindeerrina_q3.mp3",
         "answers": [
           {
@@ -4506,7 +4506,7 @@
     "title": "Пандата Лили и денят на обърканите чувства",
     "questions": [
       {
-        "text": "Как се чувстваше Лили в началото",
+        "text": "Как се чувстваше Лили в началото?",
         "audio_dir": "02_pandalily/pandalily_q1.mp3",
         "answers": [
           {
@@ -4528,7 +4528,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво предложи Ори",
+        "text": "Какво предложи Ори?",
         "audio_dir": "02_pandalily/pandalily_q2.mp3",
         "answers": [
           {
@@ -4550,7 +4550,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво разбра Лили накрая",
+        "text": "Какво разбра Лили накрая?",
         "audio_dir": "02_pandalily/pandalily_q3.mp3",
         "answers": [
           {
@@ -4578,7 +4578,7 @@
     "title": "Жабчето Коко и думите, които нараняват",
     "questions": [
       {
-        "text": "Защо Коко се натъжи",
+        "text": "Защо Коко се натъжи?",
         "audio_dir": "02_frogkoko/frogkoko_q1.mp3",
         "answers": [
           {
@@ -4600,7 +4600,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво го посъветва Нана",
+        "text": "Какво го посъветва Нана?",
         "audio_dir": "02_frogkoko/frogkoko_q2.mp3",
         "answers": [
           {
@@ -4622,7 +4622,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво направиха жабките накрая",
+        "text": "Какво направиха жабките накрая?",
         "audio_dir": "02_frogkoko/frogkoko_q3.mp3",
         "answers": [
           {
@@ -4650,7 +4650,7 @@
     "title": "Катеричката Сиси и голямата прегръдка",
     "questions": [
       {
-        "text": "Как се чувстваше Сиси",
+        "text": "Как се чувстваше Сиси?",
         "audio_dir": "02_squirrelsisihug/squirrelsisihug_q1.mp3",
         "answers": [
           {
@@ -4672,7 +4672,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво предложи Бруно",
+        "text": "Какво предложи Бруно?",
         "audio_dir": "02_squirrelsisihug/squirrelsisihug_q2.mp3",
         "answers": [
           {
@@ -4694,7 +4694,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Как се почувства Сиси след прегръдката",
+        "text": "Как се почувства Сиси след прегръдката?",
         "audio_dir": "02_squirrelsisihug/squirrelsisihug_q3.mp3",
         "answers": [
           {
@@ -4722,7 +4722,7 @@
     "title": "Лисичето Рони и вълшебната светулка Луми",
     "questions": [
       {
-        "text": "Кого срещна Рони",
+        "text": "Кого срещна Рони?",
         "audio_dir": "02_foxronilumi/foxronilumi_q1.mp3",
         "answers": [
           {
@@ -4744,7 +4744,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Какво можеше да прави Луми",
+        "text": "Какво можеше да прави Луми?",
         "audio_dir": "02_foxronilumi/foxronilumi_q2.mp3",
         "answers": [
           {
@@ -4766,7 +4766,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво откриха заедно",
+        "text": "Какво откриха заедно?",
         "audio_dir": "02_foxronilumi/foxronilumi_q3.mp3",
         "answers": [
           {
@@ -4794,7 +4794,7 @@
     "title": "Пеперудката Фея и изгубеното вълшебство",
     "questions": [
       {
-        "text": "Какво беше изгубила Фея",
+        "text": "Какво беше изгубила Фея?",
         "audio_dir": "02_butterflyfeya/butterflyfeya_q1.mp3",
         "answers": [
           {
@@ -4816,12 +4816,12 @@
         "right_answer_id": 2
       },
       {
-        "text": "Кой ѝ помогна",
+        "text": "Кой ѝ помогна?",
         "audio_dir": "02_butterflyfeya/butterflyfeya_q2.mp3",
         "answers": [
           {
             "id": 0,
-            "text": "Стария орел",
+            "text": "Старият орел",
             "audio": "02_butterflyfeya/butterflyfeya_q2_a2.mp3"
           },
           {
@@ -4831,14 +4831,14 @@
           },
           {
             "id": 2,
-            "text": "Гръмливия лъв",
+            "text": "Гръмливият лъв",
             "audio": "02_butterflyfeya/butterflyfeya_q2_a1.mp3"
           }
         ],
         "right_answer_id": 1
       },
       {
-        "text": "Къде намериха прашеца",
+        "text": "Къде намериха прашеца?",
         "audio_dir": "02_butterflyfeya/butterflyfeya_q3.mp3",
         "answers": [
           {
@@ -4863,10 +4863,10 @@
   },
   {
     "tale_id": "69",
-    "title": "Дракончето Дино и огненото сърце",
+    "title": "Дракончето Дино и огненото сърце?",
     "questions": [
       {
-        "text": "Защо Дино беше тъжен",
+        "text": "Защо Дино беше тъжен?",
         "audio_dir": "02_dragondino/dragondino_q1.mp3",
         "answers": [
           {
@@ -4888,7 +4888,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво му каза старият дракон",
+        "text": "Какво му каза старият дракон?",
         "audio_dir": "02_dragondino/dragondino_q2.mp3",
         "answers": [
           {
@@ -4910,7 +4910,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Как Дино откри своя огън",
+        "text": "Как Дино откри своя огън?",
         "audio_dir": "02_dragondino/dragondino_q3.mp3",
         "answers": [
           {
@@ -4938,7 +4938,7 @@
     "title": "Русалчето Мира и песента на морето",
     "questions": [
       {
-        "text": "Какво изгуби Мира",
+        "text": "Какво изгуби Мира?",
         "audio_dir": "02_mermaidmira/mermaidmira_q1.mp3",
         "answers": [
           {
@@ -4960,7 +4960,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Кой ѝ помогна",
+        "text": "Кой ѝ помогна?",
         "audio_dir": "02_mermaidmira/mermaidmira_q2.mp3",
         "answers": [
           {
@@ -4982,7 +4982,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Къде намериха гласа ѝ",
+        "text": "Къде намериха гласа ѝ?",
         "audio_dir": "02_mermaidmira/mermaidmira_q3.mp3",
         "answers": [
           {
@@ -5010,7 +5010,7 @@
     "title": "Еднорoжката Луна и звездният мост",
     "questions": [
       {
-        "text": "Защо звездите бяха тъжни",
+        "text": "Защо звездите бяха тъжни?",
         "audio_dir": "02_unicornluna/unicornluna_q1.mp3",
         "answers": [
           {
@@ -5032,7 +5032,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Как Луна им помогна",
+        "text": "Как Луна им помогна?",
         "audio_dir": "02_unicornluna/unicornluna_q2.mp3",
         "answers": [
           {
@@ -5054,7 +5054,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Какво се случи, когато се върнаха на небето",
+        "text": "Какво се случи, когато се върнаха на небето?",
         "audio_dir": "02_unicornluna/unicornluna_q3.mp3",
         "answers": [
           {
@@ -5082,7 +5082,7 @@
     "title": "Малката вещица Мила и метлата, която не слушаше",
     "questions": [
       {
-        "text": "Какъв беше проблемът с метлата",
+        "text": "Какъв беше проблемът с метлата?",
         "audio_dir": "02_witchmila/witchmila_q1.mp3",
         "answers": [
           {
@@ -5104,7 +5104,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Как Мила разбра какво иска тя",
+        "text": "Как Мила разбра какво иска тя?",
         "audio_dir": "02_witchmila/witchmila_q2.mp3",
         "answers": [
           {
@@ -5126,7 +5126,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво направиха накрая",
+        "text": "Какво направиха накрая?",
         "audio_dir": "02_witchmila/witchmila_q3.mp3",
         "answers": [
           {
@@ -5154,7 +5154,7 @@
     "title": "Гномчето Тото и златната шишарка",
     "questions": [
       {
-        "text": "Какво намери Тото",
+        "text": "Какво намери Тото?",
         "audio_dir": "02_gnometoto/gnometoto_q1.mp3",
         "answers": [
           {
@@ -5176,7 +5176,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Какво можеше да направи с шишарката",
+        "text": "Какво можеше да направи с шишарката?",
         "audio_dir": "02_gnometoto/gnometoto_q2.mp3",
         "answers": [
           {
@@ -5198,7 +5198,7 @@
         "right_answer_id": 1
       },
       {
-        "text": "Какво пожела накрая",
+        "text": "Какво пожела накрая?",
         "audio_dir": "02_gnometoto/gnometoto_q3.mp3",
         "answers": [
           {
@@ -5226,7 +5226,7 @@
     "title": "Малкият великан Вико и гората на гигантите",
     "questions": [
       {
-        "text": "Защо Вико се различаваше от другите великани",
+        "text": "Защо Вико се различаваше от другите великани?",
         "audio_dir": "02_giantviko/giantviko_q1.mp3",
         "answers": [
           {
@@ -5248,7 +5248,7 @@
         "right_answer_id": 2
       },
       {
-        "text": "Какво направи, когато камъкът се търкаляше",
+        "text": "Какво направи, когато камъкът се търкаляше?",
         "audio_dir": "02_giantviko/giantviko_q2.mp3",
         "answers": [
           {
@@ -5270,7 +5270,7 @@
         "right_answer_id": 0
       },
       {
-        "text": "Какво разбраха всички накрая",
+        "text": "Какво разбраха всички накрая?",
         "audio_dir": "02_giantviko/giantviko_q3.mp3",
         "answers": [
           {
@@ -5897,7 +5897,7 @@
       },
       {
         "text": "Как Лулу му помогнала?",
-        "audio_dir": "03_pandatalulu/q2.mp3",
+        "audio_dir": "03_pandatalulu/pandatalulu_q2.mp3",
         "answers": [
           {
             "id": 2,
@@ -8458,6 +8458,150 @@
           }
         ],
         "right_answer_id": 0
+      }
+    ]
+  },
+  {
+    "tale_id": "119",
+    "title": "Ванко и водичката",
+    "questions": [
+      {
+        "text": "Какво не искаше да направи Ванко?",
+        "audio_dir": "vankoivodichkata/vankoivodichkata_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Да се облече",
+            "audio": "vankoivodichkata/vankoivodichkata_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Да се среше",
+            "audio": "vankoivodichkata/vankoivodichkata_q1_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да се измие",
+            "audio": "vankoivodichkata/vankoivodichkata_q1_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      },
+      {
+        "text": "Какво искаше да пие Ванко?",
+        "audio_dir": "vankoivodichkata/vankoivodichkata_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Чай",
+            "audio": "vankoivodichkata/vankoivodichkata_q2_correct.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Кафе",
+            "audio": "vankoivodichkata/vankoivodichkata_q2_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вода",
+            "audio": "vankoivodichkata/vankoivodichkata_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 1
+      },
+      {
+        "text": "Какво трябваше да направи Ванко, за да закуси?",
+        "audio_dir": "vankoivodichkata/vankoivodichkata_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Да си оправи леглото",
+            "audio": "vankoivodichkata/vankoivodichkata_q3_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Да направи гимнастика",
+            "audio": "vankoivodichkata/vankoivodichkata_q3_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Да се измие",
+            "audio": "vankoivodichkata/vankoivodichkata_q3_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
+      }
+    ]
+  },
+  {
+    "tale_id": "120",
+    "title": "Бухалчето Бухи се учи да лети",
+    "questions": [
+      {
+        "text": "Защо Бухи не искаше да излети?",
+        "audio_dir": "buhalchetobuhi/buhalchetobuhi_q1.mp3",
+        "answers": [
+          {
+            "id": 0,
+            "text": "Страхуваше се",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q1_correct.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Спеше му се",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q1_a1.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Беше му скучно",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q1_a2.mp3"
+          }
+        ],
+        "right_answer_id": 0
+      },
+      {
+        "text": "Кой се опита да изяде бухалчетата?",
+        "audio_dir": "buhalchetobuhi/buhalchetobuhi_q2.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Змията",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q2_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Лисицата",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q2_correct.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Вълкът",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q2_a2.mp3"
+          }
+        ],
+        "right_answer_id": 0
+      },
+      {
+        "text": "Кой спаси двете бухалчета?",
+        "audio_dir": "buhalchetobuhi/buhalchetobuhi_q3.mp3",
+        "answers": [
+          {
+            "id": 1,
+            "text": "Мама Бухалка",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q3_a1.mp3"
+          },
+          {
+            "id": 0,
+            "text": "Татко Бухал",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q3_a2.mp3"
+          },
+          {
+            "id": 2,
+            "text": "Бухалчето Бухи",
+            "audio": "buhalchetobuhi/buhalchetobuhi_q3_correct.mp3"
+          }
+        ],
+        "right_answer_id": 2
       }
     ]
   }

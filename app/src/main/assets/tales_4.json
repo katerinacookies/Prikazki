@@ -1298,7 +1298,7 @@
         "animations" : [
           ["hand_recieve.qianim", "point_down_low.qianim", "head_slow_talk.qianim"],
           ["point_forward.qianim", "arm_slide.qianim", "sweet_child.qianim", "idea.qianim"],
-          ["disbelief.qianim", "question.qianim", "think.qianim", "hand_receive.qianim"],
+          ["disbelief.qianim", "question.qianim", "think.qianim", "hand_recieve.qianim"],
           ["point_down_low.qianim", "arm_slide.qianim", "sweet_child.qianim", "blossom_gesture.qianim"],
           ["sob.qianim", "head_slow_talk.qianim", "wave_motion.qianim", "arm_slide.qianim"],
           ["surprise.qianim", "rainbow.qianim", "hello.qianim", "sweet_child.qianim", "strong.qianim"]
@@ -1328,7 +1328,7 @@
           ["slow_talk.qianim", "point_around.qianim", "sweet_child.qianim", "final_nod.qianim"],
           ["sob.qianim", "disbelief.qianim", "head_slow_talk.qianim", "hands_down.qianim"],
           ["surprise.qianim", "arms_sway.qianim", "hello.qianim"],
-          ["sob.qianim", "point_down_low.qianim", "think.qianim", "final_nod.qianim"]
+          ["sob.qianim", "hand_recieve.qianim"]
         ]
       },
       {
@@ -1339,7 +1339,7 @@
           ["point_forward.qianim", "arm_slide.qianim", "sweet_child.qianim", "final_nod.qianim"],
           ["disbelief.qianim", "question.qianim", "head_slow_talk.qianim", "final_nod.qianim"],
           ["point_down_low.qianim", "arm_slide.qianim", "sweet_child.qianim", "blossom_gesture.qianim"],
-          ["sob.qianim", "head_slow_talk.qianim", "wave_motion.qianim", "arm_slide.qianim"],
+          ["sob.qianim", "wave_motion.qianim", "arm_slide.qianim"],
           ["surprise.qianim", "rainbow.qianim", "hello.qianim", "sweet_child.qianim"]
         ]
       },
@@ -1348,7 +1348,7 @@
         "pics" : ["butterfly","beetle"],
         "animations" : [
           ["thank_you.qianim", "sweet_child.qianim", "head_slow_talk.qianim"],
-          ["wave_motion.qianim", "blossom_gesture.qianim", "final_nod.qianim"]
+          ["wave_motion.qianim", "blossom_gesture.qianim", "sassy_f.qianim"]
         ]
       }
     ]
@@ -1364,10 +1364,10 @@
         "sounds_path" : "lavsami",
         "pics" : ["lion","giraffe","lion","giraffe"],
         "animations" : [
-          ["slow_talk.qianim", "point_around.qianim", "sweet_child.qianim", "final_nod.qianim"],
+          ["point_around.qianim", "sweet_child.qianim", "final_nod.qianim"],
           ["sob.qianim", "disbelief.qianim", "head_slow_talk.qianim", "hands_down.qianim"],
-          ["surprise.qianim", "arms_sway.qianim", "hello.qianim"],
-          ["sob.qianim", "point_down_low.qianim", "think.qianim", "final_nod.qianim"]
+          ["surprise.qianim", "arms_sway.qianim", "hello.qianim", "tired.qianim"],
+          ["sob.qianim", "point_down_low.qianim"]
         ]
       },
       {
@@ -1376,11 +1376,11 @@
         "animations" : [
           ["hand_recieve.qianim", "point_down_low.qianim", "head_slow_talk.qianim"],
           ["point_forward.qianim", "arm_slide.qianim", "sweet_child.qianim", "final_nod.qianim"],
-          ["disbelief.qianim", "question.qianim", "head_slow_talk.qianim", "final_nod.qianim"],
+          ["disbelief.qianim", "question.qianim", "head_slow_talk.qianim", "nose_touch.qianim"],
           ["slow_talk.qianim", "point_around.qianim", "blossom_gesture.qianim"],
           ["surprise.qianim", "arms_sway.qianim", "point_around.qianim"],
           ["sob.qianim", "head_slow_talk.qianim", "wave_motion.qianim", "arm_slide.qianim"],
-          ["surprise.qianim", "rainbow.qianim", "hello.qianim", "sweet_child.qianim"]
+          ["surprise.qianim", "rainbow.qianim", "sassy_f.qianim"]
         ]
       },
       {
@@ -1388,7 +1388,7 @@
         "pics" : ["lion","giraffe"],
         "animations" : [
           ["thank_you.qianim", "sweet_child.qianim", "head_slow_talk.qianim"],
-          ["wave_motion.qianim", "blossom_gesture.qianim", "final_nod.qianim"]
+          ["wave_motion.qianim", "blossom_gesture.qianim", "surprise.qianim"]
         ]
       }
     ]
@@ -1407,7 +1407,7 @@
           ["slow_talk.qianim", "point_around.qianim", "sweet_child.qianim", "final_nod.qianim"],
           ["sob.qianim", "disbelief.qianim", "head_slow_talk.qianim", "hands_down.qianim"],
           ["surprise.qianim", "arms_sway.qianim", "hello.qianim", "sob.qianim"],
-          ["think.qianim", "point_down_low.qianim", "final_nod.qianim"]
+          ["think.qianim", "point_down_low.qianim", "kiss.qianim"]
         ]
       },
       {
@@ -1416,10 +1416,10 @@
         "animations" : [
           ["hand_recieve.qianim", "point_down_low.qianim", "head_slow_talk.qianim"],
           ["point_forward.qianim", "arm_slide.qianim", "sweet_child.qianim"],
-          ["disbelief.qianim", "head_slow_talk.qianim", "final_nod.qianim"],
+          ["disbelief.qianim", "head_slow_talk.qianim"],
           ["slow_talk.qianim", "point_around.qianim", "blossom_gesture.qianim"],
           ["surprise.qianim", "arms_sway.qianim", "sob.qianim", "head_slow_talk.qianim"],
-          ["rainbow.qianim", "hello.qianim", "sweet_child.qianim", "final_nod.qianim"]
+          ["rainbow.qianim", "hello.qianim", "sweet_child.qianim", "blossom_gesture.qianim"]
         ]
       },
       {
@@ -1427,7 +1427,7 @@
         "pics" : ["butterfly","caterpillar"],
         "animations" : [
           ["thank_you.qianim", "sweet_child.qianim", "head_slow_talk.qianim"],
-          ["wave_motion.qianim", "blossom_gesture.qianim", "final_nod.qianim"]
+          ["wave_motion.qianim", "blossom_gesture.qianim", "idea.qianim"]
         ]
       }
     ]
@@ -1457,7 +1457,7 @@
           ["question.qianim", "disbelief.qianim", "sweet_child.qianim", "final_nod.qianim"],
           ["slow_talk.qianim", "point_around.qianim", "blossom_gesture.qianim"],
           ["point_forward.qianim", "arm_slide.qianim", "head_slow_talk.qianim", "final_nod.qianim"],
-          ["surprise.qianim", "rainbow.qianim", "hello.qianim", "sweet_child.qianim"]
+          ["surprise.qianim", "rainbow.qianim"]
         ]
       },
       {
@@ -1465,7 +1465,7 @@
         "pics" : ["cat_grey","dog"],
         "animations" : [
           ["thank_you.qianim", "sweet_child.qianim", "head_slow_talk.qianim"],
-          ["wave_motion.qianim", "blossom_gesture.qianim", "final_nod.qianim"]
+          ["wave_motion.qianim", "blossom_gesture.qianim", "nose_touch.qianim"]
         ]
       }
     ]
@@ -1492,15 +1492,15 @@
         "pics" : ["monkey","elephant","happy_animals"],
         "animations" : [
           ["hand_recieve.qianim", "point_forward.qianim"],
-          ["arm_slide.qianim", "point_around.qianim", "sweet_child.qianim", "final_nod.qianim"],
-          ["rainbow.qianim", "hello.qianim", "sweet_child.qianim"]
+          ["arm_slide.qianim", "point_around.qianim"],
+          ["rainbow.qianim"]
         ]
       },
       {
         "sounds_path" : "slontoto",
         "pics" : ["elephant"],
         "animations" : [
-          ["thank_you.qianim", "wave_motion.qianim", "final_nod.qianim"]
+          ["thank_you.qianim", "wave_motion.qianim"]
         ]
       }
     ]
@@ -1516,9 +1516,9 @@
         "sounds_path" : "pilezara",
         "pics" : ["bird_blue","turtle","bird_blue"],
         "animations" : [
-          ["slow_talk.qianim", "sweet_child.qianim"],
-          ["sob.qianim", "head_slow_talk.qianim"],
-          ["surprise.qianim", "final_nod.qianim"]
+          ["leave_it.qianim"],
+          ["sob.qianim", "oh.qianim"],
+          ["surprise.qianim", "sassy_f.qianim"]
         ]
       },
       {
@@ -1527,14 +1527,14 @@
         "animations" : [
           ["hand_recieve.qianim", "point_down_low.qianim"],
           ["arm_slide.qianim", "point_forward.qianim"],
-          ["rainbow.qianim", "hello.qianim", "sweet_child.qianim"]
+          ["rainbow.qianim", "blossom_gesture.qianim"]
         ]
       },
       {
         "sounds_path" : "pilezara",
         "pics" : ["turtle"],
         "animations" : [
-          ["thank_you.qianim", "wave_motion.qianim", "final_nod.qianim"]
+          ["thank_you.qianim", "wave_motion.qianim", "sassy_f.qianim"]
         ]
       }
     ]
@@ -1551,20 +1551,20 @@
         "pics" : ["house", "goat", "house", "house", "house", "house", "popara", "yarn"],
         "animations" : [
           ["big_arm_circle.qianim", "point_to_bird.qianim", "point_air.qianim"],
-          ["thoughtful_announce.qianim", "surprise.qianim"],
+          ["thoughtful_announce.qianim", "surprise.qianim", "question.qianim"],
           ["angry_tantrum.qianim"],
           ["sassy_f.qianim"],
           ["shake_fist.qianim"],
           ["question.qianim"],
-          ["hand_raise.qianim","eat_soup.qianim", "point_air.qianim"],
-          ["tired_flax_distaff.qianim"]
+          ["hand_raise.qianim", "eat_soup.qianim", "point_air.qianim", "tired.qianim"],
+          ["tired.qianim", "flax_distaff.qianim"]
         ]
       },
       {
         "sounds_path" : "ds",
-        "pics" : ["goat","goat","goat","goat","goat","popara","bed","wolf","house","", "", "house", "house"],
+        "pics" : ["goat","goat","goat","goat","goat","popara","bed","wolf","house","house", "house", "house", "house"],
         "animations" : [
-          ["disbelief.qianim"],
+          ["disbelief.qianim", "strong.qianim"],
           ["search.qianim"],
           ["ne_me_zanimavai.qianim"],
           ["hands_down.qianim"],
@@ -1572,7 +1572,7 @@
           ["talk_and_point_around.qianim"],
           ["arms_sway.qianim", "oh.qianim"],
           ["bad_wolf.qianim", "pain.qianim"],
-          ["qurious.qianim", "no.qianim", "point_to_bird.qianim", "hand_recieve.qianim","point_air.qianim"],
+          ["qurious.qianim", "no.qianim", "point_to_bird.qianim", "hand_recieve.qianim","point_air.qianim", "hand_raise.qianim", "tired.qianim"],
           ["point_air.qianim", "drops.qianim"],
           ["drops.qianim", "oh.qianim"],
           ["ragequit.qianim", "point_air.qianim"],
@@ -1583,8 +1583,8 @@
         "sounds_path" : "ds",
         "pics" : ["house", "ruinedhouse", "ruinedhouse"],
         "animations" : [
-          ["tired.qianim", "rain.qianim", "talk_and_point_around.qianim"],
-          ["rain.qianim", "tired.qianim", "heartattack.qianim"],
+          ["tired.qianim", "rain.qianim", "talk_and_point_around.qianim", "hand_raise.qianim"],
+          ["rain.qianim", "tired.qianim", "heartattack.qianim", "point_air.qianim"],
           ["head_slow_talk.qianim", "sob.qianim", "tired.qianim", "hand_recieve.qianim"]
         ]
       }
@@ -1601,13 +1601,13 @@
         "sounds_path" : "ms",
         "pics" : ["dimitrovche", "dimitrovche", "pot", "sparrowsonline", "sparrowsonline", "sparrowsonline", "pot", "tear", "tear", "tear"],
         "animations" : [
-          ["rain.qianim", "point_air.qianim"],
+          ["rain.qianim", "point_air.qianim", "tired.qianim"],
           ["final_nod.qianim"],
-          ["pain.qianim", "fly.qianim", "point_air.qianim"],
-          ["point_down_low.qianim", "big_arm_circle.qianim", "pain.qianim", "search.qianim", "thank_you.qianim", "fly.qianim"],
-          ["slide.qianim", "point_to_bird.qianim", "hand_raise.qianim"],
-          ["slow_talk.qianim", "talk_and_point_around.qianim", "final_nod.qianim"],
-          ["kiss.qianim","sob.qianim"],
+          ["pain.qianim", "fly.qianim", "point_air.qianim", "blossom_gesture.qianim"],
+          ["point_down_low.qianim", "big_arm_circle.qianim", "pain.qianim", "search.qianim", "thank_you.qianim", "point_air.qianim","fly.qianim"],
+          ["slide.qianim", "point_to_bird.qianim", "hand_raise.qianim", "idea.qianim"],
+          ["slow_talk.qianim", "talk_and_point_around.qianim", "final_nod.qianim", "point_forward.qianim"],
+          ["sob.qianim"],
           ["fly.qianim", "slide.qianim"]
         ]
       },
@@ -1615,10 +1615,10 @@
         "sounds_path" : "ms",
         "pics" : ["tear","tear","ship","ship","ship","pot"],
         "animations" : [
-          ["tired.qianim"],
+          ["tired.qianim", "hand_recieve.qianim"],
           ["point_air.qianim"],
-          ["leave_it.qianim", "hand_recieve.qianim"],
-          ["qurious.qianim"],
+          ["leave_it.qianim", "hand_recieve.qianim", "slide.qianim", "point_to_bird.qianim"],
+          ["qurious.qianim", "question.qianim", "disbelief.qianim"],
           ["gaze_up_slow.qianim", "fly.qianim", "big_arm_circle.qianim"],
           ["thank_you.qianim", "please.qianim", "no.qianim"],
           ["oh.qianim"],
@@ -1630,7 +1630,7 @@
         "pics" : ["tear", "sparrow", "sparrow"],
         "animations" : [
           ["point_forward.qianim", "slide.qianim", "fly.qianim"],
-          ["blossom_gesture.qianim"],
+          ["blossom_gesture.qianim", "qurious.qianim"],
           ["final_nod.qianim", "kiss.qianim"]
         ]
       }
@@ -1652,7 +1652,7 @@
           ["hello.qianim"],
           ["angry_tantrum.qianim", "nose_touch.qianim"],
           ["sob.qianim", "tired.qianim"],
-          ["paint.qianim", "point_air.qianim"],
+          ["point_air.qianim", "paint.qianim"],
           ["hello.qianim"],
           ["head_slow_talk.qianim", "paint.qianim", "point_to_bird.qianim"]
         ]
@@ -1663,10 +1663,10 @@
         "animations" : [
           ["surprise.qianim"],
           ["hello.qianim", "search.qianim"],
-          ["point_down_low.qianim", "point_forward.qianim"],
+          ["point_down_low.qianim", "point_forward.qianim", "point_air.qianim"],
           ["hello.qianim","qurious.qianim"],
           ["big_arm_circle.qianim", "question.qianim"],
-          ["hello.qianim", "hand_recieve.qianim", "oh.qianim"],
+          ["hello.qianim", "hand_recieve.qianim", "oh.qianim", "hand_raise.qianim"],
           ["slide.qianim"],
           ["hello.qianim", "disbelief.qianim"]
         ]
@@ -1676,7 +1676,7 @@
         "pics" : ["kati", "kati", "wind"],
         "animations" : [
           ["blossom_gesture.qianim", "please.qianim","disbelief.qianim"],
-          ["no.qianim"],
+          ["no.qianim", "point_air.qianim"],
           ["final_nod.qianim"]
         ]
       }
@@ -1693,11 +1693,11 @@
         "sounds_path" : "sht",
         "pics" : ["toast", "toast", "regularstork", "regstorkdown", "regstorkdown", "regstorkstanding"],
         "animations" : [
-          ["slow_talk.qianim", "talk_and_point_around.qianim"],
-          ["question.qianim", "qurious.qianim"],
-          ["point_air.qianim", "nose_touch.qianim", "oh.qianim"],
-          ["no.qianim"],
-          ["fly.qianim"],
+          ["slow_talk.qianim", "talk_and_point_around.qianim", "blossom_gesture.qianim"],
+          ["question.qianim", "qurious.qianim", "nose_touch.qianim"],
+          ["point_air.qianim", "nose_touch.qianim", "oh.qianim", "sassy_f.qianim"],
+          ["no.qianim", "hand_raise.qianim"],
+          ["fly.qianim", "qurious.qianim"],
           ["drops.qianim", "leave_it.qianim"]
         ]
       },
@@ -1706,11 +1706,11 @@
         "pics" : ["regstorkstanding","regstorkdown","fire","fire","redstork", "pot", "pot"],
         "animations" : [
           ["drops.qianim", "fly.qianim"],
-          ["hand_raise.qianim", "point_air.qianim","strong.qianim"],
-          ["fly.qianim", "gaze_up_slow.qianim"],
+          ["hand_raise.qianim", "point_air.qianim","strong.qianim", "please.qianim"],
+          ["fly.qianim", "gaze_up_slow.qianim", "please.qianim"],
           ["pain.qianim"],
-          ["hand_recieve.qianim", "leave_it.qianim", "point_air.qianim"],
-          ["hand_recieve.qianim", "disbelief.qianim"],
+          ["hand_recieve.qianim", "leave_it.qianim", "point_air.qianim", "question.qianim"],
+          ["hand_recieve.qianim", "disbelief.qianim", "point_forward.qianim"],
           ["big_arm_circle.qianim"]
         ]
       },

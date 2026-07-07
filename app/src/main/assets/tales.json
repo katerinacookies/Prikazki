@@ -1483,7 +1483,7 @@
     "id" : "76",
     "group" : "3",
     "sounds_path" : "mechetobrunodrug",
-    "pics" : ["bear", "mole", "mole","bear", "happy_animals", "happy_animals", "mole", "bear", "happy_animals", "mole", "bear", "mole"],
+    "pics" : ["bear", "mole", "mole","bear", "happy_animals", "happy_animals", "mole", "bear", "happy_animals", "mole"],
     "animations" : [
       ["wakeup.qianim", "point_around.qianim"],
       ["sniff_motion.qianim", "qurious.qianim"],
@@ -1577,11 +1577,11 @@
     "pics" : ["bird_yellow", "hedgehog", "leaf", "mountain", "hedgehog", "bird_yellow"],
     "animations" : [
       ["fly.qianim", "gaze_up_slow.qianim"],
-      ["disbelief.qianim", "idea.qianim"],
+      ["disbelief.qianim", "idea.qianim", "final_nod.qianim"],
       ["paint.qianim", "question.qianim"],
       ["arm_slide.qianim", "rainbow.qianim"],
       ["hand_raise.qianim", "surprise.qianim"],
-      ["rainbow.qianim", "blossom_gesture.qianim", "talk_and_point_around.qianim"]
+      ["rainbow.qianim", "blossom_gesture.qianim", "big_arm_circle.qianim"]
     ]
   },
   {

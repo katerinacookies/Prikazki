@@ -1243,11 +1243,11 @@
         "pics" : ["bear","bear","deer","deer","bear","deer"],
         "animations" : [
           ["slow_talk.qianim", "point_around.qianim", "sweet_child.qianim", "final_nod.qianim"],
-          ["arm_circle.qianim", "wave_motion.qianim", "final_nod.qianim"],
-          ["blossom_gesture.qianim", "sweet_child.qianim", "final_nod.qianim"],
-          ["sob.qianim", "disbelief.qianim", "head_slow_talk.qianim", "hands_down.qianim"],
-          ["surprise.qianim", "arms_sway.qianim", "hello.qianim"],
-          ["sob.qianim", "point_down_low.qianim", "think.qianim", "final_nod.qianim"]
+          ["arm_circle.qianim", "wave_motion.qianim"],
+          ["blossom_gesture.qianim", "sweet_child.qianim"],
+          ["sob.qianim", "disbelief.qianim", "hands_down.qianim"],
+          ["surprise.qianim", "arms_sway.qianim", "point_air.qianim"],
+          ["sob.qianim", "point_down_low.qianim", "think.qianim"]
         ]
       },
       {

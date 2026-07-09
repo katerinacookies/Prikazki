@@ -2710,12 +2710,12 @@
         "audio_dir": "02_duckfifo/duckfifo_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "От водата",
             "audio": "02_duckfifo/duckfifo_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "От Фифо",
             "audio": "02_duckfifo/duckfifo_q1_a1.mp3"
           },
@@ -2725,29 +2725,29 @@
             "audio": "02_duckfifo/duckfifo_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Как Фифо му помогна?",
         "audio_dir": "02_duckfifo/duckfifo_q2.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Показваше му стъпка по стъпка и не го насилваше",
             "audio": "02_duckfifo/duckfifo_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Бутна го във водата",
             "audio": "02_duckfifo/duckfifo_q2_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Присмя се на страха му",
             "audio": "02_duckfifo/duckfifo_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Как се почувства Мимо накрая?",
@@ -2782,12 +2782,12 @@
         "audio_dir": "02_turtletoto/turtletoto_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Защото Лея тръгна твърде бързо напред",
             "audio": "02_turtletoto/turtletoto_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Защото се загуби",
             "audio": "02_turtletoto/turtletoto_q1_a1.mp3"
           },
@@ -2797,7 +2797,7 @@
             "audio": "02_turtletoto/turtletoto_q1_а2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво разбра Лея?",
@@ -2826,22 +2826,22 @@
         "audio_dir": "02_turtletoto/turtletoto_q3.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Тръгнаха отново, но заедно и по-бавно",
             "audio": "02_turtletoto/turtletoto_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Скараха се",
             "audio": "02_turtletoto/turtletoto_q3_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Разделиха се",
             "audio": "02_turtletoto/turtletoto_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       }
     ]
   },
@@ -2876,12 +2876,12 @@
         "audio_dir": "02_birdpiko/birdpiko_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Измисли начин да се плъзга с листо",
             "audio": "02_birdpiko/birdpiko_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Подигра му се",
             "audio": "02_birdpiko/birdpiko_q2_a1.mp3"
           },
@@ -2891,29 +2891,29 @@
             "audio": "02_birdpiko/birdpiko_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво правеха двамата след това?",
         "audio_dir": "02_birdpiko/birdpiko_q3.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Измисляха нови начини да „летят“ заедно",
             "audio": "02_birdpiko/birdpiko_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Спряха да играят",
             "audio": "02_birdpiko/birdpiko_q3_а1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Скараха се",
             "audio": "02_birdpiko/birdpiko_q3_а2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       }
     ]
   },
@@ -2926,34 +2926,34 @@
         "audio_dir": "02_lionleo/lionleo_q1.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Защото говореше много тихо",
             "audio": "02_lionleo/lionleo_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Защото не знаеше какво да каже",
             "audio": "02_lionleo/lionleo_q1_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Защото не искаше приятели",
             "audio": "02_lionleo/lionleo_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Как Лео помогна на приятелката си?",
         "audio_dir": "02_lionleo/lionleo_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Защити я и насърчи другите да я слушат",
             "audio": "02_lionleo/lionleo_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Говореше вместо нея",
             "audio": "02_lionleo/lionleo_q2_a1.mp3"
           },
@@ -2963,7 +2963,7 @@
             "audio": "02_lionleo/lionleo_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво правеха животните накрая?",
@@ -5307,29 +5307,29 @@
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q1_a1.mp3"
           },
           {
-            "id": 2,
+            "id": 1,
             "text": "Защото Рони го блъснал по време на игра",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q1_correct.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Защото Пухчо загубил играта",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 1
       },
       {
         "text": "Какво направи Рони, за да оправи грешката си?",
         "audio_dir": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Потърси го и се извини",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Скри се в гората",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q2_a1.mp3"
           },
@@ -5339,29 +5339,29 @@
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Как се почувстваха двамата накрая?",
         "audio_dir": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q3.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Щастливи и отново приятели",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Сърдити",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q3_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Уморени",
             "audio": "03_lisichetoroniiizgubenotopriqtelstvo/lisichetoroniiizgubenotopriqtelstvo_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       }
     ]
   },
@@ -5374,12 +5374,12 @@
         "audio_dir": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Страхлив и самотен",
             "audio": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Радостен и шумен",
             "audio": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q1_a1.mp3"
           },
@@ -5389,29 +5389,29 @@
             "audio": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво направил Бруно, за да го успокои?",
         "audio_dir": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q2.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Донесъл кошничка с плодове и говорил мило",
             "audio": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Извикал други животни",
             "audio": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q2_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Оставил го сам",
             "audio": "03_mechetobrunoinoviqtsused/mechetobrunoinoviqtsused_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Какво се промени накрая?",
@@ -5446,12 +5446,12 @@
         "audio_dir": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Да направи морковена торта",
             "audio": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Да отиде на разходка",
             "audio": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q1_a1.mp3"
           },
@@ -5461,29 +5461,29 @@
             "audio": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Кои приятели дошли да опитат тортата?",
         "audio_dir": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q2.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Катеричката Сиси, костенурката Нана и мечето Бруно",
             "audio": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Само мечето Бруно",
             "audio": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q2_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Лисичето Рони и патето Фифо",
             "audio": "03_zaichetoliliimorkovenatatorta/zaichetoliliimorkovenatatorta_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Защо зайчето Лили се почувствало щастливо?",
@@ -5518,12 +5518,12 @@
         "audio_dir": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Защото го бутнала и той паднал",
             "audio": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Защото тя не искала да играе",
             "audio": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q1_a1.mp3"
           },
@@ -5533,29 +5533,29 @@
             "audio": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво предложиха приятелите, за да продължат играта?",
         "audio_dir": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q2.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Да измислят правила и да играят внимателно",
             "audio": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Да спрат да играят",
             "audio": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q2_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Да си тръгнат",
             "audio": "03_katerichkataminaiizgubenataigra/katerichkataminaiizgubenataigra_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Как се промени играта накрая?",
@@ -5590,34 +5590,34 @@
         "audio_dir": "03_patetofifoimishleto/patetofifoimishleto_q1.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "От водата",
             "audio": "03_patetofifoimishleto/patetofifoimishleto_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "От рибките",
             "audio": "03_patetofifoimishleto/patetofifoimishleto_q1_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "От Фифо",
             "audio": "03_patetofifoimishleto/patetofifoimishleto_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Как Фифо му помогна да се почувства по-смело?",
         "audio_dir": "03_patetofifoimishleto/patetofifoimishleto_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Влизаха бавно, стъпка по стъпка",
             "audio": "03_patetofifoimishleto/patetofifoimishleto_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Бутна го във водата",
             "audio": "03_patetofifoimishleto/patetofifoimishleto_q2_a1.mp3"
           },
@@ -5627,7 +5627,7 @@
             "audio": "03_patetofifoimishleto/patetofifoimishleto_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво се случи, когато влезе във водата?",
@@ -5662,19 +5662,19 @@
         "audio_dir": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q1.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Защото тичала твърде бързо",
-            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q1_correct.mp3"
+            "id": 0,
+            "text": "Защото носела тежко",
+            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q1_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Защото вървяла бавно",
             "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q1_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Защото носела тежко",
-            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q1_a2.mp3"
+            "id": 2,
+            "text": "Защото тичала твърде бързо",
+            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q1_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -5684,12 +5684,12 @@
         "audio_dir": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Всеки да промени темпото си",
             "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Да спрат",
             "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q2_a1.mp3"
           },
@@ -5699,7 +5699,7 @@
             "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво разбра Лея по пътя?",
@@ -5707,13 +5707,13 @@
         "answers": [
           {
             "id": 0,
-            "text": "Че когато не бързаш, виждаш красивото",
-            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q3_correct.mp3"
+            "text": "Че бързането е най-добро",
+            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q3_a1.mp3"
           },
           {
             "id": 1,
-            "text": "Че бързането е най-добро",
-            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q3_a1.mp3"
+            "text": "Че когато не бързаш, виждаш красивото",
+            "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q3_correct.mp3"
           },
           {
             "id": 2,
@@ -5721,7 +5721,7 @@
             "audio": "03_kostenurchetototoipriqtelqt/kostenurchetototoipriqtelqt_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 1
       }
     ]
   },
@@ -5734,12 +5734,12 @@
         "audio_dir": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Защото не можел да лети",
             "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Защото бил сам",
             "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q1_a1.mp3"
           },
@@ -5749,26 +5749,26 @@
             "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво измисли Пико, за да му помогне?",
         "audio_dir": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q2.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Да се плъзга и подскача по друг начин",
-            "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q2_correct.mp3"
+            "id": 0,
+            "text": "Да го остави",
+            "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q2_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Да го носи на гръб",
             "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q2_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Да го остави",
-            "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q2_a2.mp3"
+            "id": 2,
+            "text": "Да се плъзга и подскача по друг начин",
+            "audio": "03_ptichetopikoipriqtelqt/ptichetopikoipriqtelqt_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -5806,19 +5806,19 @@
         "audio_dir": "03_luvutleo/luvutleo_q1.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Страхувала се, че ще се обърка",
-            "audio": "03_luvutleo/luvutleo_q1_correct.mp3"
+            "id": 0,
+            "text": "Не искала",
+            "audio": "03_luvutleo/luvutleo_q1_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Не знаела какво да каже",
             "audio": "03_luvutleo/luvutleo_q1_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Не искала",
-            "audio": "03_luvutleo/luvutleo_q1_a2.mp3"
+            "id": 2,
+            "text": "Страхувала се, че ще се обърка",
+            "audio": "03_luvutleo/luvutleo_q1_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -5828,14 +5828,14 @@
         "audio_dir": "03_luvutleo/luvutleo_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Предложил ѝ да рисува",
-            "audio": "03_luvutleo/luvutleo_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Говорил вместо нея",
             "audio": "03_luvutleo/luvutleo_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Предложил ѝ да рисува",
+            "audio": "03_luvutleo/luvutleo_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -5878,14 +5878,14 @@
         "audio_dir": "03_pandatalulu/pandatalulu_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Защото бързал и не му се получавало",
-            "audio": "03_pandatalulu/pandatalulu_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Защото не обичал да играе",
             "audio": "03_pandatalulu/pandatalulu_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Защото бързал и не му се получавало",
+            "audio": "03_pandatalulu/pandatalulu_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -5900,19 +5900,19 @@
         "audio_dir": "03_pandatalulu/pandatalulu_q2.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Показала му да работи бавно и спокойно",
-            "audio": "03_pandatalulu/pandatalulu_q2_correct.mp3"
+            "id": 0,
+            "text": "Оставила го сам",
+            "audio": "03_pandatalulu/pandatalulu_q2_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Скарала му се",
             "audio": "03_pandatalulu/pandatalulu_q2_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Оставила го сам",
-            "audio": "03_pandatalulu/pandatalulu_q2_a2.mp3"
+            "id": 2,
+            "text": "Показала му да работи бавно и спокойно",
+            "audio": "03_pandatalulu/pandatalulu_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -5950,14 +5950,14 @@
         "audio_dir": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Че тича бавно",
-            "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Че не иска да играе",
             "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Че тича бавно",
+            "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -5972,19 +5972,19 @@
         "audio_dir": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q2.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Потърси я и каза „Съжалявам“",
-            "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q2_correct.mp3"
+            "id": 0,
+            "text": "Купи подарък",
+            "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q2_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Избяга",
             "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q2_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Купи подарък",
-            "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q2_a2.mp3"
+            "id": 2,
+            "text": "Потърси я и каза „Съжалявам“",
+            "audio": "03_elenchetorinaipriqtelstvoto/elenchetorinaipriqtelstvoto_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6044,14 +6044,14 @@
         "audio_dir": "03_lavchetoleo/lavchetoleo_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Луми – светулката",
-            "audio": "03_lavchetoleo/lavchetoleo_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Бухалът Ори",
             "audio": "03_lavchetoleo/lavchetoleo_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Луми – светулката",
+            "audio": "03_lavchetoleo/lavchetoleo_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -6066,19 +6066,19 @@
         "audio_dir": "03_lavchetoleo/lavchetoleo_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Блестящи кристали и светлина",
-            "audio": "03_lavchetoleo/lavchetoleo_q3_correct.mp3"
+            "id": 0,
+            "text": "Злато",
+            "audio": "03_lavchetoleo/lavchetoleo_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Играчки",
             "audio": "03_lavchetoleo/lavchetoleo_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Злато",
-            "audio": "03_lavchetoleo/lavchetoleo_q3_a2.mp3"
+            "id": 2,
+            "text": "Блестящи кристали и светлина",
+            "audio": "03_lavchetoleo/lavchetoleo_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6116,12 +6116,12 @@
         "audio_dir": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Жабчето Кико",
             "audio": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Рибката Лили",
             "audio": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q2_a1.mp3"
           },
@@ -6131,29 +6131,29 @@
             "audio": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Как преминава моста?",
         "audio_dir": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q3.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Бавно и внимателно",
             "audio": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Тичайки бързо",
             "audio": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q3_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Лети",
             "audio": "03_kostenurchetonanaivisokiqt/kostenurchetonanaivisokiqt_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       }
     ]
   },
@@ -6166,14 +6166,14 @@
         "audio_dir": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Страх го е да падне",
-            "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Не обича вятъра",
             "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Страх го е да падне",
+            "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -6210,22 +6210,22 @@
         "audio_dir": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q3.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Лети",
-            "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q3_correct.mp3"
+            "id": 0,
+            "text": "Бяга",
+            "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Пада и се отказва",
             "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q3_a1.mp3"
           },
           {
             "id": 2,
-            "text": "Бяга",
-            "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q3_a2.mp3"
+            "text": "Лети",
+            "audio": "03_ptichetorikoipurviqt/ptichetorikoipurviqt_q3_correct.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 2
       }
     ]
   },
@@ -6260,12 +6260,12 @@
         "audio_dir": "03_mechetotimi/mechetotimi_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Бухалът Ори",
             "audio": "03_mechetotimi/mechetotimi_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Жабчето Кико",
             "audio": "03_mechetotimi/mechetotimi_q2_a1.mp3"
           },
@@ -6275,26 +6275,26 @@
             "audio": "03_mechetotimi/mechetotimi_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво причинява шума?",
         "audio_dir": "03_mechetotimi/mechetotimi_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Падаща шишарка",
-            "audio": "03_mechetotimi/mechetotimi_q3_correct.mp3"
+            "id": 0,
+            "text": "Вятър",
+            "audio": "03_mechetotimi/mechetotimi_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Гръм",
             "audio": "03_mechetotimi/mechetotimi_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Вятър",
-            "audio": "03_mechetotimi/mechetotimi_q3_a2.mp3"
+            "id": 2,
+            "text": "Падаща шишарка",
+            "audio": "03_mechetotimi/mechetotimi_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6332,12 +6332,12 @@
         "audio_dir": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Приятелите му",
             "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Вълкът",
             "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q2_a1.mp3"
           },
@@ -6347,26 +6347,26 @@
             "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво става?",
         "audio_dir": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Успява",
-            "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q3_correct.mp3"
+            "id": 0,
+            "text": "Пада и се отказва",
+            "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Не скача",
             "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Пада и се отказва",
-            "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q3_a2.mp3"
+            "id": 2,
+            "text": "Успява",
+            "audio": "03_zhabchetokikoigolemiqt/zhabchetokikoigolemiqt_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6404,12 +6404,12 @@
         "audio_dir": "03_kotencetomoliiburqta/kotencetomoliiburqta_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Луна",
             "audio": "03_kotencetomoliiburqta/kotencetomoliiburqta_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Рико",
             "audio": "03_kotencetomoliiburqta/kotencetomoliiburqta_q2_a1.mp3"
           },
@@ -6419,7 +6419,7 @@
             "audio": "03_kotencetomoliiburqta/kotencetomoliiburqta_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Как я вижда накрая?",
@@ -6454,12 +6454,12 @@
         "audio_dir": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "От водата",
             "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "От височината",
             "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q1_a1.mp3"
           },
@@ -6469,7 +6469,7 @@
             "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Кой го подкрепя?",
@@ -6498,19 +6498,19 @@
         "audio_dir": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Риби и подводен свят",
-            "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q3_correct.mp3"
+            "id": 0,
+            "text": "Планини",
+            "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Птици",
             "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Планини",
-            "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q3_a2.mp3"
+            "id": 2,
+            "text": "Риби и подводен свят",
+            "audio": "03_pingvinchetopepiipurvoto/pingvinchetopepiipurvoto_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6548,14 +6548,14 @@
         "audio_dir": "03_mishletotitiigolqmata/mishletotitiigolqmata_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Заекът Рони",
-            "audio": "03_mishletotitiigolqmata/mishletotitiigolqmata_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Лъв",
             "audio": "03_mishletotitiigolqmata/mishletotitiigolqmata_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Заекът Рони",
+            "audio": "03_mishletotitiigolqmata/mishletotitiigolqmata_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -6570,12 +6570,12 @@
         "audio_dir": "03_mishletotitiigolqmata/mishletotitiigolqmata_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Няма чудовища, само сенки",
             "audio": "03_mishletotitiigolqmata/mishletotitiigolqmata_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Сенките са опасни",
             "audio": "03_mishletotitiigolqmata/mishletotitiigolqmata_q3_a1.mp3"
           },
@@ -6585,7 +6585,7 @@
             "audio": "03_mishletotitiigolqmata/mishletotitiigolqmata_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -6598,14 +6598,14 @@
         "audio_dir": "03_zaichetoroni/zaichetoroni_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Тревата е много висока",
-            "audio": "03_zaichetoroni/zaichetoroni_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Нощ е",
             "audio": "03_zaichetoroni/zaichetoroni_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Тревата е много висока",
+            "audio": "03_zaichetoroni/zaichetoroni_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -6642,14 +6642,14 @@
         "audio_dir": "03_zaichetoroni/zaichetoroni_q3.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Живот и малки същества",
-            "audio": "03_zaichetoroni/zaichetoroni_q3_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Само тъмнина",
             "audio": "03_zaichetoroni/zaichetoroni_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Живот и малки същества",
+            "audio": "03_zaichetoroni/zaichetoroni_q3_correct.mp3"
           },
           {
             "id": 2,
@@ -6692,12 +6692,12 @@
         "audio_dir": "03_pandatamimi/pandatamimi_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Рико",
             "audio": "03_pandatamimi/pandatamimi_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Ори",
             "audio": "03_pandatamimi/pandatamimi_q2_a1.mp3"
           },
@@ -6707,7 +6707,7 @@
             "audio": "03_pandatamimi/pandatamimi_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво вижда?",
@@ -6742,14 +6742,14 @@
         "audio_dir": "03_katericatasisi/katericatasisi_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Първия пролетен цвят",
-            "audio": "03_katericatasisi/katericatasisi_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Гъба",
             "audio": "03_katericatasisi/katericatasisi_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Първия пролетен цвят",
+            "audio": "03_katericatasisi/katericatasisi_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -6786,19 +6786,19 @@
         "audio_dir": "03_katericatasisi/katericatasisi_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Горда",
-            "audio": "03_katericatasisi/katericatasisi_q3_correct.mp3"
+            "id": 0,
+            "text": "Гладна",
+            "audio": "03_katericatasisi/katericatasisi_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Тъжна",
             "audio": "03_katericatasisi/katericatasisi_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Гладна",
-            "audio": "03_katericatasisi/katericatasisi_q3_a2.mp3"
+            "id": 2,
+            "text": "Горда",
+            "audio": "03_katericatasisi/katericatasisi_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6814,12 +6814,12 @@
         "audio_dir": "03_mechkatabruno/mechkatabruno_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Отиде до реката и се потопи във водата",
             "audio": "03_mechkatabruno/mechkatabruno_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Качи се на дърво",
             "audio": "03_mechkatabruno/mechkatabruno_q1_a1.mp3"
           },
@@ -6829,26 +6829,26 @@
             "audio": "03_mechkatabruno/mechkatabruno_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Кои животни се присъединиха към него?",
         "audio_dir": "03_mechkatabruno/mechkatabruno_q2.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Сиси, Лили, Рико и Нана",
-            "audio": "03_mechkatabruno/mechkatabruno_q2_correct.mp3"
+            "id": 0,
+            "text": "Луна и Ори",
+            "audio": "03_mechkatabruno/mechkatabruno_q2_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Само Тото и Мими",
             "audio": "03_mechkatabruno/mechkatabruno_q2_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Луна и Ори",
-            "audio": "03_mechkatabruno/mechkatabruno_q2_a2.mp3"
+            "id": 2,
+            "text": "Сиси, Лили, Рико и Нана",
+            "audio": "03_mechkatabruno/mechkatabruno_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -6886,36 +6886,36 @@
         "audio_dir": "03_lisicataroni/lisicataroni_q1.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Танца на падащите листа",
             "audio": "03_lisicataroni/lisicataroni_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Лятната жега",
             "audio": "03_lisicataroni/lisicataroni_q1_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Зимния сняг",
             "audio": "03_lisicataroni/lisicataroni_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       },
       {
         "text": "Кои приятели се присъединиха към танца?",
         "audio_dir": "03_lisicataroni/lisicataroni_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Сиси, Лили, Рико и Бруно",
-            "audio": "03_lisicataroni/lisicataroni_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Тото и Мими",
             "audio": "03_lisicataroni/lisicataroni_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Сиси, Лили, Рико и Бруно",
+            "audio": "03_lisicataroni/lisicataroni_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -6935,12 +6935,12 @@
             "audio": "03_lisicataroni/lisicataroni_q3_correct.mp3"
           },
           {
-            "id": 2,
+            "id": 1,
             "text": "Избяга у дома",
             "audio": "03_lisicataroni/lisicataroni_q3_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Заспал веднага",
             "audio": "03_lisicataroni/lisicataroni_q3_a2.mp3"
           }
@@ -6980,14 +6980,14 @@
         "audio_dir": "03_zaichetoliliisnqg/zaichetoliliisnqg_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Направиха снежен човек",
-            "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Отидоха на пикник",
             "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Направиха снежен човек",
+            "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -7002,19 +7002,19 @@
         "audio_dir": "03_zaichetoliliisnqg/zaichetoliliisnqg_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Щастливи и усмихнати",
-            "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q3_correct.mp3"
+            "id": 0,
+            "text": "Ядосани",
+            "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Уплашени",
             "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Ядосани",
-            "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q3_a2.mp3"
+            "id": 2,
+            "text": "Щастливи и усмихнати",
+            "audio": "03_zaichetoliliisnqg/zaichetoliliisnqg_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7052,19 +7052,19 @@
         "audio_dir": "03_patetof/patetof_q2.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Танцуваха и подскачаха във водата",
-            "audio": "03_patetof/patetof_q2_correct.mp3"
+            "id": 0,
+            "text": "Събраха плодове",
+            "audio": "03_patetof/patetof_q2_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Скриха се в пещера",
             "audio": "03_patetof/patetof_q2_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Събраха плодове",
-            "audio": "03_patetof/patetof_q2_a2.mp3"
+            "id": 2,
+            "text": "Танцуваха и подскачаха във водата",
+            "audio": "03_patetof/patetof_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7074,12 +7074,12 @@
         "audio_dir": "03_patetof/patetof_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Че е красив и музикален",
             "audio": "03_patetof/patetof_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Че е опасен",
             "audio": "03_patetof/patetof_q3_a1.mp3"
           },
@@ -7089,7 +7089,7 @@
             "audio": "03_patetof/patetof_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -7102,19 +7102,19 @@
         "audio_dir": "03_mishletomi/mishletomi_q1.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Вятърът разпръскваше семенцата",
-            "audio": "03_mishletomi/mishletomi_q1_correct.mp3"
+            "id": 0,
+            "text": "Животни я гонеха",
+            "audio": "03_mishletomi/mishletomi_q1_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Снегът",
             "audio": "03_mishletomi/mishletomi_q1_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Животни я гонеха",
-            "audio": "03_mishletomi/mishletomi_q1_a2.mp3"
+            "id": 2,
+            "text": "Вятърът разпръскваше семенцата",
+            "audio": "03_mishletomi/mishletomi_q1_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7146,12 +7146,12 @@
         "audio_dir": "03_mishletomi/mishletomi_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Поляна със семенца",
             "audio": "03_mishletomi/mishletomi_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Планина",
             "audio": "03_mishletomi/mishletomi_q3_a1.mp3"
           },
@@ -7161,7 +7161,7 @@
             "audio": "03_mishletomi/mishletomi_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -7196,19 +7196,19 @@
         "audio_dir": "03_ribatalili/ribatalili_q2.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Малък водопад",
-            "audio": "03_ribatalili/ribatalili_q2_correct.mp3"
+            "id": 0,
+            "text": "Пясъчна пустиня",
+            "audio": "03_ribatalili/ribatalili_q2_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Огромна пещера",
             "audio": "03_ribatalili/ribatalili_q2_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Пясъчна пустиня",
-            "audio": "03_ribatalili/ribatalili_q2_a2.mp3"
+            "id": 2,
+            "text": "Малък водопад",
+            "audio": "03_ribatalili/ribatalili_q2_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7218,12 +7218,12 @@
         "audio_dir": "03_ribatalili/ribatalili_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Горда и щастлива",
             "audio": "03_ribatalili/ribatalili_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Тъжна",
             "audio": "03_ribatalili/ribatalili_q3_a1.mp3"
           },
@@ -7233,7 +7233,7 @@
             "audio": "03_ribatalili/ribatalili_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -7246,14 +7246,14 @@
         "audio_dir": "03_sovata/sovata_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Звездите и нощното небе",
-            "audio": "03_sovata/sovata_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Подводния свят",
             "audio": "03_sovata/sovata_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Звездите и нощното небе",
+            "audio": "03_sovata/sovata_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -7290,19 +7290,19 @@
         "audio_dir": "03_sovata/sovata_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Че нощта е вълшебна и спокойна",
-            "audio": "03_sovata/sovata_q3_correct.mp3"
+            "id": 0,
+            "text": "Че звездите падат",
+            "audio": "03_sovata/sovata_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Че нощта е опасна",
             "audio": "03_sovata/sovata_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Че звездите падат",
-            "audio": "03_sovata/sovata_q3_a2.mp3"
+            "id": 2,
+            "text": "Че нощта е вълшебна и спокойна",
+            "audio": "03_sovata/sovata_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7318,14 +7318,14 @@
         "audio_dir": "03_pchelatazara/pchelatazara_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Беше уплашено от вятъра",
-            "audio": "03_pchelatazara/pchelatazara_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Беше жадно",
             "audio": "03_pchelatazara/pchelatazara_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Беше уплашено от вятъра",
+            "audio": "03_pchelatazara/pchelatazara_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -7362,22 +7362,22 @@
         "audio_dir": "03_pchelatazara/pchelatazara_q3.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Показа златен прашец",
             "audio": "03_pchelatazara/pchelatazara_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Изчезна",
             "audio": "03_pchelatazara/pchelatazara_q3_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Замръзна",
             "audio": "03_pchelatazara/pchelatazara_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       }
     ]
   },
@@ -7412,14 +7412,14 @@
         "audio_dir": "03_ohluvcheto/ohluvcheto_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Птичето Пико",
-            "audio": "03_ohluvcheto/ohluvcheto_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Лисицата Рони",
             "audio": "03_ohluvcheto/ohluvcheto_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Птичето Пико",
+            "audio": "03_ohluvcheto/ohluvcheto_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -7434,22 +7434,22 @@
         "audio_dir": "03_ohluvcheto/ohluvcheto_q3.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "Спокоен и усмихнат",
             "audio": "03_ohluvcheto/ohluvcheto_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Уплашен",
             "audio": "03_ohluvcheto/ohluvcheto_q3_a1.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Гладен",
             "audio": "03_ohluvcheto/ohluvcheto_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 2
+        "right_answer_id": 0
       }
     ]
   },
@@ -7462,14 +7462,14 @@
         "audio_dir": "03_mechetobobi/mechetobobi_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Тъжен без причина",
-            "audio": "03_mechetobobi/mechetobobi_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Много щастлив",
             "audio": "03_mechetobobi/mechetobobi_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Тъжен без причина",
+            "audio": "03_mechetobobi/mechetobobi_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -7506,19 +7506,19 @@
         "audio_dir": "03_mechetobobi/mechetobobi_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Стана по-щастлив и се усмихна",
-            "audio": "03_mechetobobi/mechetobobi_q3_correct.mp3"
+            "id": 0,
+            "text": "Не се промени",
+            "audio": "03_mechetobobi/mechetobobi_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Стана по-тъжен",
             "audio": "03_mechetobobi/mechetobobi_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Не се промени",
-            "audio": "03_mechetobobi/mechetobobi_q3_a2.mp3"
+            "id": 2,
+            "text": "Стана по-щастлив и се усмихна",
+            "audio": "03_mechetobobi/mechetobobi_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7534,12 +7534,12 @@
         "audio_dir": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Най-сладката червена ягода",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Син камък",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q1_a1.mp3"
           },
@@ -7549,51 +7549,51 @@
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "С кого сподели радостта си?",
         "audio_dir": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q2.mp3",
         "answers": [
           {
-            "id": 2,
+            "id": 0,
             "text": "С никого",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q2_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "С Нана, Сиси и Бруно",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q2_correct.mp3"
           },
           {
-            "id": 1,
+            "id": 2,
             "text": "Само с бухала Ори",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 1
       },
       {
         "text": "Какво разбра накрая?",
         "audio_dir": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Че трябва да яде сам",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q3_a1.mp3"
           },
           {
-            "id": 2,
+            "id": 1,
             "text": "Че ягодите растат бързо",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 2,
             "text": "Че радостта става по-голяма, когато я споделяш",
             "audio": "03_zaichetopoliigolqmata/zaichetopoliigolqmata_q3_correct.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 2
       }
     ]
   },
@@ -7628,14 +7628,14 @@
         "audio_dir": "03_lisicatafredi/lisicatafredi_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Научи го да диша спокойно",
-            "audio": "03_lisicatafredi/lisicatafredi_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Даде му храна",
             "audio": "03_lisicatafredi/lisicatafredi_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Научи го да диша спокойно",
+            "audio": "03_lisicatafredi/lisicatafredi_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -7678,14 +7678,14 @@
         "audio_dir": "03_katericatamina/katericatamina_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "От новите игри",
-            "audio": "03_katericatamina/katericatamina_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "От водата",
             "audio": "03_katericatamina/katericatamina_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "От новите игри",
+            "audio": "03_katericatamina/katericatamina_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -7722,19 +7722,19 @@
         "audio_dir": "03_katericatamina/katericatamina_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Разбра, че може да го прави и се зарадва",
-            "audio": "03_katericatamina/katericatamina_q3_correct.mp3"
+            "id": 0,
+            "text": "Изчезна",
+            "audio": "03_katericatamina/katericatamina_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Падна и се отказа",
             "audio": "03_katericatamina/katericatamina_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Изчезна",
-            "audio": "03_katericatamina/katericatamina_q3_a2.mp3"
+            "id": 2,
+            "text": "Разбра, че може да го прави и се зарадва",
+            "audio": "03_katericatamina/katericatamina_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7750,14 +7750,14 @@
         "audio_dir": "03_elencherina/elencherina_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Защото всички били много шумни",
-            "audio": "03_elencherina/elencherina_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Защото валял сняг",
             "audio": "03_elencherina/elencherina_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Защото всички били много шумни",
+            "audio": "03_elencherina/elencherina_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -7794,19 +7794,19 @@
         "audio_dir": "03_elencherina/elencherina_q3.mp3",
         "answers": [
           {
-            "id": 2,
-            "text": "Дишаха спокойно и си починаха",
-            "audio": "03_elencherina/elencherina_q3_correct.mp3"
+            "id": 0,
+            "text": "Тичаха бързо",
+            "audio": "03_elencherina/elencherina_q3_a2.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Ядоха мед",
             "audio": "03_elencherina/elencherina_q3_a1.mp3"
           },
           {
-            "id": 1,
-            "text": "Тичаха бързо",
-            "audio": "03_elencherina/elencherina_q3_a2.mp3"
+            "id": 2,
+            "text": "Дишаха спокойно и си починаха",
+            "audio": "03_elencherina/elencherina_q3_correct.mp3"
           }
         ],
         "right_answer_id": 2
@@ -7822,12 +7822,12 @@
         "audio_dir": "03_pandalili/pandalili_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Объркана с много смесени чувства",
             "audio": "03_pandalili/pandalili_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Много ядосана",
             "audio": "03_pandalili/pandalili_q1_a1.mp3"
           },
@@ -7837,7 +7837,7 @@
             "audio": "03_pandalili/pandalili_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво предложи Ори?",
@@ -7866,14 +7866,14 @@
         "audio_dir": "03_pandalili/pandalili_q3.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Че всички чувства са част от нея",
-            "audio": "03_pandalili/pandalili_q3_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Че няма чувства",
             "audio": "03_pandalili/pandalili_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Че всички чувства са част от нея",
+            "audio": "03_pandalili/pandalili_q3_correct.mp3"
           },
           {
             "id": 2,
@@ -7894,12 +7894,12 @@
         "audio_dir": "03_zhabchetokoko/zhabchetokoko_q1.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Защото му се присмели",
             "audio": "03_zhabchetokoko/zhabchetokoko_q1_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Защото се изгубил",
             "audio": "03_zhabchetokoko/zhabchetokoko_q1_a1.mp3"
           },
@@ -7909,7 +7909,7 @@
             "audio": "03_zhabchetokoko/zhabchetokoko_q1_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво го посъветва Нана?",
@@ -7917,13 +7917,13 @@
         "answers": [
           {
             "id": 0,
-            "text": "Да каже как се чувства",
-            "audio": "03_zhabchetokoko/zhabchetokoko_q2_correct.mp3"
+            "text": "Да избяга",
+            "audio": "03_zhabchetokoko/zhabchetokoko_q2_a1.mp3"
           },
           {
             "id": 1,
-            "text": "Да избяга",
-            "audio": "03_zhabchetokoko/zhabchetokoko_q2_a1.mp3"
+            "text": "Да каже как се чувства",
+            "audio": "03_zhabchetokoko/zhabchetokoko_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -7931,7 +7931,7 @@
             "audio": "03_zhabchetokoko/zhabchetokoko_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 1
       },
       {
         "text": "Как реагираха другите жабки?",
@@ -7966,14 +7966,14 @@
         "audio_dir": "03_katericasisi/katericasisi_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Самотна",
-            "audio": "03_katericasisi/katericasisi_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Гладна",
             "audio": "03_katericasisi/katericasisi_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Самотна",
+            "audio": "03_katericasisi/katericasisi_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -8010,12 +8010,12 @@
         "audio_dir": "03_katericasisi/katericasisi_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Топло, спокойно и щастливо",
             "audio": "03_katericasisi/katericasisi_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Тъжна",
             "audio": "03_katericasisi/katericasisi_q3_a1.mp3"
           },
@@ -8025,7 +8025,7 @@
             "audio": "03_katericasisi/katericasisi_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -8038,14 +8038,14 @@
         "audio_dir": "03_patetofifo/patetofifo_q1.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Защото денят бил лош и изгубило перцето си",
-            "audio": "03_patetofifo/patetofifo_q1_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Защото нямало вода",
             "audio": "03_patetofifo/patetofifo_q1_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Защото денят бил лош и изгубило перцето си",
+            "audio": "03_patetofifo/patetofifo_q1_correct.mp3"
           },
           {
             "id": 2,
@@ -8082,12 +8082,12 @@
         "audio_dir": "03_patetofifo/patetofifo_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Перце",
             "audio": "03_patetofifo/patetofifo_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Камък",
             "audio": "03_patetofifo/patetofifo_q3_a1.mp3"
           },
@@ -8097,7 +8097,7 @@
             "audio": "03_patetofifo/patetofifo_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -8132,14 +8132,14 @@
         "audio_dir": "03_elenchetoliq/elenchetoliq_q2.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Щастлива и лека като перце",
-            "audio": "03_elenchetoliq/elenchetoliq_q2_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Тъжна",
             "audio": "03_elenchetoliq/elenchetoliq_q2_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Щастлива и лека като перце",
+            "audio": "03_elenchetoliq/elenchetoliq_q2_correct.mp3"
           },
           {
             "id": 2,
@@ -8154,14 +8154,14 @@
         "audio_dir": "03_elenchetoliq/elenchetoliq_q3.mp3",
         "answers": [
           {
-            "id": 1,
-            "text": "Че е като светлина, която всички виждат",
-            "audio": "03_elenchetoliq/elenchetoliq_q3_correct.mp3"
-          },
-          {
             "id": 0,
             "text": "Че е шумно",
             "audio": "03_elenchetoliq/elenchetoliq_q3_a1.mp3"
+          },
+          {
+            "id": 1,
+            "text": "Че е като светлина, която всички виждат",
+            "audio": "03_elenchetoliq/elenchetoliq_q3_correct.mp3"
           },
           {
             "id": 2,
@@ -8204,12 +8204,12 @@
         "audio_dir": "valshebnatagradina/valshebnatagradina_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Коте",
             "audio": "valshebnatagradina/valshebnatagradina_q2_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Зайче",
             "audio": "valshebnatagradina/valshebnatagradina_q2_correct.mp3"
           },
@@ -8219,19 +8219,19 @@
             "audio": "valshebnatagradina/valshebnatagradina_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 1
       },
       {
         "text": "Как Бобо намери градината на вълшебницата?",
         "audio_dir": "valshebnatagradina/valshebnatagradina_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Изгуби се в гората",
             "audio": "valshebnatagradina/valshebnatagradina_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Вълшебницата го заведе",
             "audio": "valshebnatagradina/valshebnatagradina_q3_a1.mp3"
           },
@@ -8241,7 +8241,7 @@
             "audio": "valshebnatagradina/valshebnatagradina_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -8276,12 +8276,12 @@
         "audio_dir": "akocvetovete/akocvetovete_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Да боядисва",
             "audio": "akocvetovete/akocvetovete_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Да пее",
             "audio": "akocvetovete/akocvetovete_q2_a1.mp3"
           },
@@ -8291,19 +8291,19 @@
             "audio": "akocvetovete/akocvetovete_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "В какъв цвят започна да боядисва пушекът?",
         "audio_dir": "akocvetovete/akocvetovete_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Бяло",
             "audio": "akocvetovete/akocvetovete_q3_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Червено",
             "audio": "akocvetovete/akocvetovete_q3_a2.mp3"
           },
@@ -8348,12 +8348,12 @@
         "audio_dir": "parzalkaza/parzalkaza_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "По небето",
             "audio": "parzalkaza/parzalkaza_q2_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "По реката",
             "audio": "parzalkaza/parzalkaza_q2_a2.mp3"
           },
@@ -8370,12 +8370,12 @@
         "audio_dir": "parzalkaza/parzalkaza_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Майката",
             "audio": "parzalkaza/parzalkaza_q3_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Планината",
             "audio": "parzalkaza/parzalkaza_q3_a1.mp3"
           },
@@ -8385,7 +8385,7 @@
             "audio": "parzalkaza/parzalkaza_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       }
     ]
   },
@@ -8420,12 +8420,12 @@
         "audio_dir": "podgubata/podgubata_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Мравката",
             "audio": "podgubata/podgubata_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Мишката",
             "audio": "podgubata/podgubata_q2_a1.mp3"
           },
@@ -8435,19 +8435,19 @@
             "audio": "podgubata/podgubata_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Кой седял върху гъбата?",
         "audio_dir": "podgubata/podgubata_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Лисицата",
             "audio": "podgubata/podgubata_q3_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Жабата",
             "audio": "podgubata/podgubata_q3_correct.mp3"
           },
@@ -8457,7 +8457,7 @@
             "audio": "podgubata/podgubata_q3_a2.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 1
       }
     ]
   },
@@ -8492,12 +8492,12 @@
         "audio_dir": "vankoivodichkata/vankoivodichkata_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Чай",
             "audio": "vankoivodichkata/vankoivodichkata_q2_correct.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Кафе",
             "audio": "vankoivodichkata/vankoivodichkata_q2_a1.mp3"
           },
@@ -8507,19 +8507,19 @@
             "audio": "vankoivodichkata/vankoivodichkata_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 1
+        "right_answer_id": 0
       },
       {
         "text": "Какво трябваше да направи Ванко, за да закуси?",
         "audio_dir": "vankoivodichkata/vankoivodichkata_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Да си оправи леглото",
             "audio": "vankoivodichkata/vankoivodichkata_q3_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Да направи гимнастика",
             "audio": "vankoivodichkata/vankoivodichkata_q3_a2.mp3"
           },
@@ -8564,12 +8564,12 @@
         "audio_dir": "buhalchetobuhi/buhalchetobuhi_q2.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Змията",
             "audio": "buhalchetobuhi/buhalchetobuhi_q2_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Лисицата",
             "audio": "buhalchetobuhi/buhalchetobuhi_q2_correct.mp3"
           },
@@ -8579,19 +8579,19 @@
             "audio": "buhalchetobuhi/buhalchetobuhi_q2_a2.mp3"
           }
         ],
-        "right_answer_id": 0
+        "right_answer_id": 1
       },
       {
         "text": "Кой спаси двете бухалчета?",
         "audio_dir": "buhalchetobuhi/buhalchetobuhi_q3.mp3",
         "answers": [
           {
-            "id": 1,
+            "id": 0,
             "text": "Мама Бухалка",
             "audio": "buhalchetobuhi/buhalchetobuhi_q3_a1.mp3"
           },
           {
-            "id": 0,
+            "id": 1,
             "text": "Татко Бухал",
             "audio": "buhalchetobuhi/buhalchetobuhi_q3_a2.mp3"
           },

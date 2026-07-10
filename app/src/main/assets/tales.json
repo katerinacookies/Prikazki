@@ -557,7 +557,7 @@
     "id" : "27",
     "group" : "1",
     "sounds_path" : "malkotokuchenceroni",
-    "pics" : ["cat_black","cat_black","cat_black","star","cat_black","owl","owl","owl","sparkles","cat_black"],
+    "pics" : ["dog","sparkles","dog","star","dog","owl","owl","owl","sparkles","dog"],
     "animations" : [
       ["fly.qianim", "sniff_motion.qianim", "arms_sway.qianim"],
       ["search.qianim", "point_down_low.qianim", "surprise.qianim", "sweet_child.qianim"],
